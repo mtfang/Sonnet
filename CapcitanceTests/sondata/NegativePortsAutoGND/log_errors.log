@@ -1,0 +1,25 @@
+Run 1:  Sun Mar 27 17:01:51 2016.  calt2.2.43068.
+        Em version 16.52 (64-bit Windows) on DESKTOP-MOCDKPP remote.
+
+  Project:  C:\Users\Michael\Documents\Github\Sonnet\CapcitanceTests\NegativePortsAutoGND.son.
+
+    Frequency:  1 GHZ
+
+      Sonnet Warning EG2550:
+      Potential problem with circuit.
+      Port -1 is attached to polygon which is shorted to bottom box wall.
+      Sonnet: metal level 0; x=1.23e-5, y=317.0 microns.
+      Date: Sun Mar 27 17:02:28 2016
+
+
+      Sonnet Warning EG2550:
+      Potential problem with circuit.
+      Port -1 is attached to polygon which is shorted to top box wall.
+      Sonnet: metal level 0; x=1.23e-5, y=677.0 microns.
+      Date: Sun Mar 27 17:02:28 2016
+
+
+    Post-Analysis:
+      Errors detected: 0    Warnings detected: 2.
+
+Analysis completed Sun Mar 27 17:15:16 2016.

@@ -1,0 +1,132 @@
+Run 1:  Sun Mar 27 21:13:27 2016.  calt2.2.43068.
+        Em version 16.52 (64-bit Windows) on DESKTOP-MOCDKPP remote.
+
+  Project:  C:\Users\Michael\Documents\Github\Sonnet\CapcitanceTests\NegativePortsWithGapGroundedBackAutoGND.son.
+
+    Frequency:  1 GHZ
+      Subsectioning at 10 GHz with Eeff of 6.45.
+      Subsectioning time:  22 seconds.
+      De-embedding information for NegativePortsWithGapGroundedBackAutoGND_left box wall port(s):
+        NegativePortsWithGapGroundedBackAutoGND_left SOC Electric Wall: 500 microns length, 1314 subsections, 82 MB.
+        NegativePortsWithGapGroundedBackAutoGND_left SOC Magnetic Wall: 1000 microns length, 1275 subsections, 81 MB.
+      Em license feature:  emhighperformance.
+      Circuit requires 5347 subsections and 466 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  4,656
+      Ground Plane:
+        Via:        691
+
+      Required memory by type:
+        System matrix:            218 MB
+        Elemental subsections:
+          Primary structure:      113 MB
+          NegativePorts standard: 114 MB
+        Fourier transform:        16 MB
+        Waveguide mode:           3 MB
+        Adaptive band synthesis:  2 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    466 MB
+
+      Matrix solver:  internal 64-bit SSE with loss.
+      Simulation mode:  remote em transfer.
+      Threads:  using 12 thread(s), 12 core(s) available.
+      Waveguide mode time:  0.100 seconds.
+      Fourier transform time:  1 second.
+      Coupling time:  1 minute 27 seconds.
+      Loss time:  0 seconds.
+      Matrix fill time:  1 minute 28 seconds.
+      Matrix solve time:  5 seconds.
+      De-embed autognd port 2:
+        Standard 1:  1500.0 microns, 1269 subsections, about 286 MB.
+          Time:  17 seconds.
+        Autognd port 2 std 2:
+          1500 microns length, 578 subsections, 248 MB.
+          Time:  6 seconds.
+        Autognd port 2 std 3:
+          3000 microns length, 1145 subsections, 272 MB.
+          Time:  26 seconds.
+      De-embedding time for NegativePortsWithGapGroundedBackAutoGND_left box wall:
+        SOC Electric Wall Std: 12 seconds.
+        SOC Magnetic Wall Std: 12 seconds.
+        Total:                 25 seconds.
+      Frequency completed Sun Mar 27 21:16:46 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        1.00000000 1.000000 -3.159 3.524e-4 82.335 3.524e-4 82.335 0.999999 -12.17
+        !< P1 F=1.0 Eeff=(6.45023383 -2.9744e-5) Z0=(48.4045439 1.11627e-4) R=0.0 C=0.0 
+        !< P2 F=1.0 Eeff=(6.64393621 -3.0801e-5) Z0=(26.4620784 6.13482e-5) R=0.0179736 C=0.04072022 
+      Total time per frequency:  2 minutes 56 seconds.
+
+    Frequency:  10 GHZ
+      Frequency completed Sun Mar 27 21:19:38 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        10.0000000 0.999992 -31.54 0.003444 24.282 0.003444 24.282 0.999989 -99.90
+        !< P1 F=10.0 Eeff=(6.44985405 -2.9746e-5) Z0=(48.4022568 1.11635e-4) R=0.0 C=0.0 
+        !< P2 F=10.0 Eeff=(6.70817163 -3.1514e-5) Z0=(26.3405667 6.18102e-5) R=0.00179449 C=0.04077421 
+      Total time per frequency:  2 minutes 52 seconds.
+      ABS: SNR = 12.6829 dB (120 dB Goal) for S2_2 at 8.125 GHz.
+      ABS: Time = 0.110 seconds.
+
+    Frequency:  8.125 GHZ
+      Frequency completed Sun Mar 27 21:22:30 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        8.12500000 0.999994 -25.64 0.002762 34.321 0.002762 34.321 0.999991 -85.72
+        !< P1 F=8.125 Eeff=(6.44998064 -2.9748e-5) Z0=(48.4030301 1.11633e-4) R=0.0 C=0.0 
+        !< P2 F=8.125 Eeff=(6.68611107 -3.1272e-5) Z0=(26.3808183 6.16703e-5) R=0.00220845 C=0.0407565 
+      Total time per frequency:  2 minutes 52 seconds.
+      ABS: SNR = 24.5216 dB (120 dB Goal) for S2_2 at 4.775 GHz.
+      ABS: Time = 0.120 seconds.
+
+    Frequency:  4.775 GHZ
+      Frequency completed Sun Mar 27 21:25:24 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        4.77500000 0.999997 -15.08 0.001642 54.971 0.001642 54.971 0.999995 -54.98
+        !< P1 F=4.775 Eeff=(6.45014237 -2.975e-5) Z0=(48.4040129 1.11632e-4) R=0.0 C=0.0 
+        !< P2 F=4.775 Eeff=(6.65808334 -3.0983e-5) Z0=(26.434256 6.14995e-5) R=0.00375478 C=0.04073275 
+      Total time per frequency:  2 minutes 53 seconds.
+      ABS: SNR = 56.4206 dB (120 dB Goal) for S2_2 at 2.525 GHz.
+      ABS: Time = 0.130 seconds.
+
+    Frequency:  2.525 GHZ
+      Frequency completed Sun Mar 27 21:28:17 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        2.52500000 0.999999 -7.975 8.830e-4 70.869 8.830e-4 70.869 0.999997 -30.29
+        !< P1 F=2.525 Eeff=(6.4502043 -2.9751e-5) Z0=(48.404387 1.1163e-4) R=0.0 C=0.0 
+        !< P2 F=2.525 Eeff=(6.64743681 -3.0851e-5) Z0=(26.4552117 6.13802e-5) R=0.00713031 C=0.04072335 
+      Total time per frequency:  2 minutes 53 seconds.
+      ABS: SNR = 80.1232 dB (120 dB Goal) for S2_2 at 6.4 GHz.
+      ABS: Time = 0.170 seconds.
+
+    Frequency:  6.4 GHZ
+      Frequency completed Sun Mar 27 21:31:10 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        6.40000000 0.999996 -20.20 0.002180 44.490 0.002180 44.490 0.999993 -70.82
+        !< P1 F=6.4 Eeff=(6.45007403 -2.9749e-5) Z0=(48.403599 1.11634e-4) R=0.0 C=0.0 
+        !< P2 F=6.4 Eeff=(6.66985727 -3.1085e-5) Z0=(26.4114948 6.15429e-5) R=0.00281373 C=0.0407429 
+      Total time per frequency:  2 minutes 52 seconds.
+      ABS: SNR = 101.588 dB (120 dB Goal) for S2_2 at 1.65 GHz.
+      ABS: Time = 0.230 seconds.
+
+    Frequency:  1.65 GHZ
+      Frequency completed Sun Mar 27 21:34:04 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        1.65000000 0.999999 -5.212 5.799e-4 77.401 5.799e-4 77.401 0.999998 -19.99
+        !< P1 F=1.65 Eeff=(6.45021863 -2.9754e-5) Z0=(48.4044722 1.11633e-4) R=0.0 C=0.0 
+        !< P2 F=1.65 Eeff=(6.64506606 -3.0792e-5) Z0=(26.459909 6.13366e-5) R=0.01089529 C=0.04072123 
+      Total time per frequency:  2 minutes 54 seconds.
+      ABS: SNR = 125.287 dB (120 dB Goal) for S2_2 at 9.325 GHz.
+      ABS: Time = 0.260 seconds.
+
+    Post-Analysis:
+      Total time for 7 frequencies:  20 minutes 37 seconds.
+      Errors detected: 0    Warnings detected: 0.
+
+Analysis completed Sun Mar 27 21:34:04 2016.

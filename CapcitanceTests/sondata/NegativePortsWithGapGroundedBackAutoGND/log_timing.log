@@ -1,0 +1,89 @@
+Run 1:  Sun Mar 27 21:13:27 2016.  calt2.2.43068.
+        Em version 16.52 (64-bit Windows) on DESKTOP-MOCDKPP remote.
+
+  Project:  C:\Users\Michael\Documents\Github\Sonnet\CapcitanceTests\NegativePortsWithGapGroundedBackAutoGND.son.
+
+    Frequency:  1 GHZ
+      Subsectioning at 10 GHz with Eeff of 6.45.
+      Subsectioning time:  22 seconds.
+      De-embedding information for NegativePortsWithGapGroundedBackAutoGND_left box wall port(s):
+        NegativePortsWithGapGroundedBackAutoGND_left SOC Electric Wall: 500 microns length, 1314 subsections, 82 MB.
+        NegativePortsWithGapGroundedBackAutoGND_left SOC Magnetic Wall: 1000 microns length, 1275 subsections, 81 MB.
+      Em license feature:  emhighperformance.
+      Circuit requires 5347 subsections and 466 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  4,656
+      Ground Plane:
+        Via:        691
+
+      Required memory by type:
+        System matrix:            218 MB
+        Elemental subsections:
+          Primary structure:      113 MB
+          NegativePorts standard: 114 MB
+        Fourier transform:        16 MB
+        Waveguide mode:           3 MB
+        Adaptive band synthesis:  2 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    466 MB
+
+      Matrix solver:  internal 64-bit SSE with loss.
+      Simulation mode:  remote em transfer.
+      Threads:  using 12 thread(s), 12 core(s) available.
+      Waveguide mode time:  0.100 seconds.
+      Fourier transform time:  1 second.
+      Coupling time:  1 minute 27 seconds.
+      Loss time:  0 seconds.
+      Matrix fill time:  1 minute 28 seconds.
+      Matrix solve time:  5 seconds.
+      De-embed autognd port 2:
+        Standard 1:  1500.0 microns, 1269 subsections, about 286 MB.
+          Time:  17 seconds.
+        Autognd port 2 std 2:
+          1500 microns length, 578 subsections, 248 MB.
+          Time:  6 seconds.
+        Autognd port 2 std 3:
+          3000 microns length, 1145 subsections, 272 MB.
+          Time:  26 seconds.
+      De-embedding time for NegativePortsWithGapGroundedBackAutoGND_left box wall:
+        SOC Electric Wall Std: 12 seconds.
+        SOC Magnetic Wall Std: 12 seconds.
+        Total:                 25 seconds.
+      Total time per frequency:  2 minutes 56 seconds.
+
+    Frequency:  10 GHZ
+      Total time per frequency:  2 minutes 52 seconds.
+      ABS: SNR = 12.6829 dB (120 dB Goal) for S2_2 at 8.125 GHz.
+      ABS: Time = 0.110 seconds.
+
+    Frequency:  8.125 GHZ
+      Total time per frequency:  2 minutes 52 seconds.
+      ABS: SNR = 24.5216 dB (120 dB Goal) for S2_2 at 4.775 GHz.
+      ABS: Time = 0.120 seconds.
+
+    Frequency:  4.775 GHZ
+      Total time per frequency:  2 minutes 53 seconds.
+      ABS: SNR = 56.4206 dB (120 dB Goal) for S2_2 at 2.525 GHz.
+      ABS: Time = 0.130 seconds.
+
+    Frequency:  2.525 GHZ
+      Total time per frequency:  2 minutes 53 seconds.
+      ABS: SNR = 80.1232 dB (120 dB Goal) for S2_2 at 6.4 GHz.
+      ABS: Time = 0.170 seconds.
+
+    Frequency:  6.4 GHZ
+      Total time per frequency:  2 minutes 52 seconds.
+      ABS: SNR = 101.588 dB (120 dB Goal) for S2_2 at 1.65 GHz.
+      ABS: Time = 0.230 seconds.
+
+    Frequency:  1.65 GHZ
+      Total time per frequency:  2 minutes 54 seconds.
+      ABS: SNR = 125.287 dB (120 dB Goal) for S2_2 at 9.325 GHz.
+      ABS: Time = 0.260 seconds.
+
+    Post-Analysis:
+      Total time for 7 frequencies:  20 minutes 37 seconds.
+
+Analysis completed Sun Mar 27 21:34:04 2016.

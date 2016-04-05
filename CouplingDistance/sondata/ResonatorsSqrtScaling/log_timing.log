@@ -1,0 +1,690 @@
+Run 1:  Sun Apr 03 19:23:07 2016.  calt2.2.43068.
+        Em version 16.52 (64-bit Windows) on DESKTOP-MOCDKPP remote.
+
+  Project:  C:\Users\Michael\Documents\Github\Sonnet\ResonatorsSqrtScaling.son.
+
+  Parameter combination: 1 of 9.
+
+    Frequency:  1 GHZ
+      Independent parameter values:
+        width = 5.0
+      Dependent parameter values:
+        gnd = 2.2360679774998
+        gap = 2.5
+      Subsectioning at 10 GHz with Eeff of 6.45.
+      Subsectioning time:  1 second.
+      De-embedding information for ResonatorsSqrtScaling_left box wall port(s):
+        ResonatorsSqrtScaling_left SOC Electric Wall: 125 microns length, 488 subsections, 8 MB.
+        ResonatorsSqrtScaling_left SOC Magnetic Wall: 250 microns length, 468 subsections, 8 MB.
+      De-embedding information for ResonatorsSqrtScaling_right box wall port(s):
+        ResonatorsSqrtScaling_right SOC Electric Wall: 125 microns length, 488 subsections, 8 MB.
+        ResonatorsSqrtScaling_right SOC Magnetic Wall: 250 microns length, 468 subsections, 8 MB.
+      Em license feature:  emhighperformance.
+      Circuit requires 1211 subsections and 36 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  1,206
+      Ground Plane:
+        Via:        5
+
+      Required memory by type:
+        System matrix:            11 MB
+        Elemental subsections:
+          Primary structure:      7 MB
+          ResonatorsSqr standard: 7 MB
+          ResonatorsSqr standard: 7 MB
+        Fourier transform:        1 MB
+        Waveguide mode:           1 MB
+        Adaptive band synthesis:  1 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    36 MB
+
+      Matrix solver:  internal 64-bit SSE with loss.
+      Simulation mode:  remote em transfer.
+      Threads:  using 12 thread(s), 12 core(s) available.
+      Waveguide mode time:  0.010 seconds.
+      Fourier transform time:  0.070 seconds.
+      Coupling time:  1 second.
+      Loss time:  0 seconds.
+      Matrix fill time:  1 second.
+      Matrix solve time:  0.070 seconds.
+      De-embed autognd port 2:
+        Standard 1:  1500.0 microns, 143 subsections, about 44 MB.
+          Time:  1 second.
+        Autognd port 2 std 2:
+          1500 microns length, 138 subsections, 30 MB.
+          Time:  0.406 seconds.
+        Autognd port 2 std 3:
+          3000 microns length, 273 subsections, 39 MB.
+          Time:  0.894 seconds.
+      De-embedding time for ResonatorsSqrtScaling_left box wall:
+        SOC Electric Wall Std: 0.301 seconds.
+        SOC Magnetic Wall Std: 0.280 seconds.
+        Total:                 0.581 seconds.
+      De-embedding time for ResonatorsSqrtScaling_right box wall:
+        SOC Electric Wall Std: 0.307 seconds.
+        SOC Magnetic Wall Std: 0.300 seconds.
+        Total:                 0.607 seconds.
+      Total time per frequency:  6 seconds.
+
+    Frequency:  10 GHZ
+      ABS: SNR = 39.9806 dB (120 dB Goal) for S1_1 at 8.3 GHz.
+      ABS: Time = 0.030 seconds.
+
+    Frequency:  8.3 GHZ
+      ABS: SNR = 79.0136 dB (120 dB Goal) for S2_2 at 4.85 GHz.
+      ABS: Time = 0.050 seconds.
+
+    Frequency:  4.85 GHZ
+      ABS: SNR = 31.3955 dB (49.9633 dB Goal) for S1_2 at 2.325 GHz.
+      ABS: Time = 0.040 seconds.
+
+    Frequency:  2.325 GHZ
+      ABS: SNR = 157.361 dB (120 dB Goal) for S2_2 at 9.3 GHz.
+      ABS: Time = 0.070 seconds.
+
+  Parameter combination: 2 of 9.
+
+    Frequency:  1 GHZ
+      Independent parameter values:
+        width = 10.0
+      Dependent parameter values:
+        gnd = 3.1622776601684
+        gap = 5.0
+      Subsectioning at 10 GHz with Eeff of 6.45.
+      Subsectioning time:  1 second.
+      De-embedding information for ResonatorsSqrtScaling_left box wall port(s):
+        ResonatorsSqrtScaling_left SOC Electric Wall: 125 microns length, 488 subsections, 8 MB.
+        ResonatorsSqrtScaling_left SOC Magnetic Wall: 250 microns length, 468 subsections, 8 MB.
+      De-embedding information for ResonatorsSqrtScaling_right box wall port(s):
+        ResonatorsSqrtScaling_right SOC Electric Wall: 125 microns length, 488 subsections, 8 MB.
+        ResonatorsSqrtScaling_right SOC Magnetic Wall: 250 microns length, 468 subsections, 8 MB.
+      Circuit requires 1373 subsections and 38 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  1,363
+      Ground Plane:
+        Via:        10
+
+      Required memory by type:
+        System matrix:            14 MB
+        Elemental subsections:
+          Primary structure:      6 MB
+          ResonatorsSqr standard: 7 MB
+          ResonatorsSqr standard: 7 MB
+        Fourier transform:        1 MB
+        Waveguide mode:           1 MB
+        Adaptive band synthesis:  1 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    38 MB
+
+      Waveguide mode time:  0.030 seconds.
+      Fourier transform time:  0.116 seconds.
+      Coupling time:  1 second.
+      Loss time:  0 seconds.
+      Matrix fill time:  1 second.
+      Matrix solve time:  0.090 seconds.
+          Time:  0.947 seconds.
+        Autognd port 2 std 2:
+          1500 microns length, 138 subsections, 30 MB.
+          Time:  0.304 seconds.
+        Autognd port 2 std 3:
+          3000 microns length, 273 subsections, 38 MB.
+          Time:  0.737 seconds.
+      De-embedding time for ResonatorsSqrtScaling_left box wall:
+        SOC Electric Wall Std: 0.281 seconds.
+        SOC Magnetic Wall Std: 0.300 seconds.
+        Total:                 0.581 seconds.
+      De-embedding time for ResonatorsSqrtScaling_right box wall:
+        SOC Electric Wall Std: 0.300 seconds.
+        SOC Magnetic Wall Std: 0.270 seconds.
+        Total:                 0.570 seconds.
+      Total time per frequency:  7 seconds.
+
+    Frequency:  10 GHZ
+      ABS: SNR = 38.2818 dB (120 dB Goal) for S1_1 at 8.3 GHz.
+      ABS: Time = 0.060 seconds.
+
+    Frequency:  8.3 GHZ
+      ABS: SNR = 79.0185 dB (120 dB Goal) for S2_2 at 4.85 GHz.
+      ABS: Time = 0.040 seconds.
+
+    Frequency:  4.85 GHZ
+      ABS: SNR = 31.4531 dB (49.9268 dB Goal) for S1_2 at 2.325 GHz.
+      ABS: Time = 0.040 seconds.
+
+    Frequency:  2.325 GHZ
+      ABS: SNR = 157.505 dB (120 dB Goal) for S2_2 at 9.275 GHz.
+      ABS: Time = 0.060 seconds.
+
+  Parameter combination: 3 of 9.
+
+    Frequency:  1 GHZ
+      Independent parameter values:
+        width = 15.0
+      Dependent parameter values:
+        gnd = 3.8729833462074
+        gap = 7.5
+      Subsectioning at 10 GHz with Eeff of 6.45.
+      Subsectioning time:  1 second.
+      De-embedding information for ResonatorsSqrtScaling_left box wall port(s):
+        ResonatorsSqrtScaling_left SOC Electric Wall: 125 microns length, 488 subsections, 8 MB.
+        ResonatorsSqrtScaling_left SOC Magnetic Wall: 250 microns length, 468 subsections, 8 MB.
+      De-embedding information for ResonatorsSqrtScaling_right box wall port(s):
+        ResonatorsSqrtScaling_right SOC Electric Wall: 125 microns length, 488 subsections, 8 MB.
+        ResonatorsSqrtScaling_right SOC Magnetic Wall: 250 microns length, 468 subsections, 8 MB.
+      Circuit requires 1519 subsections and 42 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  1,504
+      Ground Plane:
+        Via:        15
+
+      Required memory by type:
+        System matrix:            18 MB
+        Elemental subsections:
+          Primary structure:      6 MB
+          ResonatorsSqr standard: 7 MB
+          ResonatorsSqr standard: 7 MB
+        Fourier transform:        1 MB
+        Waveguide mode:           1 MB
+        Adaptive band synthesis:  1 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    42 MB
+
+      Waveguide mode time:  0.030 seconds.
+      Fourier transform time:  0.100 seconds.
+      Coupling time:  1 second.
+      Loss time:  0 seconds.
+      Matrix fill time:  1 second.
+      Matrix solve time:  0.124 seconds.
+          Time:  1 second.
+        Autognd port 2 std 2:
+          1500 microns length, 193 subsections, 30 MB.
+          Time:  0.493 seconds.
+        Autognd port 2 std 3:
+          3000 microns length, 382 subsections, 39 MB.
+          Time:  1 second.
+      De-embedding time for ResonatorsSqrtScaling_left box wall:
+        SOC Electric Wall Std: 0.300 seconds.
+        SOC Magnetic Wall Std: 0.300 seconds.
+        Total:                 0.600 seconds.
+      De-embedding time for ResonatorsSqrtScaling_right box wall:
+        SOC Electric Wall Std: 0.284 seconds.
+        SOC Magnetic Wall Std: 0.304 seconds.
+        Total:                 0.588 seconds.
+      Total time per frequency:  8 seconds.
+
+    Frequency:  10 GHZ
+      ABS: SNR = 37.4157 dB (120 dB Goal) for S1_1 at 8.325 GHz.
+      ABS: Time = 0.040 seconds.
+
+    Frequency:  8.325 GHZ
+      ABS: SNR = 8.60452 dB (50 dB Goal) for S1_2 at 1.8 GHz.
+      ABS: Time = 0.042 seconds.
+
+    Frequency:  1.8 GHZ
+      ABS: SNR = 28.3571 dB (50 dB Goal) for S1_2 at 3.825 GHz.
+      ABS: Time = 0.040 seconds.
+
+    Frequency:  3.825 GHZ
+      ABS: SNR = 152.856 dB (120 dB Goal) for S2_2 at 9.275 GHz.
+      ABS: Time = 0.070 seconds.
+
+  Parameter combination: 4 of 9.
+
+    Frequency:  1 GHZ
+      Independent parameter values:
+        width = 20.0
+      Dependent parameter values:
+        gnd = 4.4721359549996
+        gap = 10.0
+      Subsectioning at 10 GHz with Eeff of 6.45.
+      Subsectioning time:  1 second.
+      De-embedding information for ResonatorsSqrtScaling_left box wall port(s):
+        ResonatorsSqrtScaling_left SOC Electric Wall: 125 microns length, 488 subsections, 8 MB.
+        ResonatorsSqrtScaling_left SOC Magnetic Wall: 250 microns length, 468 subsections, 8 MB.
+      De-embedding information for ResonatorsSqrtScaling_right box wall port(s):
+        ResonatorsSqrtScaling_right SOC Electric Wall: 125 microns length, 488 subsections, 8 MB.
+        ResonatorsSqrtScaling_right SOC Magnetic Wall: 250 microns length, 468 subsections, 8 MB.
+      Circuit requires 1580 subsections and 43 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  1,560
+      Ground Plane:
+        Via:        20
+
+      Required memory by type:
+        System matrix:            19 MB
+        Elemental subsections:
+          Primary structure:      6 MB
+          ResonatorsSqr standard: 7 MB
+          ResonatorsSqr standard: 7 MB
+        Fourier transform:        1 MB
+        Waveguide mode:           1 MB
+        Adaptive band synthesis:  1 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    43 MB
+
+      Waveguide mode time:  0.030 seconds.
+      Fourier transform time:  0.100 seconds.
+      Coupling time:  1 second.
+      Loss time:  0 seconds.
+      Matrix fill time:  1 second.
+      Matrix solve time:  0.130 seconds.
+          Time:  0.991 seconds.
+        Autognd port 2 std 2:
+          1500 microns length, 193 subsections, 30 MB.
+          Time:  0.377 seconds.
+        Autognd port 2 std 3:
+          3000 microns length, 382 subsections, 38 MB.
+          Time:  1 second.
+      De-embedding time for ResonatorsSqrtScaling_left box wall:
+        SOC Electric Wall Std: 0.341 seconds.
+        SOC Magnetic Wall Std: 0.277 seconds.
+        Total:                 0.618 seconds.
+      De-embedding time for ResonatorsSqrtScaling_right box wall:
+        SOC Electric Wall Std: 0.283 seconds.
+        SOC Magnetic Wall Std: 0.270 seconds.
+        Total:                 0.553 seconds.
+      Total time per frequency:  7 seconds.
+
+    Frequency:  10 GHZ
+      ABS: SNR = 37.0163 dB (120 dB Goal) for S1_1 at 8.325 GHz.
+      ABS: Time = 0.040 seconds.
+
+    Frequency:  8.325 GHZ
+      ABS: SNR = 77.7321 dB (120 dB Goal) for S2_2 at 4.85 GHz.
+      ABS: Time = 0.040 seconds.
+
+    Frequency:  4.85 GHZ
+      ABS: SNR = 23.2734 dB (49.869 dB Goal) for S1_2 at 2.5 GHz.
+      ABS: Time = 0.040 seconds.
+
+    Frequency:  2.5 GHZ
+      ABS: SNR = 81.0238 dB (41.9663 dB Goal) for S1_2 at 1.675 GHz.
+      ABS: Time = 0.050 seconds.
+
+  Parameter combination: 5 of 9.
+
+    Frequency:  1 GHZ
+      Independent parameter values:
+        width = 25.0
+      Dependent parameter values:
+        gnd = 5.0
+        gap = 12.5
+      Subsectioning at 10 GHz with Eeff of 6.45.
+      Subsectioning time:  1 second.
+      De-embedding information for ResonatorsSqrtScaling_left box wall port(s):
+        ResonatorsSqrtScaling_left SOC Electric Wall: 125 microns length, 488 subsections, 8 MB.
+        ResonatorsSqrtScaling_left SOC Magnetic Wall: 250 microns length, 468 subsections, 8 MB.
+      De-embedding information for ResonatorsSqrtScaling_right box wall port(s):
+        ResonatorsSqrtScaling_right SOC Electric Wall: 125 microns length, 488 subsections, 8 MB.
+        ResonatorsSqrtScaling_right SOC Magnetic Wall: 250 microns length, 468 subsections, 8 MB.
+      Circuit requires 1712 subsections and 46 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  1,687
+      Ground Plane:
+        Via:        25
+
+      Required memory by type:
+        System matrix:            22 MB
+        Elemental subsections:
+          Primary structure:      6 MB
+          ResonatorsSqr standard: 7 MB
+          ResonatorsSqr standard: 7 MB
+        Fourier transform:        1 MB
+        Waveguide mode:           1 MB
+        Adaptive band synthesis:  1 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    46 MB
+
+      Waveguide mode time:  0.030 seconds.
+      Fourier transform time:  0.100 seconds.
+      Coupling time:  1 second.
+      Loss time:  0 seconds.
+      Matrix fill time:  2 seconds.
+      Matrix solve time:  0.161 seconds.
+          Time:  1 second.
+        Autognd port 2 std 2:
+          1500 microns length, 248 subsections, 30 MB.
+          Time:  0.618 seconds.
+        Autognd port 2 std 3:
+          3000 microns length, 491 subsections, 39 MB.
+          Time:  1 second.
+      De-embedding time for ResonatorsSqrtScaling_left box wall:
+        SOC Electric Wall Std: 0.290 seconds.
+        SOC Magnetic Wall Std: 0.292 seconds.
+        Total:                 0.582 seconds.
+      De-embedding time for ResonatorsSqrtScaling_right box wall:
+        SOC Electric Wall Std: 0.280 seconds.
+        SOC Magnetic Wall Std: 0.286 seconds.
+        Total:                 0.566 seconds.
+      Total time per frequency:  9 seconds.
+
+    Frequency:  10 GHZ
+      ABS: SNR = 36.588 dB (120 dB Goal) for S1_1 at 8.325 GHz.
+      ABS: Time = 0.030 seconds.
+
+    Frequency:  8.325 GHZ
+      ABS: SNR = 77.7015 dB (120 dB Goal) for S2_2 at 4.85 GHz.
+      ABS: Time = 0.040 seconds.
+
+    Frequency:  4.85 GHZ
+      ABS: SNR = 23.6517 dB (49.9445 dB Goal) for S1_2 at 2.625 GHz.
+      ABS: Time = 0.043 seconds.
+
+    Frequency:  2.625 GHZ
+      ABS: SNR = 79.9028 dB (41.5542 dB Goal) for S1_2 at 1.725 GHz.
+      ABS: Time = 0.070 seconds.
+
+  Parameter combination: 6 of 9.
+
+    Frequency:  1 GHZ
+      Independent parameter values:
+        width = 30.0
+      Dependent parameter values:
+        gnd = 5.4772255750517
+        gap = 15.0
+      Subsectioning at 10 GHz with Eeff of 6.45.
+      Subsectioning time:  1 second.
+      De-embedding information for ResonatorsSqrtScaling_left box wall port(s):
+        ResonatorsSqrtScaling_left SOC Electric Wall: 125 microns length, 488 subsections, 8 MB.
+        ResonatorsSqrtScaling_left SOC Magnetic Wall: 250 microns length, 468 subsections, 8 MB.
+      De-embedding information for ResonatorsSqrtScaling_right box wall port(s):
+        ResonatorsSqrtScaling_right SOC Electric Wall: 125 microns length, 488 subsections, 8 MB.
+        ResonatorsSqrtScaling_right SOC Magnetic Wall: 250 microns length, 468 subsections, 8 MB.
+      Circuit requires 1668 subsections and 45 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  1,638
+      Ground Plane:
+        Via:        30
+
+      Required memory by type:
+        System matrix:            21 MB
+        Elemental subsections:
+          Primary structure:      6 MB
+          ResonatorsSqr standard: 7 MB
+          ResonatorsSqr standard: 7 MB
+        Fourier transform:        1 MB
+        Waveguide mode:           1 MB
+        Adaptive band synthesis:  1 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    45 MB
+
+      Waveguide mode time:  0.010 seconds.
+      Fourier transform time:  0.101 seconds.
+      Coupling time:  1 second.
+      Loss time:  0 seconds.
+      Matrix fill time:  1 second.
+      Matrix solve time:  0.150 seconds.
+          Time:  1 second.
+        Autognd port 2 std 2:
+          1500 microns length, 193 subsections, 30 MB.
+          Time:  0.374 seconds.
+        Autognd port 2 std 3:
+          3000 microns length, 382 subsections, 38 MB.
+          Time:  1 second.
+      De-embedding time for ResonatorsSqrtScaling_left box wall:
+        SOC Electric Wall Std: 0.290 seconds.
+        SOC Magnetic Wall Std: 0.305 seconds.
+        Total:                 0.595 seconds.
+      De-embedding time for ResonatorsSqrtScaling_right box wall:
+        SOC Electric Wall Std: 0.285 seconds.
+        SOC Magnetic Wall Std: 0.274 seconds.
+        Total:                 0.559 seconds.
+      Total time per frequency:  7 seconds.
+
+    Frequency:  10 GHZ
+      ABS: SNR = 36.3709 dB (120 dB Goal) for S1_1 at 8.325 GHz.
+      ABS: Time = 0.040 seconds.
+
+    Frequency:  8.325 GHZ
+      ABS: SNR = 8.52239 dB (50 dB Goal) for S1_2 at 2 GHz.
+      ABS: Time = 0.030 seconds.
+
+    Frequency:  2 GHZ
+      ABS: SNR = 30.7903 dB (50 dB Goal) for S1_2 at 3.95 GHz.
+      ABS: Time = 0.050 seconds.
+
+    Frequency:  3.95 GHZ
+      ABS: SNR = 92.2053 dB (50 dB Goal) for S1_2 at 5.85 GHz.
+      ABS: Time = 0.060 seconds.
+
+  Parameter combination: 7 of 9.
+
+    Frequency:  1 GHZ
+      Independent parameter values:
+        width = 35.0
+      Dependent parameter values:
+        gnd = 5.9160797830996
+        gap = 17.5
+      Subsectioning at 10 GHz with Eeff of 6.45.
+      Subsectioning time:  1 second.
+      De-embedding information for ResonatorsSqrtScaling_left box wall port(s):
+        ResonatorsSqrtScaling_left SOC Electric Wall: 125 microns length, 488 subsections, 8 MB.
+        ResonatorsSqrtScaling_left SOC Magnetic Wall: 250 microns length, 468 subsections, 8 MB.
+      De-embedding information for ResonatorsSqrtScaling_right box wall port(s):
+        ResonatorsSqrtScaling_right SOC Electric Wall: 125 microns length, 488 subsections, 8 MB.
+        ResonatorsSqrtScaling_right SOC Magnetic Wall: 250 microns length, 468 subsections, 8 MB.
+      Circuit requires 1720 subsections and 46 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  1,685
+      Ground Plane:
+        Via:        35
+
+      Required memory by type:
+        System matrix:            23 MB
+        Elemental subsections:
+          Primary structure:      6 MB
+          ResonatorsSqr standard: 7 MB
+          ResonatorsSqr standard: 7 MB
+        Fourier transform:        1 MB
+        Waveguide mode:           1 MB
+        Adaptive band synthesis:  1 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    46 MB
+
+      Waveguide mode time:  0.050 seconds.
+      Fourier transform time:  0.088 seconds.
+      Coupling time:  1 second.
+      Loss time:  0 seconds.
+      Matrix fill time:  1 second.
+      Matrix solve time:  0.170 seconds.
+          Time:  1 second.
+        Autognd port 2 std 2:
+          1500 microns length, 303 subsections, 30 MB.
+          Time:  0.754 seconds.
+        Autognd port 2 std 3:
+          3000 microns length, 600 subsections, 40 MB.
+          Time:  2 seconds.
+      De-embedding time for ResonatorsSqrtScaling_left box wall:
+        SOC Electric Wall Std: 0.319 seconds.
+        SOC Magnetic Wall Std: 0.275 seconds.
+        Total:                 0.594 seconds.
+      De-embedding time for ResonatorsSqrtScaling_right box wall:
+        SOC Electric Wall Std: 0.300 seconds.
+        SOC Magnetic Wall Std: 0.284 seconds.
+        Total:                 0.584 seconds.
+      Total time per frequency:  10 seconds.
+
+    Frequency:  10 GHZ
+      ABS: SNR = 36.1149 dB (120 dB Goal) for S1_1 at 8.325 GHz.
+      ABS: Time = 0.025 seconds.
+
+    Frequency:  8.325 GHZ
+      ABS: SNR = 8.22912 dB (50 dB Goal) for S1_2 at 2.05 GHz.
+      ABS: Time = 0.032 seconds.
+
+    Frequency:  2.05 GHZ
+      ABS: SNR = 30.5532 dB (50 dB Goal) for S1_2 at 3.95 GHz.
+      ABS: Time = 0.040 seconds.
+
+    Frequency:  3.95 GHZ
+      ABS: SNR = 83.0035 dB (50 dB Goal) for S1_2 at 5.85 GHz.
+      ABS: Time = 0.050 seconds.
+
+  Parameter combination: 8 of 9.
+
+    Frequency:  1 GHZ
+      Independent parameter values:
+        width = 40.0
+      Dependent parameter values:
+        gnd = 6.3245553203368
+        gap = 20.0
+      Subsectioning at 10 GHz with Eeff of 6.45.
+      Subsectioning time:  1 second.
+      De-embedding information for ResonatorsSqrtScaling_left box wall port(s):
+        ResonatorsSqrtScaling_left SOC Electric Wall: 125 microns length, 488 subsections, 8 MB.
+        ResonatorsSqrtScaling_left SOC Magnetic Wall: 250 microns length, 468 subsections, 8 MB.
+      De-embedding information for ResonatorsSqrtScaling_right box wall port(s):
+        ResonatorsSqrtScaling_right SOC Electric Wall: 125 microns length, 488 subsections, 8 MB.
+        ResonatorsSqrtScaling_right SOC Magnetic Wall: 250 microns length, 468 subsections, 8 MB.
+      Circuit requires 1743 subsections and 46 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  1,703
+      Ground Plane:
+        Via:        40
+
+      Required memory by type:
+        System matrix:            23 MB
+        Elemental subsections:
+          Primary structure:      5 MB
+          ResonatorsSqr standard: 7 MB
+          ResonatorsSqr standard: 7 MB
+        Fourier transform:        1 MB
+        Waveguide mode:           1 MB
+        Adaptive band synthesis:  1 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    46 MB
+
+      Waveguide mode time:  0.020 seconds.
+      Fourier transform time:  0.109 seconds.
+      Coupling time:  1 second.
+      Loss time:  0 seconds.
+      Matrix fill time:  1 second.
+      Matrix solve time:  0.163 seconds.
+          Time:  1 second.
+        Autognd port 2 std 2:
+          1500 microns length, 248 subsections, 29 MB.
+          Time:  0.558 seconds.
+        Autognd port 2 std 3:
+          3000 microns length, 491 subsections, 38 MB.
+          Time:  1 second.
+      De-embedding time for ResonatorsSqrtScaling_left box wall:
+        SOC Electric Wall Std: 0.321 seconds.
+        SOC Magnetic Wall Std: 0.290 seconds.
+        Total:                 0.611 seconds.
+      De-embedding time for ResonatorsSqrtScaling_right box wall:
+        SOC Electric Wall Std: 0.280 seconds.
+        SOC Magnetic Wall Std: 0.282 seconds.
+        Total:                 0.562 seconds.
+      Total time per frequency:  8 seconds.
+
+    Frequency:  10 GHZ
+      ABS: SNR = 35.9758 dB (120 dB Goal) for S1_1 at 8.325 GHz.
+      ABS: Time = 0.039 seconds.
+
+    Frequency:  8.325 GHZ
+      ABS: SNR = 8.44328 dB (50 dB Goal) for S1_2 at 2.125 GHz.
+      ABS: Time = 0.043 seconds.
+
+    Frequency:  2.125 GHZ
+      ABS: SNR = 31.1696 dB (50 dB Goal) for S1_2 at 4 GHz.
+      ABS: Time = 0.050 seconds.
+
+    Frequency:  4 GHZ
+      ABS: SNR = 83.9945 dB (50 dB Goal) for S1_2 at 5.875 GHz.
+      ABS: Time = 0.050 seconds.
+
+  Parameter combination: 9 of 9.
+
+    Frequency:  1 GHZ
+      Independent parameter values:
+        width = 45.0
+      Dependent parameter values:
+        gnd = 6.7082039324994
+        gap = 22.5
+      Subsectioning at 10 GHz with Eeff of 6.45.
+      Subsectioning time:  1 second.
+      De-embedding information for ResonatorsSqrtScaling_left box wall port(s):
+        ResonatorsSqrtScaling_left SOC Electric Wall: 125 microns length, 488 subsections, 8 MB.
+        ResonatorsSqrtScaling_left SOC Magnetic Wall: 250 microns length, 468 subsections, 8 MB.
+      De-embedding information for ResonatorsSqrtScaling_right box wall port(s):
+        ResonatorsSqrtScaling_right SOC Electric Wall: 125 microns length, 488 subsections, 8 MB.
+        ResonatorsSqrtScaling_right SOC Magnetic Wall: 250 microns length, 468 subsections, 8 MB.
+      Circuit requires 1586 subsections and 42 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  1,541
+      Ground Plane:
+        Via:        45
+
+      Required memory by type:
+        System matrix:            19 MB
+        Elemental subsections:
+          Primary structure:      5 MB
+          ResonatorsSqr standard: 7 MB
+          ResonatorsSqr standard: 7 MB
+        Fourier transform:        1 MB
+        Waveguide mode:           1 MB
+        Adaptive band synthesis:  1 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    42 MB
+
+      Waveguide mode time:  0.030 seconds.
+      Fourier transform time:  0.070 seconds.
+      Coupling time:  1 second.
+      Loss time:  0 seconds.
+      Matrix fill time:  1 second.
+      Matrix solve time:  0.140 seconds.
+          Time:  2 seconds.
+        Autognd port 2 std 2:
+          1500 microns length, 303 subsections, 29 MB.
+          Time:  0.767 seconds.
+        Autognd port 2 std 3:
+          3000 microns length, 600 subsections, 39 MB.
+          Time:  2 seconds.
+      De-embedding time for ResonatorsSqrtScaling_left box wall:
+        SOC Electric Wall Std: 0.280 seconds.
+        SOC Magnetic Wall Std: 0.301 seconds.
+        Total:                 0.581 seconds.
+      De-embedding time for ResonatorsSqrtScaling_right box wall:
+        SOC Electric Wall Std: 0.307 seconds.
+        SOC Magnetic Wall Std: 0.301 seconds.
+        Total:                 0.608 seconds.
+      Total time per frequency:  10 seconds.
+
+    Frequency:  10 GHZ
+      ABS: SNR = 35.7881 dB (120 dB Goal) for S1_1 at 8.325 GHz.
+      ABS: Time = 0.030 seconds.
+
+    Frequency:  8.325 GHZ
+      ABS: SNR = 78.2715 dB (120 dB Goal) for S2_2 at 4.9 GHz.
+      ABS: Time = 0.030 seconds.
+
+    Frequency:  4.9 GHZ
+      ABS: SNR = 24.9659 dB (48.4137 dB Goal) for S1_2 at 2.75 GHz.
+      ABS: Time = 0.050 seconds.
+
+    Frequency:  2.75 GHZ
+      ABS: SNR = 77.8331 dB (38.6526 dB Goal) for S1_2 at 1.75 GHz.
+      ABS: Time = 0.060 seconds.
+
+    Post-Analysis:
+      Total time for 45 frequencies:  5 minutes 21 seconds.
+
+Analysis completed Sun Apr 03 19:28:28 2016.

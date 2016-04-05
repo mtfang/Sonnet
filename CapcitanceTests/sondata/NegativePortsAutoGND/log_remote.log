@@ -1,0 +1,26 @@
+-- 
+--  Date      Time   Program        Host                     Job # Message 
+----------- -------- -------------- ------------------------ ----- ------------------------
+Mar-27-2016 17:02:02 Emclient       DESKTOP-SL82IK9                Parsed transfer analyze 'RemoteEm' operation to server '131.215.238.147:56150'.
+Mar-27-2016 17:02:02 Emclient       DESKTOP-SL82IK9                Connected to remote process.
+Mar-27-2016 17:02:02 Emclient       DESKTOP-SL82IK9                Emclient started for remote analysis.
+Mar-27-2016 17:02:02 Emclient       DESKTOP-SL82IK9                Initial message sent to remote process.
+Mar-27-2016 17:02:02 Emclient       DESKTOP-SL82IK9                Parsed transfer analyze 'RemoteEm' operation to server '131.215.238.147:56150'.
+Mar-27-2016 17:02:03 EmServer       DESKTOP-MOCDKPP                Receiving job from client.
+Mar-27-2016 17:02:03 EmServer       DESKTOP-MOCDKPP                Receiving job from client.
+Mar-27-2016 17:02:05 EmServer       DESKTOP-MOCDKPP                Project unpacked at emserver.
+Mar-27-2016 17:02:05 EmServer       DESKTOP-MOCDKPP                Starting em job at emserver.
+Mar-27-2016 17:02:05 EmServer       DESKTOP-MOCDKPP                Project unpacked at emserver.
+Mar-27-2016 17:02:05 EmServer       DESKTOP-MOCDKPP                Starting em job at emserver.
+Mar-27-2016 17:15:31 EmServer       DESKTOP-MOCDKPP                Job finishing up at emserver.
+Mar-27-2016 17:15:31 EmServer       DESKTOP-MOCDKPP                Job finishing up at emserver.
+Mar-27-2016 17:15:34 EmServer       DESKTOP-MOCDKPP                Job being packed at emserver.
+Mar-27-2016 17:15:34 EmServer       DESKTOP-MOCDKPP                Job being packed at emserver.
+Mar-27-2016 17:15:35 EmServer       DESKTOP-MOCDKPP                Sending job to client from emserver.
+Mar-27-2016 17:15:35 EmServer       DESKTOP-MOCDKPP                Job finished.
+Mar-27-2016 17:15:35 EmServer       DESKTOP-MOCDKPP                Remote analysis completed.
+Mar-27-2016 17:15:35 EmServer       DESKTOP-MOCDKPP                Sending job to client from emserver.
+Mar-27-2016 17:15:35 EmServer       DESKTOP-MOCDKPP                Job finished.
+Mar-27-2016 17:15:35 EmServer       DESKTOP-MOCDKPP                Remote analysis completed.
+Mar-27-2016 17:15:37 Emclient       DESKTOP-SL82IK9                Writing files.
+Mar-27-2016 17:15:38 Emclient       DESKTOP-SL82IK9                Remote analysis completed.

@@ -1,0 +1,46 @@
+Run 1:  Sun Mar 27 15:39:24 2016.  calt2.2.43068.
+        Em version 16.52 (64-bit Windows) on DESKTOP-MOCDKPP remote.
+
+  Project:  C:\Users\Michael\Documents\Github\Sonnet\CapcitanceTests\AutoGND.son.
+
+    Frequency:  1 GHZ
+      Frequency completed Sun Mar 27 15:42:35 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        1.00000000 1.000000 -3.159 3.513e-4 82.322 3.513e-4 82.322 0.999999 -12.20
+        !< P1 F=1.0 Eeff=(6.45042343 -2.976e-5) Z0=(48.3979467 1.11597e-4) R=0.21472616 C=0.00342904 
+        !< P2 F=1.0 Eeff=(6.64393621 -3.0801e-5) Z0=(26.4620784 6.13482e-5) R=0.0179736 C=0.04072022 
+
+    Frequency:  10 GHZ
+      Frequency completed Sun Mar 27 15:45:07 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        10.0000000 0.999994 -31.54 0.002620 25.491 0.002620 25.491 0.999992 -97.48
+        !< P1 F=10.0 Eeff=(6.45006343 -2.9748e-5) Z0=(48.3956205 1.1162e-4) R=0.021408 C=0.00342895 
+        !< P2 F=10.0 Eeff=(6.70817163 -3.1514e-5) Z0=(26.3405667 6.18102e-5) R=0.00179449 C=0.04077421 
+
+    Frequency:  5.5 GHZ
+      Frequency completed Sun Mar 27 15:47:39 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        5.50000000 0.999997 -17.36 0.001725 50.412 0.001725 50.412 0.999994 -61.81
+        !< P1 F=5.5 Eeff=(6.45030951 -2.975e-5) Z0=(48.3972333 1.11617e-4) R=0.0389222 C=0.00342902 
+        !< P2 F=5.5 Eeff=(6.66291264 -3.1011e-5) Z0=(26.4248646 6.14967e-5) R=0.00326773 C=0.04073695 
+
+    Frequency:  2.725 GHZ
+      Frequency completed Sun Mar 27 15:50:11 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        2.72500000 0.999999 -8.606 9.311e-4 69.402 9.311e-4 69.402 0.999997 -32.59
+        !< P1 F=2.725 Eeff=(6.45039109 -2.9751e-5) Z0=(48.3977629 1.11617e-4) R=0.07855094 C=0.00342904 
+        !< P2 F=2.725 Eeff=(6.64811762 -3.0891e-5) Z0=(26.4538563 6.14611e-5) R=0.00658343 C=0.04072396 
+
+    Frequency:  8.325 GHZ
+      Frequency completed Sun Mar 27 15:52:42 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        8.32500000 0.999995 -26.27 0.002335 33.958 0.002335 33.958 0.999992 -85.82
+        !< P1 F=8.325 Eeff=(6.45017166 -2.9749e-5) Z0=(48.3963314 1.1162e-4) R=0.02571332 C=0.00342898 
+        !< P2 F=8.325 Eeff=(6.68824603 -3.129e-5) Z0=(26.3768532 6.16749e-5) R=0.00215748 C=0.04075825 
+
+Analysis completed Sun Mar 27 15:52:43 2016.

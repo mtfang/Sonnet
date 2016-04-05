@@ -1,0 +1,16 @@
+Run 1:  Wed Mar 30 18:31:14 2016.  calt2.2.43068.
+        Em version 16.52 (64-bit Windows) on DESKTOP-MOCDKPP remote.
+
+  Project:  C:\Users\Michael\Documents\Github\Sonnet\CapcitanceTests\NegativePortsWithGapGroundedBackAutoGND_Union_Junk.son.
+
+    Frequency:  1 GHZ
+      Subsectioning at 10 GHz with Eeff of 6.45.
+      Subsectioning time:  21 seconds.
+      De-embedding information for NegativePortsWithGapGroundedBackAutoGND_Union_Junk_left box wall port(s):
+        NegativePortsWithGapGroundedBackAutoGND_Union_Junk_left SOC Electric Wall: 500 microns length, 1279 subsections, 77 MB.
+        NegativePortsWithGapGroundedBackAutoGND_Union_Junk_left SOC Magnetic Wall: 1000 microns length, 1241 subsections, 76 MB.
+NOTICE: Wed Mar 30 18:31:39 2016 Could not get a license, queuing for 'emhighperformance'
+NOTICE: Wed Mar 30 19:31:55 2016 Still do not have a license.
+      Errors detected: 0    Warnings detected: 0.
+
+Analysis stopped Wed Mar 30 19:37:26 2016 with signal 15.

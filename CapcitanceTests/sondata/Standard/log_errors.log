@@ -1,0 +1,22 @@
+Run 1:  Sun Mar 27 16:32:53 2016.  calt2.2.43068.
+        Em version 16.52 (64-bit Windows) on DESKTOP-MOCDKPP remote.
+
+  Project:  C:\Users\Michael\Documents\Github\Sonnet\CapcitanceTests\Standard.son.
+
+    Frequency:  1 GHZ
+
+      Sonnet Error EG2120:
+      Illegal circuit configuration.
+      Port 2 has no ground reference.
+      Please do one of following to fix port(s):
+      1) Move port(s) to a box wall.
+      2) Set port type under Properties to co-calibrated.
+      3) Set port type under Properties to auto-grounded.
+      4) Connect port(s) between adjacent polygons.
+      Date: Sun Mar 27 16:32:53 2016
+
+
+    Post-Analysis:
+      Errors detected: 1    Warnings detected: 0.
+
+Analysis failed due to error Sun Mar 27 16:32:53 2016.

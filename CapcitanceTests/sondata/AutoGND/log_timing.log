@@ -1,0 +1,79 @@
+Run 1:  Sun Mar 27 15:39:24 2016.  calt2.2.43068.
+        Em version 16.52 (64-bit Windows) on DESKTOP-MOCDKPP remote.
+
+  Project:  C:\Users\Michael\Documents\Github\Sonnet\CapcitanceTests\AutoGND.son.
+
+    Frequency:  1 GHZ
+      Subsectioning at 10 GHz with Eeff of 6.45.
+      Subsectioning time:  35 seconds.
+      De-embedding information for AutoGND_left box wall port(s):
+        AutoGND_left SOC Electric Wall: 500 microns length, 928 subsections, 78 MB.
+        AutoGND_left SOC Magnetic Wall: 1000 microns length, 901 subsections, 78 MB.
+      Em license feature:  emhighperformance.
+      Circuit requires 4104 subsections and 389 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  3,413
+      Ground Plane:
+        Via:        691
+
+      Required memory by type:
+        System matrix:            129 MB
+        Elemental subsections:
+          Primary structure:      118 MB
+          AutoGND_left standard:  119 MB
+        Fourier transform:        16 MB
+        Waveguide mode:           3 MB
+        Adaptive band synthesis:  3 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    389 MB
+
+      Matrix solver:  internal 64-bit SSE with loss.
+      Simulation mode:  remote em transfer.
+      Threads:  using 12 thread(s), 12 core(s) available.
+      Waveguide mode time:  0.070 seconds.
+      Fourier transform time:  1 second.
+      Coupling time:  1 minute 17 seconds.
+      Loss time:  0 seconds.
+      Matrix fill time:  1 minute 18 seconds.
+      Matrix solve time:  2 seconds.
+      De-embed autognd port 2:
+        Standard 1:  1500.0 microns, 1269 subsections, about 299 MB.
+          Time:  16 seconds.
+        Autognd port 2 std 2:
+          1500 microns length, 578 subsections, 260 MB.
+          Time:  6 seconds.
+        Autognd port 2 std 3:
+          3000 microns length, 1145 subsections, 284 MB.
+          Time:  25 seconds.
+      De-embedding time for AutoGND_left box wall:
+        SOC Electric Wall Std: 10 seconds.
+        SOC Magnetic Wall Std: 9 seconds.
+        Total:                 20 seconds.
+      Total time per frequency:  2 minutes 36 seconds.
+
+    Frequency:  10 GHZ
+      Total time per frequency:  2 minutes 31 seconds.
+      ABS: Energy conservation for port 2 at 5.5 GHz.
+      ABS: Time = 0.230 seconds.
+
+    Frequency:  5.5 GHZ
+      Total time per frequency:  2 minutes 31 seconds.
+      ABS: Energy conservation for port 2 at 2.725 GHz.
+      ABS: Time = 0.280 seconds.
+
+    Frequency:  2.725 GHZ
+      Total time per frequency:  2 minutes 31 seconds.
+      ABS: SNR = 77.2551 dB (120 dB Goal) for S2_2 at 8.325 GHz.
+      ABS: Time = 0.280 seconds.
+
+    Frequency:  8.325 GHZ
+      Total time per frequency:  2 minutes 31 seconds.
+      ABS: SNR = 126.84 dB (120 dB Goal) for S2_2 at 1.675 GHz.
+      ABS: Time = 0.374 seconds.
+
+    Post-Analysis:
+      Total time for 5 frequencies:  13 minutes 19 seconds.
+
+Analysis completed Sun Mar 27 15:52:43 2016.
