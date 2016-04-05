@@ -1,0 +1,19 @@
+Estimated memory:      359 MB
+Subsection total:      6,726
+
+Subsections by level and type:
+Level 0:
+  Staircase:           6,726
+
+Required memory by type:
+  System matrix:            345 MB
+  Elemental subsections:
+    Primary structure:      3 MB
+    Subsections_t standard: 3 MB
+    Subsections_b standard: 3 MB
+  Fourier transform:        1 MB
+  Waveguide mode:           1 MB
+  Adaptive band synthesis:  1 MB
+  Miscellaneous:            1 MB
+  TOTAL REQUIRED MEMORY:    359 MB
+

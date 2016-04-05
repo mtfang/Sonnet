@@ -1,0 +1,85 @@
+Run 1:  Tue Apr 05 03:36:31 2016.  calt2.2.43068.
+        Em version 16.52 (64-bit Windows) on DESKTOP-MOCDKPP remote.
+
+  Project:  C:\Users\Michael\Dropbox\GitHub\PainterQubits\devMichael\AutoCAD\gdspy\2016Mar29_Resonators_Masked_R4.son.
+
+    Frequency:  5.9 GHZ
+      Subsectioning at 6.1 GHz with Eeff of 6.45.
+      Subsectioning time:  5 seconds.
+      De-embedding information for 2016Mar29_Resonators_Masked_R4_top box wall port(s):
+        2016Mar29_Resonators_Masked_R4_top SOC Electric Wall: 498 microns length, 554 subsections, 20 MB.
+        2016Mar29_Resonators_Masked_R4_top SOC Magnetic Wall: 996 microns length, 533 subsections, 20 MB.
+      De-embedding information for 2016Mar29_Resonators_Masked_R4_bottom box wall port(s):
+        2016Mar29_Resonators_Masked_R4_bottom SOC Electric Wall: 498 microns length, 554 subsections, 20 MB.
+        2016Mar29_Resonators_Masked_R4_bottom SOC Magnetic Wall: 996 microns length, 533 subsections, 20 MB.
+      Em license feature:  emhighperformance.
+      Circuit requires 21526 subsections and 3621 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  21,526
+
+      Required memory by type:
+        System matrix:            3,535 MB
+        Elemental subsections:
+          Primary structure:      23 MB
+          2016Mar29_Res standard: 26 MB
+          2016Mar29_Res standard: 26 MB
+        Fourier transform:        4 MB
+        Waveguide mode:           2 MB
+        Adaptive band synthesis:  4 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    3,621 MB
+
+      Matrix solver:  internal 64-bit SSE with loss.
+      Simulation mode:  remote em transfer.
+      Threads:  using 12 thread(s), 12 core(s) available.
+      Waveguide mode time:  0.040 seconds.
+      Fourier transform time:  0.150 seconds.
+      Coupling time:  1 minute 13 seconds.
+      Loss time:  0 seconds.
+      Matrix fill time:  1 minute 13 seconds.
+      Matrix solve time:  3 minutes 44 seconds.
+      De-embedding time for 2016Mar29_Resonators_Masked_R4_top box wall:
+        SOC Electric Wall Std: 1 second.
+        SOC Magnetic Wall Std: 1 second.
+        Total:                 2 seconds.
+      Total time per frequency:  5 minutes 2 seconds.
+
+    Frequency:  6.1 GHZ
+      Total time per frequency:  5 minutes 1 second.
+      ABS: SNR = 35.6806 dB (120 dB Goal) for S1_2 at 5.994 GHz.
+      ABS: Time = 0.440 seconds.
+
+    Frequency:  5.994 GHZ
+      Total time per frequency:  5 minutes 3 seconds.
+      ABS: SNR = 122.692 dB (120 dB Goal) for S1_2 at 5.993 GHz.
+      ABS: Time = 0.494 seconds.
+
+      ABS: Detected 1 resonance(s) on iteration 1:
+        Resonance 1:  FreqMin = 5.962  FreqCenter = 5.993  FreqMax = 6.024 GHz
+
+      ABS: Detected 1 resonance(s) on iteration 2:
+        Resonance 1:  FreqMin = 5.96282943143813  FreqCenter = 5.9933110367893  FreqMax = 6.02368896321065 GHz
+
+      ABS: Detected 1 resonance(s) on iteration 3:
+        Resonance 1:  FreqMin = 5.963  FreqCenter = 5.99328513619827  FreqMax = 6.02373776473218 GHz
+
+      ABS: Detected 1 resonance(s) on iteration 4:
+        Resonance 1:  FreqMin = 5.963  FreqCenter = 5.99327568245569  FreqMax = 6.024 GHz
+
+    Frequency:  5.99327568245569 GHZ
+      Total time per frequency:  5 minutes 8 seconds.
+      ABS: SNR = 64.7362 dB (50 dB Goal) for S2_2 at 5.99313 GHz.
+      ABS: Time = 1 second.
+
+      ABS: Detected 1 resonance(s) on iteration 5:
+        Resonance 1:  FreqMin = 5.963  FreqCenter = 5.99327568245569  FreqMax = 6.024 GHz
+
+      ABS: Detected 1 resonance(s) on iteration 6:
+        Resonance 1:  FreqMin = 5.962  FreqCenter = 5.99327354999276  FreqMax = 6.024 GHz
+
+    Post-Analysis:
+      Total time for 4 frequencies:  20 minutes 25 seconds.
+
+Analysis completed Tue Apr 05 03:56:56 2016.

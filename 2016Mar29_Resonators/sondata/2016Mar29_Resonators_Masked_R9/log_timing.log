@@ -1,0 +1,94 @@
+Run 1:  Tue Apr 05 02:45:27 2016.  calt2.2.43068.
+        Em version 16.52 (64-bit Windows) on DESKTOP-MOCDKPP remote.
+
+  Project:  C:\Users\Michael\Dropbox\GitHub\PainterQubits\devMichael\AutoCAD\gdspy\2016Mar29_Resonators_Masked_R9.son.
+
+    Frequency:  5.8 GHZ
+      Subsectioning at 6.5 GHz with Eeff of 6.45.
+      Subsectioning time:  1 second.
+      De-embedding information for 2016Mar29_Resonators_Masked_R9_top box wall port(s):
+        2016Mar29_Resonators_Masked_R9_top SOC Electric Wall: 515 microns length, 438 subsections, 10 MB.
+        2016Mar29_Resonators_Masked_R9_top SOC Magnetic Wall: 1030 microns length, 420 subsections, 10 MB.
+      De-embedding information for 2016Mar29_Resonators_Masked_R9_bottom box wall port(s):
+        2016Mar29_Resonators_Masked_R9_bottom SOC Electric Wall: 515 microns length, 438 subsections, 10 MB.
+        2016Mar29_Resonators_Masked_R9_bottom SOC Magnetic Wall: 1030 microns length, 420 subsections, 10 MB.
+      Em license feature:  emhighperformance.
+      Circuit requires 12352 subsections and 1201 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  12,352
+
+      Required memory by type:
+        System matrix:            1,164 MB
+        Elemental subsections:
+          Primary structure:      9 MB
+          2016Mar29_Res standard: 10 MB
+          2016Mar29_Res standard: 10 MB
+        Fourier transform:        2 MB
+        Waveguide mode:           1 MB
+        Adaptive band synthesis:  3 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    1,201 MB
+
+      Matrix solver:  internal 64-bit SSE with loss.
+      Simulation mode:  remote em transfer.
+      Threads:  using 12 thread(s), 12 core(s) available.
+      Waveguide mode time:  0.030 seconds.
+      Fourier transform time:  0.070 seconds.
+      Coupling time:  16 seconds.
+      Loss time:  0 seconds.
+      Matrix fill time:  16 seconds.
+      Matrix solve time:  43 seconds.
+      De-embedding time for 2016Mar29_Resonators_Masked_R9_top box wall:
+        SOC Electric Wall Std: 0.477 seconds.
+        SOC Magnetic Wall Std: 0.407 seconds.
+        Total:                 0.884 seconds.
+      De-embedding time for 2016Mar29_Resonators_Masked_R9_bottom box wall:
+        SOC Electric Wall Std: 0.430 seconds.
+        SOC Magnetic Wall Std: 0.421 seconds.
+        Total:                 0.851 seconds.
+      Total time per frequency:  1 minute 2 seconds.
+
+    Frequency:  6.5 GHZ
+      Total time per frequency:  1 minute 1 second.
+      ABS: SNR = 47.4217 dB (120 dB Goal) for S1_2 at 5.982 GHz.
+      ABS: Time = 0.286 seconds.
+
+    Frequency:  5.982 GHZ
+      Total time per frequency:  1 minute 1 second.
+      ABS: SNR = 112.173 dB (120 dB Goal) for S1_2 at 5.984 GHz.
+      ABS: Time = 0.298 seconds.
+
+    Frequency:  5.984 GHZ
+      Total time per frequency:  1 minute 1 second.
+      ABS: SNR = 164.286 dB (120 dB Goal) for S1_2 at 6.368 GHz.
+      ABS: Time = 0.324 seconds.
+
+      ABS: Detected 1 resonance(s) on iteration 1:
+        Resonance 1:  FreqMin = 5.92  FreqCenter = 5.984  FreqMax = 6.048 GHz
+
+      ABS: Detected 1 resonance(s) on iteration 2:
+        Resonance 1:  FreqMin = 5.92042809364548  FreqCenter = 5.98335785953177  FreqMax = 6.04628762541806 GHz
+
+      ABS: Detected 1 resonance(s) on iteration 3:
+        Resonance 1:  FreqMin = 5.92054138894002  FreqCenter = 5.98341138684832  FreqMax = 6.046 GHz
+
+      ABS: Detected 1 resonance(s) on iteration 4:
+        Resonance 1:  FreqMin = 5.92  FreqCenter = 5.9834210801316  FreqMax = 6.046 GHz
+
+    Frequency:  5.9834210801316 GHZ
+      Total time per frequency:  1 minute 4 seconds.
+      ABS: SNR = 20.9657 dB (50 dB Goal) for S2_2 at 5.98341 GHz.
+      ABS: Time = 0.948 seconds.
+
+      ABS: Detected 1 resonance(s) on iteration 5:
+        Resonance 1:  FreqMin = 5.92  FreqCenter = 5.98341138684832  FreqMax = 6.046 GHz
+
+      ABS: Detected 1 resonance(s) on iteration 6:
+        Resonance 1:  FreqMin = 5.92  FreqCenter = 5.98341579526743  FreqMax = 6.048 GHz
+
+    Post-Analysis:
+      Total time for 5 frequencies:  5 minutes 14 seconds.
+
+Analysis completed Tue Apr 05 02:50:41 2016.

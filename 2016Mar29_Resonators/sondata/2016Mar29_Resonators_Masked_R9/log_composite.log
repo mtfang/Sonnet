@@ -1,0 +1,125 @@
+Run 1:  Tue Apr 05 02:45:27 2016.  calt2.2.43068.
+        Em version 16.52 (64-bit Windows) on DESKTOP-MOCDKPP remote.
+
+  Project:  C:\Users\Michael\Dropbox\GitHub\PainterQubits\devMichael\AutoCAD\gdspy\2016Mar29_Resonators_Masked_R9.son.
+
+    Frequency:  5.8 GHZ
+      Subsectioning at 6.5 GHz with Eeff of 6.45.
+      Subsectioning time:  1 second.
+      De-embedding information for 2016Mar29_Resonators_Masked_R9_top box wall port(s):
+        2016Mar29_Resonators_Masked_R9_top SOC Electric Wall: 515 microns length, 438 subsections, 10 MB.
+        2016Mar29_Resonators_Masked_R9_top SOC Magnetic Wall: 1030 microns length, 420 subsections, 10 MB.
+      De-embedding information for 2016Mar29_Resonators_Masked_R9_bottom box wall port(s):
+        2016Mar29_Resonators_Masked_R9_bottom SOC Electric Wall: 515 microns length, 438 subsections, 10 MB.
+        2016Mar29_Resonators_Masked_R9_bottom SOC Magnetic Wall: 1030 microns length, 420 subsections, 10 MB.
+      Em license feature:  emhighperformance.
+      Circuit requires 12352 subsections and 1201 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  12,352
+
+      Required memory by type:
+        System matrix:            1,164 MB
+        Elemental subsections:
+          Primary structure:      9 MB
+          2016Mar29_Res standard: 10 MB
+          2016Mar29_Res standard: 10 MB
+        Fourier transform:        2 MB
+        Waveguide mode:           1 MB
+        Adaptive band synthesis:  3 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    1,201 MB
+
+      Matrix solver:  internal 64-bit SSE with loss.
+      Simulation mode:  remote em transfer.
+      Threads:  using 12 thread(s), 12 core(s) available.
+      Waveguide mode time:  0.030 seconds.
+      Fourier transform time:  0.070 seconds.
+      Coupling time:  16 seconds.
+      Loss time:  0 seconds.
+      Matrix fill time:  16 seconds.
+      Matrix solve time:  43 seconds.
+      De-embedding time for 2016Mar29_Resonators_Masked_R9_top box wall:
+        SOC Electric Wall Std: 0.477 seconds.
+        SOC Magnetic Wall Std: 0.407 seconds.
+        Total:                 0.884 seconds.
+      De-embedding time for 2016Mar29_Resonators_Masked_R9_bottom box wall:
+        SOC Electric Wall Std: 0.430 seconds.
+        SOC Magnetic Wall Std: 0.421 seconds.
+        Total:                 0.851 seconds.
+      Frequency completed Tue Apr 05 02:46:31 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        5.80000000 0.014933 71.308 0.999888 -18.50 0.999888 -18.50 0.014933 71.704
+        !< P1 F=5.8 Eeff=(6.44998103 -2.9749e-5) Z0=(52.3385014 1.20709e-4) R=0.05515645 C=0.00229461 
+        !< P2 F=5.8 Eeff=(6.45001062 -2.9749e-5) Z0=(52.3415919 1.20715e-4) R=0.055121 C=0.00229608 
+      Total time per frequency:  1 minute 2 seconds.
+
+    Frequency:  6.5 GHZ
+      Frequency completed Tue Apr 05 02:47:32 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        6.50000000 0.016687 69.034 0.999860 -20.73 0.999860 -20.73 0.016687 69.518
+        !< P1 F=6.5 Eeff=(6.44992986 -2.9748e-5) Z0=(52.3381967 1.2071e-4) R=0.04921264 C=0.00229461 
+        !< P2 F=6.5 Eeff=(6.44995963 -2.9748e-5) Z0=(52.341287 1.20717e-4) R=0.04918103 C=0.00229607 
+      Total time per frequency:  1 minute 1 second.
+      ABS: SNR = 47.4217 dB (120 dB Goal) for S1_2 at 5.982 GHz.
+      ABS: Time = 0.286 seconds.
+
+    Frequency:  5.982 GHZ
+      Frequency completed Tue Apr 05 02:48:34 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        5.98200000 0.012732 72.764 0.999892 -19.23 0.999892 -19.23 0.012721 69.012
+        !< P1 F=5.982 Eeff=(6.44996828 -2.9748e-5) Z0=(52.3384255 1.20709e-4) R=0.05347577 C=0.00229461 
+        !< P2 F=5.982 Eeff=(6.44999792 -2.9749e-5) Z0=(52.341516 1.20716e-4) R=0.0534417 C=0.00229608 
+      Total time per frequency:  1 minute 1 second.
+      ABS: SNR = 112.173 dB (120 dB Goal) for S1_2 at 5.984 GHz.
+      ABS: Time = 0.298 seconds.
+
+    Frequency:  5.984 GHZ
+      Frequency completed Tue Apr 05 02:49:35 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        5.98400000 0.022011 68.533 0.999599 -18.70 0.999599 -18.70 0.021973 74.887
+        !< P1 F=5.984 Eeff=(6.44996813 -2.9748e-5) Z0=(52.3384246 1.20709e-4) R=0.05345977 C=0.00229461 
+        !< P2 F=5.984 Eeff=(6.44999776 -2.9748e-5) Z0=(52.3415151 1.20716e-4) R=0.05342575 C=0.00229608 
+      Total time per frequency:  1 minute 1 second.
+      ABS: SNR = 164.286 dB (120 dB Goal) for S1_2 at 6.368 GHz.
+      ABS: Time = 0.324 seconds.
+
+      ABS: Detected 1 resonance(s) on iteration 1:
+        Resonance 1:  FreqMin = 5.92  FreqCenter = 5.984  FreqMax = 6.048 GHz
+
+      ABS: Detected 1 resonance(s) on iteration 2:
+        Resonance 1:  FreqMin = 5.92042809364548  FreqCenter = 5.98335785953177  FreqMax = 6.04628762541806 GHz
+
+      ABS: Detected 1 resonance(s) on iteration 3:
+        Resonance 1:  FreqMin = 5.92054138894002  FreqCenter = 5.98341138684832  FreqMax = 6.046 GHz
+
+      ABS: Detected 1 resonance(s) on iteration 4:
+        Resonance 1:  FreqMin = 5.92  FreqCenter = 5.9834210801316  FreqMax = 6.046 GHz
+
+    Frequency:  5.9834210801316 GHZ
+      Frequency completed Tue Apr 05 02:50:39 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        5.98342108 0.221517 140.86 0.784157 -17.37 0.784157 -17.37 0.217483 160.71
+        !< P1 F=5.98342108 Eeff=(6.44996817 -2.9748e-5) Z0=(52.3384248 1.20709e-4) R=0.05346525 C=0.00229461 
+        !< P2 F=5.98342108 Eeff=(6.4499978 -2.9748e-5) Z0=(52.3415153 1.20716e-4) R=0.05343036 C=0.00229608 
+      Total time per frequency:  1 minute 4 seconds.
+      ABS: SNR = 20.9657 dB (50 dB Goal) for S2_2 at 5.98341 GHz.
+      ABS: Time = 0.948 seconds.
+
+      ABS: Detected 1 resonance(s) on iteration 5:
+        Resonance 1:  FreqMin = 5.92  FreqCenter = 5.98341138684832  FreqMax = 6.046 GHz
+
+      ABS: Detected 1 resonance(s) on iteration 6:
+        Resonance 1:  FreqMin = 5.92  FreqCenter = 5.98341579526743  FreqMax = 6.048 GHz
+
+    Post-Analysis:
+      Total time for 5 frequencies:  5 minutes 14 seconds.
+      Errors detected: 0    Warnings detected: 0.
+
+Analysis completed Tue Apr 05 02:50:41 2016.

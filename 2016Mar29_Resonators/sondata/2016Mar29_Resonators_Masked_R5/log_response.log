@@ -1,0 +1,38 @@
+Run 1:  Tue Apr 05 03:10:49 2016.  calt2.2.43068.
+        Em version 16.52 (64-bit Windows) on DESKTOP-MOCDKPP remote.
+
+  Project:  C:\Users\Michael\Dropbox\GitHub\PainterQubits\devMichael\AutoCAD\gdspy\2016Mar29_Resonators_Masked_R5.son.
+
+    Frequency:  5.9 GHZ
+      Frequency completed Tue Apr 05 03:15:55 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        5.90000000 0.052814 -108.2 0.998604 -18.23 0.998604 -18.23 0.052814 -108.2
+        !< P1 F=5.9 Eeff=(6.44971706 -2.9747e-5) Z0=(42.1577156 9.72304e-5) R=0.04166268 C=0.00298645 
+        !< P2 F=5.9 Eeff=(6.44971706 -2.9747e-5) Z0=(42.1577156 9.72304e-5) R=0.04166268 C=0.00298645 
+
+    Frequency:  6.2 GHZ
+      Frequency completed Tue Apr 05 03:20:53 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        6.20000000 0.055308 -109.1 0.998468 -19.15 0.998468 -19.15 0.055308 -109.2
+        !< P1 F=6.2 Eeff=(6.44967987 -2.9746e-5) Z0=(42.1575692 9.72309e-5) R=0.03964489 C=0.00298645 
+        !< P2 F=6.2 Eeff=(6.44967987 -2.9746e-5) Z0=(42.1575692 9.72309e-5) R=0.03964489 C=0.00298645 
+
+    Frequency:  5.966 GHZ
+      Frequency completed Tue Apr 05 03:25:53 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        5.96600000 0.044533 -106.7 0.998769 -17.92 0.998769 -17.92 0.044606 -109.7
+        !< P1 F=5.966 Eeff=(6.44970895 -2.9747e-5) Z0=(42.1576837 9.72304e-5) R=0.04119936 C=0.00298645 
+        !< P2 F=5.966 Eeff=(6.44970895 -2.9747e-5) Z0=(42.1576837 9.72304e-5) R=0.04119936 C=0.00298645 
+
+    Frequency:  5.96548821102667 GHZ
+      Frequency completed Tue Apr 05 03:30:54 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        5.96548821 0.235210 154.72 0.759824 -14.63 0.759824 -14.63 0.245667 169.67
+        !< P1 F=5.96548821 Eeff=(6.44970909 -2.9746e-5) Z0=(42.1576842 9.72304e-5) R=0.04120284 C=0.00298645 
+        !< P2 F=5.96548821 Eeff=(6.44970909 -2.9746e-5) Z0=(42.1576842 9.72304e-5) R=0.04120284 C=0.00298645 
+
+Analysis completed Tue Apr 05 03:30:55 2016.
