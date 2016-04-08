@@ -1,0 +1,54 @@
+Run 1:  Thu Apr 07 18:20:15 2016.  calt2.2.43068.
+        Em version 16.52 (64-bit Windows) on DESKTOP-MOCDKPP remote.
+
+  Project:  C:\Users\Michael\Dropbox\GitHub\PainterQubits\devMichael\AutoCAD\gdspy\2016Mar29_Resonators_Masked_R7_Feedline_Capacitance.son.
+
+    Frequency:  5.9 GHZ
+      Frequency completed Thu Apr 07 18:25:33 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        5.90000000 0.065337 107.31 0.997861 -58.13 0.997861 -58.13 0.065333 -43.56
+        !< P1 F=5.9 Eeff=(6.44953434 -2.9745e-5) Z0=(61.8754898 1.42712e-4) R=0.06648787 C=0.00187121 
+        !< P2 F=5.9 Eeff=(6.44866303 -2.9737e-5) Z0=(45.9628666 1.06025e-4) R=0.04921539 C=0.00252824 
+
+    Frequency:  6.2 GHZ
+      Frequency completed Thu Apr 07 18:30:43 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        6.20000000 0.070997 105.61 0.997474 -61.08 0.997474 -61.08 0.070993 -47.78
+        !< P1 F=6.2 Eeff=(6.44947591 -2.9744e-5) Z0=(61.8751573 1.42713e-4) R=0.06326645 C=0.00187121 
+        !< P2 F=6.2 Eeff=(6.44851326 -2.9735e-5) Z0=(45.9622858 1.06026e-4) R=0.04683098 C=0.00252823 
+
+    Frequency:  6.058 GHZ
+      Frequency completed Thu Apr 07 18:35:55 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        6.05800000 0.067599 103.10 0.997677 -59.44 0.997677 -59.44 0.067526 -41.99
+        !< P1 F=6.058 Eeff=(6.44950397 -2.9745e-5) Z0=(61.875317 1.42712e-4) R=0.06475273 C=0.00187121 
+        !< P2 F=6.058 Eeff=(6.44858505 -2.9736e-5) Z0=(45.9625645 1.06026e-4) R=0.04793446 C=0.00252824 
+
+    Frequency:  6.056 GHZ
+      Frequency completed Thu Apr 07 18:41:06 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        6.05600000 0.077989 122.85 0.995865 -61.08 0.995865 -61.08 0.075969 -65.87
+        !< P1 F=6.056 Eeff=(6.44950432 -2.9745e-5) Z0=(61.875319 1.42712e-4) R=0.0647774 C=0.00187121 
+        !< P2 F=6.056 Eeff=(6.44858606 -2.9736e-5) Z0=(45.9625682 1.06025e-4) R=0.04794397 C=0.00252824 
+
+    Frequency:  6.05629652948886 GHZ
+      Frequency completed Thu Apr 07 18:46:24 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        6.05629653 0.386887 94.625 0.655670 -58.28 0.655670 -58.28 0.299048 145.25
+        !< P1 F=6.05629653 Eeff=(6.44950426 -2.9745e-5) Z0=(61.8753187 1.42712e-4) R=0.06477562 C=0.00187121 
+        !< P2 F=6.05629653 Eeff=(6.4485859 -2.9736e-5) Z0=(45.9625677 1.06026e-4) R=0.04793461 C=0.00252824 
+
+Analysis completed Thu Apr 07 18:46:28 2016.
+
+
+Run 2:  Thu Apr 07 19:34:48 2016.  calt2.2.43068.
+        Em version 16.52 (64-bit Windows) on DESKTOP-MOCDKPP remote.
+
+  Project:  C:\Users\Michael\Documents\Github\Sonnet\2016Mar29_Resonators\2016Mar29_Resonators_Masked_R7_Feedline_Capacitance.son.
+
+Analysis completed Thu Apr 07 19:34:48 2016.
