@@ -1,0 +1,247 @@
+Run 1:  Mon Apr 11 16:10:34 2016.  calt2.2.43068.
+        Em version 16.52 (64-bit Windows) on DESKTOP-MOCDKPP remote.
+
+  Project:  C:\Users\Michael\Documents\Github\Sonnet\Qubit\FirstTests\TransmonXmon.son.
+
+    Frequency:  3 GHZ
+      Subsectioning at 9 GHz with Eeff of 6.45.
+      Subsectioning time:  1 second.
+      De-embedding information for TransmonXmon_left box wall port(s):
+        TransmonXmon_left SOC Electric Wall: 500 microns length, 438 subsections, 8 MB.
+        TransmonXmon_left SOC Magnetic Wall: 1000 microns length, 420 subsections, 8 MB.
+      De-embedding information for TransmonXmon_right box wall port(s):
+        TransmonXmon_right SOC Electric Wall: 500 microns length, 602 subsections, 9 MB.
+        TransmonXmon_right SOC Magnetic Wall: 1000 microns length, 576 subsections, 9 MB.
+      De-embedding information for component Lq:
+        Main Std: X=1000 microns Y=820 microns box size, 27 subsections, 3 MB.
+      Em license feature:  emhighperformance.
+      Circuit requires 1985 subsections and 56 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  1,985
+
+      Required memory by type:
+        System matrix:            30 MB
+        Elemental subsections:
+          Primary structure:      7 MB
+          TransmonXmon_ standard: 7 MB
+          TransmonXmon_ standard: 7 MB
+          CciLq standard:         0 MB
+        Fourier transform:        1 MB
+        Waveguide mode:           1 MB
+        Adaptive band synthesis:  2 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    56 MB
+
+      Matrix solver:  internal 64-bit SSE with loss.
+      Simulation mode:  remote em transfer.
+      Threads:  using 12 thread(s), 12 core(s) available.
+      Waveguide mode time:  0.030 seconds.
+      Fourier transform time:  0.078 seconds.
+      Coupling time:  2 seconds.
+      Loss time:  0 seconds.
+      Matrix fill time:  2 seconds.
+      Matrix solve time:  0.307 seconds.
+      De-embedding time for TransmonXmon_left box wall:
+        SOC Electric Wall Std: 0.371 seconds.
+        SOC Magnetic Wall Std: 0.333 seconds.
+        Total:                 0.704 seconds.
+      De-embedding time for TransmonXmon_right box wall:
+        SOC Electric Wall Std: 0.464 seconds.
+        SOC Magnetic Wall Std: 0.443 seconds.
+        Total:                 0.907 seconds.
+      De-embedding time for component Lq:
+        Total: 0.268 seconds.
+      Total time per frequency:  5 seconds.
+
+    Frequency:  9 GHZ
+      ABS: SNR = 36.8644 dB (120 dB Goal) for S1_2 at 5.98 GHz.
+      ABS: Time = 0.146 seconds.
+
+    Frequency:  5.98 GHZ
+      ABS: SNR = 71.8464 dB (120 dB Goal) for S1_2 at 4.34 GHz.
+      ABS: Time = 0.127 seconds.
+
+    Frequency:  4.34 GHZ
+      ABS: SNR = 117.223 dB (120 dB Goal) for S1_2 at 8.04 GHz.
+      ABS: Time = 0.145 seconds.
+
+    Frequency:  8.04 GHZ
+      ABS: Q-factor. Diff = 0 (19532.6 Tol) for port 1 at -1e-009 GHz.
+      ABS: SNR = 158.268 dB (120 dB Goal) for S1_2 at 3.5 GHz.
+      ABS: Time = 0.154 seconds.
+      ABS: Q-factor. Diff = 0 (19532.6 Tol) for port 1 at -1e-009 GHz.
+      ABS: SNR = 158.268 dB (120 dB Goal) for S1_2 at 3.5 GHz.
+      ABS: Time = 0.171 seconds.
+
+    Post-Analysis:
+      Total time for 5 frequencies:  26 seconds.
+
+Analysis completed Mon Apr 11 16:11:00 2016.
+
+
+Run 2:  Mon Apr 11 16:11:43 2016.  calt2.2.43068.
+        Em version 16.52 (64-bit Windows) on DESKTOP-MOCDKPP remote.
+
+  Project:  C:\Users\Michael\Documents\Github\Sonnet\Qubit\FirstTests\TransmonXmon.son.
+
+    Frequency:  3 GHZ
+      Subsectioning at 20 GHz with Eeff of 6.45.
+      Subsectioning time:  0.973 seconds.
+      De-embedding information for TransmonXmon_left box wall port(s):
+        TransmonXmon_left SOC Electric Wall: 500 microns length, 488 subsections, 8 MB.
+        TransmonXmon_left SOC Magnetic Wall: 1000 microns length, 468 subsections, 8 MB.
+      De-embedding information for TransmonXmon_right box wall port(s):
+        TransmonXmon_right SOC Electric Wall: 500 microns length, 652 subsections, 9 MB.
+        TransmonXmon_right SOC Magnetic Wall: 1000 microns length, 624 subsections, 9 MB.
+      De-embedding information for component Lq:
+        Main Std: X=1000 microns Y=820 microns box size, 27 subsections, 3 MB.
+      Em license feature:  emhighperformance.
+      Circuit requires 2091 subsections and 59 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  2,091
+
+      Required memory by type:
+        System matrix:            33 MB
+        Elemental subsections:
+          Primary structure:      7 MB
+          TransmonXmon_ standard: 7 MB
+          TransmonXmon_ standard: 7 MB
+          CciLq standard:         0 MB
+        Fourier transform:        1 MB
+        Waveguide mode:           1 MB
+        Adaptive band synthesis:  1 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    59 MB
+
+      Matrix solver:  internal 64-bit SSE with loss.
+      Simulation mode:  remote em transfer.
+      Threads:  using 12 thread(s), 12 core(s) available.
+      Waveguide mode time:  0.034 seconds.
+      Fourier transform time:  0.043 seconds.
+      Coupling time:  2 seconds.
+      Loss time:  0 seconds.
+      Matrix fill time:  2 seconds.
+      Matrix solve time:  0.360 seconds.
+      De-embedding time for TransmonXmon_left box wall:
+        SOC Electric Wall Std: 0.380 seconds.
+        SOC Magnetic Wall Std: 0.338 seconds.
+        Total:                 0.718 seconds.
+      De-embedding time for TransmonXmon_right box wall:
+        SOC Electric Wall Std: 0.542 seconds.
+        SOC Magnetic Wall Std: 0.435 seconds.
+        Total:                 0.977 seconds.
+      De-embedding time for component Lq:
+        Total: 0.306 seconds.
+      Total time per frequency:  5 seconds.
+
+    Frequency:  20 GHZ
+      ABS: Energy conservation for port 1 at 9.9 GHz.
+      ABS: Time = 0.070 seconds.
+
+    Frequency:  9.9 GHZ
+      ABS: SNR = 46.6309 dB (107.394 dB Goal) for S1_2 at 15.45 GHz.
+      ABS: Time = 0.080 seconds.
+
+    Frequency:  15.45 GHZ
+      ABS: SNR = 83.3819 dB (107.394 dB Goal) for S1_2 at 5.75 GHz.
+      ABS: Time = 0.105 seconds.
+
+    Frequency:  5.75 GHZ
+      ABS: SNR = 106.653 dB (107.394 dB Goal) for S1_2 at 18.25 GHz.
+      ABS: Time = 0.140 seconds.
+
+    Frequency:  18.25 GHZ
+      ABS: Q-factor. Diff = 0 (21466.8 Tol) for port 1 at -1e-009 GHz.
+      ABS: SNR = 68.6496 dB (40 dB Goal) for S1_4 at 3.85 GHz.
+      ABS: Time = 0.194 seconds.
+      ABS: Q-factor. Diff = 0 (21466.8 Tol) for port 1 at -1e-009 GHz.
+      ABS: SNR = 68.6496 dB (40 dB Goal) for S1_4 at 3.85 GHz.
+      ABS: Time = 0.159 seconds.
+
+    Post-Analysis:
+      Total time for 6 frequencies:  31 seconds.
+
+Analysis completed Mon Apr 11 16:12:15 2016.
+
+
+Run 3:  Mon Apr 11 18:57:13 2016.  calt2.2.43068.
+        Em version 16.52 (64-bit Windows) on DESKTOP-MOCDKPP remote.
+
+  Project:  C:\Users\Michael\Documents\Github\Sonnet\Qubit\FirstTests\TransmonXmon.son.
+
+    Frequency:  4.5 GHZ
+      Subsectioning at 20 GHz with Eeff of 6.45.
+      Subsectioning time:  1 second.
+      De-embedding information for TransmonXmon_left box wall port(s):
+        TransmonXmon_left SOC Electric Wall: 500 microns length, 488 subsections, 8 MB.
+        TransmonXmon_left SOC Magnetic Wall: 1000 microns length, 468 subsections, 8 MB.
+      De-embedding information for TransmonXmon_right box wall port(s):
+        TransmonXmon_right SOC Electric Wall: 500 microns length, 652 subsections, 9 MB.
+        TransmonXmon_right SOC Magnetic Wall: 1000 microns length, 624 subsections, 9 MB.
+      De-embedding information for component Lq:
+        Main Std: X=1000 microns Y=820 microns box size, 27 subsections, 3 MB.
+      Em license feature:  emhighperformance.
+      Circuit requires 2091 subsections and 59 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  2,091
+
+      Required memory by type:
+        System matrix:            33 MB
+        Elemental subsections:
+          Primary structure:      7 MB
+          TransmonXmon_ standard: 7 MB
+          TransmonXmon_ standard: 7 MB
+          CciLq standard:         0 MB
+        Fourier transform:        1 MB
+        Waveguide mode:           1 MB
+        Adaptive band synthesis:  1 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    59 MB
+
+      Matrix solver:  internal 64-bit SSE with loss.
+      Simulation mode:  remote em transfer.
+      Threads:  using 12 thread(s), 12 core(s) available.
+      Waveguide mode time:  0.040 seconds.
+      Fourier transform time:  0.057 seconds.
+      Coupling time:  2 seconds.
+      Loss time:  0 seconds.
+      Matrix fill time:  2 seconds.
+      Matrix solve time:  0.387 seconds.
+      De-embedding time for TransmonXmon_left box wall:
+        SOC Electric Wall Std: 0.391 seconds.
+        SOC Magnetic Wall Std: 0.335 seconds.
+        Total:                 0.726 seconds.
+      De-embedding time for TransmonXmon_right box wall:
+        SOC Electric Wall Std: 0.478 seconds.
+        SOC Magnetic Wall Std: 0.448 seconds.
+        Total:                 0.926 seconds.
+      De-embedding time for component Lq:
+        Total: 0.164 seconds.
+      Total time per frequency:  5 seconds.
+
+    Frequency:  5.5 GHZ
+      ABS: SNR = 67.8572 dB (120 dB Goal) for S1_2 at 5 GHz.
+      ABS: Time = 0.050 seconds.
+
+    Frequency:  5 GHZ
+      ABS: SNR = 116.621 dB (120 dB Goal) for S1_2 at 5.29 GHz.
+      ABS: Time = 0.067 seconds.
+
+    Frequency:  5.29 GHZ
+      ABS: Q-factor. Diff = 0 (3233.9 Tol) for port 1 at -1e-009 GHz.
+      ABS: SNR = 181.33 dB (120 dB Goal) for S1_2 at 4.67 GHz.
+      ABS: Time = 0.077 seconds.
+      ABS: Q-factor. Diff = 0 (3233.9 Tol) for port 1 at -1e-009 GHz.
+      ABS: SNR = 181.33 dB (120 dB Goal) for S1_2 at 4.67 GHz.
+      ABS: Time = 0.053 seconds.
+
+    Post-Analysis:
+      Total time for 4 frequencies:  21 seconds.
+
+Analysis completed Mon Apr 11 18:57:34 2016.
