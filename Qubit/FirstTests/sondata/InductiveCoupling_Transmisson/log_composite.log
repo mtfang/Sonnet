@@ -1,0 +1,149 @@
+Run 1:  Fri Jul 08 12:44:30 2016.  calt2.2.43068.
+        Em version 16.52 (64-bit Windows) on DESKTOP-MOCDKPP remote.
+
+  Project:  C:\Users\Michael\Documents\Github\Sonnet\Qubit\FirstTests\InductiveCoupling_Transmisson.son.
+
+    Frequency:  1 GHZ
+      Subsectioning at 20 GHz with Eeff of 6.45.
+      Subsectioning time:  0.160 seconds.
+      De-embedding information for InductiveCoupling_Transmisson_left box wall port(s):
+        InductiveCoupling_Transmisson_left SOC Electric Wall: 500 microns length, 363 subsections, 5 MB.
+        InductiveCoupling_Transmisson_left SOC Magnetic Wall: 1000 microns length, 348 subsections, 5 MB.
+      De-embedding information for InductiveCoupling_Transmisson_right box wall port(s):
+        InductiveCoupling_Transmisson_right SOC Electric Wall: 500 microns length, 363 subsections, 5 MB.
+        InductiveCoupling_Transmisson_right SOC Magnetic Wall: 1000 microns length, 348 subsections, 5 MB.
+      Em license feature:  emhighperformance.
+      Circuit requires 3219 subsections and 95 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  3,219
+
+      Required memory by type:
+        System matrix:            79 MB
+        Elemental subsections:
+          Primary structure:      3 MB
+          InductiveCoup standard: 3 MB
+          InductiveCoup standard: 3 MB
+        Fourier transform:        1 MB
+        Waveguide mode:           1 MB
+        Adaptive band synthesis:  3 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    95 MB
+
+      Matrix solver:  internal 64-bit SSE with loss.
+      Simulation mode:  remote em transfer.
+      Threads:  using 12 thread(s), 12 core(s) available.
+      Waveguide mode time:  0.020 seconds.
+      Fourier transform time:  0.030 seconds.
+      Coupling time:  2 seconds.
+      Loss time:  0 seconds.
+      Matrix fill time:  2 seconds.
+      Matrix solve time:  1 second.
+      De-embedding time for InductiveCoupling_Transmisson_left box wall:
+        SOC Electric Wall Std: 0.140 seconds.
+        SOC Magnetic Wall Std: 0.150 seconds.
+        Total:                 0.290 seconds.
+      Frequency completed Fri Jul 08 12:44:34 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        1.00000000 2.731e-4 91.041 1.000000 -3.081 1.000000 -3.081 2.731e-4 82.850
+        !< P1 F=1.0 Eeff=(6.45000303 -2.9751e-5) Z0=(49.613926 1.14421e-4) R=0.1693221 C=0.00433511 
+        !< P2 F=1.0 Eeff=(6.45000303 -2.9751e-5) Z0=(49.613926 1.14421e-4) R=0.1693221 C=0.00433511 
+      Total time per frequency:  4 seconds.
+
+    Frequency:  20 GHZ
+      Frequency completed Fri Jul 08 12:44:37 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        20.0000000 0.007710 62.617 0.999968 -61.56 0.999968 -61.56 0.007708 -5.722
+        !< P1 F=20.0 Eeff=(6.44700122 -2.972e-5) Z0=(49.5943512 1.14468e-4) R=0.00846409 C=0.00433466 
+        !< P2 F=20.0 Eeff=(6.44700122 -2.972e-5) Z0=(49.5943512 1.14468e-4) R=0.00846409 C=0.00433466 
+      ABS: Energy conservation for port 2 at 17.4 GHz.
+      ABS: Time = 0.240 seconds.
+
+    Frequency:  17.4 GHZ
+      Frequency completed Fri Jul 08 12:44:41 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        17.4000000 0.005232 58.941 0.999984 -53.48 0.999984 -53.48 0.005230 14.134
+        !< P1 F=17.4 Eeff=(6.44773224 -2.9725e-5) Z0=(49.5992069 1.14454e-4) R=0.00972982 C=0.00433477 
+        !< P2 F=17.4 Eeff=(6.44773224 -2.9725e-5) Z0=(49.5992069 1.14454e-4) R=0.00972982 C=0.00433477 
+      ABS: Energy conservation for port 2 at 13.3 GHz.
+      ABS: Time = 0.220 seconds.
+
+    Frequency:  13.3 GHZ
+      Frequency completed Fri Jul 08 12:44:45 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        13.3000000 0.003932 -1.382 0.999991 -40.64 0.999991 -40.64 0.003934 100.12
+        !< P1 F=13.3 Eeff=(6.44867903 -2.9732e-5) Z0=(49.6054096 1.14433e-4) R=0.01274218 C=0.00433491 
+        !< P2 F=13.3 Eeff=(6.44867903 -2.9732e-5) Z0=(49.6054096 1.14433e-4) R=0.01274218 C=0.00433491 
+      ABS: SNR = 4.50459 dB (120 dB Goal) for S1_2 at 11.8 GHz.
+      ABS: Time = 0.260 seconds.
+
+    Frequency:  11.8 GHZ
+      Frequency completed Fri Jul 08 12:44:49 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        11.8000000 0.076220 -43.28 0.997066 -31.83 0.997066 -31.83 0.076221 159.66
+        !< P1 F=11.8 Eeff=(6.44896234 -2.9737e-5) Z0=(49.6072472 1.14429e-4) R=0.01435171 C=0.00433495 
+        !< P2 F=11.8 Eeff=(6.44896234 -2.9737e-5) Z0=(49.6072472 1.14429e-4) R=0.01435171 C=0.00433495 
+      ABS: SNR = 29.0038 dB (105.912 dB Goal) for S1_2 at 11.7 GHz.
+      ABS: Time = 0.340 seconds.
+
+    Frequency:  11.7 GHZ
+      Frequency completed Fri Jul 08 12:44:53 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        11.7000000 0.598924 93.389 0.799101 -72.68 0.799101 -72.68 0.598908 -59.08
+        !< P1 F=11.7 Eeff=(6.44898003 -2.9737e-5) Z0=(49.6073616 1.14433e-4) R=0.01447419 C=0.00433496 
+        !< P2 F=11.7 Eeff=(6.44898003 -2.9737e-5) Z0=(49.6073616 1.14433e-4) R=0.01447419 C=0.00433496 
+      ABS: SNR = 33.5299 dB (40 dB Goal) for S2_2 at 2.25 GHz.
+      ABS: Time = 0.380 seconds.
+
+    Frequency:  2.25 GHZ
+      Frequency completed Fri Jul 08 12:44:57 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        2.25000000 6.236e-4 92.341 1.000000 -6.932 1.000000 -6.932 6.235e-4 73.845
+        !< P1 F=2.25 Eeff=(6.44997245 -2.9749e-5) Z0=(49.6137313 1.1442e-4) R=0.07526376 C=0.00433511 
+        !< P2 F=2.25 Eeff=(6.44997245 -2.9749e-5) Z0=(49.6137313 1.1442e-4) R=0.07526376 C=0.00433511 
+      ABS: Q-factor. Diff = 0 (223302 Tol) for port 1 at -1e-009 GHz.
+      ABS: SNR = 65.6544 dB (40 dB Goal) for S1_1 at 4.3 GHz.
+      ABS: Time = 0.441 seconds.
+
+      ABS: Detected 1 resonance(s) on iteration 1:
+        Resonance 1:  FreqMin = 10.9  FreqCenter = 11.7  FreqMax = 12.5 GHz
+
+      ABS: Detected 1 resonance(s) on iteration 2:
+        Resonance 1:  FreqMin = 10.91872909699  FreqCenter = 11.7107023411371  FreqMax = 12.5 GHz
+
+      ABS: Detected 1 resonance(s) on iteration 3:
+        Resonance 1:  FreqMin = 10.9206226515001  FreqCenter = 11.7093114876013  FreqMax = 12.5 GHz
+
+      ABS: Detected 1 resonance(s) on iteration 4:
+        Resonance 1:  FreqMin = 10.9125340459275  FreqCenter = 11.7094339438654  FreqMax = 12.5 GHz
+
+    Frequency:  11.7094339438654 GHZ
+      Frequency completed Fri Jul 08 12:45:05 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        11.7094339 0.996195 40.474 0.003926 -22.29 0.003926 -22.29 0.996170 -112.4
+        !< P1 F=11.7094339 Eeff=(6.44897837 -2.9738e-5) Z0=(49.6073509 1.14428e-4) R=0.01446488 C=0.00433496 
+        !< P2 F=11.7094339 Eeff=(6.44897837 -2.9738e-5) Z0=(49.6073509 1.14428e-4) R=0.01446488 C=0.00433496 
+      ABS: Q-factor. Diff = 0 (223303 Tol) for port 1 at -1e-009 GHz.
+      ABS: SNR = 61.2389 dB (40 dB Goal) for S1_2 at 11.7093 GHz.
+      ABS: Time = 1 second.
+
+      ABS: Detected 1 resonance(s) on iteration 5:
+        Resonance 1:  FreqMin = 10.9125340459275  FreqCenter = 11.7094339438654  FreqMax = 12.5 GHz
+
+      ABS: Detected 1 resonance(s) on iteration 6:
+        Resonance 1:  FreqMin = 10.9185653357981  FreqCenter = 11.7094339438654  FreqMax = 12.5 GHz
+
+    Post-Analysis:
+      Total time for 8 frequencies:  37 seconds.
+      Errors detected: 0    Warnings detected: 0.
+
+Analysis completed Fri Jul 08 12:45:07 2016.

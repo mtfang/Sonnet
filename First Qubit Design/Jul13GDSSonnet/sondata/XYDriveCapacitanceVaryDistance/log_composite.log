@@ -1,0 +1,474 @@
+Run 1:  Wed Jul 13 19:05:07 2016.  calt2.2.43068.
+        Em version 16.52 (64-bit Windows) on DESKTOP-MOCDKPP remote.
+
+  Project:  C:\Users\Michael\Desktop\Sonnet Qubit Designs\Jul13GDSSonnet\XYDriveCapacitanceVaryDistance.son.
+
+  Parameter combination: 1 of 5.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        groundDistance = 50.0
+      Subsectioning at 0.1 GHz with Eeff of 6.45.
+      Subsectioning time:  25 seconds.
+      De-embedding information for XYDriveCapacitanceVaryDistance_left box wall port(s):
+        XYDriveCapacitanceVaryDistance_left SOC Electric Wall: 200 microns length, 1117 subsections, 77 MB.
+        XYDriveCapacitanceVaryDistance_left SOC Magnetic Wall: 400 microns length, 1078 subsections, 76 MB.
+      Em license feature:  emhighperformance.
+      Circuit requires 4432 subsections and 1009 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  4,408
+      Ground Plane:
+        Via:        24
+
+      Required memory by type:
+        System matrix:            150 MB
+        Elemental subsections:
+          Primary structure:      661 MB
+          XYDriveCapaci standard: 105 MB
+        Fourier transform:        85 MB
+        Waveguide mode:           8 MB
+        Adaptive band synthesis:  0 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    1,009 MB
+
+      Matrix solver:  internal 64-bit SSE with loss.
+      Simulation mode:  remote em transfer.
+      Threads:  using 12 thread(s), 12 core(s) available.
+      Waveguide mode time:  0.200 seconds.
+      Fourier transform time:  6 seconds.
+      Coupling time:  7 minutes 56 seconds.
+      Loss time:  0 seconds.
+      Matrix fill time:  8 minutes 3 seconds.
+      Matrix solve time:  2 seconds.
+      De-embed autognd port 2:
+        Standard 1:  1500.0 microns, 216 subsections, about 817 MB.
+          Time:  3 seconds.
+        Autognd port 2 std 2:
+          1500 microns length, 193 subsections, 804 MB.
+          Time:  1 second.
+        Autognd port 2 std 3:
+          3000 microns length, 382 subsections, 835 MB.
+          Time:  3 seconds.
+      De-embedding time for XYDriveCapacitanceVaryDistance_left box wall:
+        SOC Electric Wall Std: 11 seconds.
+        SOC Magnetic Wall Std: 11 seconds.
+        Total:                 23 seconds.
+      Frequency completed Wed Jul 13 19:14:14 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        0.10000000 1.000000 -0.560 2.346e-6 89.593 2.346e-6 89.593 1.000000 -0.254
+        !< P1 F=0.1 Eeff=(undefined: sl) Z0=(undefined: sl) R=0.0 C=0.0 
+        !< P2 F=0.1 Eeff=(6.96987513 -4.2257e-4) Z0=(115.230762 -2.5124e-3) R=-5.8079932 C=0.00526354 
+        !< See "De-embedding Codes" in Help for more details on the "sl" code.
+      Total time per frequency:  8 minutes 41 seconds.
+
+  Parameter combination: 2 of 5.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        groundDistance = 75.0
+      Subsectioning at 0.1 GHz with Eeff of 6.45.
+      Subsectioning time:  24 seconds.
+      De-embedding information for XYDriveCapacitanceVaryDistance_left box wall port(s):
+        XYDriveCapacitanceVaryDistance_left SOC Electric Wall: 200 microns length, 1117 subsections, 77 MB.
+        XYDriveCapacitanceVaryDistance_left SOC Magnetic Wall: 400 microns length, 1078 subsections, 76 MB.
+      Circuit requires 4460 subsections and 1011 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  4,436
+      Ground Plane:
+        Via:        24
+
+      Required memory by type:
+        System matrix:            152 MB
+        Elemental subsections:
+          Primary structure:      661 MB
+          XYDriveCapaci standard: 105 MB
+        Fourier transform:        85 MB
+        Waveguide mode:           8 MB
+        Adaptive band synthesis:  0 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    1,011 MB
+
+      Waveguide mode time:  0.190 seconds.
+      Fourier transform time:  6 seconds.
+      Coupling time:  8 minutes 1 second.
+      Loss time:  0 seconds.
+      Matrix fill time:  8 minutes 8 seconds.
+      Matrix solve time:  2 seconds.
+          Time:  3 seconds.
+        Autognd port 2 std 2:
+          1500 microns length, 193 subsections, 804 MB.
+          Time:  1 second.
+        Autognd port 2 std 3:
+          3000 microns length, 382 subsections, 835 MB.
+          Time:  3 seconds.
+      De-embedding time for XYDriveCapacitanceVaryDistance_left box wall:
+        SOC Electric Wall Std: 11 seconds.
+        SOC Magnetic Wall Std: 11 seconds.
+        Total:                 23 seconds.
+      Frequency completed Wed Jul 13 19:23:25 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        0.10000000 1.000000 -0.545 1.598e-6 89.601 1.598e-6 89.601 1.000000 -0.254
+        !< P1 F=0.1 Eeff=(undefined: sl) Z0=(undefined: sl) R=0.0 C=0.0 
+        !< P2 F=0.1 Eeff=(6.96987513 -4.2257e-4) Z0=(115.230762 -2.5124e-3) R=-5.8079932 C=0.00526354 
+        !< See "De-embedding Codes" in Help for more details on the "sl" code.
+      Total time per frequency:  9 minutes 10 seconds.
+
+  Parameter combination: 3 of 5.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        groundDistance = 100.0
+      Subsectioning at 0.1 GHz with Eeff of 6.45.
+      Subsectioning time:  25 seconds.
+      De-embedding information for XYDriveCapacitanceVaryDistance_left box wall port(s):
+        XYDriveCapacitanceVaryDistance_left SOC Electric Wall: 200 microns length, 1117 subsections, 77 MB.
+        XYDriveCapacitanceVaryDistance_left SOC Magnetic Wall: 400 microns length, 1078 subsections, 76 MB.
+      Circuit requires 4444 subsections and 1010 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  4,420
+      Ground Plane:
+        Via:        24
+
+      Required memory by type:
+        System matrix:            151 MB
+        Elemental subsections:
+          Primary structure:      661 MB
+          XYDriveCapaci standard: 105 MB
+        Fourier transform:        85 MB
+        Waveguide mode:           8 MB
+        Adaptive band synthesis:  0 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    1,010 MB
+
+      Waveguide mode time:  0.170 seconds.
+      Fourier transform time:  6 seconds.
+      Coupling time:  8 minutes 5 seconds.
+      Loss time:  0 seconds.
+      Matrix fill time:  8 minutes 11 seconds.
+      Matrix solve time:  2 seconds.
+          Time:  3 seconds.
+        Autognd port 2 std 2:
+          1500 microns length, 193 subsections, 804 MB.
+          Time:  1 second.
+        Autognd port 2 std 3:
+          3000 microns length, 382 subsections, 835 MB.
+          Time:  3 seconds.
+      De-embedding time for XYDriveCapacitanceVaryDistance_left box wall:
+        SOC Electric Wall Std: 11 seconds.
+        SOC Magnetic Wall Std: 11 seconds.
+        Total:                 23 seconds.
+      Frequency completed Wed Jul 13 19:32:40 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        0.10000000 1.000000 -0.530 1.144e-6 89.608 1.144e-6 89.608 1.000000 -0.254
+        !< P1 F=0.1 Eeff=(undefined: sl) Z0=(undefined: sl) R=0.0 C=0.0 
+        !< P2 F=0.1 Eeff=(6.96987513 -4.2257e-4) Z0=(115.230762 -2.5124e-3) R=-5.8079932 C=0.00526354 
+        !< See "De-embedding Codes" in Help for more details on the "sl" code.
+      Total time per frequency:  9 minutes 15 seconds.
+
+  Parameter combination: 4 of 5.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        groundDistance = 125.0
+      Subsectioning at 0.1 GHz with Eeff of 6.45.
+      Subsectioning time:  25 seconds.
+      De-embedding information for XYDriveCapacitanceVaryDistance_left box wall port(s):
+        XYDriveCapacitanceVaryDistance_left SOC Electric Wall: 200 microns length, 1117 subsections, 77 MB.
+        XYDriveCapacitanceVaryDistance_left SOC Magnetic Wall: 400 microns length, 1078 subsections, 76 MB.
+      Circuit requires 4449 subsections and 1010 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  4,425
+      Ground Plane:
+        Via:        24
+
+      Required memory by type:
+        System matrix:            151 MB
+        Elemental subsections:
+          Primary structure:      661 MB
+          XYDriveCapaci standard: 105 MB
+        Fourier transform:        85 MB
+        Waveguide mode:           8 MB
+        Adaptive band synthesis:  0 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    1,010 MB
+
+      Waveguide mode time:  0.180 seconds.
+      Fourier transform time:  6 seconds.
+      Coupling time:  8 minutes.
+      Loss time:  0 seconds.
+      Matrix fill time:  8 minutes 6 seconds.
+      Matrix solve time:  2 seconds.
+          Time:  3 seconds.
+        Autognd port 2 std 2:
+          1500 microns length, 193 subsections, 804 MB.
+          Time:  1 second.
+        Autognd port 2 std 3:
+          3000 microns length, 382 subsections, 835 MB.
+          Time:  3 seconds.
+      De-embedding time for XYDriveCapacitanceVaryDistance_left box wall:
+        SOC Electric Wall Std: 11 seconds.
+        SOC Magnetic Wall Std: 11 seconds.
+        Total:                 23 seconds.
+      Frequency completed Wed Jul 13 19:41:50 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        0.10000000 1.000000 -0.517 8.859e-7 89.615 8.859e-7 89.615 1.000000 -0.254
+        !< P1 F=0.1 Eeff=(undefined: sl) Z0=(undefined: sl) R=0.0 C=0.0 
+        !< P2 F=0.1 Eeff=(6.96987513 -4.2257e-4) Z0=(115.230762 -2.5124e-3) R=-5.8079932 C=0.00526354 
+        !< See "De-embedding Codes" in Help for more details on the "sl" code.
+      Total time per frequency:  9 minutes 10 seconds.
+
+  Parameter combination: 5 of 5.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        groundDistance = 150.0
+      Subsectioning at 0.1 GHz with Eeff of 6.45.
+      Subsectioning time:  25 seconds.
+      De-embedding information for XYDriveCapacitanceVaryDistance_left box wall port(s):
+        XYDriveCapacitanceVaryDistance_left SOC Electric Wall: 200 microns length, 1117 subsections, 77 MB.
+        XYDriveCapacitanceVaryDistance_left SOC Magnetic Wall: 400 microns length, 1078 subsections, 76 MB.
+      Circuit requires 4499 subsections and 1014 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  4,475
+      Ground Plane:
+        Via:        24
+
+      Required memory by type:
+        System matrix:            154 MB
+        Elemental subsections:
+          Primary structure:      661 MB
+          XYDriveCapaci standard: 105 MB
+        Fourier transform:        85 MB
+        Waveguide mode:           8 MB
+        Adaptive band synthesis:  0 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    1,014 MB
+
+      Waveguide mode time:  0.160 seconds.
+      Fourier transform time:  6 seconds.
+      Coupling time:  8 minutes 9 seconds.
+      Loss time:  0 seconds.
+      Matrix fill time:  8 minutes 15 seconds.
+      Matrix solve time:  2 seconds.
+          Time:  3 seconds.
+        Autognd port 2 std 2:
+          1500 microns length, 193 subsections, 804 MB.
+          Time:  1 second.
+        Autognd port 2 std 3:
+          3000 microns length, 382 subsections, 835 MB.
+          Time:  3 seconds.
+      De-embedding time for XYDriveCapacitanceVaryDistance_left box wall:
+        SOC Electric Wall Std: 11 seconds.
+        SOC Magnetic Wall Std: 11 seconds.
+        Total:                 23 seconds.
+      Frequency completed Wed Jul 13 19:51:10 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        0.10000000 1.000000 -0.503 6.750e-7 89.622 6.750e-7 89.622 1.000000 -0.254
+        !< P1 F=0.1 Eeff=(undefined: sl) Z0=(undefined: sl) R=0.0 C=0.0 
+        !< P2 F=0.1 Eeff=(6.96987513 -4.2257e-4) Z0=(115.230762 -2.5124e-3) R=-5.8079932 C=0.00526354 
+        !< See "De-embedding Codes" in Help for more details on the "sl" code.
+      Total time per frequency:  9 minutes 20 seconds.
+
+    Post-Analysis:
+      Total time for 5 frequencies:  46 minutes 3 seconds.
+      Errors detected: 0    Warnings detected: 0.
+
+Analysis completed Wed Jul 13 19:51:10 2016.
+
+
+Run 2:  Thu Jul 14 09:12:16 2016.  calt2.2.43068.
+        Em version 16.52 (64-bit Windows) on DESKTOP-MOCDKPP remote.
+
+  Project:  C:\Users\Michael\Desktop\Sonnet Qubit Designs\Jul13GDSSonnet\XYDriveCapacitanceVaryDistance.son.
+
+  Parameter combination: 1 of 3.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        groundDistance = 20.0
+      Subsectioning at 0.1 GHz with Eeff of 6.45.
+      Subsectioning time:  24 seconds.
+      De-embedding information for XYDriveCapacitanceVaryDistance_left box wall port(s):
+        XYDriveCapacitanceVaryDistance_left SOC Electric Wall: 200 microns length, 1117 subsections, 77 MB.
+        XYDriveCapacitanceVaryDistance_left SOC Magnetic Wall: 400 microns length, 1078 subsections, 76 MB.
+      Em license feature:  emhighperformance.
+      Circuit requires 4349 subsections and 1003 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  4,325
+      Ground Plane:
+        Via:        24
+
+      Required memory by type:
+        System matrix:            144 MB
+        Elemental subsections:
+          Primary structure:      661 MB
+          XYDriveCapaci standard: 105 MB
+        Fourier transform:        85 MB
+        Waveguide mode:           8 MB
+        Adaptive band synthesis:  0 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    1,003 MB
+
+      Matrix solver:  internal 64-bit SSE with loss.
+      Simulation mode:  remote em transfer.
+      Threads:  using 12 thread(s), 12 core(s) available.
+      Waveguide mode time:  0.160 seconds.
+      Fourier transform time:  6 seconds.
+      Coupling time:  7 minutes 45 seconds.
+      Loss time:  0 seconds.
+      Matrix fill time:  7 minutes 52 seconds.
+      Matrix solve time:  2 seconds.
+      De-embed autognd port 2:
+        Standard 1:  1500.0 microns, 216 subsections, about 817 MB.
+          Time:  3 seconds.
+        Autognd port 2 std 2:
+          1500 microns length, 193 subsections, 804 MB.
+          Time:  1 second.
+        Autognd port 2 std 3:
+          3000 microns length, 382 subsections, 835 MB.
+          Time:  3 seconds.
+      De-embedding time for XYDriveCapacitanceVaryDistance_left box wall:
+        SOC Electric Wall Std: 11 seconds.
+        SOC Magnetic Wall Std: 11 seconds.
+        Total:                 22 seconds.
+      Frequency completed Thu Jul 14 09:21:08 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        0.10000000 1.000000 -0.577 4.301e-6 89.584 4.301e-6 89.584 1.000000 -0.253
+        !< P1 F=0.1 Eeff=(undefined: sl) Z0=(undefined: sl) R=0.0 C=0.0 
+        !< P2 F=0.1 Eeff=(6.96987513 -4.2257e-4) Z0=(115.230762 -2.5124e-3) R=-5.8079932 C=0.00526354 
+        !< See "De-embedding Codes" in Help for more details on the "sl" code.
+      Total time per frequency:  8 minutes 28 seconds.
+
+  Parameter combination: 2 of 3.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        groundDistance = 30.0
+      Subsectioning at 0.1 GHz with Eeff of 6.45.
+      Subsectioning time:  24 seconds.
+      De-embedding information for XYDriveCapacitanceVaryDistance_left box wall port(s):
+        XYDriveCapacitanceVaryDistance_left SOC Electric Wall: 200 microns length, 1117 subsections, 77 MB.
+        XYDriveCapacitanceVaryDistance_left SOC Magnetic Wall: 400 microns length, 1078 subsections, 76 MB.
+      Circuit requires 4346 subsections and 1003 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  4,322
+      Ground Plane:
+        Via:        24
+
+      Required memory by type:
+        System matrix:            144 MB
+        Elemental subsections:
+          Primary structure:      661 MB
+          XYDriveCapaci standard: 105 MB
+        Fourier transform:        85 MB
+        Waveguide mode:           8 MB
+        Adaptive band synthesis:  0 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    1,003 MB
+
+      Waveguide mode time:  0.183 seconds.
+      Fourier transform time:  6 seconds.
+      Coupling time:  7 minutes 43 seconds.
+      Loss time:  0 seconds.
+      Matrix fill time:  7 minutes 50 seconds.
+      Matrix solve time:  2 seconds.
+          Time:  3 seconds.
+        Autognd port 2 std 2:
+          1500 microns length, 193 subsections, 804 MB.
+          Time:  1 second.
+        Autognd port 2 std 3:
+          3000 microns length, 382 subsections, 835 MB.
+          Time:  3 seconds.
+      De-embedding time for XYDriveCapacitanceVaryDistance_left box wall:
+        SOC Electric Wall Std: 11 seconds.
+        SOC Magnetic Wall Std: 11 seconds.
+        Total:                 22 seconds.
+      Frequency completed Thu Jul 14 09:29:59 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        0.10000000 1.000000 -0.571 3.418e-6 89.587 3.418e-6 89.587 1.000000 -0.253
+        !< P1 F=0.1 Eeff=(undefined: sl) Z0=(undefined: sl) R=0.0 C=0.0 
+        !< P2 F=0.1 Eeff=(6.96987513 -4.2257e-4) Z0=(115.230762 -2.5124e-3) R=-5.8079932 C=0.00526354 
+        !< See "De-embedding Codes" in Help for more details on the "sl" code.
+      Total time per frequency:  8 minutes 50 seconds.
+
+  Parameter combination: 3 of 3.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        groundDistance = 40.0
+      Subsectioning at 0.1 GHz with Eeff of 6.45.
+      Subsectioning time:  24 seconds.
+      De-embedding information for XYDriveCapacitanceVaryDistance_left box wall port(s):
+        XYDriveCapacitanceVaryDistance_left SOC Electric Wall: 200 microns length, 1117 subsections, 77 MB.
+        XYDriveCapacitanceVaryDistance_left SOC Magnetic Wall: 400 microns length, 1078 subsections, 76 MB.
+      Circuit requires 4417 subsections and 1008 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  4,393
+      Ground Plane:
+        Via:        24
+
+      Required memory by type:
+        System matrix:            149 MB
+        Elemental subsections:
+          Primary structure:      661 MB
+          XYDriveCapaci standard: 105 MB
+        Fourier transform:        85 MB
+        Waveguide mode:           8 MB
+        Adaptive band synthesis:  0 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    1,008 MB
+
+      Waveguide mode time:  0.170 seconds.
+      Fourier transform time:  6 seconds.
+      Coupling time:  8 minutes 2 seconds.
+      Loss time:  0 seconds.
+      Matrix fill time:  8 minutes 9 seconds.
+      Matrix solve time:  2 seconds.
+          Time:  3 seconds.
+        Autognd port 2 std 2:
+          1500 microns length, 193 subsections, 804 MB.
+          Time:  1 second.
+        Autognd port 2 std 3:
+          3000 microns length, 382 subsections, 835 MB.
+          Time:  3 seconds.
+      De-embedding time for XYDriveCapacitanceVaryDistance_left box wall:
+        SOC Electric Wall Std: 11 seconds.
+        SOC Magnetic Wall Std: 11 seconds.
+        Total:                 23 seconds.
+      Frequency completed Thu Jul 14 09:39:11 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        0.10000000 1.000000 -0.566 2.817e-6 89.590 2.817e-6 89.590 1.000000 -0.254
+        !< P1 F=0.1 Eeff=(undefined: sl) Z0=(undefined: sl) R=0.0 C=0.0 
+        !< P2 F=0.1 Eeff=(6.96987513 -4.2257e-4) Z0=(115.230762 -2.5124e-3) R=-5.8079932 C=0.00526354 
+        !< See "De-embedding Codes" in Help for more details on the "sl" code.
+      Total time per frequency:  9 minutes 12 seconds.
+
+    Post-Analysis:
+      Total time for 3 frequencies:  26 minutes 55 seconds.
+      Errors detected: 0    Warnings detected: 0.
+
+Analysis completed Thu Jul 14 09:39:11 2016.

@@ -1,0 +1,408 @@
+Run 1:  Thu Jul 14 19:10:38 2016.  calt2.2.43068.
+        Em version 16.52 (64-bit Windows) on DESKTOP-MOCDKPP remote.
+
+  Project:  C:\Users\Michael\Desktop\Sonnet Qubit Designs\Jul13GDSSonnet\ClawCapacitance.son.
+
+  Parameter combination: 1 of 3.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        gap = 6.0
+        thickness = 16.0
+        ClawLength = 134.0
+      Frequency completed Thu Jul 14 19:12:04 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        0.10000000 1.000000 -0.264 2.989e-4 89.758 2.989e-4 89.758 1.000000 -0.220
+        !< P1 F=0.1 Eeff=(6.54785951 -2.8421e-5) Z0=(129.912216 2.87463e-4) R=2.98045779 C=0.00331106 
+        !< P2 F=0.1 Eeff=(6.65403109 -3.1236e-5) Z0=(68.9520062 1.59245e-4) R=0.57284283 C=0.01252965 
+
+  Parameter combination: 2 of 3.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        gap = 6.0
+        thickness = 20.0
+        ClawLength = 134.0
+      Frequency completed Thu Jul 14 19:13:30 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        0.10000000 1.000000 -0.264 3.271e-4 89.747 3.271e-4 89.747 1.000000 -0.242
+        !< P1 F=0.1 Eeff=(6.54785951 -2.8421e-5) Z0=(129.912216 2.87463e-4) R=2.98045779 C=0.00331106 
+        !< P2 F=0.1 Eeff=(6.6580105 -3.2091e-5) Z0=(67.563155 1.59348e-4) R=0.54981533 C=0.01300993 
+
+  Parameter combination: 3 of 3.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        gap = 6.0
+        thickness = 24.0
+        ClawLength = 134.0
+      Frequency completed Thu Jul 14 19:15:00 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        0.10000000 1.000000 -0.264 3.515e-4 89.737 3.515e-4 89.737 1.000000 -0.262
+        !< P1 F=0.1 Eeff=(6.54785951 -2.8421e-5) Z0=(129.912216 2.87463e-4) R=2.98045779 C=0.00331106 
+        !< P2 F=0.1 Eeff=(6.66182526 -3.241e-5) Z0=(66.2519448 1.56578e-4) R=0.49021411 C=0.01348485 
+
+Analysis completed Thu Jul 14 19:15:00 2016.
+
+
+Run 2:  Fri Jul 15 10:00:44 2016.  calt2.2.43068.
+        Em version 16.52 (64-bit Windows) on DESKTOP-MOCDKPP remote.
+
+  Project:  C:\Users\Michael\Desktop\Sonnet Qubit Designs\Jul13GDSSonnet\ClawCapacitance.son.
+
+  Parameter combination: 1 of 9.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        gap = 6.0
+        thickness = 16.0
+        ClawLength = 80.0
+      Frequency completed Fri Jul 15 10:02:09 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        0.10000000 1.000000 -0.264 1.713e-4 89.792 1.713e-4 89.792 1.000000 -0.151
+        !< P1 F=0.1 Eeff=(6.54785951 -2.8421e-5) Z0=(129.912216 2.87463e-4) R=2.98045779 C=0.00331106 
+        !< P2 F=0.1 Eeff=(6.65403109 -3.1236e-5) Z0=(68.9520062 1.59245e-4) R=0.57284283 C=0.01252965 
+
+  Parameter combination: 2 of 9.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        gap = 6.0
+        thickness = 16.0
+        ClawLength = 120.0
+      Frequency completed Fri Jul 15 10:03:38 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        0.10000000 1.000000 -0.264 2.648e-4 89.767 2.648e-4 89.767 1.000000 -0.202
+        !< P1 F=0.1 Eeff=(6.54785951 -2.8421e-5) Z0=(129.912216 2.87463e-4) R=2.98045779 C=0.00331106 
+        !< P2 F=0.1 Eeff=(6.65403109 -3.1236e-5) Z0=(68.9520062 1.59245e-4) R=0.57284283 C=0.01252965 
+
+  Parameter combination: 3 of 9.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        gap = 6.0
+        thickness = 16.0
+        ClawLength = 160.0
+      Frequency completed Fri Jul 15 10:05:05 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        0.10000000 1.000000 -0.264 3.633e-4 89.741 3.633e-4 89.741 1.000000 -0.253
+        !< P1 F=0.1 Eeff=(6.54785951 -2.8421e-5) Z0=(129.912216 2.87463e-4) R=2.98045779 C=0.00331106 
+        !< P2 F=0.1 Eeff=(6.65403109 -3.1236e-5) Z0=(68.9520062 1.59245e-4) R=0.57284283 C=0.01252965 
+
+  Parameter combination: 4 of 9.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        gap = 6.0
+        thickness = 20.0
+        ClawLength = 80.0
+      Frequency completed Fri Jul 15 10:06:33 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        0.10000000 1.000000 -0.264 1.885e-4 89.783 1.885e-4 89.783 1.000000 -0.169
+        !< P1 F=0.1 Eeff=(6.54785951 -2.8421e-5) Z0=(129.912216 2.87463e-4) R=2.98045779 C=0.00331106 
+        !< P2 F=0.1 Eeff=(6.6580105 -3.2091e-5) Z0=(67.563155 1.59348e-4) R=0.54981533 C=0.01300993 
+
+  Parameter combination: 5 of 9.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        gap = 6.0
+        thickness = 20.0
+        ClawLength = 120.0
+      Frequency completed Fri Jul 15 10:08:02 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        0.10000000 1.000000 -0.264 2.900e-4 89.756 2.900e-4 89.756 1.000000 -0.223
+        !< P1 F=0.1 Eeff=(6.54785951 -2.8421e-5) Z0=(129.912216 2.87463e-4) R=2.98045779 C=0.00331106 
+        !< P2 F=0.1 Eeff=(6.6580105 -3.2091e-5) Z0=(67.563155 1.59348e-4) R=0.54981533 C=0.01300993 
+
+  Parameter combination: 6 of 9.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        gap = 6.0
+        thickness = 20.0
+        ClawLength = 160.0
+      Frequency completed Fri Jul 15 10:09:31 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        0.10000000 1.000000 -0.264 3.972e-4 89.729 3.972e-4 89.729 1.000000 -0.277
+        !< P1 F=0.1 Eeff=(6.54785951 -2.8421e-5) Z0=(129.912216 2.87463e-4) R=2.98045779 C=0.00331106 
+        !< P2 F=0.1 Eeff=(6.6580105 -3.2091e-5) Z0=(67.563155 1.59348e-4) R=0.54981533 C=0.01300993 
+
+  Parameter combination: 7 of 9.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        gap = 6.0
+        thickness = 24.0
+        ClawLength = 80.0
+      Frequency completed Fri Jul 15 10:11:00 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        0.10000000 1.000000 -0.264 2.035e-4 89.775 2.035e-4 89.775 1.000000 -0.186
+        !< P1 F=0.1 Eeff=(6.54785951 -2.8421e-5) Z0=(129.912216 2.87463e-4) R=2.98045779 C=0.00331106 
+        !< P2 F=0.1 Eeff=(6.66182526 -3.241e-5) Z0=(66.2519448 1.56578e-4) R=0.49021411 C=0.01348485 
+
+  Parameter combination: 8 of 9.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        gap = 6.0
+        thickness = 24.0
+        ClawLength = 120.0
+      Frequency completed Fri Jul 15 10:12:32 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        0.10000000 1.000000 -0.264 3.118e-4 89.747 3.118e-4 89.747 1.000000 -0.243
+        !< P1 F=0.1 Eeff=(6.54785951 -2.8421e-5) Z0=(129.912216 2.87463e-4) R=2.98045779 C=0.00331106 
+        !< P2 F=0.1 Eeff=(6.66182526 -3.241e-5) Z0=(66.2519448 1.56578e-4) R=0.49021411 C=0.01348485 
+
+  Parameter combination: 9 of 9.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        gap = 6.0
+        thickness = 24.0
+        ClawLength = 160.0
+      Frequency completed Fri Jul 15 10:14:03 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        0.10000000 1.000000 -0.263 4.264e-4 89.718 4.264e-4 89.718 1.000000 -0.299
+        !< P1 F=0.1 Eeff=(6.54785951 -2.8421e-5) Z0=(129.912216 2.87463e-4) R=2.98045779 C=0.00331106 
+        !< P2 F=0.1 Eeff=(6.66182526 -3.241e-5) Z0=(66.2519448 1.56578e-4) R=0.49021411 C=0.01348485 
+
+Analysis completed Fri Jul 15 10:14:03 2016.
+
+
+Run 3:  Fri Jul 15 11:01:51 2016.  calt2.2.43068.
+        Em version 16.52 (64-bit Windows) on DESKTOP-MOCDKPP remote.
+
+  Project:  C:\Users\Michael\Desktop\Sonnet Qubit Designs\Jul13GDSSonnet\ClawCapacitance.son.
+
+  Parameter combination: 1 of 9.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        gap = 6.0
+        ClawLength = 200.0
+        thickness = 16.0
+      Frequency completed Fri Jul 15 11:03:18 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        0.10000000 1.000000 -0.264 4.640e-4 89.716 4.640e-4 89.716 1.000000 -0.304
+        !< P1 F=0.1 Eeff=(6.54785951 -2.8421e-5) Z0=(129.912216 2.87463e-4) R=2.98045779 C=0.00331106 
+        !< P2 F=0.1 Eeff=(6.65403109 -3.1236e-5) Z0=(68.9520062 1.59245e-4) R=0.57284283 C=0.01252965 
+
+  Parameter combination: 2 of 9.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        gap = 6.0
+        ClawLength = 200.0
+        thickness = 20.0
+      Frequency completed Fri Jul 15 11:04:47 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        0.10000000 1.000000 -0.263 5.068e-4 89.702 5.068e-4 89.702 1.000000 -0.331
+        !< P1 F=0.1 Eeff=(6.54785951 -2.8421e-5) Z0=(129.912216 2.87463e-4) R=2.98045779 C=0.00331106 
+        !< P2 F=0.1 Eeff=(6.6580105 -3.2091e-5) Z0=(67.563155 1.59348e-4) R=0.54981533 C=0.01300993 
+
+  Parameter combination: 3 of 9.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        gap = 6.0
+        ClawLength = 200.0
+        thickness = 24.0
+      Frequency completed Fri Jul 15 11:06:22 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        0.10000000 1.000000 -0.264 5.436e-4 89.690 5.436e-4 89.690 1.000000 -0.356
+        !< P1 F=0.1 Eeff=(6.54785951 -2.8421e-5) Z0=(129.912216 2.87463e-4) R=2.98045779 C=0.00331106 
+        !< P2 F=0.1 Eeff=(6.66182526 -3.241e-5) Z0=(66.2519448 1.56578e-4) R=0.49021411 C=0.01348485 
+
+  Parameter combination: 4 of 9.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        gap = 6.0
+        ClawLength = 240.0
+        thickness = 16.0
+      Frequency completed Fri Jul 15 11:07:53 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        0.10000000 1.000000 -0.263 5.655e-4 89.690 5.655e-4 89.690 1.000000 -0.355
+        !< P1 F=0.1 Eeff=(6.54785951 -2.8421e-5) Z0=(129.912216 2.87463e-4) R=2.98045779 C=0.00331106 
+        !< P2 F=0.1 Eeff=(6.65403109 -3.1236e-5) Z0=(68.9520062 1.59245e-4) R=0.57284283 C=0.01252965 
+
+  Parameter combination: 5 of 9.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        gap = 6.0
+        ClawLength = 240.0
+        thickness = 20.0
+      Frequency completed Fri Jul 15 11:09:24 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        0.10000000 1.000000 -0.263 6.174e-4 89.675 6.174e-4 89.675 1.000000 -0.385
+        !< P1 F=0.1 Eeff=(6.54785951 -2.8421e-5) Z0=(129.912216 2.87463e-4) R=2.98045779 C=0.00331106 
+        !< P2 F=0.1 Eeff=(6.6580105 -3.2091e-5) Z0=(67.563155 1.59348e-4) R=0.54981533 C=0.01300993 
+
+  Parameter combination: 6 of 9.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        gap = 6.0
+        ClawLength = 240.0
+        thickness = 24.0
+      Frequency completed Fri Jul 15 11:10:59 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        0.10000000 1.000000 -0.263 6.619e-4 89.662 6.619e-4 89.662 1.000000 -0.413
+        !< P1 F=0.1 Eeff=(6.54785951 -2.8421e-5) Z0=(129.912216 2.87463e-4) R=2.98045779 C=0.00331106 
+        !< P2 F=0.1 Eeff=(6.66182526 -3.241e-5) Z0=(66.2519448 1.56578e-4) R=0.49021411 C=0.01348485 
+
+  Parameter combination: 7 of 9.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        gap = 6.0
+        ClawLength = 280.0
+        thickness = 16.0
+      Frequency completed Fri Jul 15 11:12:31 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        0.10000000 1.000000 -0.263 6.674e-4 89.665 6.674e-4 89.665 1.000000 -0.406
+        !< P1 F=0.1 Eeff=(6.54785951 -2.8421e-5) Z0=(129.912216 2.87463e-4) R=2.98045779 C=0.00331106 
+        !< P2 F=0.1 Eeff=(6.65403109 -3.1236e-5) Z0=(68.9520062 1.59245e-4) R=0.57284283 C=0.01252965 
+
+  Parameter combination: 8 of 9.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        gap = 6.0
+        ClawLength = 280.0
+        thickness = 20.0
+      Frequency completed Fri Jul 15 11:14:05 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        0.10000000 1.000000 -0.264 7.284e-4 89.648 7.284e-4 89.648 1.000000 -0.439
+        !< P1 F=0.1 Eeff=(6.54785951 -2.8421e-5) Z0=(129.912216 2.87463e-4) R=2.98045779 C=0.00331106 
+        !< P2 F=0.1 Eeff=(6.6580105 -3.2091e-5) Z0=(67.563155 1.59348e-4) R=0.54981533 C=0.01300993 
+
+  Parameter combination: 9 of 9.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        gap = 6.0
+        ClawLength = 280.0
+        thickness = 24.0
+      Frequency completed Fri Jul 15 11:15:43 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        0.10000000 1.000000 -0.264 7.807e-4 89.633 7.807e-4 89.633 1.000000 -0.469
+        !< P1 F=0.1 Eeff=(6.54785951 -2.8421e-5) Z0=(129.912216 2.87463e-4) R=2.98045779 C=0.00331106 
+        !< P2 F=0.1 Eeff=(6.66182526 -3.241e-5) Z0=(66.2519448 1.56578e-4) R=0.49021411 C=0.01348485 
+
+Analysis completed Fri Jul 15 11:15:43 2016.
+
+
+Run 4:  Fri Jul 15 11:30:00 2016.  calt2.2.43068.
+        Em version 16.52 (64-bit Windows) on DESKTOP-MOCDKPP remote.
+
+  Project:  C:\Users\Michael\Desktop\Sonnet Qubit Designs\Jul13GDSSonnet\ClawCapacitance.son.
+
+  Parameter combination: 1 of 6.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        gap = 6.0
+        ClawLength = 120.0
+        thickness = 28.0
+      Frequency completed Fri Jul 15 11:31:28 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        0.10000000 1.000000 -0.264 3.310e-4 89.737 3.310e-4 89.737 1.000000 -0.261
+        !< P1 F=0.1 Eeff=(6.54785951 -2.8421e-5) Z0=(129.912216 2.87463e-4) R=2.98045779 C=0.00331106 
+        !< P2 F=0.1 Eeff=(6.66554958 -2.9415e-5) Z0=(65.0104331 1.46407e-4) R=0.57776757 C=0.01395487 
+
+  Parameter combination: 2 of 6.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        gap = 6.0
+        ClawLength = 120.0
+        thickness = 32.0
+      Frequency completed Fri Jul 15 11:33:01 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        0.10000000 1.000000 -0.264 3.481e-4 89.729 3.481e-4 89.729 1.000000 -0.279
+        !< P1 F=0.1 Eeff=(6.54785951 -2.8421e-5) Z0=(129.912216 2.87463e-4) R=2.98045779 C=0.00331106 
+        !< P2 F=0.1 Eeff=(6.66914584 -3.1203e-5) Z0=(63.831228 1.49158e-4) R=0.5340444 C=0.0144204 
+
+  Parameter combination: 3 of 6.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        gap = 6.0
+        ClawLength = 160.0
+        thickness = 28.0
+      Frequency completed Fri Jul 15 11:34:31 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        0.10000000 1.000000 -0.263 4.520e-4 89.708 4.520e-4 89.708 1.000000 -0.320
+        !< P1 F=0.1 Eeff=(6.54785951 -2.8421e-5) Z0=(129.912216 2.87463e-4) R=2.98045779 C=0.00331106 
+        !< P2 F=0.1 Eeff=(6.66554958 -2.9415e-5) Z0=(65.0104331 1.46407e-4) R=0.57776757 C=0.01395487 
+
+  Parameter combination: 4 of 6.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        gap = 6.0
+        ClawLength = 160.0
+        thickness = 32.0
+      Frequency completed Fri Jul 15 11:36:08 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        0.10000000 1.000000 -0.263 4.747e-4 89.698 4.747e-4 89.698 1.000000 -0.339
+        !< P1 F=0.1 Eeff=(6.54785951 -2.8421e-5) Z0=(129.912216 2.87463e-4) R=2.98045779 C=0.00331106 
+        !< P2 F=0.1 Eeff=(6.66914584 -3.1203e-5) Z0=(63.831228 1.49158e-4) R=0.5340444 C=0.0144204 
+
+  Parameter combination: 5 of 6.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        gap = 6.0
+        ClawLength = 200.0
+        thickness = 28.0
+      Frequency completed Fri Jul 15 11:37:39 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        0.10000000 1.000000 -0.264 5.758e-4 89.679 5.758e-4 89.679 1.000000 -0.379
+        !< P1 F=0.1 Eeff=(6.54785951 -2.8421e-5) Z0=(129.912216 2.87463e-4) R=2.98045779 C=0.00331106 
+        !< P2 F=0.1 Eeff=(6.66554958 -2.9415e-5) Z0=(65.0104331 1.46407e-4) R=0.57776757 C=0.01395487 
+
+  Parameter combination: 6 of 6.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        gap = 6.0
+        ClawLength = 200.0
+        thickness = 32.0
+      Frequency completed Fri Jul 15 11:39:15 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        0.10000000 1.000000 -0.264 6.043e-4 89.668 6.043e-4 89.668 1.000000 -0.400
+        !< P1 F=0.1 Eeff=(6.54785951 -2.8421e-5) Z0=(129.912216 2.87463e-4) R=2.98045779 C=0.00331106 
+        !< P2 F=0.1 Eeff=(6.66914584 -3.1203e-5) Z0=(63.831228 1.49158e-4) R=0.5340444 C=0.0144204 
+
+Analysis completed Fri Jul 15 11:39:15 2016.

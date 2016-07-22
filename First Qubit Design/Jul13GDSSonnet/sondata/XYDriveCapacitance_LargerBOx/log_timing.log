@@ -1,0 +1,59 @@
+Run 1:  Wed Jul 13 16:20:40 2016.  calt2.2.43068.
+        Em version 16.52 (64-bit Windows) on DESKTOP-MOCDKPP remote.
+
+  Project:  C:\Users\Michael\Desktop\Sonnet Qubit Designs\Jul13GDSSonnet\XYDriveCapacitance_LargerBOx.son.
+
+    Frequency:  0.1 GHZ
+      Subsectioning at 0.1 GHz with Eeff of 6.45.
+      Subsectioning time:  37 seconds.
+      De-embedding information for XYDriveCapacitance_LargerBOx_left box wall port(s):
+        XYDriveCapacitance_LargerBOx_left SOC Electric Wall: 1500 microns length, 2724 subsections, 570 MB.
+        XYDriveCapacitance_LargerBOx_left SOC Magnetic Wall: 3000 microns length, 2673 subsections, 568 MB.
+      Em license feature:  emhighperformance.
+      Circuit requires 7804 subsections and 2584 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  7,780
+      Ground Plane:
+        Via:        24
+
+      Required memory by type:
+        System matrix:            465 MB
+        Elemental subsections:
+          Primary structure:      973 MB
+          XYDriveCapaci standard: 793 MB
+        Fourier transform:        338 MB
+        Waveguide mode:           15 MB
+        Adaptive band synthesis:  0 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    2,584 MB
+
+      Matrix solver:  internal 64-bit SSE with loss.
+      Simulation mode:  remote em transfer.
+      Threads:  using 12 thread(s), 12 core(s) available.
+      Waveguide mode time:  0.330 seconds.
+      Fourier transform time:  27 seconds.
+      Coupling time:  25 minutes 20 seconds.
+      Loss time:  0 seconds.
+      Matrix fill time:  25 minutes 46 seconds.
+      Matrix solve time:  11 seconds.
+      De-embed autognd port 2:
+        Standard 1:  1500.0 microns, 216 subsections, about 1952 MB.
+          Time:  13 seconds.
+        Autognd port 2 std 2:
+          1500 microns length, 193 subsections, 1841 MB.
+          Time:  2 seconds.
+        Autognd port 2 std 3:
+          3000 microns length, 382 subsections, 1899 MB.
+          Time:  5 seconds.
+      De-embedding time for XYDriveCapacitance_LargerBOx_left box wall:
+        SOC Electric Wall Std: 3 minutes 39 seconds.
+        SOC Magnetic Wall Std: 3 minutes 17 seconds.
+        Total:                 6 minutes 56 seconds.
+      Total time per frequency:  33 minutes 46 seconds.
+
+    Post-Analysis:
+      Total time for 1 frequency:  34 minutes 24 seconds.
+
+Analysis completed Wed Jul 13 16:55:04 2016.

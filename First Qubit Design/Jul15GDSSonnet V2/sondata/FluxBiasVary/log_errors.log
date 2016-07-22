@@ -1,0 +1,113 @@
+Run 1:  Fri Jul 15 19:37:33 2016.  calt2.2.43068.
+        Em version 16.52 (64-bit Windows) on DESKTOP-MOCDKPP remote.
+
+  Project:  C:\Users\Michael\Desktop\Sonnet Qubit Designs\Jul15GDSSonnet V2\FluxBiasVary.son.
+
+  Parameter combination: 1 of 13.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        fluxcut = 0.0
+        fluxunder = 3.2
+        fluxover = 6.2
+
+  Parameter combination: 2 of 13.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        fluxcut = 1.0
+        fluxunder = 3.2
+        fluxover = 6.2
+
+  Parameter combination: 3 of 13.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        fluxcut = 2.0
+        fluxunder = 3.2
+        fluxover = 6.2
+
+  Parameter combination: 4 of 13.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        fluxcut = 3.0
+        fluxunder = 3.2
+        fluxover = 6.2
+
+  Parameter combination: 5 of 13.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        fluxcut = 4.0
+        fluxunder = 3.2
+        fluxover = 6.2
+
+  Parameter combination: 6 of 13.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        fluxcut = 5.0
+        fluxunder = 3.2
+        fluxover = 6.2
+
+  Parameter combination: 7 of 13.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        fluxcut = 6.0
+        fluxunder = 3.2
+        fluxover = 6.2
+
+  Parameter combination: 8 of 13.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        fluxcut = 7.0
+        fluxunder = 3.2
+        fluxover = 6.2
+
+  Parameter combination: 9 of 13.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        fluxcut = 8.0
+        fluxunder = 3.2
+        fluxover = 6.2
+
+  Parameter combination: 10 of 13.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        fluxcut = 9.0
+        fluxunder = 3.2
+        fluxover = 6.2
+
+  Parameter combination: 11 of 13.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        fluxcut = 10.0
+        fluxunder = 3.2
+        fluxover = 6.2
+
+  Parameter combination: 12 of 13.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        fluxcut = 11.0
+        fluxunder = 3.2
+        fluxover = 6.2
+
+  Parameter combination: 13 of 13.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        fluxcut = 12.0
+        fluxunder = 3.2
+        fluxover = 6.2
+
+    Post-Analysis:
+      Errors detected: 0    Warnings detected: 0.
+
+Analysis completed Fri Jul 15 19:49:43 2016.

@@ -1,0 +1,80 @@
+Run 1:  Tue Jul 12 16:52:30 2016.  calt2.2.43068.
+        Em version 16.52 (64-bit Windows) on DESKTOP-MOCDKPP remote.
+
+  Project:  C:\Users\Michael\Desktop\Jul12GDSSonnet\QubitCapacitance.son.
+
+    Frequency:  4 GHZ
+      Frequency completed Tue Jul 12 17:06:41 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        4.00000000 0.999560 -159.4 0.029601 6.4111 0.029601 6.4111 0.999561 -7.787
+        !< P1 F=4.0 Eeff=(12.6419853 -5.8379e-5) Z0=(63.8137654 1.46886e-4) R=0.00609527 C=0.03011171 
+        !< P2 F=4.0 Eeff=(6.77671829 -3.1584e-5) Z0=(113.764747 2.64976e-4) R=0.03434898 C=0.00516731 
+
+    Frequency:  8 GHZ
+      Frequency completed Tue Jul 12 17:19:54 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        8.00000000 0.999488 -175.3 0.031966 -5.694 0.031966 -5.694 0.999488 -16.07
+        !< P1 F=8.0 Eeff=(12.7003813 -5.8886e-5) Z0=(64.0028398 1.46405e-4) R=0.0030479 C=0.03011772 
+        !< P2 F=8.0 Eeff=(6.8324866 -3.2183e-5) Z0=(113.436423 2.66029e-4) R=0.01700737 C=0.00505096 
+
+    Frequency:  6.42 GHZ
+      Frequency completed Tue Jul 12 17:33:12 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        6.42000000 0.999518 -170.7 0.031012 -1.704 0.031012 -1.704 0.999518 -12.70
+        !< P1 F=6.42 Eeff=(12.6724481 -5.8647e-5) Z0=(63.9124448 1.46624e-4) R=0.00379788 C=0.03011485 
+        !< P2 F=6.42 Eeff=(6.80599047 -3.1901e-5) Z0=(113.583119 2.65656e-4) R=0.0212976 C=0.00510635 
+
+    Frequency:  5.56 GHZ
+      Frequency completed Tue Jul 12 17:46:33 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        5.56000000 0.999533 -167.5 0.030517 0.7668 0.030517 0.7668 0.999533 -10.93
+        !< P1 F=5.56 Eeff=(12.6599448 -5.8533e-5) Z0=(63.8719549 1.46737e-4) R=0.00438525 C=0.03011356 
+        !< P2 F=5.56 Eeff=(6.79402381 -3.1772e-5) Z0=(113.654909 2.65387e-4) R=0.02463996 C=0.0051313 
+
+    Frequency:  4.54 GHZ
+      Frequency completed Tue Jul 12 18:00:15 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        4.54000000 0.999550 -162.7 0.029932 4.2151 0.029932 4.2151 0.999551 -8.863
+        !< P1 F=4.54 Eeff=(12.6475213 -5.8432e-5) Z0=(63.831706 1.4683e-4) R=0.00537036 C=0.03011228 
+        !< P2 F=4.54 Eeff=(6.78206744 -3.1643e-5) Z0=(113.730038 2.65128e-4) R=0.03028095 C=0.00515619 
+
+Analysis stopped Tue Jul 12 18:03:41 2016 with signal 15.
+
+
+Run 2:  Tue Jul 12 18:04:52 2016.  calt2.2.43068.
+        Em version 16.52 (64-bit Windows) on DESKTOP-MOCDKPP remote.
+
+  Project:  C:\Users\Michael\Desktop\Jul12GDSSonnet\QubitCapacitance.son.
+
+    Frequency:  0 GHZ
+      Frequency completed Tue Jul 12 18:18:47 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        0.00000000 1.000000 -0.121 3.104e-5 89.941 3.104e-5 89.940 1.000000 0.0000
+        !< P1 F=0.0 Eeff=(undefined: sl) Z0=(undefined: sl) R=0.0 C=0.0 
+        !< P2 F=0.0 Eeff=(0.0 0.0) Z0=(0.0 0.0) R=-25687.081 C=0.00521189 
+        !< See "De-embedding Codes" in Help for more details on the "sl" code.
+
+Analysis completed Tue Jul 12 18:18:47 2016.
+
+
+Run 3:  Tue Jul 12 18:25:07 2016.  calt2.2.43068.
+        Em version 16.52 (64-bit Windows) on DESKTOP-MOCDKPP remote.
+
+  Project:  C:\Users\Michael\Desktop\Jul12GDSSonnet\QubitCapacitance.son.
+
+    Frequency:  0.1 GHZ
+      Frequency completed Tue Jul 12 18:39:00 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        0.10000000 0.999993 -13.38 0.003428 83.213 0.003428 83.213 0.999994 -0.195
+        !< P1 F=0.1 Eeff=(undefined: sl) Z0=(undefined: sl) R=0.0 C=0.0 
+        !< P2 F=0.1 Eeff=(6.75678654 -3.1136e-5) Z0=(113.849223 2.63718e-4) R=1.44562914 C=0.00520577 
+        !< See "De-embedding Codes" in Help for more details on the "sl" code.
+
+Analysis completed Tue Jul 12 18:39:00 2016.

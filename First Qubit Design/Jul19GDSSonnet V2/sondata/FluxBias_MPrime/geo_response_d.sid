@@ -1,0 +1,13 @@
+! This file is intended for internal use only by Sonnet application programs.
+! Please refer to Sonnet documentation or help for instructions to generate
+! external output files which can be read by other application software.
+SIDATA 12
+PARAMS
+VIA_Distance = 60.0
+END PARAMS
+HDATE 07/20/2016 13:39:16
+MDATE 07/20/2016 13:39:16
+PORTS 2
+6.0000000000000000e9 -0.99811087499787887 0.061436635902216138 -1.32369237428290e-4 -4.50879995343909e-4 -1.32369237439926e-4 -4.50879995388054e-4 -0.87292149411749387 0.487860438034359130
+P 1 6.45002889 -2.9748e-5 51.7163037 1.19266e-4 0.0 0.0
+P 2 UNDEF: mv 0.0 0.0

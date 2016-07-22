@@ -1,0 +1,14 @@
+<?xml version="1.0" standalone="yes"?>
+<xgeomstate>
+  <customsnap type="cell" divs="0" custx="0" custy="0" xsnap="1" ysnap="1" overide="0"/>
+  <orthomode state="0"/>
+  <defplanarmetal name="Lossless"/>
+  <defviametal name="Lossless"/>
+  <defbrick name="Air"/>
+  <winsmaxed value="true"/>
+  <3dwindow left="45.7481422424316" top="205.924987792969" right="286.748138427734" bottom="579.924987792969">
+    <3dview left="-0.0751447528601" top="0.07514475286007" right="0.07514475286007" bottom="-0.0751447528601" xangle="-55" zangle="-30"/>
+  </3dwindow>
+  <2dwindow left="0" top="0.00000190734863" right="1918" bottom="1007"/>
+</xgeomstate>
+

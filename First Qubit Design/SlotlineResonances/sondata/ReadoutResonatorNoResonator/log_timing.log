@@ -1,0 +1,87 @@
+Run 1:  Wed Jul 20 18:06:09 2016.  calt2.2.43068.
+        Em version 16.52 (64-bit Windows) on DESKTOP-MOCDKPP remote.
+
+  Project:  C:\Users\Michael\Desktop\Sonnet Qubit Designs\SlotlineResonances\ReadoutResonatorNoResonator.son.
+
+    Frequency:  2 GHZ
+      Subsectioning at 10 GHz with Eeff of 6.45.
+
+Analysis stopped Wed Jul 20 18:06:19 2016 with signal 15.
+
+
+Run 2:  Wed Jul 20 18:06:43 2016.  calt2.2.43068.
+        Em version 16.52 (64-bit Windows) on DESKTOP-MOCDKPP remote.
+
+  Project:  C:\Users\Michael\Desktop\Sonnet Qubit Designs\SlotlineResonances\ReadoutResonatorNoResonator.son.
+
+    Frequency:  2 GHZ
+      Subsectioning at 10 GHz with Eeff of 6.45.
+      Subsectioning time:  11 seconds.
+      De-embedding information for ReadoutResonatorNoResonator_left box wall port(s):
+        ReadoutResonatorNoResonator_left SOC Electric Wall: 596 microns length, 1462 subsections, 68 MB.
+        ReadoutResonatorNoResonator_left SOC Magnetic Wall: 1192 microns length, 1411 subsections, 66 MB.
+      De-embedding information for ReadoutResonatorNoResonator_right box wall port(s):
+        ReadoutResonatorNoResonator_right SOC Electric Wall: 596 microns length, 1462 subsections, 68 MB.
+        ReadoutResonatorNoResonator_right SOC Magnetic Wall: 1192 microns length, 1411 subsections, 66 MB.
+      Em license feature:  emhighperformance.
+      Circuit requires 3855 subsections and 374 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  3,855
+
+      Required memory by type:
+        System matrix:            113 MB
+        Elemental subsections:
+          Primary structure:      80 MB
+          ReadoutResona standard: 82 MB
+          ReadoutResona standard: 82 MB
+        Fourier transform:        11 MB
+        Waveguide mode:           4 MB
+        Adaptive band synthesis:  2 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    374 MB
+
+      Matrix solver:  internal 64-bit SSE with loss.
+      Simulation mode:  remote em transfer.
+      Threads:  using 12 thread(s), 12 core(s) available.
+      Waveguide mode time:  0.080 seconds.
+      Fourier transform time:  0.440 seconds.
+      Coupling time:  50 seconds.
+      Loss time:  0 seconds.
+      Matrix fill time:  51 seconds.
+      Matrix solve time:  1 second.
+      De-embedding time for ReadoutResonatorNoResonator_left box wall:
+        SOC Electric Wall Std: 8 seconds.
+        SOC Magnetic Wall Std: 9 seconds.
+        Total:                 18 seconds.
+      Total time per frequency:  1 minute 15 seconds.
+
+    Frequency:  10 GHZ
+      Total time per frequency:  1 minute 10 seconds.
+      ABS: Energy conservation for port 1 at 9.775 GHz.
+      ABS: Time = 0.130 seconds.
+
+    Frequency:  9.775 GHZ
+      Total time per frequency:  1 minute 10 seconds.
+      ABS: SNR = 50.574 dB (80.5209 dB Goal) for S1_2 at 4.775 GHz.
+      ABS: Time = 0.140 seconds.
+
+    Frequency:  4.775 GHZ
+      Total time per frequency:  1 minute 11 seconds.
+      ABS: SNR = 71.2548 dB (80.5209 dB Goal) for S1_2 at 8.2 GHz.
+      ABS: Time = 0.200 seconds.
+
+    Frequency:  8.2 GHZ
+      Total time per frequency:  1 minute 11 seconds.
+      ABS: Q-factor. Diff = 0 (18219.6 Tol) for port 1 at -1e-009 GHz.
+      ABS: SNR = 61.7062 dB (50 dB Goal) for S2_2 at 2.75 GHz.
+      ABS: Time = 0.190 seconds.
+      ABS: Q-factor. Diff = 0 (18219.6 Tol) for port 1 at -1e-009 GHz.
+      ABS: SNR = 61.7062 dB (50 dB Goal) for S2_2 at 2.75 GHz.
+      ABS: Time = 0.190 seconds.
+
+    Post-Analysis:
+      Total time for 5 frequencies:  6 minutes 10 seconds.
+
+Analysis completed Wed Jul 20 18:12:53 2016.

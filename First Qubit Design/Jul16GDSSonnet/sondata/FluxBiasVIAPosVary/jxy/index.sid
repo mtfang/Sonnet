@@ -1,0 +1,28 @@
+PARAMS
+pos = 15.0
+END PARAMS
+!>< FREQS
+!>< 1.0e8
+!>< END FREQS
+FILE current_1.sid
+PARAMS
+pos = 30.0
+END PARAMS
+!>< FREQS
+!>< 1.0e8
+!>< END FREQS
+FILE current_2.sid
+PARAMS
+pos = 45.0
+END PARAMS
+!>< FREQS
+!>< 1.0e8
+!>< END FREQS
+FILE current_3.sid
+PARAMS
+pos = 60.0
+END PARAMS
+!>< FREQS
+!>< 1.0e8
+!>< END FREQS
+FILE current_4.sid

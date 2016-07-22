@@ -1,0 +1,258 @@
+Run 1:  Thu Jul 14 19:10:38 2016.  calt2.2.43068.
+        Em version 16.52 (64-bit Windows) on DESKTOP-MOCDKPP remote.
+
+  Project:  C:\Users\Michael\Desktop\Sonnet Qubit Designs\Jul13GDSSonnet\ClawCapacitance.son.
+
+  Parameter combination: 1 of 3.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        gap = 6.0
+        thickness = 16.0
+        ClawLength = 134.0
+
+  Parameter combination: 2 of 3.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        gap = 6.0
+        thickness = 20.0
+        ClawLength = 134.0
+
+  Parameter combination: 3 of 3.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        gap = 6.0
+        thickness = 24.0
+        ClawLength = 134.0
+
+    Post-Analysis:
+      Errors detected: 0    Warnings detected: 0.
+
+Analysis completed Thu Jul 14 19:15:00 2016.
+
+
+Run 2:  Fri Jul 15 10:00:44 2016.  calt2.2.43068.
+        Em version 16.52 (64-bit Windows) on DESKTOP-MOCDKPP remote.
+
+  Project:  C:\Users\Michael\Desktop\Sonnet Qubit Designs\Jul13GDSSonnet\ClawCapacitance.son.
+
+  Parameter combination: 1 of 9.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        gap = 6.0
+        thickness = 16.0
+        ClawLength = 80.0
+
+  Parameter combination: 2 of 9.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        gap = 6.0
+        thickness = 16.0
+        ClawLength = 120.0
+
+  Parameter combination: 3 of 9.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        gap = 6.0
+        thickness = 16.0
+        ClawLength = 160.0
+
+  Parameter combination: 4 of 9.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        gap = 6.0
+        thickness = 20.0
+        ClawLength = 80.0
+
+  Parameter combination: 5 of 9.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        gap = 6.0
+        thickness = 20.0
+        ClawLength = 120.0
+
+  Parameter combination: 6 of 9.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        gap = 6.0
+        thickness = 20.0
+        ClawLength = 160.0
+
+  Parameter combination: 7 of 9.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        gap = 6.0
+        thickness = 24.0
+        ClawLength = 80.0
+
+  Parameter combination: 8 of 9.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        gap = 6.0
+        thickness = 24.0
+        ClawLength = 120.0
+
+  Parameter combination: 9 of 9.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        gap = 6.0
+        thickness = 24.0
+        ClawLength = 160.0
+
+    Post-Analysis:
+      Errors detected: 0    Warnings detected: 0.
+
+Analysis completed Fri Jul 15 10:14:03 2016.
+
+
+Run 3:  Fri Jul 15 11:01:51 2016.  calt2.2.43068.
+        Em version 16.52 (64-bit Windows) on DESKTOP-MOCDKPP remote.
+
+  Project:  C:\Users\Michael\Desktop\Sonnet Qubit Designs\Jul13GDSSonnet\ClawCapacitance.son.
+
+  Parameter combination: 1 of 9.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        gap = 6.0
+        ClawLength = 200.0
+        thickness = 16.0
+
+  Parameter combination: 2 of 9.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        gap = 6.0
+        ClawLength = 200.0
+        thickness = 20.0
+
+  Parameter combination: 3 of 9.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        gap = 6.0
+        ClawLength = 200.0
+        thickness = 24.0
+
+  Parameter combination: 4 of 9.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        gap = 6.0
+        ClawLength = 240.0
+        thickness = 16.0
+
+  Parameter combination: 5 of 9.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        gap = 6.0
+        ClawLength = 240.0
+        thickness = 20.0
+
+  Parameter combination: 6 of 9.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        gap = 6.0
+        ClawLength = 240.0
+        thickness = 24.0
+
+  Parameter combination: 7 of 9.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        gap = 6.0
+        ClawLength = 280.0
+        thickness = 16.0
+
+  Parameter combination: 8 of 9.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        gap = 6.0
+        ClawLength = 280.0
+        thickness = 20.0
+
+  Parameter combination: 9 of 9.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        gap = 6.0
+        ClawLength = 280.0
+        thickness = 24.0
+
+    Post-Analysis:
+      Errors detected: 0    Warnings detected: 0.
+
+Analysis completed Fri Jul 15 11:15:43 2016.
+
+
+Run 4:  Fri Jul 15 11:30:00 2016.  calt2.2.43068.
+        Em version 16.52 (64-bit Windows) on DESKTOP-MOCDKPP remote.
+
+  Project:  C:\Users\Michael\Desktop\Sonnet Qubit Designs\Jul13GDSSonnet\ClawCapacitance.son.
+
+  Parameter combination: 1 of 6.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        gap = 6.0
+        ClawLength = 120.0
+        thickness = 28.0
+
+  Parameter combination: 2 of 6.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        gap = 6.0
+        ClawLength = 120.0
+        thickness = 32.0
+
+  Parameter combination: 3 of 6.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        gap = 6.0
+        ClawLength = 160.0
+        thickness = 28.0
+
+  Parameter combination: 4 of 6.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        gap = 6.0
+        ClawLength = 160.0
+        thickness = 32.0
+
+  Parameter combination: 5 of 6.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        gap = 6.0
+        ClawLength = 200.0
+        thickness = 28.0
+
+  Parameter combination: 6 of 6.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        gap = 6.0
+        ClawLength = 200.0
+        thickness = 32.0
+
+    Post-Analysis:
+      Errors detected: 0    Warnings detected: 0.
+
+Analysis completed Fri Jul 15 11:39:15 2016.

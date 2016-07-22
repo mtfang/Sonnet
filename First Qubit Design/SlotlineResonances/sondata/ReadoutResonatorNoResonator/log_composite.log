@@ -1,0 +1,119 @@
+Run 1:  Wed Jul 20 18:06:09 2016.  calt2.2.43068.
+        Em version 16.52 (64-bit Windows) on DESKTOP-MOCDKPP remote.
+
+  Project:  C:\Users\Michael\Desktop\Sonnet Qubit Designs\SlotlineResonances\ReadoutResonatorNoResonator.son.
+
+    Frequency:  2 GHZ
+      Subsectioning at 10 GHz with Eeff of 6.45.
+      Errors detected: 0    Warnings detected: 0.
+
+Analysis stopped Wed Jul 20 18:06:19 2016 with signal 15.
+
+
+Run 2:  Wed Jul 20 18:06:43 2016.  calt2.2.43068.
+        Em version 16.52 (64-bit Windows) on DESKTOP-MOCDKPP remote.
+
+  Project:  C:\Users\Michael\Desktop\Sonnet Qubit Designs\SlotlineResonances\ReadoutResonatorNoResonator.son.
+
+    Frequency:  2 GHZ
+      Subsectioning at 10 GHz with Eeff of 6.45.
+      Subsectioning time:  11 seconds.
+      De-embedding information for ReadoutResonatorNoResonator_left box wall port(s):
+        ReadoutResonatorNoResonator_left SOC Electric Wall: 596 microns length, 1462 subsections, 68 MB.
+        ReadoutResonatorNoResonator_left SOC Magnetic Wall: 1192 microns length, 1411 subsections, 66 MB.
+      De-embedding information for ReadoutResonatorNoResonator_right box wall port(s):
+        ReadoutResonatorNoResonator_right SOC Electric Wall: 596 microns length, 1462 subsections, 68 MB.
+        ReadoutResonatorNoResonator_right SOC Magnetic Wall: 1192 microns length, 1411 subsections, 66 MB.
+      Em license feature:  emhighperformance.
+      Circuit requires 3855 subsections and 374 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  3,855
+
+      Required memory by type:
+        System matrix:            113 MB
+        Elemental subsections:
+          Primary structure:      80 MB
+          ReadoutResona standard: 82 MB
+          ReadoutResona standard: 82 MB
+        Fourier transform:        11 MB
+        Waveguide mode:           4 MB
+        Adaptive band synthesis:  2 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    374 MB
+
+      Matrix solver:  internal 64-bit SSE with loss.
+      Simulation mode:  remote em transfer.
+      Threads:  using 12 thread(s), 12 core(s) available.
+      Waveguide mode time:  0.080 seconds.
+      Fourier transform time:  0.440 seconds.
+      Coupling time:  50 seconds.
+      Loss time:  0 seconds.
+      Matrix fill time:  51 seconds.
+      Matrix solve time:  1 second.
+      De-embedding time for ReadoutResonatorNoResonator_left box wall:
+        SOC Electric Wall Std: 8 seconds.
+        SOC Magnetic Wall Std: 9 seconds.
+        Total:                 18 seconds.
+      Frequency completed Wed Jul 20 18:08:09 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        2.00000000 0.021280 76.434 0.999773 -8.239 0.999773 -8.239 0.021280 87.088
+        !< P1 F=2.0 Eeff=(6.45030201 -2.975e-5) Z0=(51.8005528 1.19462e-4) R=0.1215537 C=0.00301999 
+        !< P2 F=2.0 Eeff=(6.45030201 -2.975e-5) Z0=(51.8005528 1.19462e-4) R=0.1215537 C=0.00301999 
+      Total time per frequency:  1 minute 15 seconds.
+
+    Frequency:  10 GHZ
+      Frequency completed Wed Jul 20 18:09:19 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        10.0000000 0.217293 11.182 0.976102 -47.91 0.976102 -47.91 0.217295 73.007
+        !< P1 F=10.0 Eeff=(6.44950223 -2.9743e-5) Z0=(51.7960263 1.19474e-4) R=0.0243056 C=0.00301981 
+        !< P2 F=10.0 Eeff=(6.44950223 -2.9743e-5) Z0=(51.7960263 1.19474e-4) R=0.0243056 C=0.00301981 
+      Total time per frequency:  1 minute 10 seconds.
+      ABS: Energy conservation for port 1 at 9.775 GHz.
+      ABS: Time = 0.130 seconds.
+
+    Frequency:  9.775 GHZ
+      Frequency completed Wed Jul 20 18:10:30 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        9.77500000 0.194246 14.349 0.980949 -45.75 0.980949 -45.75 0.194248 74.155
+        !< P1 F=9.775 Eeff=(6.44953919 -2.9743e-5) Z0=(51.7962373 1.19474e-4) R=0.02486219 C=0.00301982 
+        !< P2 F=9.775 Eeff=(6.44953919 -2.9743e-5) Z0=(51.7962373 1.19474e-4) R=0.02486219 C=0.00301982 
+      Total time per frequency:  1 minute 10 seconds.
+      ABS: SNR = 50.574 dB (80.5209 dB Goal) for S1_2 at 4.775 GHz.
+      ABS: Time = 0.140 seconds.
+
+    Frequency:  4.775 GHZ
+      Frequency completed Wed Jul 20 18:11:42 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        4.77500000 0.053759 57.133 0.998553 -19.87 0.998553 -19.87 0.053759 83.138
+        !< P1 F=4.775 Eeff=(6.45014433 -2.975e-5) Z0=(51.799668 1.19467e-4) R=0.05090078 C=0.00301996 
+        !< P2 F=4.775 Eeff=(6.45014433 -2.975e-5) Z0=(51.799668 1.19467e-4) R=0.05090078 C=0.00301996 
+      Total time per frequency:  1 minute 11 seconds.
+      ABS: SNR = 71.2548 dB (80.5209 dB Goal) for S1_2 at 8.2 GHz.
+      ABS: Time = 0.200 seconds.
+
+    Frequency:  8.2 GHZ
+      Frequency completed Wed Jul 20 18:12:53 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        8.20000000 0.116237 30.644 0.993220 -35.59 0.993220 -35.59 0.116238 78.172
+        !< P1 F=8.2 Eeff=(6.4497745 -2.9746e-5) Z0=(51.7975767 1.19471e-4) R=0.02963964 C=0.00301988 
+        !< P2 F=8.2 Eeff=(6.4497745 -2.9746e-5) Z0=(51.7975767 1.19471e-4) R=0.02963964 C=0.00301988 
+      Total time per frequency:  1 minute 11 seconds.
+      ABS: Q-factor. Diff = 0 (18219.6 Tol) for port 1 at -1e-009 GHz.
+      ABS: SNR = 61.7062 dB (50 dB Goal) for S2_2 at 2.75 GHz.
+      ABS: Time = 0.190 seconds.
+      ABS: Q-factor. Diff = 0 (18219.6 Tol) for port 1 at -1e-009 GHz.
+      ABS: SNR = 61.7062 dB (50 dB Goal) for S2_2 at 2.75 GHz.
+      ABS: Time = 0.190 seconds.
+
+    Post-Analysis:
+      Total time for 5 frequencies:  6 minutes 10 seconds.
+      Errors detected: 0    Warnings detected: 0.
+
+Analysis completed Wed Jul 20 18:12:53 2016.

@@ -1,0 +1,166 @@
+Run 1:  Tue Jul 19 10:54:07 2016.  calt2.2.43068.
+        Em version 16.52 (64-bit Windows) on DESKTOP-MOCDKPP remote.
+
+  Project:  C:\Users\Michael\Desktop\Sonnet Qubit Designs\Jul16GDSSonnet\FluxBiasVIA_FluxUnder_Vary.son.
+
+  Parameter combination: 1 of 3.
+
+    Frequency:  6 GHZ
+      Independent parameter values:
+        pos = 15.0
+        fluxCut = 2.0
+        fluxUnder = 3.2
+      Subsectioning at 6 GHz with Eeff of 6.45.
+      Subsectioning time:  5 seconds.
+      De-embedding information for FluxBiasVIA_FluxUnder_Vary_bottom box wall port(s):
+        FluxBiasVIA_FluxUnder_Vary_bottom SOC Electric Wall: 405 microns length, 1457 subsections, 94 MB.
+        FluxBiasVIA_FluxUnder_Vary_bottom SOC Magnetic Wall: 810 microns length, 1420 subsections, 97 MB.
+      De-embedding information for cci group A:
+        Main Std: X=350 microns Y=615.5 microns box size, 120 subsections, 20 MB.
+      Em license feature:  emhighperformance.
+      Circuit requires 9796 subsections and 1000 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  491
+      Level 1:
+        Staircase:  9,197
+        Via:        104
+      Ground Plane:
+        Via:        4
+
+      Required memory by type:
+        System matrix:            732 MB
+        Elemental subsections:
+          Primary structure:      112 MB
+          FluxBiasVIA_F standard: 130 MB
+          CciA standard:          1 MB
+        Fourier transform:        18 MB
+        Waveguide mode:           6 MB
+        Adaptive band synthesis:  0 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    1,000 MB
+
+      Matrix solver:  internal 64-bit SSE with loss.
+      Simulation mode:  remote em transfer.
+      Threads:  using 12 thread(s), 12 core(s) available.
+      Waveguide mode time:  0.132 seconds.
+      Fourier transform time:  3 seconds.
+      Coupling time:  3 minutes 1 second.
+      Loss time:  0.001 seconds.
+      Matrix fill time:  3 minutes 5 seconds.
+      Matrix solve time:  24 seconds.
+      De-embedding time for FluxBiasVIA_FluxUnder_Vary_bottom box wall:
+        SOC Electric Wall Std: 17 seconds.
+        SOC Magnetic Wall Std: 16 seconds.
+        Total:                 34 seconds.
+      De-embedding time for cci group A:
+        Total: 4 seconds.
+      Total time per frequency:  4 minutes 12 seconds.
+
+  Parameter combination: 2 of 3.
+
+    Frequency:  6 GHZ
+      Independent parameter values:
+        pos = 15.0
+        fluxCut = 2.0
+        fluxUnder = 4.7
+      Subsectioning at 6 GHz with Eeff of 6.45.
+      Subsectioning time:  5 seconds.
+      De-embedding information for FluxBiasVIA_FluxUnder_Vary_bottom box wall port(s):
+        FluxBiasVIA_FluxUnder_Vary_bottom SOC Electric Wall: 405 microns length, 1457 subsections, 94 MB.
+        FluxBiasVIA_FluxUnder_Vary_bottom SOC Magnetic Wall: 810 microns length, 1420 subsections, 97 MB.
+      De-embedding information for cci group A:
+        Main Std: X=350 microns Y=615.5 microns box size, 120 subsections, 20 MB.
+      Circuit requires 9779 subsections and 997 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  490
+      Level 1:
+        Staircase:  9,182
+        Via:        103
+      Ground Plane:
+        Via:        4
+
+      Required memory by type:
+        System matrix:            730 MB
+        Elemental subsections:
+          Primary structure:      112 MB
+          FluxBiasVIA_F standard: 130 MB
+          CciA standard:          1 MB
+        Fourier transform:        18 MB
+        Waveguide mode:           6 MB
+        Adaptive band synthesis:  0 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    997 MB
+
+      Waveguide mode time:  0.152 seconds.
+      Fourier transform time:  3 seconds.
+      Coupling time:  3 minutes.
+      Loss time:  0 seconds.
+      Matrix fill time:  3 minutes 4 seconds.
+      Matrix solve time:  24 seconds.
+      De-embedding time for FluxBiasVIA_FluxUnder_Vary_bottom box wall:
+        SOC Electric Wall Std: 17 seconds.
+        SOC Magnetic Wall Std: 17 seconds.
+        Total:                 34 seconds.
+      De-embedding time for cci group A:
+        Total: 4 seconds.
+      Total time per frequency:  4 minutes 16 seconds.
+
+  Parameter combination: 3 of 3.
+
+    Frequency:  6 GHZ
+      Independent parameter values:
+        pos = 15.0
+        fluxCut = 2.0
+        fluxUnder = 6.2
+      Subsectioning at 6 GHz with Eeff of 6.45.
+      Subsectioning time:  5 seconds.
+      De-embedding information for FluxBiasVIA_FluxUnder_Vary_bottom box wall port(s):
+        FluxBiasVIA_FluxUnder_Vary_bottom SOC Electric Wall: 405 microns length, 1457 subsections, 94 MB.
+        FluxBiasVIA_FluxUnder_Vary_bottom SOC Magnetic Wall: 810 microns length, 1420 subsections, 97 MB.
+      De-embedding information for cci group A:
+        Main Std: X=350 microns Y=615.5 microns box size, 120 subsections, 20 MB.
+      Circuit requires 9812 subsections and 1002 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  490
+      Level 1:
+        Staircase:  9,215
+        Via:        103
+      Ground Plane:
+        Via:        4
+
+      Required memory by type:
+        System matrix:            735 MB
+        Elemental subsections:
+          Primary structure:      112 MB
+          FluxBiasVIA_F standard: 130 MB
+          CciA standard:          1 MB
+        Fourier transform:        18 MB
+        Waveguide mode:           6 MB
+        Adaptive band synthesis:  0 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    1,002 MB
+
+      Waveguide mode time:  0.132 seconds.
+      Fourier transform time:  3 seconds.
+      Coupling time:  3 minutes.
+      Loss time:  0.001 seconds.
+      Matrix fill time:  3 minutes 4 seconds.
+      Matrix solve time:  24 seconds.
+      De-embedding time for FluxBiasVIA_FluxUnder_Vary_bottom box wall:
+        SOC Electric Wall Std: 17 seconds.
+        SOC Magnetic Wall Std: 16 seconds.
+        Total:                 34 seconds.
+      De-embedding time for cci group A:
+        Total: 4 seconds.
+      Total time per frequency:  4 minutes 17 seconds.
+
+    Post-Analysis:
+      Total time for 3 frequencies:  12 minutes 51 seconds.
+
+Analysis completed Tue Jul 19 11:06:58 2016.

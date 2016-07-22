@@ -1,0 +1,201 @@
+Run 1:  Fri Jul 15 19:37:33 2016.  calt2.2.43068.
+        Em version 16.52 (64-bit Windows) on DESKTOP-MOCDKPP remote.
+
+  Project:  C:\Users\Michael\Desktop\Sonnet Qubit Designs\Jul15GDSSonnet V2\FluxBiasVary.son.
+
+  Parameter combination: 1 of 13.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        fluxcut = 0.0
+        fluxunder = 3.2
+        fluxover = 6.2
+      Frequency completed Fri Jul 15 19:38:28 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        0.10000000 1.000000 179.86 1.994e-5 -90.08 1.994e-5 -90.08 1.000000 179.97
+        !< P1 F=0.1 Eeff=(6.43750092 -2.9933e-5) Z0=(50.8701664 1.17054e-4) R=0.0 C=0.0 
+        !< P2 F=0.1 Eeff=(undefined: sl) Z0=(undefined: sl) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "sl" code.
+
+  Parameter combination: 2 of 13.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        fluxcut = 1.0
+        fluxunder = 3.2
+        fluxover = 6.2
+      Frequency completed Fri Jul 15 19:39:24 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        0.10000000 1.000000 179.86 2.108e-5 -90.08 2.108e-5 -90.08 1.000000 179.97
+        !< P1 F=0.1 Eeff=(6.43750092 -2.9933e-5) Z0=(50.8701664 1.17054e-4) R=0.0 C=0.0 
+        !< P2 F=0.1 Eeff=(undefined: sl) Z0=(undefined: sl) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "sl" code.
+
+  Parameter combination: 3 of 13.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        fluxcut = 2.0
+        fluxunder = 3.2
+        fluxover = 6.2
+      Frequency completed Fri Jul 15 19:40:20 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        0.10000000 1.000000 179.86 2.235e-5 -90.08 2.235e-5 -90.08 1.000000 179.97
+        !< P1 F=0.1 Eeff=(6.43750092 -2.9933e-5) Z0=(50.8701664 1.17054e-4) R=0.0 C=0.0 
+        !< P2 F=0.1 Eeff=(undefined: sl) Z0=(undefined: sl) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "sl" code.
+
+  Parameter combination: 4 of 13.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        fluxcut = 3.0
+        fluxunder = 3.2
+        fluxover = 6.2
+      Frequency completed Fri Jul 15 19:41:16 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        0.10000000 1.000000 179.86 2.379e-5 -90.08 2.379e-5 -90.08 1.000000 179.97
+        !< P1 F=0.1 Eeff=(6.43750092 -2.9933e-5) Z0=(50.8701664 1.17054e-4) R=0.0 C=0.0 
+        !< P2 F=0.1 Eeff=(undefined: sl) Z0=(undefined: sl) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "sl" code.
+
+  Parameter combination: 5 of 13.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        fluxcut = 4.0
+        fluxunder = 3.2
+        fluxover = 6.2
+      Frequency completed Fri Jul 15 19:42:13 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        0.10000000 1.000000 179.86 2.499e-5 -90.08 2.499e-5 -90.08 1.000000 179.97
+        !< P1 F=0.1 Eeff=(6.43750092 -2.9933e-5) Z0=(50.8701664 1.17054e-4) R=0.0 C=0.0 
+        !< P2 F=0.1 Eeff=(undefined: sl) Z0=(undefined: sl) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "sl" code.
+
+  Parameter combination: 6 of 13.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        fluxcut = 5.0
+        fluxunder = 3.2
+        fluxover = 6.2
+      Frequency completed Fri Jul 15 19:43:10 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        0.10000000 1.000000 179.86 2.593e-5 -90.08 2.593e-5 -90.08 1.000000 179.97
+        !< P1 F=0.1 Eeff=(6.43750092 -2.9933e-5) Z0=(50.8701664 1.17054e-4) R=0.0 C=0.0 
+        !< P2 F=0.1 Eeff=(undefined: sl) Z0=(undefined: sl) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "sl" code.
+
+  Parameter combination: 7 of 13.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        fluxcut = 6.0
+        fluxunder = 3.2
+        fluxover = 6.2
+      Frequency completed Fri Jul 15 19:44:06 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        0.10000000 1.000000 179.86 2.660e-5 -90.08 2.660e-5 -90.08 1.000000 179.97
+        !< P1 F=0.1 Eeff=(6.43750092 -2.9933e-5) Z0=(50.8701664 1.17054e-4) R=0.0 C=0.0 
+        !< P2 F=0.1 Eeff=(undefined: sl) Z0=(undefined: sl) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "sl" code.
+
+  Parameter combination: 8 of 13.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        fluxcut = 7.0
+        fluxunder = 3.2
+        fluxover = 6.2
+      Frequency completed Fri Jul 15 19:45:02 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        0.10000000 1.000000 179.86 2.705e-5 -90.08 2.705e-5 -90.08 1.000000 179.97
+        !< P1 F=0.1 Eeff=(6.43750092 -2.9933e-5) Z0=(50.8701664 1.17054e-4) R=0.0 C=0.0 
+        !< P2 F=0.1 Eeff=(undefined: sl) Z0=(undefined: sl) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "sl" code.
+
+  Parameter combination: 9 of 13.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        fluxcut = 8.0
+        fluxunder = 3.2
+        fluxover = 6.2
+      Frequency completed Fri Jul 15 19:45:59 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        0.10000000 1.000000 179.86 2.735e-5 -90.08 2.735e-5 -90.08 1.000000 179.97
+        !< P1 F=0.1 Eeff=(6.43750092 -2.9933e-5) Z0=(50.8701664 1.17054e-4) R=0.0 C=0.0 
+        !< P2 F=0.1 Eeff=(undefined: sl) Z0=(undefined: sl) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "sl" code.
+
+  Parameter combination: 10 of 13.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        fluxcut = 9.0
+        fluxunder = 3.2
+        fluxover = 6.2
+      Frequency completed Fri Jul 15 19:46:56 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        0.10000000 1.000000 179.86 2.753e-5 -90.08 2.753e-5 -90.08 1.000000 179.97
+        !< P1 F=0.1 Eeff=(6.43750092 -2.9933e-5) Z0=(50.8701664 1.17054e-4) R=0.0 C=0.0 
+        !< P2 F=0.1 Eeff=(undefined: sl) Z0=(undefined: sl) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "sl" code.
+
+  Parameter combination: 11 of 13.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        fluxcut = 10.0
+        fluxunder = 3.2
+        fluxover = 6.2
+      Frequency completed Fri Jul 15 19:47:52 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        0.10000000 1.000000 179.86 2.762e-5 -90.08 2.762e-5 -90.08 1.000000 179.97
+        !< P1 F=0.1 Eeff=(6.43750092 -2.9933e-5) Z0=(50.8701664 1.17054e-4) R=0.0 C=0.0 
+        !< P2 F=0.1 Eeff=(undefined: sl) Z0=(undefined: sl) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "sl" code.
+
+  Parameter combination: 12 of 13.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        fluxcut = 11.0
+        fluxunder = 3.2
+        fluxover = 6.2
+      Frequency completed Fri Jul 15 19:48:48 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        0.10000000 1.000000 179.86 2.764e-5 -90.08 2.764e-5 -90.08 1.000000 179.97
+        !< P1 F=0.1 Eeff=(6.43750092 -2.9933e-5) Z0=(50.8701664 1.17054e-4) R=0.0 C=0.0 
+        !< P2 F=0.1 Eeff=(undefined: sl) Z0=(undefined: sl) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "sl" code.
+
+  Parameter combination: 13 of 13.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        fluxcut = 12.0
+        fluxunder = 3.2
+        fluxover = 6.2
+      Frequency completed Fri Jul 15 19:49:43 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        0.10000000 1.000000 179.86 2.763e-5 -90.08 2.763e-5 -90.08 1.000000 179.97
+        !< P1 F=0.1 Eeff=(6.43750092 -2.9933e-5) Z0=(50.8701664 1.17054e-4) R=0.0 C=0.0 
+        !< P2 F=0.1 Eeff=(undefined: sl) Z0=(undefined: sl) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "sl" code.
+
+Analysis completed Fri Jul 15 19:49:43 2016.

@@ -1,0 +1,173 @@
+Run 1:  Thu Jun 23 13:34:22 2016.  calt2.2.43068.
+        Em version 16.52 (64-bit Windows) on DESKTOP-MOCDKPP remote.
+
+  Project:  C:\Users\Michael\Documents\Github\Sonnet\Qubit\FirstTests\TransmonXmonFinger.son.
+
+    Frequency:  1 GHZ
+      Subsectioning at 10 GHz with Eeff of 6.45.
+      Subsectioning time:  1 second.
+      De-embedding information for TransmonXmonFinger_right box wall port(s):
+        TransmonXmonFinger_right SOC Electric Wall: 100 microns length, 587 subsections, 6 MB.
+        TransmonXmonFinger_right SOC Magnetic Wall: 200 microns length, 552 subsections, 5 MB.
+      De-embedding information for component Lq:
+        Main Std: X=1000 microns Y=820 microns box size, 27 subsections, 3 MB.
+      Em license feature:  emhighperformance.
+      Circuit requires 1798 subsections and 38 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  1,798
+
+      Required memory by type:
+        System matrix:            25 MB
+        Elemental subsections:
+          Primary structure:      7 MB
+          TransmonXmonF standard: 1 MB
+          CciLq standard:         0 MB
+        Fourier transform:        1 MB
+        Waveguide mode:           1 MB
+        Adaptive band synthesis:  1 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    38 MB
+
+      Matrix solver:  internal 64-bit SSE with loss.
+      Simulation mode:  remote em transfer.
+      Threads:  using 12 thread(s), 12 core(s) available.
+      Waveguide mode time:  0.030 seconds.
+      Fourier transform time:  0.040 seconds.
+      Coupling time:  2 seconds.
+      Loss time:  0 seconds.
+      Matrix fill time:  2 seconds.
+      Matrix solve time:  0.250 seconds.
+      De-embedding time for TransmonXmonFinger_right box wall:
+        SOC Electric Wall Std: 0.130 seconds.
+        SOC Magnetic Wall Std: 0.130 seconds.
+        Total:                 0.260 seconds.
+      De-embedding time for component Lq:
+        Total: 0.160 seconds.
+      Frequency completed Thu Jun 23 13:34:26 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format.
+        1.00000000 1.000000 -1.175
+        !< P1 F=1.0 Eeff=(6.49990632 -2.9977e-5) Z0=(49.6258759 1.14445e-4) R=0.17254086 C=0.00425531 
+      Total time per frequency:  3 seconds.
+
+    Frequency:  10 GHZ
+      Frequency completed Thu Jun 23 13:34:29 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format.
+        10.0000000 0.999999 -11.74
+        !< P1 F=10.0 Eeff=(6.50020806 -2.998e-5) Z0=(49.6262259 1.14441e-4) R=0.0172522 C=0.00425537 
+      ABS: SNR = 50.4876 dB (120 dB Goal) for S1_1 at 4.425 GHz.
+      ABS: Time = 0.080 seconds.
+
+    Frequency:  4.425 GHZ
+      Frequency completed Thu Jun 23 13:34:32 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format.
+        4.42500000 1.000000 -5.198
+        !< P1 F=4.425 Eeff=(6.4999626 -2.9981e-5) Z0=(49.6259399 1.14445e-4) R=0.03898698 C=0.00425532 
+      ABS: SNR = 92.6912 dB (120 dB Goal) for S1_1 at 8.1 GHz.
+      ABS: Time = 0.130 seconds.
+
+    Frequency:  8.1 GHZ
+      Frequency completed Thu Jun 23 13:34:35 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format.
+        8.10000000 0.999999 -9.513
+        !< P1 F=8.1 Eeff=(6.50010282 -2.998e-5) Z0=(49.6261022 1.14444e-4) R=0.02129848 C=0.00425535 
+      ABS: Q-factor. Diff = 0 (0.734569 Tol) for port 1 at -1e-009 GHz.
+      ABS: SNR = 54.8831 dB (50 dB Goal) for S1_3 at 1.8 GHz.
+      ABS: Time = 0.110 seconds.
+      ABS: Q-factor. Diff = 0 (0.734569 Tol) for port 1 at -1e-009 GHz.
+      ABS: SNR = 54.8831 dB (50 dB Goal) for S1_3 at 1.8 GHz.
+      ABS: Time = 0.110 seconds.
+
+    Post-Analysis:
+      Total time for 4 frequencies:  13 seconds.
+      Errors detected: 0    Warnings detected: 0.
+
+Analysis completed Thu Jun 23 13:34:35 2016.
+
+
+Run 2:  Thu Jun 23 13:36:28 2016.  calt2.2.43068.
+        Em version 16.52 (64-bit Windows) on DESKTOP-MOCDKPP remote.
+
+  Project:  C:\Users\Michael\Documents\Github\Sonnet\Qubit\FirstTests\TransmonXmonFinger.son.
+
+    Frequency:  5 GHZ
+      Subsectioning at 10 GHz with Eeff of 6.45.
+      Subsectioning time:  1 second.
+      De-embedding information for TransmonXmonFinger_right box wall port(s):
+        TransmonXmonFinger_right SOC Electric Wall: 100 microns length, 587 subsections, 6 MB.
+        TransmonXmonFinger_right SOC Magnetic Wall: 200 microns length, 552 subsections, 5 MB.
+      De-embedding information for component Lq:
+        Main Std: X=1000 microns Y=820 microns box size, 27 subsections, 3 MB.
+      Em license feature:  emhighperformance.
+      Circuit requires 1798 subsections and 37 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  1,798
+
+      Required memory by type:
+        System matrix:            25 MB
+        Elemental subsections:
+          Primary structure:      7 MB
+          TransmonXmonF standard: 1 MB
+          CciLq standard:         0 MB
+        Fourier transform:        1 MB
+        Waveguide mode:           1 MB
+        Adaptive band synthesis:  1 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    37 MB
+
+      Matrix solver:  internal 64-bit SSE with loss.
+      Simulation mode:  remote em transfer.
+      Threads:  using 12 thread(s), 12 core(s) available.
+      Waveguide mode time:  0.040 seconds.
+      Fourier transform time:  0.050 seconds.
+      Coupling time:  2 seconds.
+      Loss time:  0 seconds.
+      Matrix fill time:  2 seconds.
+      Matrix solve time:  0.260 seconds.
+      De-embedding time for TransmonXmonFinger_right box wall:
+        SOC Electric Wall Std: 0.140 seconds.
+        SOC Magnetic Wall Std: 0.130 seconds.
+        Total:                 0.270 seconds.
+      De-embedding time for component Lq:
+        Total: 0.160 seconds.
+      Frequency completed Thu Jun 23 13:36:33 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format.
+        5.00000000 1.000000 -5.879
+        !< P1 F=5.0 Eeff=(6.49997907 -2.998e-5) Z0=(49.6259589 1.14446e-4) R=0.03450276 C=0.00425532 
+      Total time per frequency:  3 seconds.
+
+    Frequency:  5.2 GHZ
+      Frequency completed Thu Jun 23 13:36:35 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format.
+        5.20000000 0.999999 -6.098
+        !< P1 F=5.2 Eeff=(6.49998527 -2.998e-5) Z0=(49.625966 1.14446e-4) R=0.03317605 C=0.00425532 
+      ABS: SNR = 75.3228 dB (84.5445 dB Goal) for S2_3 at 5.1 GHz.
+      ABS: Time = 0.060 seconds.
+
+    Frequency:  5.1 GHZ
+      Frequency completed Thu Jun 23 13:36:38 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format.
+        5.10000000 0.999999 -6.052
+        !< P1 F=5.1 Eeff=(6.49998214 -2.9979e-5) Z0=(49.6259624 1.14446e-4) R=0.03382576 C=0.00425532 
+      ABS: Q-factor. Diff = 0 (0.0152947 Tol) for port 1 at -1e-009 GHz.
+      ABS: SNR = 132.052 dB (84.5445 dB Goal) for S2_3 at 5.042 GHz.
+      ABS: Time = 0.050 seconds.
+      ABS: Q-factor. Diff = 0 (0.0152947 Tol) for port 1 at -1e-009 GHz.
+      ABS: SNR = 132.052 dB (84.5445 dB Goal) for S2_3 at 5.042 GHz.
+      ABS: Time = 0.050 seconds.
+
+    Post-Analysis:
+      Total time for 3 frequencies:  11 seconds.
+      Errors detected: 0    Warnings detected: 0.
+
+Analysis completed Thu Jun 23 13:36:39 2016.

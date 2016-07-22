@@ -1,0 +1,39 @@
+Run 1:  Wed Apr 13 18:58:25 2016.  calt2.2.43068.
+        Em version 16.52 (64-bit Windows) on DESKTOP-MOCDKPP remote.
+
+  Project:  C:\Users\Michael\Documents\Github\Sonnet\Qubit\FirstTests\TransmonXmonFlux.son.
+
+  Parameter combination: 1 of 5.
+
+    Frequency:  0.05 GHZ
+      Independent parameter values:
+        leftNotch = 22.0
+
+  Parameter combination: 2 of 5.
+
+    Frequency:  0.05 GHZ
+      Independent parameter values:
+        leftNotch = 24.0
+
+  Parameter combination: 3 of 5.
+
+    Frequency:  0.05 GHZ
+      Independent parameter values:
+        leftNotch = 26.0
+
+  Parameter combination: 4 of 5.
+
+    Frequency:  0.05 GHZ
+      Independent parameter values:
+        leftNotch = 28.0
+
+  Parameter combination: 5 of 5.
+
+    Frequency:  0.05 GHZ
+      Independent parameter values:
+        leftNotch = 30.0
+
+    Post-Analysis:
+      Errors detected: 0    Warnings detected: 0.
+
+Analysis completed Wed Apr 13 19:11:34 2016.

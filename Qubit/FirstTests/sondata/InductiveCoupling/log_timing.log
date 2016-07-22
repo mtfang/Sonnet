@@ -1,0 +1,198 @@
+Run 1:  Fri Jul 08 12:34:35 2016.  calt2.2.43068.
+        Em version 16.52 (64-bit Windows) on DESKTOP-MOCDKPP remote.
+
+  Project:  C:\Users\Michael\Documents\Github\Sonnet\Qubit\FirstTests\InductiveCoupling.son.
+
+    Frequency:  1 GHZ
+      Subsectioning at 20 GHz with Eeff of 6.45.
+      Subsectioning time:  0.150 seconds.
+      De-embedding information for InductiveCoupling_left box wall port(s):
+        InductiveCoupling_left SOC Electric Wall: 500 microns length, 363 subsections, 5 MB.
+        InductiveCoupling_left SOC Magnetic Wall: 1000 microns length, 348 subsections, 5 MB.
+      De-embedding information for InductiveCoupling_right box wall port(s):
+        InductiveCoupling_right SOC Electric Wall: 500 microns length, 363 subsections, 5 MB.
+        InductiveCoupling_right SOC Magnetic Wall: 1000 microns length, 348 subsections, 5 MB.
+      De-embedding information for cci group A:
+        Main Std: X=1000 microns Y=488 microns box size, 111 subsections, 3 MB.
+      Em license feature:  emhighperformance.
+      Circuit requires 3227 subsections and 95 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  3,224
+        Via:        3
+
+      Required memory by type:
+        System matrix:            79 MB
+        Elemental subsections:
+          Primary structure:      3 MB
+          InductiveCoup standard: 3 MB
+          InductiveCoup standard: 3 MB
+          CciA standard:          0 MB
+        Fourier transform:        1 MB
+        Waveguide mode:           1 MB
+        Adaptive band synthesis:  3 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    95 MB
+
+      Matrix solver:  internal 64-bit SSE with loss.
+      Simulation mode:  remote em transfer.
+      Threads:  using 12 thread(s), 12 core(s) available.
+      Waveguide mode time:  0.030 seconds.
+      Fourier transform time:  0.050 seconds.
+      Coupling time:  2 seconds.
+      Loss time:  0 seconds.
+      Matrix fill time:  2 seconds.
+      Matrix solve time:  0.900 seconds.
+      De-embedding time for InductiveCoupling_left box wall:
+        SOC Electric Wall Std: 0.140 seconds.
+        SOC Magnetic Wall Std: 0.120 seconds.
+        Total:                 0.260 seconds.
+      De-embedding time for InductiveCoupling_right box wall:
+        SOC Electric Wall Std: 0.120 seconds.
+        SOC Magnetic Wall Std: 0.110 seconds.
+        Total:                 0.230 seconds.
+      De-embedding time for cci group A:
+        Total: 0.220 seconds.
+      Total time per frequency:  4 seconds.
+
+    Frequency:  20 GHZ
+      ABS: Energy conservation for port 2 at 11.65 GHz.
+      ABS: Time = 0.200 seconds.
+
+    Frequency:  11.65 GHZ
+      ABS: Energy conservation for port 2 at 9.6 GHz.
+      ABS: Time = 0.200 seconds.
+
+    Frequency:  9.6 GHZ
+      ABS: Energy conservation for port 2 at 10.65 GHz.
+      ABS: Time = 0.250 seconds.
+
+    Frequency:  10.65 GHZ
+      ABS: Energy conservation for port 2 at 16.85 GHz.
+      ABS: Time = 0.280 seconds.
+
+    Frequency:  16.85 GHZ
+      ABS: Energy conservation for port 2 at 2.55 GHz.
+      ABS: Time = 0.310 seconds.
+
+    Frequency:  2.55 GHZ
+      ABS: SNR = 79.4656 dB (104.968 dB Goal) for S2_2 at 4.65 GHz.
+      ABS: Time = 0.400 seconds.
+
+    Frequency:  4.65 GHZ
+      ABS: SNR = 102.569 dB (104.968 dB Goal) for S2_2 at 7.55 GHz.
+      ABS: Time = 0.460 seconds.
+
+    Frequency:  7.55 GHZ
+      ABS: Q-factor. Diff = 0 (823335 Tol) for port 1 at -1e-009 GHz.
+      ABS: SNR = 53.9193 dB (40 dB Goal) for S1_2 at 1.3 GHz.
+      ABS: Time = 0.590 seconds.
+      ABS: Q-factor. Diff = 0 (823335 Tol) for port 1 at -1e-009 GHz.
+      ABS: SNR = 53.9193 dB (40 dB Goal) for S1_2 at 1.3 GHz.
+      ABS: Time = 0.630 seconds.
+
+    Post-Analysis:
+      Total time for 9 frequencies:  39 seconds.
+
+Analysis completed Fri Jul 08 12:35:14 2016.
+
+
+Run 2:  Fri Jul 08 12:42:35 2016.  calt2.2.43068.
+        Em version 16.52 (64-bit Windows) on DESKTOP-MOCDKPP remote.
+
+  Project:  C:\Users\Michael\Documents\Github\Sonnet\Qubit\FirstTests\InductiveCoupling.son.
+
+    Frequency:  1 GHZ
+      Subsectioning at 20 GHz with Eeff of 6.45.
+      Subsectioning time:  0.220 seconds.
+      De-embedding information for InductiveCoupling_left box wall port(s):
+        InductiveCoupling_left SOC Electric Wall: 500 microns length, 363 subsections, 5 MB.
+        InductiveCoupling_left SOC Magnetic Wall: 1000 microns length, 348 subsections, 5 MB.
+      De-embedding information for InductiveCoupling_right box wall port(s):
+        InductiveCoupling_right SOC Electric Wall: 500 microns length, 363 subsections, 5 MB.
+        InductiveCoupling_right SOC Magnetic Wall: 1000 microns length, 348 subsections, 5 MB.
+      De-embedding information for cci group A:
+        Main Std: X=1000 microns Y=488 microns box size, 111 subsections, 3 MB.
+      Em license feature:  emhighperformance.
+      Circuit requires 3227 subsections and 95 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  3,224
+        Via:        3
+
+      Required memory by type:
+        System matrix:            79 MB
+        Elemental subsections:
+          Primary structure:      3 MB
+          InductiveCoup standard: 3 MB
+          InductiveCoup standard: 3 MB
+          CciA standard:          0 MB
+        Fourier transform:        1 MB
+        Waveguide mode:           1 MB
+        Adaptive band synthesis:  3 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    95 MB
+
+      Matrix solver:  internal 64-bit SSE with loss.
+      Simulation mode:  remote em transfer.
+      Threads:  using 12 thread(s), 12 core(s) available.
+      Waveguide mode time:  0.030 seconds.
+      Fourier transform time:  0.050 seconds.
+      Coupling time:  2 seconds.
+      Loss time:  0 seconds.
+      Matrix fill time:  2 seconds.
+      Matrix solve time:  1 second.
+      De-embedding time for InductiveCoupling_left box wall:
+        SOC Electric Wall Std: 0.140 seconds.
+        SOC Magnetic Wall Std: 0.150 seconds.
+        Total:                 0.290 seconds.
+      De-embedding time for InductiveCoupling_right box wall:
+        SOC Electric Wall Std: 0.110 seconds.
+        SOC Magnetic Wall Std: 0.130 seconds.
+        Total:                 0.240 seconds.
+      De-embedding time for cci group A:
+        Total: 0.260 seconds.
+      Total time per frequency:  4 seconds.
+
+    Frequency:  20 GHZ
+      ABS: Energy conservation for port 2 at 11.65 GHz.
+      ABS: Time = 0.180 seconds.
+
+    Frequency:  11.65 GHZ
+      ABS: Energy conservation for port 2 at 9.6 GHz.
+      ABS: Time = 0.210 seconds.
+
+    Frequency:  9.6 GHZ
+      ABS: Energy conservation for port 2 at 10.65 GHz.
+      ABS: Time = 0.230 seconds.
+
+    Frequency:  10.65 GHZ
+      ABS: Energy conservation for port 2 at 16.85 GHz.
+      ABS: Time = 0.260 seconds.
+
+    Frequency:  16.85 GHZ
+      ABS: Energy conservation for port 2 at 2.55 GHz.
+      ABS: Time = 0.311 seconds.
+
+    Frequency:  2.55 GHZ
+      ABS: SNR = 79.4656 dB (104.968 dB Goal) for S2_2 at 4.65 GHz.
+      ABS: Time = 0.400 seconds.
+
+    Frequency:  4.65 GHZ
+      ABS: SNR = 102.569 dB (104.968 dB Goal) for S2_2 at 7.55 GHz.
+      ABS: Time = 0.460 seconds.
+
+    Frequency:  7.55 GHZ
+      ABS: Q-factor. Diff = 0 (823335 Tol) for port 1 at -1e-009 GHz.
+      ABS: SNR = 53.9193 dB (40 dB Goal) for S1_2 at 1.3 GHz.
+      ABS: Time = 0.551 seconds.
+      ABS: Q-factor. Diff = 0 (823335 Tol) for port 1 at -1e-009 GHz.
+      ABS: SNR = 53.9193 dB (40 dB Goal) for S1_2 at 1.3 GHz.
+      ABS: Time = 0.550 seconds.
+
+    Post-Analysis:
+      Total time for 9 frequencies:  42 seconds.
+
+Analysis completed Fri Jul 08 12:43:17 2016.

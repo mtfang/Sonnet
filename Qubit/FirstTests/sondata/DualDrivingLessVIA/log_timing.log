@@ -1,0 +1,104 @@
+Run 1:  Fri Jun 24 20:14:27 2016.  calt2.2.43068.
+        Em version 16.52 (64-bit Windows) on DESKTOP-MOCDKPP remote.
+
+  Project:  C:\Users\Michael\Documents\Github\Sonnet\Qubit\FirstTests\DualDrivingLessVIA.son.
+
+    Frequency:  1 GHZ
+      Subsectioning at 26 GHz with Eeff of 6.45.
+      Subsectioning time:  0.490 seconds.
+      De-embedding information for DualDrivingLessVIA_bottom box wall port(s):
+        DualDrivingLessVIA_bottom SOC Electric Wall: 500 microns length, 602 subsections, 9 MB.
+        DualDrivingLessVIA_bottom SOC Magnetic Wall: 1000 microns length, 576 subsections, 9 MB.
+      De-embedding information for component Lq:
+        Main Std: X=1000 microns Y=820 microns box size, 27 subsections, 3 MB.
+      Em license feature:  emhighperformance.
+      Circuit requires 5723 subsections and 269 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  242
+      Level 1:
+        Staircase:  5,393
+        Via:        88
+
+      Required memory by type:
+        System matrix:            250 MB
+        Elemental subsections:
+          Primary structure:      7 MB
+          DualDrivingLe standard: 7 MB
+          CciLq standard:         0 MB
+        Fourier transform:        1 MB
+        Waveguide mode:           1 MB
+        Adaptive band synthesis:  2 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    269 MB
+
+      Matrix solver:  internal 64-bit SSE with loss.
+      Simulation mode:  remote em transfer.
+      Threads:  using 12 thread(s), 12 core(s) available.
+      Waveguide mode time:  0.040 seconds.
+      Fourier transform time:  0.190 seconds.
+      Coupling time:  6 seconds.
+      Loss time:  0 seconds.
+      Matrix fill time:  6 seconds.
+      Matrix solve time:  5 seconds.
+      De-embedding time for DualDrivingLessVIA_bottom box wall:
+        SOC Electric Wall Std: 0.440 seconds.
+        SOC Magnetic Wall Std: 0.430 seconds.
+        Total:                 0.870 seconds.
+      De-embedding time for component Lq:
+        Total: 0.320 seconds.
+      Total time per frequency:  13 seconds.
+
+    Frequency:  26 GHZ
+      ABS: SNR = 22.8819 dB (120 dB Goal) for S1_1 at 13.7 GHz.
+      ABS: Time = 0.140 seconds.
+
+    Frequency:  13.7 GHZ
+      ABS: SNR = 60.1401 dB (120 dB Goal) for S1_1 at 6.1 GHz.
+      ABS: Time = 0.130 seconds.
+
+    Frequency:  6.1 GHZ
+      ABS: SNR = -5.5966 dB (50 dB Goal) for S1_2 at 9.6 GHz.
+      ABS: Time = 0.180 seconds.
+
+    Frequency:  9.6 GHZ
+      ABS: SNR = 84.567 dB (120 dB Goal) for S1_1 at 9.9 GHz.
+      ABS: Time = 0.210 seconds.
+
+    Frequency:  9.9 GHZ
+      ABS: SNR = 96.3493 dB (120 dB Goal) for S1_1 at 23.7 GHz.
+      ABS: Time = 0.240 seconds.
+
+    Frequency:  23.7 GHZ
+      ABS: Q-factor. Diff = 0 (1.47869e+006 Tol) for port 1 at -1e-009 GHz.
+      ABS: SNR = 130.841 dB (120 dB Goal) for S1_1 at 20.9 GHz.
+      ABS: Time = 0.320 seconds.
+
+      ABS: Detected 1 resonance(s) on iteration 1:
+        Resonance 1:  FreqMin = 9.6  FreqCenter = 9.9  FreqMax = 10.1 GHz
+
+      ABS: Detected 1 resonance(s) on iteration 2:
+        Resonance 1:  FreqMin = 9.69732441471574  FreqCenter = 9.86688963210707  FreqMax = 10.0478260869564 GHz
+
+      ABS: Detected 1 resonance(s) on iteration 3:
+        Resonance 1:  FreqMin = 9.7  FreqCenter = 9.86734992102644  FreqMax = 10.1 GHz
+
+      ABS: Detected 1 resonance(s) on iteration 4:
+        Resonance 1:  FreqMin = 9.7  FreqCenter = 9.86738595223099  FreqMax = 10.0485287629565 GHz
+
+    Frequency:  9.86738595223099 GHZ
+      ABS: Q-factor. Diff = 0 (1.47959e+006 Tol) for port 1 at -1e-009 GHz.
+      ABS: SNR = 73.3647 dB (41.5254 dB Goal) for S3_3 at 9.86735 GHz.
+      ABS: Time = 1 second.
+
+      ABS: Detected 1 resonance(s) on iteration 5:
+        Resonance 1:  FreqMin = 9.7  FreqCenter = 9.86738595223099  FreqMax = 10.0485287629565 GHz
+
+      ABS: Detected 1 resonance(s) on iteration 6:
+        Resonance 1:  FreqMin = 9.7  FreqCenter = 9.86738211303395  FreqMax = 10.1 GHz
+
+    Post-Analysis:
+      Total time for 8 frequencies:  1 minute 48 seconds.
+
+Analysis completed Fri Jun 24 20:16:15 2016.

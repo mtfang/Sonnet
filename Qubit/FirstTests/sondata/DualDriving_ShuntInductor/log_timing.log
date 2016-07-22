@@ -1,0 +1,116 @@
+Run 1:  Fri Jun 24 20:24:50 2016.  calt2.2.43068.
+        Em version 16.52 (64-bit Windows) on DESKTOP-MOCDKPP remote.
+
+  Project:  C:\Users\Michael\Documents\Github\Sonnet\Qubit\FirstTests\DualDriving_ShuntInductor.son.
+
+    Frequency:  1 GHZ
+      Subsectioning at 26 GHz with Eeff of 6.45.
+      Subsectioning time:  0.460 seconds.
+      De-embedding information for DualDriving_ShuntInductor_bottom box wall port(s):
+        DualDriving_ShuntInductor_bottom SOC Electric Wall: 500 microns length, 602 subsections, 9 MB.
+        DualDriving_ShuntInductor_bottom SOC Magnetic Wall: 1000 microns length, 576 subsections, 9 MB.
+      De-embedding information for component L1:
+        Main Std: X=1000 microns Y=648 microns box size, 68 subsections, 3 MB.
+      De-embedding information for component Lq:
+        Main Std: X=1000 microns Y=820 microns box size, 27 subsections, 3 MB.
+      Em license feature:  emhighperformance.
+      Circuit requires 5888 subsections and 284 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  290
+      Level 1:
+        Staircase:  5,494
+        Via:        104
+
+      Required memory by type:
+        System matrix:            265 MB
+        Elemental subsections:
+          Primary structure:      7 MB
+          DualDriving_S standard: 7 MB
+          CciL1 standard:         0 MB
+          CciLq standard:         0 MB
+        Fourier transform:        1 MB
+        Waveguide mode:           1 MB
+        Adaptive band synthesis:  3 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    284 MB
+
+      Matrix solver:  internal 64-bit SSE with loss.
+      Simulation mode:  remote em transfer.
+      Threads:  using 12 thread(s), 12 core(s) available.
+      Waveguide mode time:  0.040 seconds.
+      Fourier transform time:  0.210 seconds.
+      Coupling time:  6 seconds.
+      Loss time:  0 seconds.
+      Matrix fill time:  6 seconds.
+      Matrix solve time:  5 seconds.
+      De-embedding time for DualDriving_ShuntInductor_bottom box wall:
+        SOC Electric Wall Std: 0.430 seconds.
+        SOC Magnetic Wall Std: 0.440 seconds.
+        Total:                 0.870 seconds.
+      De-embedding time for component L1:
+        Total: 0.351 seconds.
+      De-embedding time for component Lq:
+        Total: 0.350 seconds.
+      Total time per frequency:  14 seconds.
+
+    Frequency:  26 GHZ
+      ABS: Energy conservation for port 1 at 13.2 GHz.
+      ABS: Time = 0.250 seconds.
+
+    Frequency:  13.2 GHZ
+      ABS: Energy conservation for port 1 at 11.1 GHz.
+      ABS: Time = 0.241 seconds.
+
+    Frequency:  11.1 GHZ
+      ABS: SNR = -10.2935 dB (50 dB Goal) for S1_2 at 10 GHz.
+      ABS: Time = 0.290 seconds.
+
+    Frequency:  10 GHZ
+      ABS: SNR = 28.6626 dB (50 dB Goal) for S1_2 at 5.6 GHz.
+      ABS: Time = 0.280 seconds.
+
+    Frequency:  5.6 GHZ
+      ABS: Q-factor. Diff = 0 (544224 Tol) for port 1 at -1e-009 GHz.
+      ABS: SNR = 45.572 dB (40 dB Goal) for S1_3 at 22.6 GHz.
+      ABS: Time = 0.410 seconds.
+
+      ABS: Detected 1 resonance(s) on iteration 1:
+        Resonance 1:  FreqMin = 9  FreqCenter = 9.9  FreqMax = 10.8 GHz
+
+      ABS: Detected 1 resonance(s) on iteration 2:
+        Resonance 1:  FreqMin = 9.02408026755853  FreqCenter = 9.87290969899681  FreqMax = 10.7397993311038 GHz
+
+      ABS: Detected 1 resonance(s) on iteration 3:
+        Resonance 1:  FreqMin = 9.02220508267956  FreqCenter = 9.87290969899681  FreqMax = 10.8 GHz
+
+      ABS: Detected 1 resonance(s) on iteration 4:
+        Resonance 1:  FreqMin = 9.01351901020239  FreqCenter = 9.873199097499  FreqMax = 10.7438751347202 GHz
+
+    Frequency:  9.873199097499 GHZ
+      ABS: Q-factor. Diff = 0 (544380 Tol) for port 1 at -1e-009 GHz.
+      ABS: SNR = 57.9411 dB (40 dB Goal) for S1_3 at 21.6 GHz.
+      ABS: Time = 1 second.
+
+      ABS: Detected 1 resonance(s) on iteration 5:
+        Resonance 1:  FreqMin = 9.01351901020239  FreqCenter = 9.873199097499  FreqMax = 10.7438751347202 GHz
+
+      ABS: Detected 1 resonance(s) on iteration 6:
+        Resonance 1:  FreqMin = 9.02002786587652  FreqCenter = 9.873199097499  FreqMax = 10.8 GHz
+
+    Post-Analysis:
+      Total time for 7 frequencies:  1 minute 45 seconds.
+
+Analysis completed Fri Jun 24 20:26:35 2016.
+
+
+Run 2:  Fri Jun 24 20:28:21 2016.  calt2.2.43068.
+        Em version 16.52 (64-bit Windows) on DESKTOP-MOCDKPP remote.
+
+  Project:  C:\Users\Michael\Documents\Github\Sonnet\Qubit\FirstTests\DualDriving_ShuntInductor.son.
+
+    Post-Analysis:
+      Total time for 0 frequencies:  0 seconds.
+
+Analysis completed Fri Jun 24 20:28:21 2016.

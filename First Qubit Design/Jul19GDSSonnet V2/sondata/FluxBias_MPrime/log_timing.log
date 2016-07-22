@@ -1,0 +1,60 @@
+Run 1:  Wed Jul 20 13:39:24 2016.  calt2.2.43068.
+        Em version 16.52 (64-bit Windows) on DESKTOP-MOCDKPP remote.
+
+  Project:  C:\Users\Michael\Desktop\Sonnet Qubit Designs\Jul19GDSSonnet V2\FluxBias_MPrime.son.
+
+    Frequency:  6 GHZ
+      Independent parameter values:
+        VIA_Distance = 60.0
+      Subsectioning at 6 GHz with Eeff of 6.45.
+      Subsectioning time:  9 seconds.
+      De-embedding information for FluxBias_MPrime_bottom box wall port(s):
+        FluxBias_MPrime_bottom SOC Electric Wall: 340 microns length, 1989 subsections, 226 MB.
+        FluxBias_MPrime_bottom SOC Magnetic Wall: 680 microns length, 1950 subsections, 230 MB.
+      De-embedding information for cci group A:
+        Main Std: X=260 microns Y=398 microns box size, 1025 subsections, 100 MB.
+      Em license feature:  emhighperformance.
+      Circuit requires 11192 subsections and 1661 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  358
+      Level 1:
+        Staircase:  10,732
+        Via:        53
+      Ground Plane:
+        Via:        49
+
+      Required memory by type:
+        System matrix:            956 MB
+        Elemental subsections:
+          Primary structure:      256 MB
+          FluxBias_MPri standard: 334 MB
+          CciA standard:          59 MB
+        Fourier transform:        44 MB
+        Waveguide mode:           10 MB
+        Adaptive band synthesis:  0 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    1,661 MB
+
+      Matrix solver:  internal 64-bit SSE with loss.
+      Simulation mode:  remote em transfer.
+      Threads:  using 12 thread(s), 12 core(s) available.
+      Waveguide mode time:  0.220 seconds.
+      Fourier transform time:  9 seconds.
+      Coupling time:  8 minutes 59 seconds.
+      Loss time:  0 seconds.
+      Matrix fill time:  9 minutes 8 seconds.
+      Matrix solve time:  32 seconds.
+      De-embedding time for FluxBias_MPrime_bottom box wall:
+        SOC Electric Wall Std: 57 seconds.
+        SOC Magnetic Wall Std: 55 seconds.
+        Total:                 1 minute 53 seconds.
+      De-embedding time for cci group A:
+        Total: 13 seconds.
+      Total time per frequency:  11 minutes 59 seconds.
+
+    Post-Analysis:
+      Total time for 1 frequency:  12 minutes 9 seconds.
+
+Analysis completed Wed Jul 20 13:51:33 2016.

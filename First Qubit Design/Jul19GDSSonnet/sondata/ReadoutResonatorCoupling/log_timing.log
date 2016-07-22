@@ -1,0 +1,58 @@
+Run 1:  Tue Jul 19 15:08:05 2016.  calt2.2.43068.
+        Em version 16.52 (64-bit Windows) on DESKTOP-MOCDKPP remote.
+
+  Project:  C:\Users\Michael\Desktop\Sonnet Qubit Designs\Jul19GDSSonnet\ReadoutResonatorCoupling.son.
+
+  Parameter combination: 1 of 3.
+
+    Frequency:  6 GHZ
+      Independent parameter values:
+        couplingLength = 200.0
+      Subsectioning at 9 GHz with Eeff of 6.45.
+      Subsectioning time:  17 seconds.
+      De-embedding information for ReadoutResonatorCoupling_left box wall port(s):
+        ReadoutResonatorCoupling_left SOC Electric Wall: 596 microns length, 1164 subsections, 62 MB.
+        ReadoutResonatorCoupling_left SOC Magnetic Wall: 1192 microns length, 1125 subsections, 61 MB.
+      De-embedding information for ReadoutResonatorCoupling_right box wall port(s):
+        ReadoutResonatorCoupling_right SOC Electric Wall: 596 microns length, 1164 subsections, 62 MB.
+        ReadoutResonatorCoupling_right SOC Magnetic Wall: 1192 microns length, 1125 subsections, 61 MB.
+      Em license feature:  emhighperformance.
+      Circuit requires 13218 subsections (2543539 CM Cells) and 1592 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  12,673
+        Diagonal:   281
+        Conformal:  264
+
+      Required memory by type:
+        System matrix:            1,333 MB
+        Elemental subsections:
+          Primary structure:      78 MB
+          ReadoutResona standard: 82 MB
+          ReadoutResona standard: 82 MB
+        Fourier transform:        11 MB
+        Waveguide mode:           4 MB
+        Adaptive band synthesis:  2 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    1,592 MB
+
+      Matrix solver:  internal 64-bit SSE with loss.
+      Simulation mode:  remote em transfer.
+      Threads:  using 12 thread(s), 12 core(s) available.
+      Waveguide mode time:  0.065 seconds.
+      Fourier transform time:  12 seconds.
+      Coupling time:  5 minutes 26 seconds.
+      Loss time:  0 seconds.
+      Matrix fill time:  5 minutes 39 seconds.
+      Matrix solve time:  58 seconds.
+      De-embedding time for ReadoutResonatorCoupling_left box wall:
+        SOC Electric Wall Std: 8 seconds.
+        SOC Magnetic Wall Std: 7 seconds.
+        Total:                 15 seconds.
+      Total time per frequency:  6 minutes 58 seconds.
+
+    Frequency:  9 GHZ
+      Total time per frequency:  6 minutes 50 seconds.
+      ABS: Energy conservation for port 1 at 6.26 GHz.
+      ABS: Time = 0.123 seconds.

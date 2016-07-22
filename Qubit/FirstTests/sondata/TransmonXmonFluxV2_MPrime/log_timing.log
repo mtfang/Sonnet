@@ -1,0 +1,1727 @@
+Run 1:  Thu Apr 14 14:27:21 2016.  calt2.2.43068.
+        Em version 16.52 (64-bit Windows) on DESKTOP-MOCDKPP remote.
+
+  Project:  C:\Users\Michael\Documents\Github\Sonnet\Qubit\FirstTests\TransmonXmonFluxV2_MPrime.son.
+
+  Parameter combination: 1 of 25.
+
+    Frequency:  0.05 GHZ
+      Independent parameter values:
+        rightNotch = 10.0
+        leftNotch = 10.0
+      Subsectioning at 10 GHz with Eeff of 6.45.
+      Subsectioning time:  8 seconds.
+      De-embedding information for TransmonXmonFluxV2_MPrime_bottom box wall port(s):
+        TransmonXmonFluxV2_MPrime_bottom SOC Electric Wall: 300 microns length, 978 subsections, 34 MB.
+        TransmonXmonFluxV2_MPrime_bottom SOC Magnetic Wall: 600 microns length, 945 subsections, 34 MB.
+      De-embedding information for cci group A:
+        Main Std: X=600 microns Y=453 microns box size, 578 subsections, 14 MB.
+      Em license feature:  emhighperformance.
+      Circuit requires 5068 subsections and 288 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  147
+      Level 1:
+        Staircase:  4,889
+        Via:        32
+
+      Required memory by type:
+        System matrix:            196 MB
+        Elemental subsections:
+          Primary structure:      33 MB
+          TransmonXmonF standard: 40 MB
+          CciA standard:          3 MB
+        Fourier transform:        6 MB
+        Waveguide mode:           3 MB
+        Adaptive band synthesis:  6 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    288 MB
+
+      Matrix solver:  internal 64-bit SSE with loss.
+      Simulation mode:  remote em transfer.
+      Threads:  using 12 thread(s), 12 core(s) available.
+      Waveguide mode time:  0.068 seconds.
+      Fourier transform time:  0.822 seconds.
+      Coupling time:  21 seconds.
+      Loss time:  0 seconds.
+      Matrix fill time:  22 seconds.
+      Matrix solve time:  6 seconds.
+      De-embedding time for TransmonXmonFluxV2_MPrime_bottom box wall:
+        SOC Electric Wall Std: 3 seconds.
+        SOC Magnetic Wall Std: 3 seconds.
+        Total:                 6 seconds.
+      De-embedding time for cci group A:
+        Total: 1 second.
+      Total time per frequency:  38 seconds.
+
+    Frequency:  10 GHZ
+      ABS: Energy conservation for port 2 at 4.6 GHz.
+      ABS: Time = 0.920 seconds.
+
+    Frequency:  4.6 GHZ
+      ABS: SNR = 64.0545 dB (120 dB Goal) for S2_2 at 2 GHz.
+      ABS: Time = 1 second.
+
+    Frequency:  2 GHZ
+      ABS: SNR = 81.5623 dB (120 dB Goal) for S2_2 at 8.2 GHz.
+      ABS: Time = 1 second.
+
+    Frequency:  8.2 GHZ
+      ABS: SNR = 127.237 dB (120 dB Goal) for S2_2 at 6.55 GHz.
+      ABS: Time = 1 second.
+
+  Parameter combination: 2 of 25.
+
+    Frequency:  0.05 GHZ
+      Independent parameter values:
+        rightNotch = 10.0
+        leftNotch = 15.0
+      Subsectioning at 10 GHz with Eeff of 6.45.
+      Subsectioning time:  8 seconds.
+      De-embedding information for TransmonXmonFluxV2_MPrime_bottom box wall port(s):
+        TransmonXmonFluxV2_MPrime_bottom SOC Electric Wall: 300 microns length, 978 subsections, 40 MB.
+        TransmonXmonFluxV2_MPrime_bottom SOC Magnetic Wall: 600 microns length, 945 subsections, 40 MB.
+      De-embedding information for cci group A:
+        Main Std: X=600 microns Y=453 microns box size, 578 subsections, 20 MB.
+      Circuit requires 5049 subsections and 286 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  147
+      Level 1:
+        Staircase:  4,870
+        Via:        32
+
+      Required memory by type:
+        System matrix:            194 MB
+        Elemental subsections:
+          Primary structure:      33 MB
+          TransmonXmonF standard: 40 MB
+          CciA standard:          3 MB
+        Fourier transform:        6 MB
+        Waveguide mode:           3 MB
+        Adaptive band synthesis:  6 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    286 MB
+
+      Waveguide mode time:  0.089 seconds.
+      Fourier transform time:  0.843 seconds.
+      Coupling time:  21 seconds.
+      Loss time:  0 seconds.
+      Matrix fill time:  22 seconds.
+      Matrix solve time:  6 seconds.
+      De-embedding time for TransmonXmonFluxV2_MPrime_bottom box wall:
+        SOC Electric Wall Std: 3 seconds.
+        SOC Magnetic Wall Std: 3 seconds.
+        Total:                 6 seconds.
+      De-embedding time for cci group A:
+        Total: 1 second.
+      Total time per frequency:  48 seconds.
+
+    Frequency:  10 GHZ
+      ABS: Energy conservation for port 2 at 4.6 GHz.
+      ABS: Time = 0.916 seconds.
+
+    Frequency:  4.6 GHZ
+      ABS: SNR = 64.0659 dB (120 dB Goal) for S2_2 at 2 GHz.
+      ABS: Time = 1 second.
+
+    Frequency:  2 GHZ
+      ABS: SNR = 81.566 dB (120 dB Goal) for S2_2 at 8.2 GHz.
+      ABS: Time = 1 second.
+
+    Frequency:  8.2 GHZ
+      ABS: SNR = 36.2597 dB (49.7874 dB Goal) for S1_2 at 0.9 GHz.
+      ABS: Time = 1 second.
+
+    Frequency:  0.9 GHZ
+      ABS: SNR = 149.987 dB (120 dB Goal) for S1_1 at 0.3 GHz.
+      ABS: Time = 1 second.
+
+  Parameter combination: 3 of 25.
+
+    Frequency:  0.05 GHZ
+      Independent parameter values:
+        rightNotch = 10.0
+        leftNotch = 20.0
+      Subsectioning at 10 GHz with Eeff of 6.45.
+      Subsectioning time:  8 seconds.
+      De-embedding information for TransmonXmonFluxV2_MPrime_bottom box wall port(s):
+        TransmonXmonFluxV2_MPrime_bottom SOC Electric Wall: 300 microns length, 978 subsections, 40 MB.
+        TransmonXmonFluxV2_MPrime_bottom SOC Magnetic Wall: 600 microns length, 945 subsections, 40 MB.
+      De-embedding information for cci group A:
+        Main Std: X=600 microns Y=453 microns box size, 578 subsections, 20 MB.
+      Circuit requires 4995 subsections and 282 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  147
+      Level 1:
+        Staircase:  4,816
+        Via:        32
+
+      Required memory by type:
+        System matrix:            190 MB
+        Elemental subsections:
+          Primary structure:      33 MB
+          TransmonXmonF standard: 40 MB
+          CciA standard:          3 MB
+        Fourier transform:        6 MB
+        Waveguide mode:           3 MB
+        Adaptive band synthesis:  6 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    282 MB
+
+      Waveguide mode time:  0.087 seconds.
+      Fourier transform time:  0.853 seconds.
+      Coupling time:  20 seconds.
+      Loss time:  0.001 seconds.
+      Matrix fill time:  21 seconds.
+      Matrix solve time:  5 seconds.
+      De-embedding time for TransmonXmonFluxV2_MPrime_bottom box wall:
+        SOC Electric Wall Std: 3 seconds.
+        SOC Magnetic Wall Std: 3 seconds.
+        Total:                 6 seconds.
+      De-embedding time for cci group A:
+        Total: 1 second.
+      Total time per frequency:  47 seconds.
+
+    Frequency:  10 GHZ
+      ABS: Energy conservation for port 2 at 4.55 GHz.
+      ABS: Time = 0.931 seconds.
+
+    Frequency:  4.55 GHZ
+      ABS: SNR = 61.5186 dB (120 dB Goal) for S2_2 at 2 GHz.
+      ABS: Time = 1 second.
+
+    Frequency:  2 GHZ
+      ABS: SNR = 90.0269 dB (120 dB Goal) for S2_2 at 8.15 GHz.
+      ABS: Time = 1 second.
+
+    Frequency:  8.15 GHZ
+      ABS: SNR = 35.1037 dB (49.5601 dB Goal) for S1_2 at 1 GHz.
+      ABS: Time = 1 second.
+
+    Frequency:  1 GHZ
+      ABS: SNR = 149.469 dB (120 dB Goal) for S1_1 at 6.3 GHz.
+      ABS: Time = 2 seconds.
+
+  Parameter combination: 4 of 25.
+
+    Frequency:  0.05 GHZ
+      Independent parameter values:
+        rightNotch = 10.0
+        leftNotch = 25.0
+      Subsectioning at 10 GHz with Eeff of 6.45.
+      Subsectioning time:  8 seconds.
+      De-embedding information for TransmonXmonFluxV2_MPrime_bottom box wall port(s):
+        TransmonXmonFluxV2_MPrime_bottom SOC Electric Wall: 300 microns length, 978 subsections, 40 MB.
+        TransmonXmonFluxV2_MPrime_bottom SOC Magnetic Wall: 600 microns length, 945 subsections, 40 MB.
+      De-embedding information for cci group A:
+        Main Std: X=600 microns Y=453 microns box size, 578 subsections, 20 MB.
+      Circuit requires 4962 subsections and 279 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  147
+      Level 1:
+        Staircase:  4,783
+        Via:        32
+
+      Required memory by type:
+        System matrix:            188 MB
+        Elemental subsections:
+          Primary structure:      33 MB
+          TransmonXmonF standard: 40 MB
+          CciA standard:          3 MB
+        Fourier transform:        6 MB
+        Waveguide mode:           3 MB
+        Adaptive band synthesis:  6 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    279 MB
+
+      Waveguide mode time:  0.078 seconds.
+      Fourier transform time:  0.842 seconds.
+      Coupling time:  20 seconds.
+      Loss time:  0 seconds.
+      Matrix fill time:  21 seconds.
+      Matrix solve time:  5 seconds.
+      De-embedding time for TransmonXmonFluxV2_MPrime_bottom box wall:
+        SOC Electric Wall Std: 3 seconds.
+        SOC Magnetic Wall Std: 3 seconds.
+        Total:                 6 seconds.
+      De-embedding time for cci group A:
+        Total: 1 second.
+      Total time per frequency:  47 seconds.
+
+    Frequency:  10 GHZ
+      ABS: Energy conservation for port 2 at 4.55 GHz.
+      ABS: Time = 0.986 seconds.
+
+    Frequency:  4.55 GHZ
+      ABS: SNR = 61.521 dB (120 dB Goal) for S2_2 at 2 GHz.
+      ABS: Time = 1 second.
+
+    Frequency:  2 GHZ
+      ABS: SNR = 90.109 dB (120 dB Goal) for S2_2 at 8.15 GHz.
+      ABS: Time = 1 second.
+
+    Frequency:  8.15 GHZ
+      ABS: SNR = 33.7232 dB (48.6663 dB Goal) for S1_2 at 1.05 GHz.
+      ABS: Time = 1 second.
+
+    Frequency:  1.05 GHZ
+      ABS: SNR = 149.076 dB (120 dB Goal) for S1_1 at 6.4 GHz.
+      ABS: Time = 1 second.
+
+  Parameter combination: 5 of 25.
+
+    Frequency:  0.05 GHZ
+      Independent parameter values:
+        rightNotch = 10.0
+        leftNotch = 30.0
+      Subsectioning at 10 GHz with Eeff of 6.45.
+      Subsectioning time:  8 seconds.
+      De-embedding information for TransmonXmonFluxV2_MPrime_bottom box wall port(s):
+        TransmonXmonFluxV2_MPrime_bottom SOC Electric Wall: 300 microns length, 978 subsections, 40 MB.
+        TransmonXmonFluxV2_MPrime_bottom SOC Magnetic Wall: 600 microns length, 945 subsections, 39 MB.
+      De-embedding information for cci group A:
+        Main Std: X=600 microns Y=453 microns box size, 578 subsections, 20 MB.
+      Circuit requires 5007 subsections and 283 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  147
+      Level 1:
+        Staircase:  4,828
+        Via:        32
+
+      Required memory by type:
+        System matrix:            191 MB
+        Elemental subsections:
+          Primary structure:      33 MB
+          TransmonXmonF standard: 40 MB
+          CciA standard:          3 MB
+        Fourier transform:        6 MB
+        Waveguide mode:           3 MB
+        Adaptive band synthesis:  6 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    283 MB
+
+      Waveguide mode time:  0.094 seconds.
+      Fourier transform time:  0.862 seconds.
+      Coupling time:  21 seconds.
+      Loss time:  0 seconds.
+      Matrix fill time:  22 seconds.
+      Matrix solve time:  5 seconds.
+      De-embedding time for TransmonXmonFluxV2_MPrime_bottom box wall:
+        SOC Electric Wall Std: 3 seconds.
+        SOC Magnetic Wall Std: 3 seconds.
+        Total:                 6 seconds.
+      De-embedding time for cci group A:
+        Total: 1 second.
+      Total time per frequency:  48 seconds.
+
+    Frequency:  10 GHZ
+      ABS: Energy conservation for port 2 at 4.55 GHz.
+      ABS: Time = 0.611 seconds.
+
+    Frequency:  4.55 GHZ
+      ABS: SNR = 61.5208 dB (120 dB Goal) for S2_2 at 2 GHz.
+      ABS: Time = 1 second.
+
+    Frequency:  2 GHZ
+      ABS: SNR = 90.1149 dB (120 dB Goal) for S2_2 at 8.15 GHz.
+      ABS: Time = 1 second.
+
+    Frequency:  8.15 GHZ
+      ABS: SNR = 33.7435 dB (48.6654 dB Goal) for S1_2 at 1.05 GHz.
+      ABS: Time = 1 second.
+
+    Frequency:  1.05 GHZ
+      ABS: SNR = 149.074 dB (120 dB Goal) for S1_1 at 6.4 GHz.
+      ABS: Time = 1 second.
+
+  Parameter combination: 6 of 25.
+
+    Frequency:  0.05 GHZ
+      Independent parameter values:
+        rightNotch = 15.0
+        leftNotch = 10.0
+      Subsectioning at 10 GHz with Eeff of 6.45.
+      Subsectioning time:  8 seconds.
+      De-embedding information for TransmonXmonFluxV2_MPrime_bottom box wall port(s):
+        TransmonXmonFluxV2_MPrime_bottom SOC Electric Wall: 300 microns length, 978 subsections, 40 MB.
+        TransmonXmonFluxV2_MPrime_bottom SOC Magnetic Wall: 600 microns length, 945 subsections, 39 MB.
+      De-embedding information for cci group A:
+        Main Std: X=600 microns Y=453 microns box size, 578 subsections, 20 MB.
+      Circuit requires 5072 subsections and 288 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  147
+      Level 1:
+        Staircase:  4,893
+        Via:        32
+
+      Required memory by type:
+        System matrix:            196 MB
+        Elemental subsections:
+          Primary structure:      33 MB
+          TransmonXmonF standard: 40 MB
+          CciA standard:          3 MB
+        Fourier transform:        6 MB
+        Waveguide mode:           3 MB
+        Adaptive band synthesis:  6 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    288 MB
+
+      Waveguide mode time:  0.081 seconds.
+      Fourier transform time:  0.820 seconds.
+      Coupling time:  21 seconds.
+      Loss time:  0 seconds.
+      Matrix fill time:  22 seconds.
+      Matrix solve time:  6 seconds.
+      De-embedding time for TransmonXmonFluxV2_MPrime_bottom box wall:
+        SOC Electric Wall Std: 3 seconds.
+        SOC Magnetic Wall Std: 3 seconds.
+        Total:                 6 seconds.
+      De-embedding time for cci group A:
+        Total: 1 second.
+      Total time per frequency:  48 seconds.
+
+    Frequency:  10 GHZ
+      ABS: Energy conservation for port 2 at 4.6 GHz.
+      ABS: Time = 0.992 seconds.
+
+    Frequency:  4.6 GHZ
+      ABS: SNR = 64.0681 dB (120 dB Goal) for S2_2 at 2 GHz.
+      ABS: Time = 1 second.
+
+    Frequency:  2 GHZ
+      ABS: SNR = 81.5995 dB (120 dB Goal) for S2_2 at 8.2 GHz.
+      ABS: Time = 1 second.
+
+    Frequency:  8.2 GHZ
+      ABS: SNR = 128.086 dB (120 dB Goal) for S2_2 at 6.55 GHz.
+      ABS: Time = 1 second.
+
+  Parameter combination: 7 of 25.
+
+    Frequency:  0.05 GHZ
+      Independent parameter values:
+        rightNotch = 15.0
+        leftNotch = 15.0
+      Subsectioning at 10 GHz with Eeff of 6.45.
+      Subsectioning time:  8 seconds.
+      De-embedding information for TransmonXmonFluxV2_MPrime_bottom box wall port(s):
+        TransmonXmonFluxV2_MPrime_bottom SOC Electric Wall: 300 microns length, 978 subsections, 40 MB.
+        TransmonXmonFluxV2_MPrime_bottom SOC Magnetic Wall: 600 microns length, 945 subsections, 40 MB.
+      De-embedding information for cci group A:
+        Main Std: X=600 microns Y=453 microns box size, 578 subsections, 20 MB.
+      Circuit requires 5056 subsections and 287 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  147
+      Level 1:
+        Staircase:  4,877
+        Via:        32
+
+      Required memory by type:
+        System matrix:            195 MB
+        Elemental subsections:
+          Primary structure:      33 MB
+          TransmonXmonF standard: 40 MB
+          CciA standard:          3 MB
+        Fourier transform:        6 MB
+        Waveguide mode:           3 MB
+        Adaptive band synthesis:  6 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    287 MB
+
+      Waveguide mode time:  0.098 seconds.
+      Fourier transform time:  0.833 seconds.
+      Coupling time:  21 seconds.
+      Loss time:  0 seconds.
+      Matrix fill time:  22 seconds.
+      Matrix solve time:  6 seconds.
+      De-embedding time for TransmonXmonFluxV2_MPrime_bottom box wall:
+        SOC Electric Wall Std: 3 seconds.
+        SOC Magnetic Wall Std: 3 seconds.
+        Total:                 6 seconds.
+      De-embedding time for cci group A:
+        Total: 1 second.
+      Total time per frequency:  49 seconds.
+
+    Frequency:  10 GHZ
+      ABS: Energy conservation for port 2 at 4.6 GHz.
+      ABS: Time = 0.769 seconds.
+
+    Frequency:  4.6 GHZ
+      ABS: SNR = 61.3464 dB (120 dB Goal) for S2_2 at 2 GHz.
+      ABS: Time = 1 second.
+
+    Frequency:  2 GHZ
+      ABS: SNR = 81.6043 dB (120 dB Goal) for S2_2 at 8.2 GHz.
+      ABS: Time = 1 second.
+
+    Frequency:  8.2 GHZ
+      ABS: SNR = 36.6935 dB (49.6052 dB Goal) for S1_2 at 0.75 GHz.
+      ABS: Time = 1 second.
+
+    Frequency:  0.75 GHZ
+      ABS: SNR = 150.416 dB (120 dB Goal) for S1_1 at 6.35 GHz.
+      ABS: Time = 1 second.
+
+  Parameter combination: 8 of 25.
+
+    Frequency:  0.05 GHZ
+      Independent parameter values:
+        rightNotch = 15.0
+        leftNotch = 20.0
+      Subsectioning at 10 GHz with Eeff of 6.45.
+      Subsectioning time:  8 seconds.
+      De-embedding information for TransmonXmonFluxV2_MPrime_bottom box wall port(s):
+        TransmonXmonFluxV2_MPrime_bottom SOC Electric Wall: 300 microns length, 978 subsections, 40 MB.
+        TransmonXmonFluxV2_MPrime_bottom SOC Magnetic Wall: 600 microns length, 945 subsections, 40 MB.
+      De-embedding information for cci group A:
+        Main Std: X=600 microns Y=453 microns box size, 578 subsections, 20 MB.
+      Circuit requires 4999 subsections and 283 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  147
+      Level 1:
+        Staircase:  4,820
+        Via:        32
+
+      Required memory by type:
+        System matrix:            191 MB
+        Elemental subsections:
+          Primary structure:      33 MB
+          TransmonXmonF standard: 40 MB
+          CciA standard:          3 MB
+        Fourier transform:        6 MB
+        Waveguide mode:           3 MB
+        Adaptive band synthesis:  6 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    283 MB
+
+      Waveguide mode time:  0.094 seconds.
+
+
+Run 2:  Thu Apr 14 17:21:32 2016.  calt2.2.43068.
+        Em version 16.52 (64-bit Windows) on DESKTOP-MOCDKPP remote.
+
+  Project:  C:\Users\Michael\Documents\Github\Sonnet\Qubit\FirstTests\TransmonXmonFluxV2_MPrime.son.
+
+  Parameter combination: 1 of 18.
+
+    Frequency:  0.05 GHZ
+      Independent parameter values:
+        rightNotch = 15.0
+        leftNotch = 20.0
+      Subsectioning at 10 GHz with Eeff of 6.45.
+      Subsectioning time:  8 seconds.
+      De-embedding information for TransmonXmonFluxV2_MPrime_bottom box wall port(s):
+        TransmonXmonFluxV2_MPrime_bottom SOC Electric Wall: 300 microns length, 978 subsections, 34 MB.
+        TransmonXmonFluxV2_MPrime_bottom SOC Magnetic Wall: 600 microns length, 945 subsections, 34 MB.
+      De-embedding information for cci group A:
+        Main Std: X=600 microns Y=453 microns box size, 578 subsections, 14 MB.
+      Em license feature:  emhighperformance.
+      Circuit requires 4999 subsections and 283 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  147
+      Level 1:
+        Staircase:  4,820
+        Via:        32
+
+      Required memory by type:
+        System matrix:            191 MB
+        Elemental subsections:
+          Primary structure:      33 MB
+          TransmonXmonF standard: 40 MB
+          CciA standard:          3 MB
+        Fourier transform:        6 MB
+        Waveguide mode:           3 MB
+        Adaptive band synthesis:  6 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    283 MB
+
+      Matrix solver:  internal 64-bit SSE with loss.
+      Simulation mode:  remote em transfer.
+      Threads:  using 12 thread(s), 12 core(s) available.
+      Waveguide mode time:  0.067 seconds.
+      Fourier transform time:  0.841 seconds.
+      Coupling time:  22 seconds.
+      Loss time:  0 seconds.
+      Matrix fill time:  23 seconds.
+      Matrix solve time:  6 seconds.
+      De-embedding time for TransmonXmonFluxV2_MPrime_bottom box wall:
+        SOC Electric Wall Std: 3 seconds.
+        SOC Magnetic Wall Std: 3 seconds.
+        Total:                 7 seconds.
+      De-embedding time for cci group A:
+        Total: 1 second.
+      Total time per frequency:  39 seconds.
+
+    Frequency:  10 GHZ
+      ABS: Energy conservation for port 2 at 4.6 GHz.
+      ABS: Time = 0.707 seconds.
+
+    Frequency:  4.6 GHZ
+      ABS: SNR = 61.35 dB (120 dB Goal) for S2_2 at 2 GHz.
+      ABS: Time = 1 second.
+
+    Frequency:  2 GHZ
+      ABS: SNR = 81.5921 dB (120 dB Goal) for S2_2 at 8.2 GHz.
+      ABS: Time = 1 second.
+
+    Frequency:  8.2 GHZ
+      ABS: SNR = 35.6741 dB (50 dB Goal) for S1_2 at 0.85 GHz.
+      ABS: Time = 1 second.
+
+    Frequency:  0.85 GHZ
+      ABS: SNR = 148.162 dB (120 dB Goal) for S1_1 at 0.3 GHz.
+      ABS: Time = 1 second.
+
+  Parameter combination: 2 of 18.
+
+    Frequency:  0.05 GHZ
+      Independent parameter values:
+        rightNotch = 15.0
+        leftNotch = 25.0
+      Subsectioning at 10 GHz with Eeff of 6.45.
+      Subsectioning time:  7 seconds.
+      De-embedding information for TransmonXmonFluxV2_MPrime_bottom box wall port(s):
+        TransmonXmonFluxV2_MPrime_bottom SOC Electric Wall: 300 microns length, 978 subsections, 40 MB.
+        TransmonXmonFluxV2_MPrime_bottom SOC Magnetic Wall: 600 microns length, 945 subsections, 40 MB.
+      De-embedding information for cci group A:
+        Main Std: X=600 microns Y=453 microns box size, 578 subsections, 20 MB.
+      Circuit requires 4966 subsections and 279 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  147
+      Level 1:
+        Staircase:  4,787
+        Via:        32
+
+      Required memory by type:
+        System matrix:            188 MB
+        Elemental subsections:
+          Primary structure:      33 MB
+          TransmonXmonF standard: 40 MB
+          CciA standard:          3 MB
+        Fourier transform:        6 MB
+        Waveguide mode:           3 MB
+        Adaptive band synthesis:  6 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    279 MB
+
+      Waveguide mode time:  0.067 seconds.
+      Fourier transform time:  0.841 seconds.
+      Coupling time:  22 seconds.
+      Loss time:  0 seconds.
+      Matrix fill time:  23 seconds.
+      Matrix solve time:  6 seconds.
+      De-embedding time for TransmonXmonFluxV2_MPrime_bottom box wall:
+        SOC Electric Wall Std: 3 seconds.
+        SOC Magnetic Wall Std: 3 seconds.
+        Total:                 6 seconds.
+      De-embedding time for cci group A:
+        Total: 1 second.
+      Total time per frequency:  48 seconds.
+
+    Frequency:  10 GHZ
+      ABS: Energy conservation for port 2 at 4.55 GHz.
+      ABS: Time = 0.757 seconds.
+
+    Frequency:  4.55 GHZ
+      ABS: SNR = 61.5301 dB (120 dB Goal) for S2_2 at 2 GHz.
+      ABS: Time = 1 second.
+
+    Frequency:  2 GHZ
+      ABS: SNR = 89.9709 dB (120 dB Goal) for S2_2 at 8.15 GHz.
+      ABS: Time = 1 second.
+
+    Frequency:  8.15 GHZ
+      ABS: SNR = 34.6443 dB (49.8139 dB Goal) for S1_2 at 0.9 GHz.
+      ABS: Time = 1 second.
+
+    Frequency:  0.9 GHZ
+      ABS: SNR = 148.791 dB (120 dB Goal) for S1_1 at 6.4 GHz.
+      ABS: Time = 1 second.
+
+  Parameter combination: 3 of 18.
+
+    Frequency:  0.05 GHZ
+      Independent parameter values:
+        rightNotch = 15.0
+        leftNotch = 30.0
+      Subsectioning at 10 GHz with Eeff of 6.45.
+      Subsectioning time:  8 seconds.
+      De-embedding information for TransmonXmonFluxV2_MPrime_bottom box wall port(s):
+        TransmonXmonFluxV2_MPrime_bottom SOC Electric Wall: 300 microns length, 978 subsections, 40 MB.
+        TransmonXmonFluxV2_MPrime_bottom SOC Magnetic Wall: 600 microns length, 945 subsections, 39 MB.
+      De-embedding information for cci group A:
+        Main Std: X=600 microns Y=453 microns box size, 578 subsections, 20 MB.
+      Circuit requires 5011 subsections and 283 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  147
+      Level 1:
+        Staircase:  4,832
+        Via:        32
+
+      Required memory by type:
+        System matrix:            192 MB
+        Elemental subsections:
+          Primary structure:      33 MB
+          TransmonXmonF standard: 40 MB
+          CciA standard:          3 MB
+        Fourier transform:        6 MB
+        Waveguide mode:           3 MB
+        Adaptive band synthesis:  6 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    283 MB
+
+      Waveguide mode time:  0.069 seconds.
+      Fourier transform time:  0.847 seconds.
+      Coupling time:  22 seconds.
+      Loss time:  0 seconds.
+      Matrix fill time:  23 seconds.
+      Matrix solve time:  6 seconds.
+      De-embedding time for TransmonXmonFluxV2_MPrime_bottom box wall:
+        SOC Electric Wall Std: 3 seconds.
+        SOC Magnetic Wall Std: 3 seconds.
+        Total:                 7 seconds.
+      De-embedding time for cci group A:
+        Total: 1 second.
+      Total time per frequency:  49 seconds.
+
+    Frequency:  10 GHZ
+      ABS: Energy conservation for port 2 at 4.55 GHz.
+      ABS: Time = 0.614 seconds.
+
+    Frequency:  4.55 GHZ
+      ABS: SNR = 61.5298 dB (120 dB Goal) for S2_2 at 2 GHz.
+      ABS: Time = 1 second.
+
+    Frequency:  2 GHZ
+      ABS: SNR = 89.9753 dB (120 dB Goal) for S2_2 at 8.15 GHz.
+      ABS: Time = 1 second.
+
+    Frequency:  8.15 GHZ
+      ABS: SNR = 34.6644 dB (49.8127 dB Goal) for S1_2 at 0.9 GHz.
+      ABS: Time = 1 second.
+
+    Frequency:  0.9 GHZ
+      ABS: SNR = 148.872 dB (120 dB Goal) for S1_1 at 6.4 GHz.
+      ABS: Time = 1 second.
+
+  Parameter combination: 4 of 18.
+
+    Frequency:  0.05 GHZ
+      Independent parameter values:
+        rightNotch = 20.0
+        leftNotch = 10.0
+      Subsectioning at 10 GHz with Eeff of 6.45.
+      Subsectioning time:  8 seconds.
+      De-embedding information for TransmonXmonFluxV2_MPrime_bottom box wall port(s):
+        TransmonXmonFluxV2_MPrime_bottom SOC Electric Wall: 300 microns length, 978 subsections, 40 MB.
+        TransmonXmonFluxV2_MPrime_bottom SOC Magnetic Wall: 600 microns length, 945 subsections, 39 MB.
+      De-embedding information for cci group A:
+        Main Std: X=600 microns Y=453 microns box size, 578 subsections, 20 MB.
+      Circuit requires 5053 subsections and 287 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  147
+      Level 1:
+        Staircase:  4,874
+        Via:        32
+
+      Required memory by type:
+        System matrix:            195 MB
+        Elemental subsections:
+          Primary structure:      33 MB
+          TransmonXmonF standard: 40 MB
+          CciA standard:          3 MB
+        Fourier transform:        6 MB
+        Waveguide mode:           3 MB
+        Adaptive band synthesis:  7 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    287 MB
+
+      Waveguide mode time:  0.067 seconds.
+      Fourier transform time:  0.828 seconds.
+      Coupling time:  22 seconds.
+      Loss time:  0 seconds.
+      Matrix fill time:  23 seconds.
+      Matrix solve time:  6 seconds.
+      De-embedding time for TransmonXmonFluxV2_MPrime_bottom box wall:
+        SOC Electric Wall Std: 3 seconds.
+        SOC Magnetic Wall Std: 3 seconds.
+        Total:                 7 seconds.
+      De-embedding time for cci group A:
+        Total: 1 second.
+      Total time per frequency:  49 seconds.
+
+    Frequency:  10 GHZ
+      ABS: Energy conservation for port 2 at 4.55 GHz.
+      ABS: Time = 0.898 seconds.
+
+    Frequency:  4.55 GHZ
+      ABS: SNR = 64.1438 dB (120 dB Goal) for S2_2 at 2 GHz.
+      ABS: Time = 1 second.
+
+    Frequency:  2 GHZ
+      ABS: SNR = 86.1705 dB (120 dB Goal) for S2_2 at 8.15 GHz.
+      ABS: Time = 1 second.
+
+    Frequency:  8.15 GHZ
+      ABS: SNR = 128.816 dB (120 dB Goal) for S2_2 at 6.55 GHz.
+      ABS: Time = 1 second.
+
+  Parameter combination: 5 of 18.
+
+    Frequency:  0.05 GHZ
+      Independent parameter values:
+        rightNotch = 20.0
+        leftNotch = 15.0
+      Subsectioning at 10 GHz with Eeff of 6.45.
+      Subsectioning time:  8 seconds.
+      De-embedding information for TransmonXmonFluxV2_MPrime_bottom box wall port(s):
+        TransmonXmonFluxV2_MPrime_bottom SOC Electric Wall: 300 microns length, 978 subsections, 41 MB.
+        TransmonXmonFluxV2_MPrime_bottom SOC Magnetic Wall: 600 microns length, 945 subsections, 40 MB.
+      De-embedding information for cci group A:
+        Main Std: X=600 microns Y=453 microns box size, 578 subsections, 21 MB.
+      Circuit requires 5034 subsections and 286 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  147
+      Level 1:
+        Staircase:  4,855
+        Via:        32
+
+      Required memory by type:
+        System matrix:            193 MB
+        Elemental subsections:
+          Primary structure:      33 MB
+          TransmonXmonF standard: 40 MB
+          CciA standard:          3 MB
+        Fourier transform:        6 MB
+        Waveguide mode:           3 MB
+        Adaptive band synthesis:  7 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    286 MB
+
+      Waveguide mode time:  0.069 seconds.
+      Fourier transform time:  0.844 seconds.
+      Coupling time:  22 seconds.
+      Loss time:  0 seconds.
+      Matrix fill time:  23 seconds.
+      Matrix solve time:  6 seconds.
+      De-embedding time for TransmonXmonFluxV2_MPrime_bottom box wall:
+        SOC Electric Wall Std: 3 seconds.
+        SOC Magnetic Wall Std: 3 seconds.
+        Total:                 6 seconds.
+      De-embedding time for cci group A:
+        Total: 1 second.
+      Total time per frequency:  50 seconds.
+
+    Frequency:  10 GHZ
+      ABS: Energy conservation for port 2 at 4.55 GHz.
+      ABS: Time = 0.897 seconds.
+
+    Frequency:  4.55 GHZ
+      ABS: SNR = 62.6623 dB (120 dB Goal) for S2_2 at 2 GHz.
+      ABS: Time = 1 second.
+
+    Frequency:  2 GHZ
+      ABS: SNR = 86.4317 dB (120 dB Goal) for S2_2 at 8.15 GHz.
+      ABS: Time = 1 second.
+
+    Frequency:  8.15 GHZ
+      ABS: SNR = 37.9797 dB (50 dB Goal) for S1_2 at 0.65 GHz.
+      ABS: Time = 1 second.
+
+    Frequency:  0.65 GHZ
+      ABS: SNR = 149.267 dB (120 dB Goal) for S2_2 at 9.3 GHz.
+      ABS: Time = 1 second.
+
+  Parameter combination: 6 of 18.
+
+    Frequency:  0.05 GHZ
+      Independent parameter values:
+        rightNotch = 20.0
+        leftNotch = 20.0
+      Subsectioning at 10 GHz with Eeff of 6.45.
+      Subsectioning time:  7 seconds.
+      De-embedding information for TransmonXmonFluxV2_MPrime_bottom box wall port(s):
+        TransmonXmonFluxV2_MPrime_bottom SOC Electric Wall: 300 microns length, 978 subsections, 41 MB.
+        TransmonXmonFluxV2_MPrime_bottom SOC Magnetic Wall: 600 microns length, 945 subsections, 40 MB.
+      De-embedding information for cci group A:
+        Main Std: X=600 microns Y=453 microns box size, 578 subsections, 21 MB.
+      Circuit requires 4977 subsections and 277 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  147
+      Level 1:
+        Staircase:  4,798
+        Via:        32
+
+      Required memory by type:
+        System matrix:            189 MB
+        Elemental subsections:
+          Primary structure:      33 MB
+          TransmonXmonF standard: 40 MB
+          CciA standard:          3 MB
+        Fourier transform:        6 MB
+        Waveguide mode:           3 MB
+        Adaptive band synthesis:  3 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    277 MB
+
+      Waveguide mode time:  0.068 seconds.
+      Fourier transform time:  0.848 seconds.
+      Coupling time:  22 seconds.
+      Loss time:  0 seconds.
+      Matrix fill time:  23 seconds.
+      Matrix solve time:  6 seconds.
+      De-embedding time for TransmonXmonFluxV2_MPrime_bottom box wall:
+        SOC Electric Wall Std: 3 seconds.
+        SOC Magnetic Wall Std: 3 seconds.
+        Total:                 6 seconds.
+      De-embedding time for cci group A:
+        Total: 1 second.
+      Total time per frequency:  49 seconds.
+
+    Frequency:  10 GHZ
+      ABS: SNR = 35.4307 dB (120 dB Goal) for S2_2 at 5.55 GHz.
+      ABS: Time = 0.216 seconds.
+
+    Frequency:  5.55 GHZ
+      ABS: SNR = 63.996 dB (120 dB Goal) for S2_2 at 2.35 GHz.
+      ABS: Time = 0.454 seconds.
+
+    Frequency:  2.35 GHZ
+      ABS: SNR = 95.6331 dB (120 dB Goal) for S2_2 at 8.4 GHz.
+      ABS: Time = 0.483 seconds.
+
+    Frequency:  8.4 GHZ
+      ABS: SNR = 49.2786 dB (50 dB Goal) for S1_2 at 0.65 GHz.
+      ABS: Time = 0.511 seconds.
+
+    Frequency:  0.65 GHZ
+      ABS: SNR = 150.486 dB (120 dB Goal) for S1_1 at 4.1 GHz.
+      ABS: Time = 0.606 seconds.
+
+  Parameter combination: 7 of 18.
+
+    Frequency:  0.05 GHZ
+      Independent parameter values:
+        rightNotch = 20.0
+        leftNotch = 25.0
+      Subsectioning at 10 GHz with Eeff of 6.45.
+      Subsectioning time:  7 seconds.
+      De-embedding information for TransmonXmonFluxV2_MPrime_bottom box wall port(s):
+        TransmonXmonFluxV2_MPrime_bottom SOC Electric Wall: 300 microns length, 978 subsections, 37 MB.
+        TransmonXmonFluxV2_MPrime_bottom SOC Magnetic Wall: 600 microns length, 945 subsections, 36 MB.
+      De-embedding information for cci group A:
+        Main Std: X=600 microns Y=453 microns box size, 578 subsections, 17 MB.
+      Circuit requires 4944 subsections and 274 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  147
+      Level 1:
+        Staircase:  4,765
+        Via:        32
+
+      Required memory by type:
+        System matrix:            186 MB
+        Elemental subsections:
+          Primary structure:      33 MB
+          TransmonXmonF standard: 40 MB
+          CciA standard:          3 MB
+        Fourier transform:        6 MB
+        Waveguide mode:           3 MB
+        Adaptive band synthesis:  2 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    274 MB
+
+      Waveguide mode time:  0.068 seconds.
+      Fourier transform time:  0.834 seconds.
+      Coupling time:  22 seconds.
+      Loss time:  0 seconds.
+      Matrix fill time:  23 seconds.
+      Matrix solve time:  6 seconds.
+      De-embedding time for TransmonXmonFluxV2_MPrime_bottom box wall:
+        SOC Electric Wall Std: 3 seconds.
+        SOC Magnetic Wall Std: 3 seconds.
+        Total:                 7 seconds.
+      De-embedding time for cci group A:
+        Total: 1 second.
+      Total time per frequency:  47 seconds.
+
+    Frequency:  10 GHZ
+      ABS: SNR = 33.1147 dB (120 dB Goal) for S2_2 at 6.35 GHz.
+      ABS: Time = 0.172 seconds.
+
+    Frequency:  6.35 GHZ
+      ABS: SNR = 61.3978 dB (120 dB Goal) for S2_2 at 2.6 GHz.
+      ABS: Time = 0.354 seconds.
+
+    Frequency:  2.6 GHZ
+      ABS: SNR = 95.5667 dB (120 dB Goal) for S2_2 at 8.55 GHz.
+      ABS: Time = 0.383 seconds.
+
+    Frequency:  8.55 GHZ
+      ABS: SNR = 45.4526 dB (49.7373 dB Goal) for S1_2 at 0.65 GHz.
+      ABS: Time = 0.420 seconds.
+
+    Frequency:  0.65 GHZ
+      ABS: SNR = 151.133 dB (120 dB Goal) for S1_1 at 4.8 GHz.
+      ABS: Time = 0.482 seconds.
+
+  Parameter combination: 8 of 18.
+
+    Frequency:  0.05 GHZ
+      Independent parameter values:
+        rightNotch = 20.0
+        leftNotch = 30.0
+      Subsectioning at 10 GHz with Eeff of 6.45.
+      Subsectioning time:  7 seconds.
+      De-embedding information for TransmonXmonFluxV2_MPrime_bottom box wall port(s):
+        TransmonXmonFluxV2_MPrime_bottom SOC Electric Wall: 300 microns length, 978 subsections, 36 MB.
+        TransmonXmonFluxV2_MPrime_bottom SOC Magnetic Wall: 600 microns length, 945 subsections, 36 MB.
+      De-embedding information for cci group A:
+        Main Std: X=600 microns Y=453 microns box size, 578 subsections, 16 MB.
+      Circuit requires 4989 subsections and 278 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  147
+      Level 1:
+        Staircase:  4,810
+        Via:        32
+
+      Required memory by type:
+        System matrix:            190 MB
+        Elemental subsections:
+          Primary structure:      33 MB
+          TransmonXmonF standard: 40 MB
+          CciA standard:          3 MB
+        Fourier transform:        6 MB
+        Waveguide mode:           3 MB
+        Adaptive band synthesis:  2 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    278 MB
+
+      Waveguide mode time:  0.069 seconds.
+      Fourier transform time:  0.838 seconds.
+      Coupling time:  22 seconds.
+      Loss time:  0 seconds.
+      Matrix fill time:  23 seconds.
+      Matrix solve time:  6 seconds.
+      De-embedding time for TransmonXmonFluxV2_MPrime_bottom box wall:
+        SOC Electric Wall Std: 3 seconds.
+        SOC Magnetic Wall Std: 3 seconds.
+        Total:                 6 seconds.
+      De-embedding time for cci group A:
+        Total: 1 second.
+      Total time per frequency:  47 seconds.
+
+    Frequency:  10 GHZ
+      ABS: SNR = 33.1158 dB (120 dB Goal) for S2_2 at 6.35 GHz.
+      ABS: Time = 0.173 seconds.
+
+    Frequency:  6.35 GHZ
+      ABS: SNR = 61.398 dB (120 dB Goal) for S2_2 at 2.6 GHz.
+      ABS: Time = 0.384 seconds.
+
+    Frequency:  2.6 GHZ
+      ABS: SNR = 95.5645 dB (120 dB Goal) for S2_2 at 8.55 GHz.
+      ABS: Time = 0.363 seconds.
+
+    Frequency:  8.55 GHZ
+      ABS: SNR = 45.7012 dB (49.7289 dB Goal) for S1_2 at 0.65 GHz.
+      ABS: Time = 0.413 seconds.
+
+    Frequency:  0.65 GHZ
+      ABS: SNR = 151.126 dB (120 dB Goal) for S1_1 at 4.8 GHz.
+      ABS: Time = 0.450 seconds.
+
+  Parameter combination: 9 of 18.
+
+    Frequency:  0.05 GHZ
+      Independent parameter values:
+        rightNotch = 25.0
+        leftNotch = 10.0
+      Subsectioning at 10 GHz with Eeff of 6.45.
+      Subsectioning time:  7 seconds.
+      De-embedding information for TransmonXmonFluxV2_MPrime_bottom box wall port(s):
+        TransmonXmonFluxV2_MPrime_bottom SOC Electric Wall: 300 microns length, 978 subsections, 36 MB.
+        TransmonXmonFluxV2_MPrime_bottom SOC Magnetic Wall: 600 microns length, 945 subsections, 36 MB.
+      De-embedding information for cci group A:
+        Main Std: X=600 microns Y=453 microns box size, 578 subsections, 16 MB.
+      Circuit requires 5076 subsections and 288 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  147
+      Level 1:
+        Staircase:  4,897
+        Via:        32
+
+      Required memory by type:
+        System matrix:            197 MB
+        Elemental subsections:
+          Primary structure:      33 MB
+          TransmonXmonF standard: 40 MB
+          CciA standard:          3 MB
+        Fourier transform:        6 MB
+        Waveguide mode:           3 MB
+        Adaptive band synthesis:  6 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    288 MB
+
+      Waveguide mode time:  0.068 seconds.
+      Fourier transform time:  0.826 seconds.
+      Coupling time:  22 seconds.
+      Loss time:  0 seconds.
+      Matrix fill time:  23 seconds.
+      Matrix solve time:  6 seconds.
+      De-embedding time for TransmonXmonFluxV2_MPrime_bottom box wall:
+        SOC Electric Wall Std: 3 seconds.
+        SOC Magnetic Wall Std: 3 seconds.
+        Total:                 6 seconds.
+      De-embedding time for cci group A:
+        Total: 1 second.
+      Total time per frequency:  48 seconds.
+
+    Frequency:  10 GHZ
+      ABS: Energy conservation for port 2 at 4.55 GHz.
+      ABS: Time = 0.946 seconds.
+
+    Frequency:  4.55 GHZ
+      ABS: SNR = 64.0172 dB (120 dB Goal) for S2_2 at 2 GHz.
+      ABS: Time = 1 second.
+
+    Frequency:  2 GHZ
+      ABS: SNR = 88.3414 dB (120 dB Goal) for S2_2 at 8.15 GHz.
+      ABS: Time = 1 second.
+
+    Frequency:  8.15 GHZ
+      ABS: SNR = 129.509 dB (120 dB Goal) for S2_2 at 6.5 GHz.
+      ABS: Time = 1 second.
+
+  Parameter combination: 10 of 18.
+
+    Frequency:  0.05 GHZ
+      Independent parameter values:
+        rightNotch = 25.0
+        leftNotch = 15.0
+      Subsectioning at 10 GHz with Eeff of 6.45.
+      Subsectioning time:  7 seconds.
+      De-embedding information for TransmonXmonFluxV2_MPrime_bottom box wall port(s):
+        TransmonXmonFluxV2_MPrime_bottom SOC Electric Wall: 300 microns length, 978 subsections, 40 MB.
+        TransmonXmonFluxV2_MPrime_bottom SOC Magnetic Wall: 600 microns length, 945 subsections, 39 MB.
+      De-embedding information for cci group A:
+        Main Std: X=600 microns Y=453 microns box size, 578 subsections, 20 MB.
+      Circuit requires 5057 subsections and 287 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  147
+      Level 1:
+        Staircase:  4,878
+        Via:        32
+
+      Required memory by type:
+        System matrix:            195 MB
+        Elemental subsections:
+          Primary structure:      33 MB
+          TransmonXmonF standard: 40 MB
+          CciA standard:          3 MB
+        Fourier transform:        6 MB
+        Waveguide mode:           3 MB
+        Adaptive band synthesis:  7 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    287 MB
+
+      Waveguide mode time:  0.069 seconds.
+      Fourier transform time:  0.839 seconds.
+      Coupling time:  22 seconds.
+      Loss time:  0 seconds.
+      Matrix fill time:  23 seconds.
+      Matrix solve time:  7 seconds.
+      De-embedding time for TransmonXmonFluxV2_MPrime_bottom box wall:
+        SOC Electric Wall Std: 3 seconds.
+        SOC Magnetic Wall Std: 3 seconds.
+        Total:                 6 seconds.
+      De-embedding time for cci group A:
+        Total: 1 second.
+      Total time per frequency:  49 seconds.
+
+    Frequency:  10 GHZ
+      ABS: Energy conservation for port 2 at 4.55 GHz.
+      ABS: Time = 1 second.
+
+    Frequency:  4.55 GHZ
+      ABS: SNR = 62.6696 dB (120 dB Goal) for S2_2 at 2 GHz.
+      ABS: Time = 1 second.
+
+    Frequency:  2 GHZ
+      ABS: SNR = 85.9295 dB (120 dB Goal) for S2_2 at 8.15 GHz.
+      ABS: Time = 1 second.
+
+    Frequency:  8.15 GHZ
+      ABS: SNR = 38.9825 dB (50 dB Goal) for S1_2 at 0.55 GHz.
+      ABS: Time = 1 second.
+
+    Frequency:  0.55 GHZ
+      ABS: SNR = 149.42 dB (120 dB Goal) for S2_2 at 6.45 GHz.
+      ABS: Time = 1 second.
+
+  Parameter combination: 11 of 18.
+
+    Frequency:  0.05 GHZ
+      Independent parameter values:
+        rightNotch = 25.0
+        leftNotch = 20.0
+      Subsectioning at 10 GHz with Eeff of 6.45.
+      Subsectioning time:  7 seconds.
+      De-embedding information for TransmonXmonFluxV2_MPrime_bottom box wall port(s):
+        TransmonXmonFluxV2_MPrime_bottom SOC Electric Wall: 300 microns length, 978 subsections, 41 MB.
+        TransmonXmonFluxV2_MPrime_bottom SOC Magnetic Wall: 600 microns length, 945 subsections, 40 MB.
+      De-embedding information for cci group A:
+        Main Std: X=600 microns Y=453 microns box size, 578 subsections, 21 MB.
+      Circuit requires 5000 subsections and 279 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  147
+      Level 1:
+        Staircase:  4,821
+        Via:        32
+
+      Required memory by type:
+        System matrix:            191 MB
+        Elemental subsections:
+          Primary structure:      33 MB
+          TransmonXmonF standard: 40 MB
+          CciA standard:          3 MB
+        Fourier transform:        6 MB
+        Waveguide mode:           3 MB
+        Adaptive band synthesis:  3 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    279 MB
+
+      Waveguide mode time:  0.077 seconds.
+      Fourier transform time:  0.818 seconds.
+      Coupling time:  20 seconds.
+      Loss time:  0 seconds.
+      Matrix fill time:  21 seconds.
+      Matrix solve time:  5 seconds.
+      De-embedding time for TransmonXmonFluxV2_MPrime_bottom box wall:
+        SOC Electric Wall Std: 3 seconds.
+        SOC Magnetic Wall Std: 3 seconds.
+        Total:                 6 seconds.
+      De-embedding time for cci group A:
+        Total: 1 second.
+      Total time per frequency:  46 seconds.
+
+    Frequency:  10 GHZ
+      ABS: SNR = 35.4371 dB (120 dB Goal) for S2_2 at 5.55 GHz.
+      ABS: Time = 0.216 seconds.
+
+    Frequency:  5.55 GHZ
+      ABS: SNR = 63.9922 dB (120 dB Goal) for S2_2 at 2.35 GHz.
+      ABS: Time = 0.445 seconds.
+
+    Frequency:  2.35 GHZ
+      ABS: SNR = 95.4921 dB (120 dB Goal) for S2_2 at 8.4 GHz.
+      ABS: Time = 0.521 seconds.
+
+    Frequency:  8.4 GHZ
+      ABS: SNR = 50.0704 dB (49.7529 dB Goal) for S1_2 at 0.5 GHz.
+      ABS: Time = 0.507 seconds.
+
+  Parameter combination: 12 of 18.
+
+    Frequency:  0.05 GHZ
+      Independent parameter values:
+        rightNotch = 25.0
+        leftNotch = 25.0
+      Subsectioning at 10 GHz with Eeff of 6.45.
+      Subsectioning time:  7 seconds.
+      De-embedding information for TransmonXmonFluxV2_MPrime_bottom box wall port(s):
+        TransmonXmonFluxV2_MPrime_bottom SOC Electric Wall: 300 microns length, 978 subsections, 37 MB.
+        TransmonXmonFluxV2_MPrime_bottom SOC Magnetic Wall: 600 microns length, 945 subsections, 36 MB.
+      De-embedding information for cci group A:
+        Main Std: X=600 microns Y=453 microns box size, 578 subsections, 17 MB.
+      Circuit requires 4967 subsections and 276 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  147
+      Level 1:
+        Staircase:  4,788
+        Via:        32
+
+      Required memory by type:
+        System matrix:            188 MB
+        Elemental subsections:
+          Primary structure:      33 MB
+          TransmonXmonF standard: 40 MB
+          CciA standard:          3 MB
+        Fourier transform:        6 MB
+        Waveguide mode:           3 MB
+        Adaptive band synthesis:  2 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    276 MB
+
+      Waveguide mode time:  0.079 seconds.
+      Fourier transform time:  0.824 seconds.
+      Coupling time:  21 seconds.
+      Loss time:  0 seconds.
+      Matrix fill time:  21 seconds.
+      Matrix solve time:  5 seconds.
+      De-embedding time for TransmonXmonFluxV2_MPrime_bottom box wall:
+        SOC Electric Wall Std: 3 seconds.
+        SOC Magnetic Wall Std: 3 seconds.
+        Total:                 6 seconds.
+      De-embedding time for cci group A:
+        Total: 1 second.
+      Total time per frequency:  45 seconds.
+
+    Frequency:  10 GHZ
+      ABS: SNR = 33.1065 dB (120 dB Goal) for S2_2 at 6.35 GHz.
+      ABS: Time = 0.161 seconds.
+
+    Frequency:  6.35 GHZ
+      ABS: SNR = 61.3861 dB (120 dB Goal) for S2_2 at 2.6 GHz.
+      ABS: Time = 0.418 seconds.
+
+    Frequency:  2.6 GHZ
+      ABS: SNR = 95.5139 dB (120 dB Goal) for S2_2 at 8.55 GHz.
+      ABS: Time = 0.421 seconds.
+
+    Frequency:  8.55 GHZ
+      ABS: SNR = 46.7161 dB (50 dB Goal) for S1_2 at 0.55 GHz.
+      ABS: Time = 0.421 seconds.
+
+    Frequency:  0.55 GHZ
+      ABS: SNR = 149.858 dB (120 dB Goal) for S1_1 at 4.8 GHz.
+      ABS: Time = 0.448 seconds.
+
+  Parameter combination: 13 of 18.
+
+    Frequency:  0.05 GHZ
+      Independent parameter values:
+        rightNotch = 25.0
+        leftNotch = 30.0
+      Subsectioning at 10 GHz with Eeff of 6.45.
+      Subsectioning time:  7 seconds.
+      De-embedding information for TransmonXmonFluxV2_MPrime_bottom box wall port(s):
+        TransmonXmonFluxV2_MPrime_bottom SOC Electric Wall: 300 microns length, 978 subsections, 36 MB.
+        TransmonXmonFluxV2_MPrime_bottom SOC Magnetic Wall: 600 microns length, 945 subsections, 36 MB.
+      De-embedding information for cci group A:
+        Main Std: X=600 microns Y=453 microns box size, 578 subsections, 16 MB.
+      Circuit requires 5012 subsections and 280 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  147
+      Level 1:
+        Staircase:  4,833
+        Via:        32
+
+      Required memory by type:
+        System matrix:            192 MB
+        Elemental subsections:
+          Primary structure:      33 MB
+          TransmonXmonF standard: 40 MB
+          CciA standard:          3 MB
+        Fourier transform:        6 MB
+        Waveguide mode:           3 MB
+        Adaptive band synthesis:  2 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    280 MB
+
+      Waveguide mode time:  0.068 seconds.
+      Fourier transform time:  0.815 seconds.
+      Coupling time:  21 seconds.
+      Loss time:  0 seconds.
+      Matrix fill time:  22 seconds.
+      Matrix solve time:  6 seconds.
+      De-embedding time for TransmonXmonFluxV2_MPrime_bottom box wall:
+        SOC Electric Wall Std: 3 seconds.
+        SOC Magnetic Wall Std: 3 seconds.
+        Total:                 6 seconds.
+      De-embedding time for cci group A:
+        Total: 1 second.
+      Total time per frequency:  46 seconds.
+
+    Frequency:  10 GHZ
+      ABS: SNR = 33.1077 dB (120 dB Goal) for S2_2 at 6.35 GHz.
+      ABS: Time = 0.160 seconds.
+
+    Frequency:  6.35 GHZ
+      ABS: SNR = 61.3862 dB (120 dB Goal) for S2_2 at 2.6 GHz.
+      ABS: Time = 0.382 seconds.
+
+    Frequency:  2.6 GHZ
+      ABS: SNR = 95.5116 dB (120 dB Goal) for S2_2 at 8.55 GHz.
+      ABS: Time = 0.406 seconds.
+
+    Frequency:  8.55 GHZ
+      ABS: SNR = 46.7089 dB (50 dB Goal) for S1_2 at 0.55 GHz.
+      ABS: Time = 0.400 seconds.
+
+    Frequency:  0.55 GHZ
+      ABS: SNR = 149.9 dB (120 dB Goal) for S1_1 at 4.8 GHz.
+      ABS: Time = 0.459 seconds.
+
+  Parameter combination: 14 of 18.
+
+    Frequency:  0.05 GHZ
+      Independent parameter values:
+        rightNotch = 30.0
+        leftNotch = 10.0
+      Subsectioning at 10 GHz with Eeff of 6.45.
+      Subsectioning time:  8 seconds.
+      De-embedding information for TransmonXmonFluxV2_MPrime_bottom box wall port(s):
+        TransmonXmonFluxV2_MPrime_bottom SOC Electric Wall: 300 microns length, 978 subsections, 36 MB.
+        TransmonXmonFluxV2_MPrime_bottom SOC Magnetic Wall: 600 microns length, 945 subsections, 36 MB.
+      De-embedding information for cci group A:
+        Main Std: X=600 microns Y=453 microns box size, 578 subsections, 16 MB.
+      Circuit requires 5081 subsections and 289 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  147
+      Level 1:
+        Staircase:  4,902
+        Via:        32
+
+      Required memory by type:
+        System matrix:            197 MB
+        Elemental subsections:
+          Primary structure:      33 MB
+          TransmonXmonF standard: 40 MB
+          CciA standard:          3 MB
+        Fourier transform:        6 MB
+        Waveguide mode:           3 MB
+        Adaptive band synthesis:  6 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    289 MB
+
+      Waveguide mode time:  0.101 seconds.
+      Fourier transform time:  0.823 seconds.
+      Coupling time:  21 seconds.
+      Loss time:  0 seconds.
+      Matrix fill time:  22 seconds.
+      Matrix solve time:  6 seconds.
+      De-embedding time for TransmonXmonFluxV2_MPrime_bottom box wall:
+        SOC Electric Wall Std: 3 seconds.
+        SOC Magnetic Wall Std: 3 seconds.
+        Total:                 6 seconds.
+      De-embedding time for cci group A:
+        Total: 1 second.
+      Total time per frequency:  47 seconds.
+
+    Frequency:  10 GHZ
+      ABS: Energy conservation for port 2 at 4.55 GHz.
+      ABS: Time = 0.863 seconds.
+
+    Frequency:  4.55 GHZ
+      ABS: SNR = 64.0008 dB (120 dB Goal) for S2_2 at 2 GHz.
+      ABS: Time = 1 second.
+
+    Frequency:  2 GHZ
+      ABS: SNR = 88.412 dB (120 dB Goal) for S2_2 at 8.15 GHz.
+      ABS: Time = 1 second.
+
+    Frequency:  8.15 GHZ
+      ABS: SNR = 129.181 dB (120 dB Goal) for S2_2 at 6.45 GHz.
+      ABS: Time = 1 second.
+
+  Parameter combination: 15 of 18.
+
+    Frequency:  0.05 GHZ
+      Independent parameter values:
+        rightNotch = 30.0
+        leftNotch = 15.0
+      Subsectioning at 10 GHz with Eeff of 6.45.
+      Subsectioning time:  8 seconds.
+      De-embedding information for TransmonXmonFluxV2_MPrime_bottom box wall port(s):
+        TransmonXmonFluxV2_MPrime_bottom SOC Electric Wall: 300 microns length, 978 subsections, 40 MB.
+        TransmonXmonFluxV2_MPrime_bottom SOC Magnetic Wall: 600 microns length, 945 subsections, 39 MB.
+      De-embedding information for cci group A:
+        Main Std: X=600 microns Y=453 microns box size, 578 subsections, 20 MB.
+      Circuit requires 5062 subsections and 287 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  147
+      Level 1:
+        Staircase:  4,883
+        Via:        32
+
+      Required memory by type:
+        System matrix:            195 MB
+        Elemental subsections:
+          Primary structure:      33 MB
+          TransmonXmonF standard: 40 MB
+          CciA standard:          3 MB
+        Fourier transform:        6 MB
+        Waveguide mode:           3 MB
+        Adaptive band synthesis:  6 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    287 MB
+
+      Waveguide mode time:  0.068 seconds.
+      Fourier transform time:  0.830 seconds.
+      Coupling time:  21 seconds.
+      Loss time:  0.001 seconds.
+      Matrix fill time:  22 seconds.
+      Matrix solve time:  6 seconds.
+      De-embedding time for TransmonXmonFluxV2_MPrime_bottom box wall:
+        SOC Electric Wall Std: 3 seconds.
+        SOC Magnetic Wall Std: 3 seconds.
+        Total:                 6 seconds.
+      De-embedding time for cci group A:
+        Total: 1 second.
+      Total time per frequency:  48 seconds.
+
+    Frequency:  10 GHZ
+      ABS: Energy conservation for port 2 at 4.75 GHz.
+      ABS: Time = 0.779 seconds.
+
+    Frequency:  4.75 GHZ
+      ABS: Energy conservation for port 2 at 2.4 GHz.
+      ABS: Time = 1 second.
+
+    Frequency:  2.4 GHZ
+      ABS: SNR = 86.3627 dB (120 dB Goal) for S2_2 at 8.25 GHz.
+      ABS: Time = 1 second.
+
+    Frequency:  8.25 GHZ
+      ABS: SNR = 125.022 dB (120 dB Goal) for S2_2 at 0.9 GHz.
+      ABS: Time = 1 second.
+
+  Parameter combination: 16 of 18.
+
+    Frequency:  0.05 GHZ
+      Independent parameter values:
+        rightNotch = 30.0
+        leftNotch = 20.0
+      Subsectioning at 10 GHz with Eeff of 6.45.
+      Subsectioning time:  7 seconds.
+      De-embedding information for TransmonXmonFluxV2_MPrime_bottom box wall port(s):
+        TransmonXmonFluxV2_MPrime_bottom SOC Electric Wall: 300 microns length, 978 subsections, 40 MB.
+        TransmonXmonFluxV2_MPrime_bottom SOC Magnetic Wall: 600 microns length, 945 subsections, 40 MB.
+      De-embedding information for cci group A:
+        Main Std: X=600 microns Y=453 microns box size, 578 subsections, 20 MB.
+      Circuit requires 5005 subsections and 280 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  147
+      Level 1:
+        Staircase:  4,826
+        Via:        32
+
+      Required memory by type:
+        System matrix:            191 MB
+        Elemental subsections:
+          Primary structure:      33 MB
+          TransmonXmonF standard: 40 MB
+          CciA standard:          3 MB
+        Fourier transform:        6 MB
+        Waveguide mode:           3 MB
+        Adaptive band synthesis:  3 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    280 MB
+
+      Waveguide mode time:  0.068 seconds.
+      Fourier transform time:  0.838 seconds.
+      Coupling time:  20 seconds.
+      Loss time:  0 seconds.
+      Matrix fill time:  21 seconds.
+      Matrix solve time:  5 seconds.
+      De-embedding time for TransmonXmonFluxV2_MPrime_bottom box wall:
+        SOC Electric Wall Std: 3 seconds.
+        SOC Magnetic Wall Std: 3 seconds.
+        Total:                 6 seconds.
+      De-embedding time for cci group A:
+        Total: 1 second.
+      Total time per frequency:  47 seconds.
+
+    Frequency:  10 GHZ
+      ABS: SNR = 35.441 dB (120 dB Goal) for S2_2 at 5.55 GHz.
+      ABS: Time = 0.204 seconds.
+
+    Frequency:  5.55 GHZ
+      ABS: SNR = 63.9913 dB (120 dB Goal) for S2_2 at 2.35 GHz.
+      ABS: Time = 0.420 seconds.
+
+    Frequency:  2.35 GHZ
+      ABS: SNR = 95.4665 dB (120 dB Goal) for S2_2 at 8.4 GHz.
+      ABS: Time = 0.491 seconds.
+
+    Frequency:  8.4 GHZ
+      ABS: SNR = 50.748 dB (49.7315 dB Goal) for S1_2 at 0.45 GHz.
+      ABS: Time = 0.597 seconds.
+
+  Parameter combination: 17 of 18.
+
+    Frequency:  0.05 GHZ
+      Independent parameter values:
+        rightNotch = 30.0
+        leftNotch = 25.0
+      Subsectioning at 10 GHz with Eeff of 6.45.
+      Subsectioning time:  7 seconds.
+      De-embedding information for TransmonXmonFluxV2_MPrime_bottom box wall port(s):
+        TransmonXmonFluxV2_MPrime_bottom SOC Electric Wall: 300 microns length, 978 subsections, 37 MB.
+        TransmonXmonFluxV2_MPrime_bottom SOC Magnetic Wall: 600 microns length, 945 subsections, 36 MB.
+      De-embedding information for cci group A:
+        Main Std: X=600 microns Y=453 microns box size, 578 subsections, 17 MB.
+      Circuit requires 4972 subsections and 277 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  147
+      Level 1:
+        Staircase:  4,793
+        Via:        32
+
+      Required memory by type:
+        System matrix:            189 MB
+        Elemental subsections:
+          Primary structure:      33 MB
+          TransmonXmonF standard: 40 MB
+          CciA standard:          3 MB
+        Fourier transform:        6 MB
+        Waveguide mode:           3 MB
+        Adaptive band synthesis:  2 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    277 MB
+
+      Waveguide mode time:  0.068 seconds.
+      Fourier transform time:  0.840 seconds.
+      Coupling time:  21 seconds.
+      Loss time:  0 seconds.
+      Matrix fill time:  21 seconds.
+      Matrix solve time:  5 seconds.
+      De-embedding time for TransmonXmonFluxV2_MPrime_bottom box wall:
+        SOC Electric Wall Std: 3 seconds.
+        SOC Magnetic Wall Std: 3 seconds.
+        Total:                 6 seconds.
+      De-embedding time for cci group A:
+        Total: 1 second.
+      Total time per frequency:  46 seconds.
+
+    Frequency:  10 GHZ
+      ABS: SNR = 33.1034 dB (120 dB Goal) for S2_2 at 6.35 GHz.
+      ABS: Time = 0.173 seconds.
+
+    Frequency:  6.35 GHZ
+      ABS: SNR = 61.3797 dB (120 dB Goal) for S2_2 at 2.6 GHz.
+      ABS: Time = 0.331 seconds.
+
+    Frequency:  2.6 GHZ
+      ABS: SNR = 95.5796 dB (120 dB Goal) for S2_2 at 8.55 GHz.
+      ABS: Time = 0.381 seconds.
+
+    Frequency:  8.55 GHZ
+      ABS: SNR = 47.3596 dB (50 dB Goal) for S1_2 at 0.5 GHz.
+      ABS: Time = 0.416 seconds.
+
+    Frequency:  0.5 GHZ
+      ABS: SNR = 147.858 dB (120 dB Goal) for S1_1 at 4.55 GHz.
+      ABS: Time = 0.448 seconds.
+
+  Parameter combination: 18 of 18.
+
+    Frequency:  0.05 GHZ
+      Independent parameter values:
+        rightNotch = 30.0
+        leftNotch = 30.0
+      Subsectioning at 10 GHz with Eeff of 6.45.
+      Subsectioning time:  7 seconds.
+      De-embedding information for TransmonXmonFluxV2_MPrime_bottom box wall port(s):
+        TransmonXmonFluxV2_MPrime_bottom SOC Electric Wall: 300 microns length, 978 subsections, 36 MB.
+        TransmonXmonFluxV2_MPrime_bottom SOC Magnetic Wall: 600 microns length, 945 subsections, 36 MB.
+      De-embedding information for cci group A:
+        Main Std: X=600 microns Y=453 microns box size, 578 subsections, 16 MB.
+      Circuit requires 5017 subsections and 280 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  147
+      Level 1:
+        Staircase:  4,838
+        Via:        32
+
+      Required memory by type:
+        System matrix:            192 MB
+        Elemental subsections:
+          Primary structure:      33 MB
+          TransmonXmonF standard: 40 MB
+          CciA standard:          3 MB
+        Fourier transform:        6 MB
+        Waveguide mode:           3 MB
+        Adaptive band synthesis:  2 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    280 MB
+
+      Waveguide mode time:  0.087 seconds.
+      Fourier transform time:  0.828 seconds.
+      Coupling time:  21 seconds.
+      Loss time:  0.001 seconds.
+      Matrix fill time:  22 seconds.
+      Matrix solve time:  5 seconds.
+      De-embedding time for TransmonXmonFluxV2_MPrime_bottom box wall:
+        SOC Electric Wall Std: 3 seconds.
+        SOC Magnetic Wall Std: 3 seconds.
+        Total:                 6 seconds.
+      De-embedding time for cci group A:
+        Total: 1 second.
+      Total time per frequency:  45 seconds.
+
+    Frequency:  10 GHZ
+      ABS: SNR = 33.1047 dB (120 dB Goal) for S2_2 at 6.35 GHz.
+      ABS: Time = 0.208 seconds.
+
+    Frequency:  6.35 GHZ
+      ABS: SNR = 61.3798 dB (120 dB Goal) for S2_2 at 2.6 GHz.
+      ABS: Time = 0.350 seconds.
+
+    Frequency:  2.6 GHZ
+      ABS: SNR = 95.5772 dB (120 dB Goal) for S2_2 at 8.55 GHz.
+      ABS: Time = 0.362 seconds.
+
+    Frequency:  8.55 GHZ
+      ABS: SNR = 47.6013 dB (50 dB Goal) for S1_2 at 0.5 GHz.
+      ABS: Time = 0.409 seconds.
+
+    Frequency:  0.5 GHZ
+      ABS: SNR = 147.871 dB (120 dB Goal) for S1_1 at 4.55 GHz.
+      ABS: Time = 0.445 seconds.
+
+    Post-Analysis:
+      Total time for 102 frequencies:  1 hour 6 minutes.
+
+Analysis completed Thu Apr 14 18:28:17 2016.

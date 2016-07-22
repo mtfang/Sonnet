@@ -1,0 +1,110 @@
+Run 1:  Wed Jul 13 19:51:24 2016.  calt2.2.43068.
+        Em version 16.52 (64-bit Windows) on DESKTOP-MOCDKPP remote.
+
+  Project:  C:\Users\Michael\Desktop\Sonnet Qubit Designs\Jul13GDSSonnet\XYDriveCapacitance_LargerBox_VaryDistance.son.
+
+  Parameter combination: 1 of 5.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        groundDistance = 50.0
+      Frequency completed Wed Jul 13 20:23:38 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        0.10000000 1.000000 -0.650 2.389e-6 89.549 2.389e-6 89.549 1.000000 -0.254
+        !< P1 F=0.1 Eeff=(6.42745536 -3.04e-5) Z0=(50.8155357 1.15159e-4) R=2.22224931 C=0.00352766 
+        !< P2 F=0.1 Eeff=(7.14037173 -9.717e-4) Z0=(116.67812 -6.6162e-3) R=-5.6792892 C=0.00523828 
+
+  Parameter combination: 2 of 5.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        groundDistance = 75.0
+      Frequency completed Wed Jul 13 20:55:44 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        0.10000000 1.000000 -0.636 1.621e-6 89.557 1.621e-6 89.557 1.000000 -0.254
+        !< P1 F=0.1 Eeff=(6.42745536 -3.04e-5) Z0=(50.8155357 1.15159e-4) R=2.22224931 C=0.00352766 
+        !< P2 F=0.1 Eeff=(7.14037173 -9.717e-4) Z0=(116.67812 -6.6162e-3) R=-5.6792892 C=0.00523828 
+
+  Parameter combination: 3 of 5.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        groundDistance = 100.0
+      Frequency completed Wed Jul 13 21:28:28 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        0.10000000 1.000000 -0.621 1.179e-6 89.565 1.179e-6 89.565 1.000000 -0.254
+        !< P1 F=0.1 Eeff=(6.42745536 -3.04e-5) Z0=(50.8155357 1.15159e-4) R=2.22224931 C=0.00352766 
+        !< P2 F=0.1 Eeff=(7.14037173 -9.717e-4) Z0=(116.67812 -6.6162e-3) R=-5.6792892 C=0.00523828 
+
+  Parameter combination: 4 of 5.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        groundDistance = 125.0
+      Frequency completed Wed Jul 13 22:01:01 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        0.10000000 1.000000 -0.606 8.916e-7 89.574 8.916e-7 89.574 1.000000 -0.254
+        !< P1 F=0.1 Eeff=(6.42745536 -3.04e-5) Z0=(50.8155357 1.15159e-4) R=2.22224931 C=0.00352766 
+        !< P2 F=0.1 Eeff=(7.14037173 -9.717e-4) Z0=(116.67812 -6.6162e-3) R=-5.6792892 C=0.00523828 
+
+  Parameter combination: 5 of 5.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        groundDistance = 150.0
+      Frequency completed Wed Jul 13 22:33:44 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        0.10000000 1.000000 -0.592 6.889e-7 89.582 6.889e-7 89.582 1.000000 -0.254
+        !< P1 F=0.1 Eeff=(6.42745536 -3.04e-5) Z0=(50.8155357 1.15159e-4) R=2.22224931 C=0.00352766 
+        !< P2 F=0.1 Eeff=(7.14037173 -9.717e-4) Z0=(116.67812 -6.6162e-3) R=-5.6792892 C=0.00523828 
+
+Analysis completed Wed Jul 13 22:33:44 2016.
+
+
+Run 2:  Thu Jul 14 09:39:25 2016.  calt2.2.43068.
+        Em version 16.52 (64-bit Windows) on DESKTOP-MOCDKPP remote.
+
+  Project:  C:\Users\Michael\Desktop\Sonnet Qubit Designs\Jul13GDSSonnet\XYDriveCapacitance_LargerBox_VaryDistance.son.
+
+  Parameter combination: 1 of 3.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        groundDistance = 20.0
+      Frequency completed Thu Jul 14 10:12:29 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        0.10000000 1.000000 -0.668 4.375e-6 89.540 4.375e-6 89.540 1.000000 -0.254
+        !< P1 F=0.1 Eeff=(6.42745536 -3.04e-5) Z0=(50.8155357 1.15159e-4) R=2.22224931 C=0.00352766 
+        !< P2 F=0.1 Eeff=(7.14037173 -9.717e-4) Z0=(116.67812 -6.6162e-3) R=-5.6792892 C=0.00523828 
+
+  Parameter combination: 2 of 3.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        groundDistance = 30.0
+      Frequency completed Thu Jul 14 10:45:10 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        0.10000000 1.000000 -0.662 3.451e-6 89.543 3.451e-6 89.543 1.000000 -0.254
+        !< P1 F=0.1 Eeff=(6.42745536 -3.04e-5) Z0=(50.8155357 1.15159e-4) R=2.22224931 C=0.00352766 
+        !< P2 F=0.1 Eeff=(7.14037173 -9.717e-4) Z0=(116.67812 -6.6162e-3) R=-5.6792892 C=0.00523828 
+
+  Parameter combination: 3 of 3.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        groundDistance = 40.0
+      Frequency completed Thu Jul 14 11:18:27 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        0.10000000 1.000000 -0.656 2.847e-6 89.546 2.847e-6 89.546 1.000000 -0.254
+        !< P1 F=0.1 Eeff=(6.42745536 -3.04e-5) Z0=(50.8155357 1.15159e-4) R=2.22224931 C=0.00352766 
+        !< P2 F=0.1 Eeff=(7.14037173 -9.717e-4) Z0=(116.67812 -6.6162e-3) R=-5.6792892 C=0.00523828 
+
+Analysis completed Thu Jul 14 11:18:27 2016.

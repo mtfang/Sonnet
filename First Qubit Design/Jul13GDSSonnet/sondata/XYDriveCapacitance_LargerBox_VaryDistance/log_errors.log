@@ -1,0 +1,68 @@
+Run 1:  Wed Jul 13 19:51:24 2016.  calt2.2.43068.
+        Em version 16.52 (64-bit Windows) on DESKTOP-MOCDKPP remote.
+
+  Project:  C:\Users\Michael\Desktop\Sonnet Qubit Designs\Jul13GDSSonnet\XYDriveCapacitance_LargerBox_VaryDistance.son.
+
+  Parameter combination: 1 of 5.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        groundDistance = 50.0
+
+  Parameter combination: 2 of 5.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        groundDistance = 75.0
+
+  Parameter combination: 3 of 5.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        groundDistance = 100.0
+
+  Parameter combination: 4 of 5.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        groundDistance = 125.0
+
+  Parameter combination: 5 of 5.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        groundDistance = 150.0
+
+    Post-Analysis:
+      Errors detected: 0    Warnings detected: 0.
+
+Analysis completed Wed Jul 13 22:33:44 2016.
+
+
+Run 2:  Thu Jul 14 09:39:25 2016.  calt2.2.43068.
+        Em version 16.52 (64-bit Windows) on DESKTOP-MOCDKPP remote.
+
+  Project:  C:\Users\Michael\Desktop\Sonnet Qubit Designs\Jul13GDSSonnet\XYDriveCapacitance_LargerBox_VaryDistance.son.
+
+  Parameter combination: 1 of 3.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        groundDistance = 20.0
+
+  Parameter combination: 2 of 3.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        groundDistance = 30.0
+
+  Parameter combination: 3 of 3.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        groundDistance = 40.0
+
+    Post-Analysis:
+      Errors detected: 0    Warnings detected: 0.
+
+Analysis completed Thu Jul 14 11:18:27 2016.

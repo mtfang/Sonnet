@@ -1,0 +1,118 @@
+Run 1:  Wed Jul 13 19:05:07 2016.  calt2.2.43068.
+        Em version 16.52 (64-bit Windows) on DESKTOP-MOCDKPP remote.
+
+  Project:  C:\Users\Michael\Desktop\Sonnet Qubit Designs\Jul13GDSSonnet\XYDriveCapacitanceVaryDistance.son.
+
+  Parameter combination: 1 of 5.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        groundDistance = 50.0
+      Frequency completed Wed Jul 13 19:14:14 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        0.10000000 1.000000 -0.560 2.346e-6 89.593 2.346e-6 89.593 1.000000 -0.254
+        !< P1 F=0.1 Eeff=(undefined: sl) Z0=(undefined: sl) R=0.0 C=0.0 
+        !< P2 F=0.1 Eeff=(6.96987513 -4.2257e-4) Z0=(115.230762 -2.5124e-3) R=-5.8079932 C=0.00526354 
+        !< See "De-embedding Codes" in Help for more details on the "sl" code.
+
+  Parameter combination: 2 of 5.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        groundDistance = 75.0
+      Frequency completed Wed Jul 13 19:23:25 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        0.10000000 1.000000 -0.545 1.598e-6 89.601 1.598e-6 89.601 1.000000 -0.254
+        !< P1 F=0.1 Eeff=(undefined: sl) Z0=(undefined: sl) R=0.0 C=0.0 
+        !< P2 F=0.1 Eeff=(6.96987513 -4.2257e-4) Z0=(115.230762 -2.5124e-3) R=-5.8079932 C=0.00526354 
+        !< See "De-embedding Codes" in Help for more details on the "sl" code.
+
+  Parameter combination: 3 of 5.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        groundDistance = 100.0
+      Frequency completed Wed Jul 13 19:32:40 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        0.10000000 1.000000 -0.530 1.144e-6 89.608 1.144e-6 89.608 1.000000 -0.254
+        !< P1 F=0.1 Eeff=(undefined: sl) Z0=(undefined: sl) R=0.0 C=0.0 
+        !< P2 F=0.1 Eeff=(6.96987513 -4.2257e-4) Z0=(115.230762 -2.5124e-3) R=-5.8079932 C=0.00526354 
+        !< See "De-embedding Codes" in Help for more details on the "sl" code.
+
+  Parameter combination: 4 of 5.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        groundDistance = 125.0
+      Frequency completed Wed Jul 13 19:41:50 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        0.10000000 1.000000 -0.517 8.859e-7 89.615 8.859e-7 89.615 1.000000 -0.254
+        !< P1 F=0.1 Eeff=(undefined: sl) Z0=(undefined: sl) R=0.0 C=0.0 
+        !< P2 F=0.1 Eeff=(6.96987513 -4.2257e-4) Z0=(115.230762 -2.5124e-3) R=-5.8079932 C=0.00526354 
+        !< See "De-embedding Codes" in Help for more details on the "sl" code.
+
+  Parameter combination: 5 of 5.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        groundDistance = 150.0
+      Frequency completed Wed Jul 13 19:51:10 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        0.10000000 1.000000 -0.503 6.750e-7 89.622 6.750e-7 89.622 1.000000 -0.254
+        !< P1 F=0.1 Eeff=(undefined: sl) Z0=(undefined: sl) R=0.0 C=0.0 
+        !< P2 F=0.1 Eeff=(6.96987513 -4.2257e-4) Z0=(115.230762 -2.5124e-3) R=-5.8079932 C=0.00526354 
+        !< See "De-embedding Codes" in Help for more details on the "sl" code.
+
+Analysis completed Wed Jul 13 19:51:10 2016.
+
+
+Run 2:  Thu Jul 14 09:12:16 2016.  calt2.2.43068.
+        Em version 16.52 (64-bit Windows) on DESKTOP-MOCDKPP remote.
+
+  Project:  C:\Users\Michael\Desktop\Sonnet Qubit Designs\Jul13GDSSonnet\XYDriveCapacitanceVaryDistance.son.
+
+  Parameter combination: 1 of 3.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        groundDistance = 20.0
+      Frequency completed Thu Jul 14 09:21:08 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        0.10000000 1.000000 -0.577 4.301e-6 89.584 4.301e-6 89.584 1.000000 -0.253
+        !< P1 F=0.1 Eeff=(undefined: sl) Z0=(undefined: sl) R=0.0 C=0.0 
+        !< P2 F=0.1 Eeff=(6.96987513 -4.2257e-4) Z0=(115.230762 -2.5124e-3) R=-5.8079932 C=0.00526354 
+        !< See "De-embedding Codes" in Help for more details on the "sl" code.
+
+  Parameter combination: 2 of 3.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        groundDistance = 30.0
+      Frequency completed Thu Jul 14 09:29:59 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        0.10000000 1.000000 -0.571 3.418e-6 89.587 3.418e-6 89.587 1.000000 -0.253
+        !< P1 F=0.1 Eeff=(undefined: sl) Z0=(undefined: sl) R=0.0 C=0.0 
+        !< P2 F=0.1 Eeff=(6.96987513 -4.2257e-4) Z0=(115.230762 -2.5124e-3) R=-5.8079932 C=0.00526354 
+        !< See "De-embedding Codes" in Help for more details on the "sl" code.
+
+  Parameter combination: 3 of 3.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        groundDistance = 40.0
+      Frequency completed Thu Jul 14 09:39:11 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        0.10000000 1.000000 -0.566 2.817e-6 89.590 2.817e-6 89.590 1.000000 -0.254
+        !< P1 F=0.1 Eeff=(undefined: sl) Z0=(undefined: sl) R=0.0 C=0.0 
+        !< P2 F=0.1 Eeff=(6.96987513 -4.2257e-4) Z0=(115.230762 -2.5124e-3) R=-5.8079932 C=0.00526354 
+        !< See "De-embedding Codes" in Help for more details on the "sl" code.
+
+Analysis completed Thu Jul 14 09:39:11 2016.

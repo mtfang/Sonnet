@@ -1,0 +1,71 @@
+Run 1:  Fri Jul 15 11:52:09 2016.  calt2.2.43068.
+        Em version 16.52 (64-bit Windows) on DESKTOP-MOCDKPP remote.
+
+  Project:  C:\Users\Michael\Desktop\Sonnet Qubit Designs\Jul13GDSSonnet\ClawCapacitanceWithoutLid.son.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        gap = 6.0
+        thickness = 32.0
+        ClawLength = 170.0
+      Subsectioning at 0.1 GHz with Eeff of 6.45.
+      Subsectioning time:  3 seconds.
+      Em license feature:  emhighperformance.
+      Circuit requires 3137 subsections and 262 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  2,963
+      Ground Plane:
+        Via:        174
+
+      Required memory by type:
+        System matrix:            75 MB
+        Elemental subsections:
+          Primary structure:      161 MB
+        Fourier transform:        21 MB
+        Waveguide mode:           4 MB
+        Adaptive band synthesis:  0 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    262 MB
+
+      Matrix solver:  internal 64-bit SSE with loss.
+      Simulation mode:  remote em transfer.
+      Threads:  using 12 thread(s), 12 core(s) available.
+      Waveguide mode time:  0.095 seconds.
+      Fourier transform time:  1 second.
+      Coupling time:  1 minute 11 seconds.
+      Loss time:  0 seconds.
+      Matrix fill time:  1 minute 13 seconds.
+      Matrix solve time:  0.848 seconds.
+      De-embed autognd port 1:
+        Standard 1:  1500.0 microns, 147 subsections, about 212 MB.
+          Time:  3 seconds.
+        Autognd port 1 std 2:
+          1500 microns length, 138 subsections, 180 MB.
+          Time:  0.724 seconds.
+        Autognd port 1 std 3:
+          3000 microns length, 273 subsections, 199 MB.
+          Time:  1 second.
+      De-embed autognd port 2:
+        Standard 1:  1500.0 microns, 521 subsections, about 214 MB.
+          Time:  4 seconds.
+        Autognd port 2 std 2:
+          1500 microns length, 358 subsections, 181 MB.
+          Time:  1 second.
+        Autognd port 2 std 3:
+          3000 microns length, 709 subsections, 202 MB.
+          Time:  6 seconds.
+      Frequency completed Fri Jul 15 11:53:45 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        0.10000000 1.000000 -0.264 5.069e-4 89.691 5.069e-4 89.691 1.000000 -0.355
+        !< P1 F=0.1 Eeff=(6.56617104 -4.6388e-5) Z0=(130.09734 1.75175e-4) R=0.68410343 C=0.00331105 
+        !< P2 F=0.1 Eeff=(6.7060951 -6.263e-5) Z0=(64.0084086 2.81536e-5) R=0.36506748 C=0.0144204 
+      Total time per frequency:  1 minute 32 seconds.
+
+    Post-Analysis:
+      Total time for 1 frequency:  1 minute 36 seconds.
+      Errors detected: 0    Warnings detected: 0.
+
+Analysis completed Fri Jul 15 11:53:45 2016.

@@ -1,0 +1,62 @@
+Run 1:  Wed Jul 13 12:23:46 2016.  calt2.2.43068.
+        Em version 16.52 (64-bit Windows) on DESKTOP-MOCDKPP remote.
+
+  Project:  C:\Users\Michael\Desktop\Jul12GDSSonnet\QubitCapacitance_L_vary.son.
+
+  Parameter combination: 1 of 5.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        qubitLength = 400.0
+
+  Parameter combination: 2 of 5.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        qubitLength = 425.0
+
+  Parameter combination: 3 of 5.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        qubitLength = 450.0
+
+  Parameter combination: 4 of 5.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        qubitLength = 475.0
+
+  Parameter combination: 5 of 5.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        qubitLength = 500.0
+
+    Post-Analysis:
+      Errors detected: 0    Warnings detected: 0.
+
+Analysis completed Wed Jul 13 12:45:22 2016.
+
+
+Run 2:  Wed Jul 13 12:50:19 2016.  calt2.2.43068.
+        Em version 16.52 (64-bit Windows) on DESKTOP-MOCDKPP remote.
+
+  Project:  C:\Users\Michael\Desktop\Jul12GDSSonnet\QubitCapacitance_L_vary.son.
+
+  Parameter combination: 1 of 2.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        qubitLength = 525.0
+
+  Parameter combination: 2 of 2.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        qubitLength = 550.0
+
+    Post-Analysis:
+      Errors detected: 0    Warnings detected: 0.
+
+Analysis completed Wed Jul 13 12:58:58 2016.

@@ -1,0 +1,70 @@
+Run 1:  Tue Jul 19 13:22:17 2016.  calt2.2.43068.
+        Em version 16.52 (64-bit Windows) on DESKTOP-MOCDKPP remote.
+
+  Project:  C:\Users\Michael\Desktop\Sonnet Qubit Designs\Jul19GDSSonnet\FluxBiasLargerSQUIDLoop.son.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        WallToBias = 136.7
+        WallToVIAMinus1 = 131.75
+        FluxCut = 0.0
+        FluxUnder = 0.0
+        BridgeToBias = 10.0
+
+    Post-Analysis:
+      Errors detected: 0    Warnings detected: 0.
+
+Analysis completed Tue Jul 19 13:40:40 2016.
+
+
+Run 2:  Tue Jul 19 13:50:45 2016.  calt2.2.43068.
+        Em version 16.52 (64-bit Windows) on DESKTOP-MOCDKPP remote.
+
+  Project:  C:\Users\Michael\Desktop\Sonnet Qubit Designs\Jul19GDSSonnet\FluxBiasLargerSQUIDLoop.son.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        WallToBias = 136.7
+        WallToVIAMinus1 = 131.75
+        FluxCut = 6.0
+        BridgeToBias = 10.0
+        FluxUnder = 0.0
+
+    Post-Analysis:
+      Errors detected: 0    Warnings detected: 0.
+
+Analysis completed Tue Jul 19 14:09:21 2016.
+
+
+Run 3:  Tue Jul 19 15:23:39 2016.  calt2.2.43068.
+        Em version 16.52 (64-bit Windows) on DESKTOP-MOCDKPP remote.
+
+  Project:  C:\Users\Michael\Desktop\Sonnet Qubit Designs\Jul19GDSSonnet\FluxBiasLargerSQUIDLoopMoreFluxUnder.son.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        WallToBias = 136.7
+        WallToVIAMinus1 = 131.75
+        FluxCut = 6.0
+        BridgeToBias = 10.0
+        FluxUnder = 2.0
+      Errors detected: 0    Warnings detected: 0.
+
+Analysis stopped Tue Jul 19 15:41:16 2016 with signal 15.
+
+
+Run 3:  Tue Jul 19 15:41:31 2016.  calt2.2.43068.
+        Em version 16.52 (64-bit Windows) on DESKTOP-MOCDKPP remote.
+
+  Project:  C:\Users\Michael\Desktop\Sonnet Qubit Designs\Jul19GDSSonnet\FluxBiasLargerSQUIDLoopMoreFluxUnder.son.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        WallToBias = 136.7
+        WallToVIAMinus1 = 131.75
+        FluxCut = 6.0
+        BridgeToBias = 10.0
+        FluxUnder = 2.0
+      Errors detected: 0    Warnings detected: 0.
+
+Analysis stopped Tue Jul 19 15:41:32 2016 with signal 15.

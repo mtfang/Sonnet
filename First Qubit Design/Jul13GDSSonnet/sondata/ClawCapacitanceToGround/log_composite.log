@@ -1,0 +1,75 @@
+Run 1:  Fri Jul 15 12:27:52 2016.  calt2.2.43068.
+        Em version 16.52 (64-bit Windows) on DESKTOP-MOCDKPP remote.
+
+  Project:  C:\Users\Michael\Desktop\Sonnet Qubit Designs\Jul13GDSSonnet\ClawCapacitanceToGround.son.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        gap = 6.0
+        thickness = 32.0
+        ClawLength = 170.0
+      Subsectioning at 0.1 GHz with Eeff of 6.45.
+      Subsectioning time:  13 seconds.
+      De-embedding information for ClawCapacitanceToGround_left box wall port(s):
+        ClawCapacitanceToGround_left SOC Electric Wall: 30 microns length, 196 subsections, 9 MB.
+        ClawCapacitanceToGround_left SOC Magnetic Wall: 60 microns length, 184 subsections, 9 MB.
+      De-embedding information for ClawCapacitanceToGround_right box wall port(s):
+        ClawCapacitanceToGround_right SOC Electric Wall: 30 microns length, 196 subsections, 9 MB.
+        ClawCapacitanceToGround_right SOC Magnetic Wall: 60 microns length, 184 subsections, 9 MB.
+      Em license feature:  emhighperformance.
+      Circuit requires 7152 subsections and 908 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  6,988
+      Ground Plane:
+        Via:        164
+
+      Required memory by type:
+        System matrix:            390 MB
+        Elemental subsections:
+          Primary structure:      447 MB
+          ClawCapacitan standard: 1 MB
+          ClawCapacitan standard: 1 MB
+        Fourier transform:        62 MB
+        Waveguide mode:           6 MB
+        Adaptive band synthesis:  0 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    908 MB
+
+      Matrix solver:  internal 64-bit SSE with loss.
+      Simulation mode:  remote em transfer.
+      Threads:  using 12 thread(s), 12 core(s) available.
+      Waveguide mode time:  0.139 seconds.
+      Fourier transform time:  4 seconds.
+      Coupling time:  8 minutes 49 seconds.
+      Loss time:  0 seconds.
+      Matrix fill time:  8 minutes 54 seconds.
+      Matrix solve time:  8 seconds.
+      De-embed autognd port 2:
+        Standard 1:  1500.0 microns, 521 subsections, about 489 MB.
+          Time:  4 seconds.
+        Autognd port 2 std 2:
+          1500 microns length, 358 subsections, 480 MB.
+          Time:  2 seconds.
+        Autognd port 2 std 3:
+          3000 microns length, 709 subsections, 509 MB.
+          Time:  6 seconds.
+      De-embedding time for ClawCapacitanceToGround_left box wall:
+        SOC Electric Wall Std: 0.208 seconds.
+        SOC Magnetic Wall Std: 0.199 seconds.
+        Total:                 0.407 seconds.
+      Frequency completed Fri Jul 15 12:37:22 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        0.10000000 0.999977 -8.082 0.006711 85.784 0.006711 85.784 0.999977 -0.349
+        !< P1 F=0.1 Eeff=(undefined: sl) Z0=(undefined: sl) R=0.0 C=0.0 
+        !< P2 F=0.1 Eeff=(7.14804088 -3.9247e-4) Z0=(68.825184 -1.2697e-3) R=-1.1131829 C=0.01552929 
+        !< See "De-embedding Codes" in Help for more details on the "sl" code.
+      Total time per frequency:  9 minutes 16 seconds.
+
+    Post-Analysis:
+      Total time for 1 frequency:  9 minutes 30 seconds.
+      Errors detected: 0    Warnings detected: 0.
+
+Analysis completed Fri Jul 15 12:37:22 2016.

@@ -1,0 +1,15 @@
+Run 1:  Fri Jul 15 19:35:10 2016.  calt2.2.43068.
+        Em version 16.52 (64-bit Windows) on DESKTOP-MOCDKPP remote.
+
+  Project:  C:\Users\Michael\Desktop\Sonnet Qubit Designs\Jul15GDSSonnet V2\FluxBias.son.
+
+    Frequency:  0.1 GHZ
+      Frequency completed Fri Jul 15 19:36:06 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        0.10000000 1.000000 179.86 2.764e-5 -90.08 2.764e-5 -90.08 1.000000 179.97
+        !< P1 F=0.1 Eeff=(6.43750092 -2.9933e-5) Z0=(50.8701664 1.17054e-4) R=0.0 C=0.0 
+        !< P2 F=0.1 Eeff=(undefined: sl) Z0=(undefined: sl) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "sl" code.
+
+Analysis completed Fri Jul 15 19:36:06 2016.

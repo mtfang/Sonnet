@@ -1,0 +1,8 @@
+PARAMS
+rightNotch = 10.0
+leftNotch = 22.0
+END PARAMS
+!>< FREQS
+!>< 5.0e7 1.0e10 4.55e9 2.0e9 8.15e9 1.05e9
+!>< END FREQS
+FILE current_1.sid

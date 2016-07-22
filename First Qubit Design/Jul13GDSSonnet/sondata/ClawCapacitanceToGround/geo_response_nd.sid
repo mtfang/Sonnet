@@ -1,0 +1,13 @@
+! This file is intended for internal use only by Sonnet application programs.
+! Please refer to Sonnet documentation or help for instructions to generate
+! external output files which can be read by other application software.
+SIDATA 12
+PARAMS
+gap = 6.0
+thickness = 32.0
+ClawLength = 170.0
+END PARAMS
+HDATE 07/15/2016 12:27:44
+MDATE 07/15/2016 12:27:44
+PORTS 2
+1.0000000000000000e8 0.989176459448809050 -0.14657172637750260 5.167491065392621e-4 0.006689672325388377 5.167491052843407e-4 0.006689672324832714 0.999952453358991520 -7.07156038216560e-3

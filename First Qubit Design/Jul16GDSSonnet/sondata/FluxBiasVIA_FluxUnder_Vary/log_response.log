@@ -1,0 +1,51 @@
+Run 1:  Tue Jul 19 10:54:07 2016.  calt2.2.43068.
+        Em version 16.52 (64-bit Windows) on DESKTOP-MOCDKPP remote.
+
+  Project:  C:\Users\Michael\Desktop\Sonnet Qubit Designs\Jul16GDSSonnet\FluxBiasVIA_FluxUnder_Vary.son.
+
+  Parameter combination: 1 of 3.
+
+    Frequency:  6 GHZ
+      Independent parameter values:
+        pos = 15.0
+        fluxCut = 2.0
+        fluxUnder = 3.2
+      Frequency completed Tue Jul 19 10:58:25 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        6.00000000 0.999999 172.49 0.001344 85.278 0.001344 85.278 0.999999 178.06
+        !< P1 F=6.0 Eeff=(6.45004021 -2.9748e-5) Z0=(50.4699672 1.16394e-4) R=0.0 C=0.0 
+        !< P2 F=6.0 Eeff=(undefined: mv) Z0=(undefined: mv) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "mv" code.
+
+  Parameter combination: 2 of 3.
+
+    Frequency:  6 GHZ
+      Independent parameter values:
+        pos = 15.0
+        fluxCut = 2.0
+        fluxUnder = 4.7
+      Frequency completed Tue Jul 19 11:02:41 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        6.00000000 0.999999 172.45 0.001316 85.258 0.001316 85.258 0.999999 178.06
+        !< P1 F=6.0 Eeff=(6.45004021 -2.9748e-5) Z0=(50.4699672 1.16394e-4) R=0.0 C=0.0 
+        !< P2 F=6.0 Eeff=(undefined: mv) Z0=(undefined: mv) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "mv" code.
+
+  Parameter combination: 3 of 3.
+
+    Frequency:  6 GHZ
+      Independent parameter values:
+        pos = 15.0
+        fluxCut = 2.0
+        fluxUnder = 6.2
+      Frequency completed Tue Jul 19 11:06:58 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        6.00000000 0.999999 172.42 0.001298 85.241 0.001298 85.241 0.999999 178.06
+        !< P1 F=6.0 Eeff=(6.45004021 -2.9748e-5) Z0=(50.4699672 1.16394e-4) R=0.0 C=0.0 
+        !< P2 F=6.0 Eeff=(undefined: mv) Z0=(undefined: mv) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "mv" code.
+
+Analysis completed Tue Jul 19 11:06:58 2016.

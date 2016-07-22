@@ -1,0 +1,58 @@
+Run 1:  Fri Jul 15 19:36:17 2016.  calt2.2.43068.
+        Em version 16.52 (64-bit Windows) on DESKTOP-MOCDKPP remote.
+
+  Project:  C:\Users\Michael\Desktop\Sonnet Qubit Designs\Jul15GDSSonnet V2\FluxBiasWithVIAs.son.
+
+    Frequency:  0.1 GHZ
+      Subsectioning at 0.1 GHz with Eeff of 6.45.
+      Subsectioning time:  1 second.
+      De-embedding information for FluxBiasWithVIAs_bottom box wall port(s):
+        FluxBiasWithVIAs_bottom SOC Electric Wall: 435 microns length, 1041 subsections, 39 MB.
+        FluxBiasWithVIAs_bottom SOC Magnetic Wall: 870 microns length, 1008 subsections, 40 MB.
+      De-embedding information for cci group A:
+        Main Std: X=500 microns Y=655 microns box size, 68 subsections, 9 MB.
+      Em license feature:  emhighperformance.
+      Circuit requires 5925 subsections and 370 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  171
+      Level 1:
+        Staircase:  5,704
+        Via:        48
+      Ground Plane:
+        Via:        2
+
+      Required memory by type:
+        System matrix:            268 MB
+        Elemental subsections:
+          Primary structure:      43 MB
+          FluxBiasWithV standard: 48 MB
+          CciA standard:          0 MB
+        Fourier transform:        7 MB
+        Waveguide mode:           3 MB
+        Adaptive band synthesis:  0 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    370 MB
+
+      Matrix solver:  internal 64-bit SSE with loss.
+      Simulation mode:  remote em transfer.
+      Threads:  using 12 thread(s), 12 core(s) available.
+      Waveguide mode time:  0.084 seconds.
+      Fourier transform time:  1 second.
+      Coupling time:  39 seconds.
+      Loss time:  0 seconds.
+      Matrix fill time:  40 seconds.
+      Matrix solve time:  10 seconds.
+      De-embedding time for FluxBiasWithVIAs_bottom box wall:
+        SOC Electric Wall Std: 4 seconds.
+        SOC Magnetic Wall Std: 4 seconds.
+        Total:                 9 seconds.
+      De-embedding time for cci group A:
+        Total: 0.982 seconds.
+      Total time per frequency:  1 minute 2 seconds.
+
+    Post-Analysis:
+      Total time for 1 frequency:  1 minute 4 seconds.
+
+Analysis completed Fri Jul 15 19:37:21 2016.

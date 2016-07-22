@@ -1,0 +1,55 @@
+Run 1:  Sun Jul 17 21:17:36 2016.  calt2.2.43068.
+        Em version 16.52 (64-bit Windows) on DESKTOP-MOCDKPP remote.
+
+  Project:  C:\Users\Michael\Desktop\Sonnet Qubit Designs\Jul16GDSSonnet\FluxBias.son.
+
+    Frequency:  0.1 GHZ
+      Subsectioning at 0.1 GHz with Eeff of 6.45.
+      Subsectioning time:  6 seconds.
+      De-embedding information for FluxBias_bottom box wall port(s):
+        FluxBias_bottom SOC Electric Wall: 200 microns length, 1031 subsections, 36 MB.
+        FluxBias_bottom SOC Magnetic Wall: 400 microns length, 994 subsections, 36 MB.
+      De-embedding information for cci group A:
+        Main Std: X=950 microns Y=1199 microns box size, 39 subsections, 23 MB.
+      Em license feature:  emhighperformance.
+      Circuit requires 7296 subsections and 613 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  7,295
+      Ground Plane:
+        Via:        1
+
+      Required memory by type:
+        System matrix:            406 MB
+        Elemental subsections:
+          Primary structure:      139 MB
+          FluxBias_bott standard: 42 MB
+          CciA standard:          0 MB
+        Fourier transform:        20 MB
+        Waveguide mode:           4 MB
+        Adaptive band synthesis:  0 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    613 MB
+
+      Matrix solver:  internal 64-bit SSE with loss.
+      Simulation mode:  remote em transfer.
+      Threads:  using 12 thread(s), 12 core(s) available.
+      Waveguide mode time:  0.076 seconds.
+      Fourier transform time:  1 second.
+      Coupling time:  2 minutes 30 seconds.
+      Loss time:  0 seconds.
+      Matrix fill time:  2 minutes 31 seconds.
+      Matrix solve time:  15 seconds.
+      De-embedding time for FluxBias_bottom box wall:
+        SOC Electric Wall Std: 3 seconds.
+        SOC Magnetic Wall Std: 3 seconds.
+        Total:                 7 seconds.
+      De-embedding time for cci group A:
+        Total: 1 second.
+      Total time per frequency:  2 minutes 59 seconds.
+
+    Post-Analysis:
+      Total time for 1 frequency:  3 minutes 5 seconds.
+
+Analysis completed Sun Jul 17 21:20:41 2016.

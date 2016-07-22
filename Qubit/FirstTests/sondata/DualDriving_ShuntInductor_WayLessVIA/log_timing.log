@@ -1,0 +1,113 @@
+Run 1:  Fri Jun 24 20:29:46 2016.  calt2.2.43068.
+        Em version 16.52 (64-bit Windows) on DESKTOP-MOCDKPP remote.
+
+  Project:  C:\Users\Michael\Documents\Github\Sonnet\Qubit\FirstTests\DualDriving_ShuntInductor_WayLessVIA.son.
+
+    Frequency:  1 GHZ
+      Subsectioning at 26 GHz with Eeff of 6.45.
+      Subsectioning time:  0.440 seconds.
+      De-embedding information for DualDriving_ShuntInductor_WayLessVIA_bottom box wall port(s):
+        DualDriving_ShuntInductor_WayLessVIA_bottom SOC Electric Wall: 500 microns length, 602 subsections, 9 MB.
+        DualDriving_ShuntInductor_WayLessVIA_bottom SOC Magnetic Wall: 1000 microns length, 576 subsections, 9 MB.
+      De-embedding information for component L1:
+        Main Std: X=1000 microns Y=648 microns box size, 68 subsections, 3 MB.
+      De-embedding information for component Lq:
+        Main Std: X=1000 microns Y=820 microns box size, 27 subsections, 3 MB.
+      Em license feature:  emhighperformance.
+      Circuit requires 4907 subsections and 204 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  114
+      Level 1:
+        Staircase:  4,753
+        Via:        40
+
+      Required memory by type:
+        System matrix:            184 MB
+        Elemental subsections:
+          Primary structure:      7 MB
+          DualDriving_S standard: 7 MB
+          CciL1 standard:         0 MB
+          CciLq standard:         0 MB
+        Fourier transform:        1 MB
+        Waveguide mode:           1 MB
+        Adaptive band synthesis:  3 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    204 MB
+
+      Matrix solver:  internal 64-bit SSE with loss.
+      Simulation mode:  remote em transfer.
+      Threads:  using 12 thread(s), 12 core(s) available.
+      Waveguide mode time:  0.030 seconds.
+      Fourier transform time:  0.200 seconds.
+      Coupling time:  5 seconds.
+      Loss time:  0 seconds.
+      Matrix fill time:  5 seconds.
+      Matrix solve time:  3 seconds.
+      De-embedding time for DualDriving_ShuntInductor_WayLessVIA_bottom box wall:
+        SOC Electric Wall Std: 0.410 seconds.
+        SOC Magnetic Wall Std: 0.460 seconds.
+        Total:                 0.870 seconds.
+      De-embedding time for component L1:
+        Total: 0.340 seconds.
+      De-embedding time for component Lq:
+        Total: 0.370 seconds.
+      Total time per frequency:  11 seconds.
+
+    Frequency:  26 GHZ
+      ABS: Energy conservation for port 5 at 16 GHz.
+      ABS: Time = 0.230 seconds.
+
+    Frequency:  16 GHZ
+      ABS: Energy conservation for port 1 at 11.4 GHz.
+      ABS: Time = 0.260 seconds.
+
+    Frequency:  11.4 GHZ
+      ABS: Energy conservation for port 1 at 23.3 GHz.
+      ABS: Time = 0.310 seconds.
+
+    Frequency:  23.3 GHZ
+      ABS: Energy conservation for port 1 at 5 GHz.
+      ABS: Time = 0.330 seconds.
+
+    Frequency:  5 GHZ
+      ABS: Energy conservation for port 1 at 9.4 GHz.
+      ABS: Time = 0.420 seconds.
+
+    Frequency:  9.4 GHZ
+      ABS: Energy conservation for port 1 at 2.1 GHz.
+      ABS: Time = 0.500 seconds.
+
+    Frequency:  2.1 GHZ
+      ABS: Q-factor. Diff = 0 (739247 Tol) for port 1 at -1e-009 GHz.
+      ABS: SNR = 33.1677 dB (26.5312 dB Goal) for S1_3 at 1.4 GHz.
+      ABS: Time = 0.570 seconds.
+
+      ABS: Detected 1 resonance(s) on iteration 1:
+        Resonance 1:  FreqMin = 8  FreqCenter = 9.4  FreqMax = 10.8 GHz
+
+      ABS: Detected 1 resonance(s) on iteration 2:
+        Resonance 1:  FreqMin = 8.04214046822743  FreqCenter = 9.40936454849498  FreqMax = 10.7906354515051 GHz
+
+      ABS: Detected 1 resonance(s) on iteration 3:
+        Resonance 1:  FreqMin = 8.03585142467879  FreqCenter = 9.40936454849498  FreqMax = 10.788117107197 GHz
+
+      ABS: Detected 1 resonance(s) on iteration 4:
+        Resonance 1:  FreqMin = 8.04331977327673  FreqCenter = 9.40957992031269  FreqMax = 10.8 GHz
+
+    Frequency:  9.40957992031269 GHZ
+      ABS: Q-factor. Diff = 0 (739251 Tol) for port 1 at -1e-009 GHz.
+      ABS: SNR = 64.8438 dB (40 dB Goal) for S1_4 at 9.56723 GHz.
+      ABS: Time = 2 seconds.
+
+      ABS: Detected 1 resonance(s) on iteration 5:
+        Resonance 1:  FreqMin = 8.04331977327673  FreqCenter = 9.40957992031269  FreqMax = 10.8 GHz
+
+      ABS: Detected 1 resonance(s) on iteration 6:
+        Resonance 1:  FreqMin = 8.03233040170005  FreqCenter = 9.40961181126053  FreqMax = 10.8 GHz
+
+    Post-Analysis:
+      Total time for 9 frequencies:  1 minute 53 seconds.
+
+Analysis completed Fri Jun 24 20:31:39 2016.

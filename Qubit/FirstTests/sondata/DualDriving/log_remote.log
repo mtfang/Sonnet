@@ -1,0 +1,30 @@
+-- 
+--  Date      Time   Program        Host                     Job # Message 
+----------- -------- -------------- ------------------------ ----- ------------------------
+Jun-27-2016 11:04:03 Emclient       DESKTOP-SL82IK9                Connected to remote process.
+Jun-27-2016 11:04:03 Emclient       DESKTOP-SL82IK9                Emclient started for remote analysis.
+Jun-27-2016 11:04:03 Emclient       DESKTOP-SL82IK9                Parsed transfer analyze 'RemoteEm' operation to server '131.215.238.147:56150'.
+Jun-27-2016 11:04:03 Emclient       DESKTOP-SL82IK9                Initial message sent to remote process.
+Jun-27-2016 11:04:03 EmServer       DESKTOP-MOCDKPP                Receiving job from client.
+Jun-27-2016 11:04:03 Emclient       DESKTOP-SL82IK9                Connected to remote process.
+Jun-27-2016 11:04:03 Emclient       DESKTOP-SL82IK9                Emclient started for remote analysis.
+Jun-27-2016 11:04:03 Emclient       DESKTOP-SL82IK9                Parsed transfer analyze 'RemoteEm' operation to server '131.215.238.147:56150'.
+Jun-27-2016 11:04:03 Emclient       DESKTOP-SL82IK9                Initial message sent to remote process.
+Jun-27-2016 11:04:03 EmServer       DESKTOP-MOCDKPP                Receiving job from client.
+Jun-27-2016 11:04:05 EmServer       DESKTOP-MOCDKPP                Project unpacked at emserver.
+Jun-27-2016 11:04:05 EmServer       DESKTOP-MOCDKPP                Starting em job at emserver.
+Jun-27-2016 11:04:05 EmServer       DESKTOP-MOCDKPP                Project unpacked at emserver.
+Jun-27-2016 11:04:05 EmServer       DESKTOP-MOCDKPP                Starting em job at emserver.
+Jun-27-2016 11:05:52 EmServer       DESKTOP-MOCDKPP                Job finishing up at emserver.
+Jun-27-2016 11:05:52 EmServer       DESKTOP-MOCDKPP                Job finishing up at emserver.
+Jun-27-2016 11:05:54 EmServer       DESKTOP-MOCDKPP                Job being packed at emserver.
+Jun-27-2016 11:05:54 EmServer       DESKTOP-MOCDKPP                Job being packed at emserver.
+Jun-27-2016 11:05:55 EmServer       DESKTOP-MOCDKPP                Sending job to client from emserver.
+Jun-27-2016 11:05:55 EmServer       DESKTOP-MOCDKPP                Job finished.
+Jun-27-2016 11:05:55 EmServer       DESKTOP-MOCDKPP                Remote analysis completed.
+Jun-27-2016 11:05:55 EmServer       DESKTOP-MOCDKPP                Sending job to client from emserver.
+Jun-27-2016 11:05:55 EmServer       DESKTOP-MOCDKPP                Job finished.
+Jun-27-2016 11:05:55 EmServer       DESKTOP-MOCDKPP                Remote analysis completed.
+Jun-27-2016 11:05:59 Emclient       DESKTOP-SL82IK9                Writing files.
+Jun-27-2016 11:05:59 Emclient       DESKTOP-SL82IK9                Writing files.
+Jun-27-2016 11:05:59 Emclient       DESKTOP-SL82IK9                Remote analysis completed.

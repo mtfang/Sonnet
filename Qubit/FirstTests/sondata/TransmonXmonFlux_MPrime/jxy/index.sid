@@ -1,0 +1,35 @@
+PARAMS
+leftNotch = 22.0
+END PARAMS
+!>< FREQS
+!>< 5.0e7 1.0e10 9.75e9 3.45e9 6.15e9
+!>< END FREQS
+FILE current_1.sid
+PARAMS
+leftNotch = 24.0
+END PARAMS
+!>< FREQS
+!>< 5.0e7 1.0e10 7.4e9 2.9e9 5.1e9
+!>< END FREQS
+FILE current_2.sid
+PARAMS
+leftNotch = 26.0
+END PARAMS
+!>< FREQS
+!>< 5.0e7 1.0e10 4.8e9 2.4e9 8.25e9
+!>< END FREQS
+FILE current_3.sid
+PARAMS
+leftNotch = 28.0
+END PARAMS
+!>< FREQS
+!>< 5.0e7 1.0e10 4.8e9 2.4e9 8.25e9
+!>< END FREQS
+FILE current_4.sid
+PARAMS
+leftNotch = 30.0
+END PARAMS
+!>< FREQS
+!>< 5.0e7 1.0e10 4.8e9 2.4e9 8.25e9
+!>< END FREQS
+FILE current_5.sid

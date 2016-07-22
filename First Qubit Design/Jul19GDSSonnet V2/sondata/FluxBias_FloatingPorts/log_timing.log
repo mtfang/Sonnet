@@ -1,0 +1,58 @@
+Run 1:  Wed Jul 20 14:00:17 2016.  calt2.2.43068.
+        Em version 16.52 (64-bit Windows) on DESKTOP-MOCDKPP remote.
+
+  Project:  C:\Users\Michael\Desktop\Sonnet Qubit Designs\Jul19GDSSonnet V2\FluxBias_FloatingPorts.son.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        viaDist = 60.0
+      Subsectioning at 0.1 GHz with Eeff of 6.45.
+      Subsectioning time:  2 seconds.
+      De-embedding information for FluxBias_FloatingPorts_bottom box wall port(s):
+        FluxBias_FloatingPorts_bottom SOC Electric Wall: 90 microns length, 1173 subsections, 58 MB.
+        FluxBias_FloatingPorts_bottom SOC Magnetic Wall: 180 microns length, 1136 subsections, 58 MB.
+      De-embedding information for cci group A:
+        Main Std: X=225 microns Y=174.25 microns box size, 98 subsections, 15 MB.
+      Em license feature:  emhighperformance.
+      Circuit requires 6233 subsections and 450 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  435
+      Level 1:
+        Staircase:  5,742
+        Via:        56
+
+      Required memory by type:
+        System matrix:            296 MB
+        Elemental subsections:
+          Primary structure:      63 MB
+          FluxBias_Floa standard: 76 MB
+          CciA standard:          0 MB
+        Fourier transform:        10 MB
+        Waveguide mode:           4 MB
+        Adaptive band synthesis:  0 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    450 MB
+
+      Matrix solver:  internal 64-bit SSE with loss.
+      Simulation mode:  remote em transfer.
+      Threads:  using 12 thread(s), 12 core(s) available.
+      Waveguide mode time:  0.080 seconds.
+      Fourier transform time:  1 second.
+      Coupling time:  56 seconds.
+      Loss time:  0 seconds.
+      Matrix fill time:  57 seconds.
+      Matrix solve time:  5 seconds.
+      De-embedding time for FluxBias_FloatingPorts_bottom box wall:
+        SOC Electric Wall Std: 7 seconds.
+        SOC Magnetic Wall Std: 7 seconds.
+        Total:                 14 seconds.
+      De-embedding time for cci group A:
+        Total: 1 second.
+      Total time per frequency:  1 minute 22 seconds.
+
+    Post-Analysis:
+      Total time for 1 frequency:  1 minute 24 seconds.
+
+Analysis completed Wed Jul 20 14:01:41 2016.

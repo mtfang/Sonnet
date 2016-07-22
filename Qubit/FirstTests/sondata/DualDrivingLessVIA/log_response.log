@@ -1,0 +1,62 @@
+Run 1:  Fri Jun 24 20:14:27 2016.  calt2.2.43068.
+        Em version 16.52 (64-bit Windows) on DESKTOP-MOCDKPP remote.
+
+  Project:  C:\Users\Michael\Documents\Github\Sonnet\Qubit\FirstTests\DualDrivingLessVIA.son.
+
+    Frequency:  1 GHZ
+      Frequency completed Fri Jun 24 20:14:40 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format.
+        1.00000000 1.000000 177.55
+        !< P1 F=1.0 Eeff=(6.44996735 -2.975e-5) Z0=(52.3555339 1.20742e-4) R=0.39769887 C=0.00184502 
+
+    Frequency:  26 GHZ
+      Frequency completed Fri Jun 24 20:14:53 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format.
+        26.0000000 0.999999 116.46
+        !< P1 F=26.0 Eeff=(6.44279887 -2.9681e-5) Z0=(52.3202416 1.2083e-4) R=0.0153031 C=0.00184522 
+
+    Frequency:  13.7 GHZ
+      Frequency completed Fri Jun 24 20:15:06 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format.
+        13.7000000 1.000000 146.52
+        !< P1 F=13.7 Eeff=(6.44798074 -2.973e-5) Z0=(52.3460767 1.20763e-4) R=0.02904581 C=0.00184505 
+
+    Frequency:  6.1 GHZ
+      Frequency completed Fri Jun 24 20:15:19 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format.
+        6.10000000 1.000000 165.08
+        !< P1 F=6.1 Eeff=(6.44958059 -2.9746e-5) Z0=(52.3537121 1.20745e-4) R=0.065237 C=0.00184503 
+
+    Frequency:  9.6 GHZ
+      Frequency completed Fri Jun 24 20:15:31 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format.
+        9.60000000 1.000000 156.53
+        !< P1 F=9.6 Eeff=(6.44899621 -2.974e-5) Z0=(52.350941 1.20752e-4) R=0.04145443 C=0.00184504 
+
+    Frequency:  9.9 GHZ
+      Frequency completed Fri Jun 24 20:15:44 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format.
+        9.90000000 1.000000 155.83
+        !< P1 F=9.9 Eeff=(6.44893401 -2.9739e-5) Z0=(52.3506448 1.20753e-4) R=0.0401957 C=0.00184504 
+
+    Frequency:  23.7 GHZ
+      Frequency completed Fri Jun 24 20:15:57 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format.
+        23.7000000 1.000000 122.11
+        !< P1 F=23.7 Eeff=(6.4440106 -2.9692e-5) Z0=(52.3264399 1.20812e-4) R=0.01679619 C=0.00184517 
+
+    Frequency:  9.86738595223099 GHZ
+      Frequency completed Fri Jun 24 20:16:13 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format.
+        9.86738595 0.980072 148.35
+        !< P1 F=9.86738595 Eeff=(6.44894086 -2.9739e-5) Z0=(52.3506775 1.20753e-4) R=0.04032801 C=0.00184504 
+
+Analysis completed Fri Jun 24 20:16:15 2016.

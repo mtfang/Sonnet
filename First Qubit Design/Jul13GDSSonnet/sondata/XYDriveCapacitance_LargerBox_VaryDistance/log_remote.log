@@ -1,0 +1,15 @@
+-- 
+--  Date      Time   Program        Host                     Job # Message 
+----------- -------- -------------- ------------------------ ----- ------------------------
+Jul-14-2016 09:39:26 Emclient       DESKTOP-SL82IK9                Connected to remote process.
+Jul-14-2016 09:39:26 Emclient       DESKTOP-SL82IK9                Emclient started for remote analysis.
+Jul-14-2016 09:39:26 Emclient       DESKTOP-SL82IK9                Parsed transfer analyze 'RemoteEm' operation to server '131.215.238.147:56150'.
+Jul-14-2016 09:39:26 Emclient       DESKTOP-SL82IK9                Initial message sent to remote process.
+Jul-14-2016 09:39:26 EmServer       DESKTOP-MOCDKPP                Receiving job from client.
+Jul-14-2016 09:39:28 EmServer       DESKTOP-MOCDKPP                Project unpacked at emserver.
+Jul-14-2016 09:39:28 EmServer       DESKTOP-MOCDKPP                Starting em job at emserver.
+Jul-14-2016 11:18:34 EmServer       DESKTOP-MOCDKPP                Job finishing up at emserver.
+Jul-14-2016 11:18:34 EmServer       DESKTOP-MOCDKPP                Job finished.
+Jul-14-2016 11:18:34 EmServer       DESKTOP-MOCDKPP                Remote analysis completed.
+Jul-14-2016 11:18:39 Emclient       DESKTOP-SL82IK9                Writing files.
+Jul-14-2016 11:18:39 Emclient       DESKTOP-SL82IK9                Remote analysis completed.

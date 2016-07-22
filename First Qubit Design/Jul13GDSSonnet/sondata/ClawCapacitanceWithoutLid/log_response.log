@@ -1,0 +1,18 @@
+Run 1:  Fri Jul 15 11:52:09 2016.  calt2.2.43068.
+        Em version 16.52 (64-bit Windows) on DESKTOP-MOCDKPP remote.
+
+  Project:  C:\Users\Michael\Desktop\Sonnet Qubit Designs\Jul13GDSSonnet\ClawCapacitanceWithoutLid.son.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        gap = 6.0
+        thickness = 32.0
+        ClawLength = 170.0
+      Frequency completed Fri Jul 15 11:53:45 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        0.10000000 1.000000 -0.264 5.069e-4 89.691 5.069e-4 89.691 1.000000 -0.355
+        !< P1 F=0.1 Eeff=(6.56617104 -4.6388e-5) Z0=(130.09734 1.75175e-4) R=0.68410343 C=0.00331105 
+        !< P2 F=0.1 Eeff=(6.7060951 -6.263e-5) Z0=(64.0084086 2.81536e-5) R=0.36506748 C=0.0144204 
+
+Analysis completed Fri Jul 15 11:53:45 2016.

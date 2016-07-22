@@ -1,0 +1,79 @@
+Run 1:  Thu Apr 14 19:24:31 2016.  calt2.2.43068.
+        Em version 16.52 (64-bit Windows) on DESKTOP-MOCDKPP remote.
+
+  Project:  C:\Users\Michael\Documents\Github\Sonnet\Qubit\FirstTests\TransmonXmonFluxV2_SetParam_MPrime.son.
+
+    Frequency:  0.05 GHZ
+      Independent parameter values:
+        rightNotch = 10.0
+        leftNotch = 22.0
+      Subsectioning at 10 GHz with Eeff of 6.45.
+      Subsectioning time:  7 seconds.
+      De-embedding information for TransmonXmonFluxV2_SetParam_MPrime_bottom box wall port(s):
+        TransmonXmonFluxV2_SetParam_MPrime_bottom SOC Electric Wall: 300 microns length, 978 subsections, 34 MB.
+        TransmonXmonFluxV2_SetParam_MPrime_bottom SOC Magnetic Wall: 600 microns length, 945 subsections, 34 MB.
+      De-embedding information for cci group A:
+        Main Std: X=600 microns Y=453 microns box size, 578 subsections, 14 MB.
+      Em license feature:  emhighperformance.
+      Circuit requires 4956 subsections and 279 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  147
+      Level 1:
+        Staircase:  4,777
+        Via:        32
+
+      Required memory by type:
+        System matrix:            187 MB
+        Elemental subsections:
+          Primary structure:      33 MB
+          TransmonXmonF standard: 40 MB
+          CciA standard:          3 MB
+        Fourier transform:        6 MB
+        Waveguide mode:           3 MB
+        Adaptive band synthesis:  6 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    279 MB
+
+      Matrix solver:  internal 64-bit SSE with loss.
+      Simulation mode:  remote em transfer.
+      Threads:  using 12 thread(s), 12 core(s) available.
+      Waveguide mode time:  0.078 seconds.
+      Fourier transform time:  0.831 seconds.
+      Coupling time:  22 seconds.
+      Loss time:  0 seconds.
+      Matrix fill time:  22 seconds.
+      Matrix solve time:  6 seconds.
+      De-embedding time for TransmonXmonFluxV2_SetParam_MPrime_bottom box wall:
+        SOC Electric Wall Std: 3 seconds.
+        SOC Magnetic Wall Std: 3 seconds.
+        Total:                 6 seconds.
+      De-embedding time for cci group A:
+        Total: 1 second.
+      Total time per frequency:  39 seconds.
+
+    Frequency:  10 GHZ
+      ABS: Energy conservation for port 2 at 4.55 GHz.
+      ABS: Time = 0.750 seconds.
+
+    Frequency:  4.55 GHZ
+      ABS: SNR = 61.5197 dB (120 dB Goal) for S2_2 at 2 GHz.
+      ABS: Time = 1 second.
+
+    Frequency:  2 GHZ
+      ABS: SNR = 90.1009 dB (120 dB Goal) for S2_2 at 8.15 GHz.
+      ABS: Time = 1 second.
+
+    Frequency:  8.15 GHZ
+      ABS: SNR = 33.9987 dB (48.6738 dB Goal) for S1_2 at 1.05 GHz.
+      ABS: Time = 1 second.
+
+    Frequency:  1.05 GHZ
+      ABS: SNR = 150.141 dB (120 dB Goal) for S1_1 at 6.4 GHz.
+      ABS: Time = 1 second.
+
+    Post-Analysis:
+      Total time for 6 frequencies:  4 minutes 1 second.
+
+Analysis completed Thu Apr 14 19:28:32 2016.

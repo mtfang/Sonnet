@@ -1,0 +1,107 @@
+Run 1:  Fri Jun 24 20:19:30 2016.  calt2.2.43068.
+        Em version 16.52 (64-bit Windows) on DESKTOP-MOCDKPP remote.
+
+  Project:  C:\Users\Michael\Documents\Github\Sonnet\Qubit\FirstTests\DualDriving_WhoKnowsMan.son.
+
+    Frequency:  1 GHZ
+      Subsectioning at 26 GHz with Eeff of 6.45.
+      Subsectioning time:  0.490 seconds.
+      De-embedding information for DualDriving_WhoKnowsMan_bottom box wall port(s):
+        DualDriving_WhoKnowsMan_bottom SOC Electric Wall: 500 microns length, 602 subsections, 9 MB.
+        DualDriving_WhoKnowsMan_bottom SOC Magnetic Wall: 1000 microns length, 576 subsections, 9 MB.
+      De-embedding information for component Lq:
+        Main Std: X=1000 microns Y=820 microns box size, 27 subsections, 3 MB.
+      Em license feature:  emhighperformance.
+      Circuit requires 5888 subsections and 284 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  290
+      Level 1:
+        Staircase:  5,494
+        Via:        104
+
+      Required memory by type:
+        System matrix:            265 MB
+        Elemental subsections:
+          Primary structure:      7 MB
+          DualDriving_W standard: 7 MB
+          CciLq standard:         0 MB
+        Fourier transform:        1 MB
+        Waveguide mode:           1 MB
+        Adaptive band synthesis:  2 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    284 MB
+
+      Matrix solver:  internal 64-bit SSE with loss.
+      Simulation mode:  remote em transfer.
+      Threads:  using 12 thread(s), 12 core(s) available.
+      Waveguide mode time:  0.050 seconds.
+      Fourier transform time:  0.210 seconds.
+      Coupling time:  6 seconds.
+      Loss time:  0.010 seconds.
+      Matrix fill time:  6 seconds.
+      Matrix solve time:  5 seconds.
+      De-embedding time for DualDriving_WhoKnowsMan_bottom box wall:
+        SOC Electric Wall Std: 0.430 seconds.
+        SOC Magnetic Wall Std: 0.440 seconds.
+        Total:                 0.870 seconds.
+      De-embedding time for component Lq:
+        Total: 0.331 seconds.
+      Total time per frequency:  13 seconds.
+
+    Frequency:  26 GHZ
+      ABS: Energy conservation for port 1 at 11.3 GHz.
+      ABS: Time = 0.180 seconds.
+
+    Frequency:  11.3 GHZ
+      ABS: SNR = 33.3865 dB (120 dB Goal) for S1_1 at 10.4 GHz.
+      ABS: Time = 0.210 seconds.
+
+    Frequency:  10.4 GHZ
+      ABS: SNR = 22.9593 dB (120 dB Goal) for S1_1 at 9.9 GHz.
+      ABS: Time = 0.250 seconds.
+
+    Frequency:  9.9 GHZ
+      ABS: SNR = 82.3227 dB (120 dB Goal) for S1_1 at 22.4 GHz.
+      ABS: Time = 0.220 seconds.
+
+    Frequency:  22.4 GHZ
+      ABS: SNR = 104.81 dB (120 dB Goal) for S1_1 at 9.8 GHz.
+      ABS: Time = 0.290 seconds.
+
+    Frequency:  9.8 GHZ
+      ABS: SNR = 117.967 dB (120 dB Goal) for S1_1 at 24.9 GHz.
+      ABS: Time = 0.400 seconds.
+
+    Frequency:  24.9 GHZ
+      ABS: Q-factor. Diff = 0 (1.51613e+006 Tol) for port 1 at -1e-009 GHz.
+      ABS: SNR = 141.01 dB (120 dB Goal) for S1_1 at 15.2 GHz.
+      ABS: Time = 0.470 seconds.
+
+      ABS: Detected 1 resonance(s) on iteration 1:
+        Resonance 1:  FreqMin = 9.4  FreqCenter = 9.9  FreqMax = 10.4 GHz
+
+      ABS: Detected 1 resonance(s) on iteration 2:
+        Resonance 1:  FreqMin = 9.43511705685618  FreqCenter = 9.8866220735785  FreqMax = 10.3364548494982 GHz
+
+      ABS: Detected 1 resonance(s) on iteration 3:
+        Resonance 1:  FreqMin = 9.436291657554  FreqCenter = 9.8866220735785  FreqMax = 10.4 GHz
+
+      ABS: Detected 1 resonance(s) on iteration 4:
+        Resonance 1:  FreqMin = 9.42945948015226  FreqCenter = 9.8866220735785  FreqMax = 10.339704480683 GHz
+
+    Frequency:  9.8866220735785 GHZ
+      ABS: SNR = 50.3817 dB (51.0772 dB Goal) for S1_1 at 9.88655 GHz.
+      ABS: Time = 1 second.
+
+      ABS: Detected 1 resonance(s) on iteration 5:
+        Resonance 1:  FreqMin = 9.42945948015226  FreqCenter = 9.8866220735785  FreqMax = 10.339704480683 GHz
+
+      ABS: Detected 1 resonance(s) on iteration 6:
+        Resonance 1:  FreqMin = 9.43272239816657  FreqCenter = 9.88658779842938  FreqMax = 10.4 GHz
+
+    Post-Analysis:
+      Total time for 9 frequencies:  2 minutes 8 seconds.
+
+Analysis completed Fri Jun 24 20:21:38 2016.

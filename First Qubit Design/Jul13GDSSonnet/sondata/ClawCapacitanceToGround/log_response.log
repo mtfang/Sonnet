@@ -1,0 +1,19 @@
+Run 1:  Fri Jul 15 12:27:52 2016.  calt2.2.43068.
+        Em version 16.52 (64-bit Windows) on DESKTOP-MOCDKPP remote.
+
+  Project:  C:\Users\Michael\Desktop\Sonnet Qubit Designs\Jul13GDSSonnet\ClawCapacitanceToGround.son.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        gap = 6.0
+        thickness = 32.0
+        ClawLength = 170.0
+      Frequency completed Fri Jul 15 12:37:22 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        0.10000000 0.999977 -8.082 0.006711 85.784 0.006711 85.784 0.999977 -0.349
+        !< P1 F=0.1 Eeff=(undefined: sl) Z0=(undefined: sl) R=0.0 C=0.0 
+        !< P2 F=0.1 Eeff=(7.14804088 -3.9247e-4) Z0=(68.825184 -1.2697e-3) R=-1.1131829 C=0.01552929 
+        !< See "De-embedding Codes" in Help for more details on the "sl" code.
+
+Analysis completed Fri Jul 15 12:37:22 2016.

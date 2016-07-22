@@ -1,0 +1,98 @@
+Run 1:  Fri Jul 15 19:11:33 2016.  calt2.2.43068.
+        Em version 16.52 (64-bit Windows) on DESKTOP-MOCDKPP remote.
+
+  Project:  C:\Users\Michael\Desktop\Sonnet Qubit Designs\Jul15GDSSonnet V2\RevisedResonator.son.
+
+    Frequency:  6 GHZ
+      Subsectioning at 8 GHz with Eeff of 6.45.
+      Subsectioning time:  11 seconds.
+      De-embedding information for RevisedResonator_left box wall port(s):
+        RevisedResonator_left SOC Electric Wall: 376 microns length, 743 subsections, 37 MB.
+        RevisedResonator_left SOC Magnetic Wall: 752 microns length, 715 subsections, 37 MB.
+      De-embedding information for RevisedResonator_right box wall port(s):
+        RevisedResonator_right SOC Electric Wall: 376 microns length, 743 subsections, 37 MB.
+        RevisedResonator_right SOC Magnetic Wall: 752 microns length, 715 subsections, 37 MB.
+      Em license feature:  emhighperformance.
+      Circuit requires 12191 subsections (1516701 CM Cells) and 1292 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  11,698
+        Diagonal:   112
+        Conformal:  381
+
+      Required memory by type:
+        System matrix:            1,134 MB
+        Elemental subsections:
+          Primary structure:      46 MB
+          RevisedResona standard: 50 MB
+          RevisedResona standard: 50 MB
+        Fourier transform:        7 MB
+        Waveguide mode:           4 MB
+        Adaptive band synthesis:  1 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    1,292 MB
+
+      Matrix solver:  internal 64-bit SSE with loss.
+      Simulation mode:  remote em transfer.
+      Threads:  using 12 thread(s), 12 core(s) available.
+      Waveguide mode time:  0.096 seconds.
+      Fourier transform time:  8 seconds.
+      Coupling time:  2 minutes 22 seconds.
+      Loss time:  0 seconds.
+      Matrix fill time:  2 minutes 30 seconds.
+      Matrix solve time:  41 seconds.
+      De-embedding time for RevisedResonator_left box wall:
+        SOC Electric Wall Std: 3 seconds.
+        SOC Magnetic Wall Std: 3 seconds.
+        Total:                 6 seconds.
+      Total time per frequency:  3 minutes 21 seconds.
+
+    Frequency:  8 GHZ
+      Total time per frequency:  3 minutes 16 seconds.
+      ABS: SNR = 26.7874 dB (120 dB Goal) for S1_2 at 7.06 GHz.
+      ABS: Time = 0.043 seconds.
+
+    Frequency:  7.06 GHZ
+      Total time per frequency:  3 minutes 18 seconds.
+      ABS: SNR = 3.78377 dB (120 dB Goal) for S1_2 at 6.91 GHz.
+      ABS: Time = 0.048 seconds.
+
+    Frequency:  6.91 GHZ
+      Total time per frequency:  3 minutes 17 seconds.
+      ABS: SNR = 73.7854 dB (120 dB Goal) for S1_2 at 6.9 GHz.
+      ABS: Time = 0.056 seconds.
+
+    Frequency:  6.9 GHZ
+      Total time per frequency:  3 minutes 17 seconds.
+      ABS: Q-factor. Diff = 0 (8291.4 Tol) for port 1 at -1e-009 GHz.
+      ABS: SNR = 105.675 dB (50 dB Goal) for S1_1 at 6.92 GHz.
+      ABS: Time = 0.089 seconds.
+
+      ABS: Detected 1 resonance(s) on iteration 1:
+        Resonance 1:  FreqMin = 6.63  FreqCenter = 6.9  FreqMax = 7.17 GHz
+
+      ABS: Detected 1 resonance(s) on iteration 2:
+        Resonance 1:  FreqMin = 6.63180602006689  FreqCenter = 6.90090301003344  FreqMax = 7.17 GHz
+
+      ABS: Detected 1 resonance(s) on iteration 3:
+        Resonance 1:  FreqMin = 6.63  FreqCenter = 6.90113295172535  FreqMax = 7.17 GHz
+
+      ABS: Detected 1 resonance(s) on iteration 4:
+        Resonance 1:  FreqMin = 6.63  FreqCenter = 6.90113295172535  FreqMax = 7.17 GHz
+
+    Frequency:  6.90113295172535 GHZ
+      Total time per frequency:  3 minutes 18 seconds.
+      ABS: SNR = 11.6993 dB (40 dB Goal) for S1_2 at 6.90109 GHz.
+      ABS: Time = 0.287 seconds.
+
+      ABS: Detected 1 resonance(s) on iteration 5:
+        Resonance 1:  FreqMin = 6.63  FreqCenter = 6.90113295172535  FreqMax = 7.17 GHz
+
+      ABS: Detected 1 resonance(s) on iteration 6:
+        Resonance 1:  FreqMin = 6.63  FreqCenter = 6.90112036837119  FreqMax = 7.17 GHz
+
+    Post-Analysis:
+      Total time for 6 frequencies:  20 minutes 1 second.
+
+Analysis completed Fri Jul 15 19:31:34 2016.

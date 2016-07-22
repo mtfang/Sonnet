@@ -1,0 +1,96 @@
+Run 1:  Fri Jul 15 13:54:34 2016.  calt2.2.43068.
+        Em version 16.52 (64-bit Windows) on DESKTOP-MOCDKPP remote.
+
+  Project:  C:\Users\Michael\Desktop\Sonnet Qubit Designs\Jul15GDSSonnet\ReadoutResonator.son.
+NOTICE: Fri Jul 15 13:54:54 2016 Could not get a license, queuing for 'emhighperformance'
+NOTICE: Fri Jul 15 13:55:54 2016 Got license 'emhighperformance', starting processing.
+
+
+Run 2:  Fri Jul 15 14:42:52 2016.  calt2.2.43068.
+        Em version 16.52 (64-bit Windows) on DESKTOP-MOCDKPP remote.
+
+  Project:  C:\Users\Michael\Desktop\Sonnet Qubit Designs\Jul15GDSSonnet\ReadoutResonator.son.
+NOTICE: Fri Jul 15 14:43:12 2016 Could not get a license, queuing for 'emhighperformance'
+NOTICE: Fri Jul 15 14:45:42 2016 Got license 'emhighperformance', starting processing.
+
+    Frequency:  2 GHZ
+      Frequency completed Fri Jul 15 14:52:15 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        2.00000000 0.024738 75.999 0.999694 -8.430 0.999694 -8.430 0.024738 87.142
+        !< P1 F=2.0 Eeff=(6.45030203 -2.9751e-5) Z0=(51.800553 1.19464e-4) R=0.12152576 C=0.00301999 
+        !< P2 F=2.0 Eeff=(6.45030203 -2.9751e-5) Z0=(51.800553 1.19464e-4) R=0.12152576 C=0.00301999 
+
+
+Run 3:  Fri Jul 15 15:20:42 2016.  calt2.2.43068.
+        Em version 16.52 (64-bit Windows) on DESKTOP-MOCDKPP remote.
+
+  Project:  C:\Users\Michael\Desktop\Sonnet Qubit Designs\Jul15GDSSonnet\ReadoutResonator.son.
+NOTICE: Fri Jul 15 15:21:02 2016 Could not get a license, queuing for 'emhighperformance'
+NOTICE: Fri Jul 15 15:23:32 2016 Got license 'emhighperformance', starting processing.
+
+    Frequency:  2 GHZ
+      Frequency completed Fri Jul 15 15:30:08 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        2.00000000 0.024738 75.999 0.999694 -8.430 0.999694 -8.430 0.024738 87.142
+        !< P1 F=2.0 Eeff=(6.45030203 -2.9751e-5) Z0=(51.800553 1.19464e-4) R=0.12152576 C=0.00301999 
+        !< P2 F=2.0 Eeff=(6.45030203 -2.9751e-5) Z0=(51.800553 1.19464e-4) R=0.12152576 C=0.00301999 
+
+    Frequency:  10 GHZ
+      Frequency completed Fri Jul 15 15:36:43 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        10.0000000 0.029334 55.245 0.999567 -36.71 0.999567 -36.71 0.029335 51.335
+        !< P1 F=10.0 Eeff=(6.44950225 -2.9743e-5) Z0=(51.7960265 1.19474e-4) R=0.02430541 C=0.00301982 
+        !< P2 F=10.0 Eeff=(6.44950225 -2.9743e-5) Z0=(51.7960265 1.19474e-4) R=0.02430541 C=0.00301982 
+
+    Frequency:  9.275 GHZ
+      Frequency completed Fri Jul 15 15:43:18 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        9.27500000 0.019573 148.34 0.999806 -32.15 0.999806 -32.15 0.019573 -32.64
+        !< P1 F=9.275 Eeff=(6.44961836 -2.9744e-5) Z0=(51.7966888 1.19472e-4) R=0.02620833 C=0.00301984 
+        !< P2 F=9.275 Eeff=(6.44961836 -2.9744e-5) Z0=(51.7966888 1.19472e-4) R=0.02620833 C=0.00301984 
+
+    Frequency:  6.275 GHZ
+      Frequency completed Fri Jul 15 15:49:54 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        6.27500000 0.121768 41.268 0.992557 -29.06 0.992557 -29.06 0.121769 80.607
+        !< P1 F=6.275 Eeff=(6.45000634 -2.9748e-5) Z0=(51.7988897 1.19467e-4) R=0.03873258 C=0.00301993 
+        !< P2 F=6.275 Eeff=(6.45000634 -2.9748e-5) Z0=(51.7988897 1.19467e-4) R=0.03873258 C=0.00301993 
+
+    Frequency:  7 GHZ
+      Frequency completed Fri Jul 15 15:56:28 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        7.00000000 0.198449 30.609 0.980107 -36.09 0.980107 -36.09 0.198451 77.200
+        !< P1 F=7.0 Eeff=(6.44992627 -2.9747e-5) Z0=(51.7984369 1.19468e-4) R=0.03472245 C=0.00301991 
+        !< P2 F=7.0 Eeff=(6.44992627 -2.9747e-5) Z0=(51.7984369 1.19468e-4) R=0.03472245 C=0.00301991 
+
+    Frequency:  7.825 GHZ
+      Frequency completed Fri Jul 15 16:03:01 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        7.82500000 0.960684 -72.91 0.277108 46.279 0.277108 46.279 0.960692 -14.47
+        !< P1 F=7.825 Eeff=(6.44982451 -2.9746e-5) Z0=(51.7978605 1.1947e-4) R=0.0310614 C=0.00301989 
+        !< P2 F=7.825 Eeff=(6.44982451 -2.9746e-5) Z0=(51.7978605 1.1947e-4) R=0.0310614 C=0.00301989 
+
+    Frequency:  6.11893354713524 GHZ
+      Frequency completed Fri Jul 15 16:09:40 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        6.11893355 0.112255 44.813 0.993666 -27.82 0.993666 -27.82 0.112276 79.547
+        !< P1 F=6.11893355 Eeff=(6.45002246 -2.9748e-5) Z0=(51.7989807 1.19467e-4) R=0.03972383 C=0.00301993 
+        !< P2 F=6.11893355 Eeff=(6.45002246 -2.9748e-5) Z0=(51.7989807 1.19467e-4) R=0.03972383 C=0.00301993 
+
+    Frequency:  7.79743453824733 GHZ
+      Frequency completed Fri Jul 15 16:16:15 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        7.79743454 0.998263 -59.69 0.056227 59.121 0.056227 59.121 0.998270 -1.768
+        !< P1 F=7.79743454 Eeff=(6.4498281 -2.9746e-5) Z0=(51.7978808 1.19469e-4) R=0.03117245 C=0.00301989 
+        !< P2 F=7.79743454 Eeff=(6.4498281 -2.9746e-5) Z0=(51.7978808 1.19469e-4) R=0.03117245 C=0.00301989 
+
+Analysis completed Fri Jul 15 16:16:19 2016.

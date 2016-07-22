@@ -1,0 +1,170 @@
+Run 1:  Sun Jul 17 21:20:56 2016.  calt2.2.43068.
+        Em version 16.52 (64-bit Windows) on DESKTOP-MOCDKPP remote.
+
+  Project:  C:\Users\Michael\Desktop\Sonnet Qubit Designs\Jul16GDSSonnet\FluxBiasVIA.son.
+
+    Frequency:  0.1 GHZ
+      Subsectioning at 0.1 GHz with Eeff of 6.45.
+      Subsectioning time:  7 seconds.
+      De-embedding information for FluxBiasVIA_bottom box wall port(s):
+        FluxBiasVIA_bottom SOC Electric Wall: 200 microns length, 1031 subsections, 37 MB.
+        FluxBiasVIA_bottom SOC Magnetic Wall: 400 microns length, 994 subsections, 36 MB.
+      De-embedding information for cci group A:
+        Main Std: X=950 microns Y=1199 microns box size, 39 subsections, 24 MB.
+      Em license feature:  emhighperformance.
+      Circuit requires 8030 subsections and 700 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  171
+      Level 1:
+        Staircase:  7,810
+        Via:        48
+      Ground Plane:
+        Via:        1
+
+      Required memory by type:
+        System matrix:            492 MB
+        Elemental subsections:
+          Primary structure:      139 MB
+          FluxBiasVIA_b standard: 42 MB
+          CciA standard:          0 MB
+        Fourier transform:        20 MB
+        Waveguide mode:           5 MB
+        Adaptive band synthesis:  0 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    700 MB
+
+      Matrix solver:  internal 64-bit SSE with loss.
+      Simulation mode:  remote em transfer.
+      Threads:  using 12 thread(s), 12 core(s) available.
+      Waveguide mode time:  0.112 seconds.
+      Fourier transform time:  4 seconds.
+      Coupling time:  2 minutes 42 seconds.
+      Loss time:  0 seconds.
+      Matrix fill time:  2 minutes 46 seconds.
+      Matrix solve time:  19 seconds.
+      De-embedding time for FluxBiasVIA_bottom box wall:
+        SOC Electric Wall Std: 3 seconds.
+        SOC Magnetic Wall Std: 3 seconds.
+        Total:                 7 seconds.
+      De-embedding time for cci group A:
+        Total: 1 second.
+      Frequency completed Sun Jul 17 21:24:22 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        0.10000000 1.000000 179.81 1.380e-5 -90.12 1.380e-5 -90.12 1.000000 179.96
+        !< P1 F=0.1 Eeff=(undefined: sl) Z0=(undefined: sl) R=0.0 C=0.0 
+        !< P2 F=0.1 Eeff=(undefined: mv) Z0=(undefined: mv) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "sl", "mv" codes.
+      Total time per frequency:  3 minutes 18 seconds.
+
+    Post-Analysis:
+      Total time for 1 frequency:  3 minutes 26 seconds.
+      Errors detected: 0    Warnings detected: 0.
+
+Analysis completed Sun Jul 17 21:24:22 2016.
+
+
+Run 2:  Mon Jul 18 15:04:56 2016.  calt2.2.43068.
+        Em version 16.52 (64-bit Windows) on DESKTOP-MOCDKPP remote.
+
+  Project:  C:\Users\Michael\Desktop\Sonnet Qubit Designs\Jul16GDSSonnet\FluxBiasVIA.son.
+
+    Frequency:  0.1 GHZ
+      Subsectioning at 7 GHz with Eeff of 6.45.
+      Subsectioning time:  33 seconds.
+      De-embedding information for FluxBiasVIA_bottom box wall port(s):
+        FluxBiasVIA_bottom SOC Electric Wall: 200 microns length, 1031 subsections, 37 MB.
+        FluxBiasVIA_bottom SOC Magnetic Wall: 400 microns length, 994 subsections, 36 MB.
+      De-embedding information for cci group A:
+        Main Std: X=950 microns Y=1199 microns box size, 39 subsections, 24 MB.
+      Em license feature:  emhighperformance.
+      Circuit requires 8030 subsections and 703 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  171
+      Level 1:
+        Staircase:  7,810
+        Via:        48
+      Ground Plane:
+        Via:        1
+
+      Required memory by type:
+        System matrix:            492 MB
+        Elemental subsections:
+          Primary structure:      139 MB
+          FluxBiasVIA_b standard: 42 MB
+          CciA standard:          0 MB
+        Fourier transform:        20 MB
+        Waveguide mode:           5 MB
+        Adaptive band synthesis:  3 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    703 MB
+
+      Matrix solver:  internal 64-bit SSE with loss.
+      Simulation mode:  remote em transfer.
+      Threads:  using 12 thread(s), 12 core(s) available.
+      Waveguide mode time:  0.112 seconds.
+      Fourier transform time:  4 seconds.
+      Coupling time:  2 minutes 40 seconds.
+      Loss time:  0 seconds.
+      Matrix fill time:  2 minutes 44 seconds.
+      Matrix solve time:  20 seconds.
+      De-embedding time for FluxBiasVIA_bottom box wall:
+        SOC Electric Wall Std: 3 seconds.
+        SOC Magnetic Wall Std: 3 seconds.
+        Total:                 7 seconds.
+      De-embedding time for cci group A:
+        Total: 1 second.
+      Frequency completed Mon Jul 18 15:08:46 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        0.10000000 1.000000 179.81 1.376e-5 -90.12 1.376e-5 -90.12 1.000000 179.96
+        !< P1 F=0.1 Eeff=(undefined: sl) Z0=(undefined: sl) R=0.0 C=0.0 
+        !< P2 F=0.1 Eeff=(undefined: mv) Z0=(undefined: mv) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "sl", "mv" codes.
+      Total time per frequency:  3 minutes 17 seconds.
+
+    Frequency:  7 GHZ
+      Frequency completed Mon Jul 18 15:11:59 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        7.00000000 1.000000 166.43 9.433e-4 -97.91 9.433e-4 -97.91 1.000000 177.75
+        !< P1 F=7.0 Eeff=(6.45276146 -2.9762e-5) Z0=(50.9031298 1.17392e-4) R=0.0 C=0.0 
+        !< P2 F=7.0 Eeff=(undefined: mv) Z0=(undefined: mv) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "mv" code.
+      Total time per frequency:  3 minutes 12 seconds.
+      ABS: SNR = 44.7153 dB (120 dB Goal) for S1_1 at 3.66 GHz.
+      ABS: Time = 0.275 seconds.
+
+    Frequency:  3.66 GHZ
+      Frequency completed Mon Jul 18 15:15:12 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        3.66000000 1.000000 172.91 4.935e-4 -94.13 4.935e-4 -94.13 1.000000 178.83
+        !< P1 F=3.66 Eeff=(6.45274321 -2.9763e-5) Z0=(50.9033185 1.1739e-4) R=0.0 C=0.0 
+        !< P2 F=3.66 Eeff=(undefined: mv) Z0=(undefined: mv) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "mv" code.
+      Total time per frequency:  3 minutes 13 seconds.
+      ABS: SNR = 91.959 dB (120 dB Goal) for S1_1 at 1.58 GHz.
+      ABS: Time = 0.267 seconds.
+
+    Frequency:  1.58 GHZ
+      Frequency completed Mon Jul 18 15:18:26 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        1.58000000 1.000000 176.94 2.131e-4 -91.79 2.131e-4 -91.79 1.000000 179.49
+        !< P1 F=1.58 Eeff=(6.45273503 -2.9777e-5) Z0=(50.9033661 1.17364e-4) R=0.0 C=0.0 
+        !< P2 F=1.58 Eeff=(undefined: mv) Z0=(undefined: mv) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "mv" code.
+      Total time per frequency:  3 minutes 14 seconds.
+      ABS: SNR = 121.788 dB (120 dB Goal) for S1_1 at 5.8 GHz.
+      ABS: Time = 0.303 seconds.
+
+    Post-Analysis:
+      Total time for 4 frequencies:  13 minutes 31 seconds.
+      Errors detected: 0    Warnings detected: 0.
+
+Analysis completed Mon Jul 18 15:18:27 2016.

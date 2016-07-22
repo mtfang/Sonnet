@@ -1,0 +1,144 @@
+Run 1:  Wed Jul 20 16:17:32 2016.  calt2.2.43068.
+        Em version 16.52 (64-bit Windows) on DESKTOP-MOCDKPP remote.
+
+  Project:  C:\Users\Michael\Desktop\Sonnet Qubit Designs\SlotlineResonances\ReadoutResonatorSlotlineCapacitance.son.
+
+    Frequency:  6 GHZ
+      Subsectioning at 10 GHz with Eeff of 6.45.
+      Subsectioning time:  14 seconds.
+      De-embedding information for ReadoutResonatorSlotlineCapacitance_top box wall port(s):
+        ReadoutResonatorSlotlineCapacitance_top SOC Electric Wall: 1160 microns length, 648 subsections, 53 MB.
+        ReadoutResonatorSlotlineCapacitance_top SOC Magnetic Wall: 2320 microns length, 630 subsections, 54 MB.
+      De-embedding information for ReadoutResonatorSlotlineCapacitance_bottom box wall port(s):
+        ReadoutResonatorSlotlineCapacitance_bottom SOC Electric Wall: 1160 microns length, 648 subsections, 53 MB.
+        ReadoutResonatorSlotlineCapacitance_bottom SOC Magnetic Wall: 2320 microns length, 630 subsections, 54 MB.
+      Em license feature:  emhighperformance.
+      Circuit requires 12844 subsections (2520266 CM Cells) and 1517 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  12,301
+        Diagonal:   283
+        Conformal:  260
+
+      Required memory by type:
+        System matrix:            1,259 MB
+        Elemental subsections:
+          Primary structure:      77 MB
+          ReadoutResona standard: 82 MB
+          ReadoutResona standard: 82 MB
+        Fourier transform:        11 MB
+        Waveguide mode:           4 MB
+        Adaptive band synthesis:  2 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    1,517 MB
+
+      Matrix solver:  internal 64-bit SSE with loss.
+      Simulation mode:  remote em transfer.
+      Threads:  using 12 thread(s), 12 core(s) available.
+      Waveguide mode time:  0.070 seconds.
+      Fourier transform time:  12 seconds.
+      Coupling time:  5 minutes 6 seconds.
+      Loss time:  0 seconds.
+      Matrix fill time:  5 minutes 19 seconds.
+      Matrix solve time:  48 seconds.
+      De-embedding time for ReadoutResonatorSlotlineCapacitance_top box wall:
+        SOC Electric Wall Std: 4 seconds.
+        SOC Magnetic Wall Std: 4 seconds.
+        Total:                 8 seconds.
+      Total time per frequency:  6 minutes 22 seconds.
+
+    Frequency:  10 GHZ
+      Total time per frequency:  6 minutes 16 seconds.
+      ABS: Energy conservation for port 2 at 8.4 GHz.
+      ABS: Time = 0.120 seconds.
+
+    Frequency:  8.4 GHZ
+      Total time per frequency:  6 minutes 15 seconds.
+      ABS: Energy conservation for port 2 at 6.16 GHz.
+      ABS: Time = 0.130 seconds.
+
+
+Run 2:  Wed Jul 20 16:47:37 2016.  calt2.2.43068.
+        Em version 16.52 (64-bit Windows) on DESKTOP-MOCDKPP remote.
+
+  Project:  C:\Users\Michael\Desktop\Sonnet Qubit Designs\SlotlineResonances\ReadoutResonatorSlotlineCapacitance.son.
+
+    Frequency:  6 GHZ
+      Subsectioning at 10 GHz with Eeff of 6.45.
+      Subsectioning time:  14 seconds.
+      De-embedding information for ReadoutResonatorSlotlineCapacitance_top box wall port(s):
+        ReadoutResonatorSlotlineCapacitance_top SOC Electric Wall: 1160 microns length, 648 subsections, 53 MB.
+        ReadoutResonatorSlotlineCapacitance_top SOC Magnetic Wall: 2320 microns length, 630 subsections, 54 MB.
+      De-embedding information for ReadoutResonatorSlotlineCapacitance_bottom box wall port(s):
+        ReadoutResonatorSlotlineCapacitance_bottom SOC Electric Wall: 1160 microns length, 648 subsections, 53 MB.
+        ReadoutResonatorSlotlineCapacitance_bottom SOC Magnetic Wall: 2320 microns length, 630 subsections, 54 MB.
+      Em license feature:  emhighperformance.
+      Circuit requires 12844 subsections (2520266 CM Cells) and 1517 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  12,301
+        Diagonal:   283
+        Conformal:  260
+
+      Required memory by type:
+        System matrix:            1,259 MB
+        Elemental subsections:
+          Primary structure:      77 MB
+          ReadoutResona standard: 82 MB
+          ReadoutResona standard: 82 MB
+        Fourier transform:        11 MB
+        Waveguide mode:           4 MB
+        Adaptive band synthesis:  2 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    1,517 MB
+
+      Matrix solver:  internal 64-bit SSE with loss.
+      Simulation mode:  remote em transfer.
+      Threads:  using 12 thread(s), 12 core(s) available.
+      Waveguide mode time:  0.070 seconds.
+      Fourier transform time:  12 seconds.
+      Coupling time:  5 minutes 2 seconds.
+      Loss time:  0 seconds.
+      Matrix fill time:  5 minutes 15 seconds.
+      Matrix solve time:  48 seconds.
+      De-embedding time for ReadoutResonatorSlotlineCapacitance_top box wall:
+        SOC Electric Wall Std: 4 seconds.
+        SOC Magnetic Wall Std: 4 seconds.
+        Total:                 8 seconds.
+      Total time per frequency:  6 minutes 18 seconds.
+
+    Frequency:  10 GHZ
+      Total time per frequency:  6 minutes 16 seconds.
+      ABS: Energy conservation for port 2 at 8.4 GHz.
+      ABS: Time = 0.130 seconds.
+
+    Frequency:  8.4 GHZ
+      Total time per frequency:  6 minutes 15 seconds.
+      ABS: Energy conservation for port 2 at 6.16 GHz.
+      ABS: Time = 0.140 seconds.
+
+    Frequency:  6.16 GHZ
+      Total time per frequency:  6 minutes 14 seconds.
+      ABS: Energy conservation for port 2 at 6.12 GHz.
+      ABS: Time = 0.200 seconds.
+
+    Frequency:  6.12 GHZ
+      Total time per frequency:  6 minutes 17 seconds.
+      ABS: SNR = 81.3597 dB (103.043 dB Goal) for S2_2 at 9.36 GHz.
+      ABS: Time = 0.200 seconds.
+
+    Frequency:  9.36 GHZ
+      Total time per frequency:  6 minutes 17 seconds.
+      ABS: Q-factor. Diff = 0 (207.466 Tol) for port 1 at -1e-009 GHz.
+      ABS: SNR = 114.122 dB (103.043 dB Goal) for S2_2 at 7.48 GHz.
+      ABS: Time = 0.240 seconds.
+      ABS: Q-factor. Diff = 0 (207.466 Tol) for port 1 at -1e-009 GHz.
+      ABS: SNR = 114.122 dB (103.043 dB Goal) for S2_2 at 7.48 GHz.
+      ABS: Time = 0.240 seconds.
+
+    Post-Analysis:
+      Total time for 6 frequencies:  37 minutes 53 seconds.
+
+Analysis completed Wed Jul 20 17:25:30 2016.

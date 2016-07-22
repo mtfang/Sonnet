@@ -1,0 +1,105 @@
+Run 1:  Wed Jul 13 12:23:46 2016.  calt2.2.43068.
+        Em version 16.52 (64-bit Windows) on DESKTOP-MOCDKPP remote.
+
+  Project:  C:\Users\Michael\Desktop\Jul12GDSSonnet\QubitCapacitance_L_vary.son.
+
+  Parameter combination: 1 of 5.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        qubitLength = 400.0
+      Frequency completed Wed Jul 13 12:28:09 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        0.10000000 0.999993 -13.38 0.003422 83.213 0.003422 83.213 0.999994 -0.195
+        !< P1 F=0.1 Eeff=(undefined: sl) Z0=(undefined: sl) R=0.0 C=0.0 
+        !< P2 F=0.1 Eeff=(6.75678654 -3.1136e-5) Z0=(113.849223 2.63718e-4) R=1.44562914 C=0.00520577 
+        !< See "De-embedding Codes" in Help for more details on the "sl" code.
+
+  Parameter combination: 2 of 5.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        qubitLength = 425.0
+      Frequency completed Wed Jul 13 12:32:31 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        0.10000000 0.999992 -13.39 0.003632 83.201 0.003632 83.201 0.999993 -0.208
+        !< P1 F=0.1 Eeff=(undefined: sl) Z0=(undefined: sl) R=0.0 C=0.0 
+        !< P2 F=0.1 Eeff=(6.75678654 -3.1136e-5) Z0=(113.849223 2.63718e-4) R=1.44562914 C=0.00520577 
+        !< See "De-embedding Codes" in Help for more details on the "sl" code.
+
+  Parameter combination: 3 of 5.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        qubitLength = 450.0
+      Frequency completed Wed Jul 13 12:36:48 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        0.10000000 0.999992 -13.40 0.003805 83.191 0.003805 83.191 0.999993 -0.219
+        !< P1 F=0.1 Eeff=(undefined: sl) Z0=(undefined: sl) R=0.0 C=0.0 
+        !< P2 F=0.1 Eeff=(6.75678654 -3.1136e-5) Z0=(113.849223 2.63718e-4) R=1.44562914 C=0.00520577 
+        !< See "De-embedding Codes" in Help for more details on the "sl" code.
+
+  Parameter combination: 4 of 5.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        qubitLength = 475.0
+      Frequency completed Wed Jul 13 12:41:06 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        0.10000000 0.999991 -13.41 0.004020 83.179 0.004020 83.179 0.999992 -0.233
+        !< P1 F=0.1 Eeff=(undefined: sl) Z0=(undefined: sl) R=0.0 C=0.0 
+        !< P2 F=0.1 Eeff=(6.75678654 -3.1136e-5) Z0=(113.849223 2.63718e-4) R=1.44562914 C=0.00520577 
+        !< See "De-embedding Codes" in Help for more details on the "sl" code.
+
+  Parameter combination: 5 of 5.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        qubitLength = 500.0
+      Frequency completed Wed Jul 13 12:45:22 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        0.10000000 0.999990 -13.42 0.004192 83.169 0.004192 83.169 0.999991 -0.243
+        !< P1 F=0.1 Eeff=(undefined: sl) Z0=(undefined: sl) R=0.0 C=0.0 
+        !< P2 F=0.1 Eeff=(6.75678654 -3.1136e-5) Z0=(113.849223 2.63718e-4) R=1.44562914 C=0.00520577 
+        !< See "De-embedding Codes" in Help for more details on the "sl" code.
+
+Analysis completed Wed Jul 13 12:45:22 2016.
+
+
+Run 2:  Wed Jul 13 12:50:19 2016.  calt2.2.43068.
+        Em version 16.52 (64-bit Windows) on DESKTOP-MOCDKPP remote.
+
+  Project:  C:\Users\Michael\Desktop\Jul12GDSSonnet\QubitCapacitance_L_vary.son.
+
+  Parameter combination: 1 of 2.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        qubitLength = 525.0
+      Frequency completed Wed Jul 13 12:54:39 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        0.10000000 0.999989 -13.43 0.004407 83.156 0.004407 83.156 0.999990 -0.257
+        !< P1 F=0.1 Eeff=(undefined: sl) Z0=(undefined: sl) R=0.0 C=0.0 
+        !< P2 F=0.1 Eeff=(6.75678654 -3.1136e-5) Z0=(113.849223 2.63718e-4) R=1.44562914 C=0.00520577 
+        !< See "De-embedding Codes" in Help for more details on the "sl" code.
+
+  Parameter combination: 2 of 2.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        qubitLength = 550.0
+      Frequency completed Wed Jul 13 12:58:58 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        0.10000000 0.999988 -13.44 0.004580 83.147 0.004580 83.147 0.999989 -0.268
+        !< P1 F=0.1 Eeff=(undefined: sl) Z0=(undefined: sl) R=0.0 C=0.0 
+        !< P2 F=0.1 Eeff=(6.75678654 -3.1136e-5) Z0=(113.849223 2.63718e-4) R=1.44562914 C=0.00520577 
+        !< See "De-embedding Codes" in Help for more details on the "sl" code.
+
+Analysis completed Wed Jul 13 12:58:58 2016.

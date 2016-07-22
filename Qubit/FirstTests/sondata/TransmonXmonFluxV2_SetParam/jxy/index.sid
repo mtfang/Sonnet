@@ -1,0 +1,208 @@
+PARAMS
+rightNotch = 10.0
+leftNotch = 10.0
+END PARAMS
+!>< FREQS
+!>< 5.0e7 1.0e10 9.25e9 3.25e9 6.1e9
+!>< END FREQS
+FILE current_1.sid
+PARAMS
+rightNotch = 10.0
+leftNotch = 15.0
+END PARAMS
+!>< FREQS
+!>< 5.0e7 1.0e10 9.25e9 3.25e9 6.2e9
+!>< END FREQS
+FILE current_2.sid
+PARAMS
+rightNotch = 10.0
+leftNotch = 20.0
+END PARAMS
+!>< FREQS
+!>< 5.0e7 1.0e10 9.25e9 7.9e9 2.45e9
+!>< END FREQS
+FILE current_3.sid
+PARAMS
+rightNotch = 10.0
+leftNotch = 25.0
+END PARAMS
+!>< FREQS
+!>< 5.0e7 1.0e10 9.2e9 9.6e9 2.7e9
+!>< END FREQS
+FILE current_4.sid
+PARAMS
+rightNotch = 10.0
+leftNotch = 30.0
+END PARAMS
+!>< FREQS
+!>< 5.0e7 1.0e10 9.2e9 9.6e9 2.7e9
+!>< END FREQS
+FILE current_5.sid
+PARAMS
+rightNotch = 15.0
+leftNotch = 10.0
+END PARAMS
+!>< FREQS
+!>< 5.0e7 1.0e10 9.2e9 3.25e9 6.2e9
+!>< END FREQS
+FILE current_6.sid
+PARAMS
+rightNotch = 15.0
+leftNotch = 15.0
+END PARAMS
+!>< FREQS
+!>< 5.0e7 1.0e10 9.2e9 3.25e9 6.15e9
+!>< END FREQS
+FILE current_7.sid
+PARAMS
+rightNotch = 15.0
+leftNotch = 20.0
+END PARAMS
+!>< FREQS
+!>< 5.0e7 1.0e10 9.2e9 3.25e9 6.1e9
+!>< END FREQS
+FILE current_8.sid
+PARAMS
+rightNotch = 15.0
+leftNotch = 25.0
+END PARAMS
+!>< FREQS
+!>< 5.0e7 1.0e10 9.2e9 3.25e9 5.95e9
+!>< END FREQS
+FILE current_9.sid
+PARAMS
+rightNotch = 15.0
+leftNotch = 30.0
+END PARAMS
+!>< FREQS
+!>< 5.0e7 1.0e10 9.2e9 3.25e9 6.0e9
+!>< END FREQS
+FILE current_10.sid
+PARAMS
+rightNotch = 20.0
+leftNotch = 10.0
+END PARAMS
+!>< FREQS
+!>< 5.0e7 1.0e10 9.2e9 3.25e9 6.2e9
+!>< END FREQS
+FILE current_11.sid
+PARAMS
+rightNotch = 20.0
+leftNotch = 15.0
+END PARAMS
+!>< FREQS
+!>< 5.0e7 1.0e10 9.2e9 3.25e9 6.15e9
+!>< END FREQS
+FILE current_12.sid
+PARAMS
+rightNotch = 20.0
+leftNotch = 20.0
+END PARAMS
+!>< FREQS
+!>< 5.0e7 1.0e10 9.1e9 9.55e9 3.3e9
+!>< END FREQS
+FILE current_13.sid
+PARAMS
+rightNotch = 20.0
+leftNotch = 25.0
+END PARAMS
+!>< FREQS
+!>< 5.0e7 1.0e10 9.1e9 9.55e9 3.3e9
+!>< END FREQS
+FILE current_14.sid
+PARAMS
+rightNotch = 20.0
+leftNotch = 30.0
+END PARAMS
+!>< FREQS
+!>< 5.0e7 1.0e10 9.1e9 9.55e9 3.3e9
+!>< END FREQS
+FILE current_15.sid
+PARAMS
+rightNotch = 25.0
+leftNotch = 10.0
+END PARAMS
+!>< FREQS
+!>< 5.0e7 1.0e10 9.2e9 3.25e9 6.1e9
+!>< END FREQS
+FILE current_16.sid
+PARAMS
+rightNotch = 25.0
+leftNotch = 15.0
+END PARAMS
+!>< FREQS
+!>< 5.0e7 1.0e10 9.2e9 3.25e9 6.1e9
+!>< END FREQS
+FILE current_17.sid
+PARAMS
+rightNotch = 25.0
+leftNotch = 20.0
+END PARAMS
+!>< FREQS
+!>< 5.0e7 1.0e10 9.1e9 9.55e9 3.25e9
+!>< END FREQS
+FILE current_18.sid
+PARAMS
+rightNotch = 25.0
+leftNotch = 25.0
+END PARAMS
+!>< FREQS
+!>< 5.0e7 1.0e10 9.05e9 9.55e9 3.25e9
+!>< END FREQS
+FILE current_19.sid
+PARAMS
+rightNotch = 25.0
+leftNotch = 30.0
+END PARAMS
+!>< FREQS
+!>< 5.0e7 1.0e10 9.05e9 9.55e9 3.25e9
+!>< END FREQS
+FILE current_20.sid
+PARAMS
+rightNotch = 30.0
+leftNotch = 10.0
+END PARAMS
+!>< FREQS
+!>< 5.0e7 1.0e10 9.2e9 3.25e9 6.1e9
+!>< END FREQS
+FILE current_21.sid
+PARAMS
+rightNotch = 30.0
+leftNotch = 15.0
+END PARAMS
+!>< FREQS
+!>< 5.0e7 1.0e10 9.2e9 3.25e9 6.15e9
+!>< END FREQS
+FILE current_22.sid
+PARAMS
+rightNotch = 30.0
+leftNotch = 20.0
+END PARAMS
+!>< FREQS
+!>< 5.0e7 1.0e10 9.05e9 9.55e9 3.3e9 1.25e9
+!>< END FREQS
+FILE current_23.sid
+PARAMS
+rightNotch = 30.0
+leftNotch = 25.0
+END PARAMS
+!>< FREQS
+!>< 5.0e7 1.0e10 9.05e9 9.55e9 3.3e9 1.3e9
+!>< END FREQS
+FILE current_24.sid
+PARAMS
+rightNotch = 30.0
+leftNotch = 30.0
+END PARAMS
+!>< FREQS
+!>< 5.0e7 1.0e10 9.05e9 9.55e9 3.3e9 1.25e9
+!>< END FREQS
+FILE current_25.sid
+PARAMS
+rightNotch = 10.0
+leftNotch = 22.0
+END PARAMS
+!>< FREQS
+!>< 5.0e7 1.0e10 9.25e9 7.9e9 2.45e9
+!>< END FREQS
+FILE current_26.sid

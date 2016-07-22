@@ -1,0 +1,1397 @@
+Run 1:  Thu Jul 14 19:10:38 2016.  calt2.2.43068.
+        Em version 16.52 (64-bit Windows) on DESKTOP-MOCDKPP remote.
+
+  Project:  C:\Users\Michael\Desktop\Sonnet Qubit Designs\Jul13GDSSonnet\ClawCapacitance.son.
+
+  Parameter combination: 1 of 3.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        gap = 6.0
+        thickness = 16.0
+        ClawLength = 134.0
+      Subsectioning at 0.1 GHz with Eeff of 6.45.
+      Subsectioning time:  3 seconds.
+      Em license feature:  emhighperformance.
+      Circuit requires 2793 subsections and 247 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  2,651
+      Ground Plane:
+        Via:        142
+
+      Required memory by type:
+        System matrix:            60 MB
+        Elemental subsections:
+          Primary structure:      161 MB
+        Fourier transform:        21 MB
+        Waveguide mode:           4 MB
+        Adaptive band synthesis:  0 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    247 MB
+
+      Matrix solver:  internal 64-bit SSE with loss.
+      Simulation mode:  remote em transfer.
+      Threads:  using 12 thread(s), 12 core(s) available.
+      Waveguide mode time:  0.077 seconds.
+      Fourier transform time:  1 second.
+      Coupling time:  1 minute 2 seconds.
+      Loss time:  0 seconds.
+      Matrix fill time:  1 minute 4 seconds.
+      Matrix solve time:  0.719 seconds.
+      De-embed autognd port 1:
+        Standard 1:  1500.0 microns, 147 subsections, about 212 MB.
+          Time:  3 seconds.
+        Autognd port 1 std 2:
+          1500 microns length, 138 subsections, 180 MB.
+          Time:  0.718 seconds.
+        Autognd port 1 std 3:
+          3000 microns length, 273 subsections, 199 MB.
+          Time:  1 second.
+      De-embed autognd port 2:
+        Standard 1:  1500.0 microns, 489 subsections, about 214 MB.
+          Time:  4 seconds.
+        Autognd port 2 std 2:
+          1500 microns length, 358 subsections, 181 MB.
+          Time:  1 second.
+        Autognd port 2 std 3:
+          3000 microns length, 709 subsections, 202 MB.
+          Time:  5 seconds.
+      Total time per frequency:  1 minute 22 seconds.
+
+  Parameter combination: 2 of 3.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        gap = 6.0
+        thickness = 20.0
+        ClawLength = 134.0
+      Subsectioning at 0.1 GHz with Eeff of 6.45.
+      Subsectioning time:  3 seconds.
+      Circuit requires 2835 subsections and 248 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  2,685
+      Ground Plane:
+        Via:        150
+
+      Required memory by type:
+        System matrix:            61 MB
+        Elemental subsections:
+          Primary structure:      161 MB
+        Fourier transform:        21 MB
+        Waveguide mode:           4 MB
+        Adaptive band synthesis:  0 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    248 MB
+
+      Waveguide mode time:  0.066 seconds.
+      Fourier transform time:  1 second.
+      Coupling time:  1 minute 2 seconds.
+      Loss time:  0 seconds.
+      Matrix fill time:  1 minute 3 seconds.
+      Matrix solve time:  0.720 seconds.
+          Time:  3 seconds.
+        Autognd port 1 std 2:
+          1500 microns length, 138 subsections, 180 MB.
+          Time:  0.737 seconds.
+        Autognd port 1 std 3:
+          3000 microns length, 273 subsections, 199 MB.
+          Time:  1 second.
+          Time:  4 seconds.
+        Autognd port 2 std 2:
+          1500 microns length, 358 subsections, 181 MB.
+          Time:  1 second.
+        Autognd port 2 std 3:
+          3000 microns length, 709 subsections, 202 MB.
+          Time:  5 seconds.
+      Total time per frequency:  1 minute 25 seconds.
+
+  Parameter combination: 3 of 3.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        gap = 6.0
+        thickness = 24.0
+        ClawLength = 134.0
+      Subsectioning at 0.1 GHz with Eeff of 6.45.
+      Subsectioning time:  3 seconds.
+      Circuit requires 2935 subsections and 253 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  2,777
+      Ground Plane:
+        Via:        158
+
+      Required memory by type:
+        System matrix:            66 MB
+        Elemental subsections:
+          Primary structure:      161 MB
+        Fourier transform:        21 MB
+        Waveguide mode:           4 MB
+        Adaptive band synthesis:  0 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    253 MB
+
+      Waveguide mode time:  0.108 seconds.
+      Fourier transform time:  1 second.
+      Coupling time:  1 minute 6 seconds.
+      Loss time:  0 seconds.
+      Matrix fill time:  1 minute 7 seconds.
+      Matrix solve time:  0.793 seconds.
+          Time:  3 seconds.
+        Autognd port 1 std 2:
+          1500 microns length, 138 subsections, 180 MB.
+          Time:  0.747 seconds.
+        Autognd port 1 std 3:
+          3000 microns length, 273 subsections, 199 MB.
+          Time:  1 second.
+          Time:  4 seconds.
+        Autognd port 2 std 2:
+          1500 microns length, 358 subsections, 181 MB.
+          Time:  1 second.
+        Autognd port 2 std 3:
+          3000 microns length, 709 subsections, 202 MB.
+          Time:  5 seconds.
+      Total time per frequency:  1 minute 30 seconds.
+
+    Post-Analysis:
+      Total time for 3 frequencies:  4 minutes 22 seconds.
+
+Analysis completed Thu Jul 14 19:15:00 2016.
+
+
+Run 2:  Fri Jul 15 10:00:44 2016.  calt2.2.43068.
+        Em version 16.52 (64-bit Windows) on DESKTOP-MOCDKPP remote.
+
+  Project:  C:\Users\Michael\Desktop\Sonnet Qubit Designs\Jul13GDSSonnet\ClawCapacitance.son.
+
+  Parameter combination: 1 of 9.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        gap = 6.0
+        thickness = 16.0
+        ClawLength = 80.0
+      Subsectioning at 0.1 GHz with Eeff of 6.45.
+      Subsectioning time:  3 seconds.
+      Em license feature:  emhighperformance.
+      Circuit requires 2706 subsections and 243 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  2,564
+      Ground Plane:
+        Via:        142
+
+      Required memory by type:
+        System matrix:            56 MB
+        Elemental subsections:
+          Primary structure:      161 MB
+        Fourier transform:        21 MB
+        Waveguide mode:           4 MB
+        Adaptive band synthesis:  0 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    243 MB
+
+      Matrix solver:  internal 64-bit SSE with loss.
+      Simulation mode:  remote em transfer.
+      Threads:  using 12 thread(s), 12 core(s) available.
+      Waveguide mode time:  0.066 seconds.
+      Fourier transform time:  1 second.
+      Coupling time:  1 minute 2 seconds.
+      Loss time:  0 seconds.
+      Matrix fill time:  1 minute 3 seconds.
+      Matrix solve time:  0.659 seconds.
+      De-embed autognd port 1:
+        Standard 1:  1500.0 microns, 147 subsections, about 212 MB.
+          Time:  3 seconds.
+        Autognd port 1 std 2:
+          1500 microns length, 138 subsections, 181 MB.
+          Time:  0.753 seconds.
+        Autognd port 1 std 3:
+          3000 microns length, 273 subsections, 199 MB.
+          Time:  1 second.
+      De-embed autognd port 2:
+        Standard 1:  1500.0 microns, 489 subsections, about 214 MB.
+          Time:  4 seconds.
+        Autognd port 2 std 2:
+          1500 microns length, 358 subsections, 182 MB.
+          Time:  1 second.
+        Autognd port 2 std 3:
+          3000 microns length, 709 subsections, 203 MB.
+          Time:  5 seconds.
+      Total time per frequency:  1 minute 22 seconds.
+
+  Parameter combination: 2 of 9.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        gap = 6.0
+        thickness = 16.0
+        ClawLength = 120.0
+      Subsectioning at 0.1 GHz with Eeff of 6.45.
+      Subsectioning time:  3 seconds.
+      Circuit requires 2764 subsections and 245 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  2,622
+      Ground Plane:
+        Via:        142
+
+      Required memory by type:
+        System matrix:            58 MB
+        Elemental subsections:
+          Primary structure:      161 MB
+        Fourier transform:        21 MB
+        Waveguide mode:           4 MB
+        Adaptive band synthesis:  0 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    245 MB
+
+      Waveguide mode time:  0.065 seconds.
+      Fourier transform time:  1 second.
+      Coupling time:  1 minute 5 seconds.
+      Loss time:  0 seconds.
+      Matrix fill time:  1 minute 7 seconds.
+      Matrix solve time:  0.709 seconds.
+          Time:  3 seconds.
+        Autognd port 1 std 2:
+          1500 microns length, 138 subsections, 181 MB.
+          Time:  0.730 seconds.
+        Autognd port 1 std 3:
+          3000 microns length, 273 subsections, 199 MB.
+          Time:  1 second.
+          Time:  4 seconds.
+        Autognd port 2 std 2:
+          1500 microns length, 358 subsections, 181 MB.
+          Time:  1 second.
+        Autognd port 2 std 3:
+          3000 microns length, 709 subsections, 202 MB.
+          Time:  5 seconds.
+      Total time per frequency:  1 minute 28 seconds.
+
+  Parameter combination: 3 of 9.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        gap = 6.0
+        thickness = 16.0
+        ClawLength = 160.0
+      Subsectioning at 0.1 GHz with Eeff of 6.45.
+      Subsectioning time:  3 seconds.
+      Circuit requires 2756 subsections and 245 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  2,614
+      Ground Plane:
+        Via:        142
+
+      Required memory by type:
+        System matrix:            58 MB
+        Elemental subsections:
+          Primary structure:      161 MB
+        Fourier transform:        21 MB
+        Waveguide mode:           4 MB
+        Adaptive band synthesis:  0 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    245 MB
+
+      Waveguide mode time:  0.065 seconds.
+      Fourier transform time:  1 second.
+      Coupling time:  1 minute 3 seconds.
+      Loss time:  0 seconds.
+      Matrix fill time:  1 minute 5 seconds.
+      Matrix solve time:  0.674 seconds.
+          Time:  3 seconds.
+        Autognd port 1 std 2:
+          1500 microns length, 138 subsections, 180 MB.
+          Time:  0.726 seconds.
+        Autognd port 1 std 3:
+          3000 microns length, 273 subsections, 199 MB.
+          Time:  1 second.
+          Time:  4 seconds.
+        Autognd port 2 std 2:
+          1500 microns length, 358 subsections, 181 MB.
+          Time:  1 second.
+        Autognd port 2 std 3:
+          3000 microns length, 709 subsections, 202 MB.
+          Time:  5 seconds.
+      Total time per frequency:  1 minute 26 seconds.
+
+  Parameter combination: 4 of 9.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        gap = 6.0
+        thickness = 20.0
+        ClawLength = 80.0
+      Subsectioning at 0.1 GHz with Eeff of 6.45.
+      Subsectioning time:  3 seconds.
+      Circuit requires 2742 subsections and 245 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  2,592
+      Ground Plane:
+        Via:        150
+
+      Required memory by type:
+        System matrix:            57 MB
+        Elemental subsections:
+          Primary structure:      161 MB
+        Fourier transform:        21 MB
+        Waveguide mode:           4 MB
+        Adaptive band synthesis:  0 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    245 MB
+
+      Waveguide mode time:  0.082 seconds.
+      Fourier transform time:  1 second.
+      Coupling time:  1 minute 3 seconds.
+      Loss time:  0 seconds.
+      Matrix fill time:  1 minute 5 seconds.
+      Matrix solve time:  0.663 seconds.
+          Time:  3 seconds.
+        Autognd port 1 std 2:
+          1500 microns length, 138 subsections, 181 MB.
+          Time:  0.739 seconds.
+        Autognd port 1 std 3:
+          3000 microns length, 273 subsections, 199 MB.
+          Time:  1 second.
+          Time:  4 seconds.
+        Autognd port 2 std 2:
+          1500 microns length, 358 subsections, 181 MB.
+          Time:  1 second.
+        Autognd port 2 std 3:
+          3000 microns length, 709 subsections, 203 MB.
+          Time:  5 seconds.
+      Total time per frequency:  1 minute 27 seconds.
+
+  Parameter combination: 5 of 9.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        gap = 6.0
+        thickness = 20.0
+        ClawLength = 120.0
+      Subsectioning at 0.1 GHz with Eeff of 6.45.
+      Subsectioning time:  3 seconds.
+      Circuit requires 2806 subsections and 247 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  2,656
+      Ground Plane:
+        Via:        150
+
+      Required memory by type:
+        System matrix:            60 MB
+        Elemental subsections:
+          Primary structure:      161 MB
+        Fourier transform:        21 MB
+        Waveguide mode:           4 MB
+        Adaptive band synthesis:  0 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    247 MB
+
+      Waveguide mode time:  0.066 seconds.
+      Fourier transform time:  1 second.
+      Coupling time:  1 minute 6 seconds.
+      Loss time:  0 seconds.
+      Matrix fill time:  1 minute 7 seconds.
+      Matrix solve time:  0.738 seconds.
+          Time:  3 seconds.
+        Autognd port 1 std 2:
+          1500 microns length, 138 subsections, 180 MB.
+          Time:  0.726 seconds.
+        Autognd port 1 std 3:
+          3000 microns length, 273 subsections, 199 MB.
+          Time:  1 second.
+          Time:  4 seconds.
+        Autognd port 2 std 2:
+          1500 microns length, 358 subsections, 181 MB.
+          Time:  1 second.
+        Autognd port 2 std 3:
+          3000 microns length, 709 subsections, 202 MB.
+          Time:  5 seconds.
+      Total time per frequency:  1 minute 29 seconds.
+
+  Parameter combination: 6 of 9.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        gap = 6.0
+        thickness = 20.0
+        ClawLength = 160.0
+      Subsectioning at 0.1 GHz with Eeff of 6.45.
+      Subsectioning time:  3 seconds.
+      Circuit requires 2811 subsections and 247 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  2,661
+      Ground Plane:
+        Via:        150
+
+      Required memory by type:
+        System matrix:            60 MB
+        Elemental subsections:
+          Primary structure:      161 MB
+        Fourier transform:        21 MB
+        Waveguide mode:           4 MB
+        Adaptive band synthesis:  0 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    247 MB
+
+      Waveguide mode time:  0.065 seconds.
+      Fourier transform time:  1 second.
+      Coupling time:  1 minute 4 seconds.
+      Loss time:  0 seconds.
+      Matrix fill time:  1 minute 6 seconds.
+      Matrix solve time:  0.716 seconds.
+          Time:  3 seconds.
+        Autognd port 1 std 2:
+          1500 microns length, 138 subsections, 180 MB.
+          Time:  0.729 seconds.
+        Autognd port 1 std 3:
+          3000 microns length, 273 subsections, 199 MB.
+          Time:  1 second.
+          Time:  4 seconds.
+        Autognd port 2 std 2:
+          1500 microns length, 358 subsections, 181 MB.
+          Time:  1 second.
+        Autognd port 2 std 3:
+          3000 microns length, 709 subsections, 202 MB.
+          Time:  5 seconds.
+      Total time per frequency:  1 minute 28 seconds.
+
+  Parameter combination: 7 of 9.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        gap = 6.0
+        thickness = 24.0
+        ClawLength = 80.0
+      Subsectioning at 0.1 GHz with Eeff of 6.45.
+      Subsectioning time:  3 seconds.
+      Circuit requires 2834 subsections and 248 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  2,676
+      Ground Plane:
+        Via:        158
+
+      Required memory by type:
+        System matrix:            61 MB
+        Elemental subsections:
+          Primary structure:      161 MB
+        Fourier transform:        21 MB
+        Waveguide mode:           4 MB
+        Adaptive band synthesis:  0 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    248 MB
+
+      Waveguide mode time:  0.070 seconds.
+      Fourier transform time:  1 second.
+      Coupling time:  1 minute 5 seconds.
+      Loss time:  0 seconds.
+      Matrix fill time:  1 minute 7 seconds.
+      Matrix solve time:  0.736 seconds.
+          Time:  3 seconds.
+        Autognd port 1 std 2:
+          1500 microns length, 138 subsections, 181 MB.
+          Time:  0.722 seconds.
+        Autognd port 1 std 3:
+          3000 microns length, 273 subsections, 199 MB.
+          Time:  1 second.
+          Time:  4 seconds.
+        Autognd port 2 std 2:
+          1500 microns length, 358 subsections, 182 MB.
+          Time:  1 second.
+        Autognd port 2 std 3:
+          3000 microns length, 709 subsections, 203 MB.
+          Time:  5 seconds.
+      Total time per frequency:  1 minute 29 seconds.
+
+  Parameter combination: 8 of 9.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        gap = 6.0
+        thickness = 24.0
+        ClawLength = 120.0
+      Subsectioning at 0.1 GHz with Eeff of 6.45.
+      Subsectioning time:  3 seconds.
+      Circuit requires 2901 subsections and 251 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  2,743
+      Ground Plane:
+        Via:        158
+
+      Required memory by type:
+        System matrix:            64 MB
+        Elemental subsections:
+          Primary structure:      161 MB
+        Fourier transform:        21 MB
+        Waveguide mode:           4 MB
+        Adaptive band synthesis:  0 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    251 MB
+
+      Waveguide mode time:  0.065 seconds.
+      Fourier transform time:  1 second.
+      Coupling time:  1 minute 7 seconds.
+      Loss time:  0 seconds.
+      Matrix fill time:  1 minute 8 seconds.
+      Matrix solve time:  0.780 seconds.
+          Time:  3 seconds.
+        Autognd port 1 std 2:
+          1500 microns length, 138 subsections, 181 MB.
+          Time:  0.724 seconds.
+        Autognd port 1 std 3:
+          3000 microns length, 273 subsections, 199 MB.
+          Time:  1 second.
+          Time:  4 seconds.
+        Autognd port 2 std 2:
+          1500 microns length, 358 subsections, 181 MB.
+          Time:  1 second.
+        Autognd port 2 std 3:
+          3000 microns length, 709 subsections, 202 MB.
+          Time:  5 seconds.
+      Total time per frequency:  1 minute 31 seconds.
+
+  Parameter combination: 9 of 9.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        gap = 6.0
+        thickness = 24.0
+        ClawLength = 160.0
+      Subsectioning at 0.1 GHz with Eeff of 6.45.
+      Subsectioning time:  3 seconds.
+      Circuit requires 2911 subsections and 252 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  2,753
+      Ground Plane:
+        Via:        158
+
+      Required memory by type:
+        System matrix:            65 MB
+        Elemental subsections:
+          Primary structure:      161 MB
+        Fourier transform:        21 MB
+        Waveguide mode:           4 MB
+        Adaptive band synthesis:  0 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    252 MB
+
+      Waveguide mode time:  0.066 seconds.
+      Fourier transform time:  1 second.
+      Coupling time:  1 minute 7 seconds.
+      Loss time:  0 seconds.
+      Matrix fill time:  1 minute 9 seconds.
+      Matrix solve time:  0.812 seconds.
+          Time:  3 seconds.
+        Autognd port 1 std 2:
+          1500 microns length, 138 subsections, 180 MB.
+          Time:  0.721 seconds.
+        Autognd port 1 std 3:
+          3000 microns length, 273 subsections, 199 MB.
+          Time:  1 second.
+          Time:  4 seconds.
+        Autognd port 2 std 2:
+          1500 microns length, 358 subsections, 181 MB.
+          Time:  1 second.
+        Autognd port 2 std 3:
+          3000 microns length, 709 subsections, 202 MB.
+          Time:  5 seconds.
+      Total time per frequency:  1 minute 31 seconds.
+
+    Post-Analysis:
+      Total time for 9 frequencies:  13 minutes 19 seconds.
+
+Analysis completed Fri Jul 15 10:14:03 2016.
+
+
+Run 3:  Fri Jul 15 11:01:51 2016.  calt2.2.43068.
+        Em version 16.52 (64-bit Windows) on DESKTOP-MOCDKPP remote.
+
+  Project:  C:\Users\Michael\Desktop\Sonnet Qubit Designs\Jul13GDSSonnet\ClawCapacitance.son.
+
+  Parameter combination: 1 of 9.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        gap = 6.0
+        ClawLength = 200.0
+        thickness = 16.0
+      Subsectioning at 0.1 GHz with Eeff of 6.45.
+      Subsectioning time:  3 seconds.
+      Em license feature:  emhighperformance.
+      Circuit requires 2817 subsections and 247 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  2,675
+      Ground Plane:
+        Via:        142
+
+      Required memory by type:
+        System matrix:            61 MB
+        Elemental subsections:
+          Primary structure:      161 MB
+        Fourier transform:        21 MB
+        Waveguide mode:           4 MB
+        Adaptive band synthesis:  0 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    247 MB
+
+      Matrix solver:  internal 64-bit SSE with loss.
+      Simulation mode:  remote em transfer.
+      Threads:  using 12 thread(s), 12 core(s) available.
+      Waveguide mode time:  0.066 seconds.
+      Fourier transform time:  1 second.
+      Coupling time:  1 minute 3 seconds.
+      Loss time:  0.001 seconds.
+      Matrix fill time:  1 minute 5 seconds.
+      Matrix solve time:  0.732 seconds.
+      De-embed autognd port 1:
+        Standard 1:  1500.0 microns, 147 subsections, about 212 MB.
+          Time:  3 seconds.
+        Autognd port 1 std 2:
+          1500 microns length, 138 subsections, 180 MB.
+          Time:  0.720 seconds.
+        Autognd port 1 std 3:
+          3000 microns length, 273 subsections, 199 MB.
+          Time:  1 second.
+      De-embed autognd port 2:
+        Standard 1:  1500.0 microns, 489 subsections, about 213 MB.
+          Time:  4 seconds.
+        Autognd port 2 std 2:
+          1500 microns length, 358 subsections, 181 MB.
+          Time:  1 second.
+        Autognd port 2 std 3:
+          3000 microns length, 709 subsections, 202 MB.
+          Time:  5 seconds.
+      Total time per frequency:  1 minute 23 seconds.
+
+  Parameter combination: 2 of 9.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        gap = 6.0
+        ClawLength = 200.0
+        thickness = 20.0
+      Subsectioning at 0.1 GHz with Eeff of 6.45.
+      Subsectioning time:  3 seconds.
+      Circuit requires 2846 subsections and 249 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  2,696
+      Ground Plane:
+        Via:        150
+
+      Required memory by type:
+        System matrix:            62 MB
+        Elemental subsections:
+          Primary structure:      161 MB
+        Fourier transform:        21 MB
+        Waveguide mode:           4 MB
+        Adaptive band synthesis:  0 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    249 MB
+
+      Waveguide mode time:  0.065 seconds.
+      Fourier transform time:  1 second.
+      Coupling time:  1 minute 5 seconds.
+      Loss time:  0 seconds.
+      Matrix fill time:  1 minute 7 seconds.
+      Matrix solve time:  0.743 seconds.
+          Time:  3 seconds.
+        Autognd port 1 std 2:
+          1500 microns length, 138 subsections, 180 MB.
+          Time:  0.729 seconds.
+        Autognd port 1 std 3:
+          3000 microns length, 273 subsections, 199 MB.
+          Time:  1 second.
+          Time:  4 seconds.
+        Autognd port 2 std 2:
+          1500 microns length, 358 subsections, 181 MB.
+          Time:  1 second.
+        Autognd port 2 std 3:
+          3000 microns length, 709 subsections, 202 MB.
+          Time:  5 seconds.
+      Total time per frequency:  1 minute 29 seconds.
+
+  Parameter combination: 3 of 9.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        gap = 6.0
+        ClawLength = 200.0
+        thickness = 24.0
+      Subsectioning at 0.1 GHz with Eeff of 6.45.
+      Subsectioning time:  3 seconds.
+      Circuit requires 2960 subsections and 254 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  2,802
+      Ground Plane:
+        Via:        158
+
+      Required memory by type:
+        System matrix:            67 MB
+        Elemental subsections:
+          Primary structure:      161 MB
+        Fourier transform:        21 MB
+        Waveguide mode:           4 MB
+        Adaptive band synthesis:  0 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    254 MB
+
+      Waveguide mode time:  0.090 seconds.
+      Fourier transform time:  1 second.
+      Coupling time:  1 minute 10 seconds.
+      Loss time:  0 seconds.
+      Matrix fill time:  1 minute 12 seconds.
+      Matrix solve time:  0.832 seconds.
+          Time:  3 seconds.
+        Autognd port 1 std 2:
+          1500 microns length, 138 subsections, 180 MB.
+          Time:  0.734 seconds.
+        Autognd port 1 std 3:
+          3000 microns length, 273 subsections, 199 MB.
+          Time:  1 second.
+          Time:  4 seconds.
+        Autognd port 2 std 2:
+          1500 microns length, 358 subsections, 181 MB.
+          Time:  1 second.
+        Autognd port 2 std 3:
+          3000 microns length, 709 subsections, 202 MB.
+          Time:  5 seconds.
+      Total time per frequency:  1 minute 35 seconds.
+
+  Parameter combination: 4 of 9.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        gap = 6.0
+        ClawLength = 240.0
+        thickness = 16.0
+      Subsectioning at 0.1 GHz with Eeff of 6.45.
+      Subsectioning time:  3 seconds.
+      Circuit requires 2851 subsections and 249 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  2,709
+      Ground Plane:
+        Via:        142
+
+      Required memory by type:
+        System matrix:            62 MB
+        Elemental subsections:
+          Primary structure:      160 MB
+        Fourier transform:        21 MB
+        Waveguide mode:           4 MB
+        Adaptive band synthesis:  0 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    249 MB
+
+      Waveguide mode time:  0.075 seconds.
+      Fourier transform time:  1 second.
+      Coupling time:  1 minute 7 seconds.
+      Loss time:  0 seconds.
+      Matrix fill time:  1 minute 8 seconds.
+      Matrix solve time:  0.741 seconds.
+          Time:  3 seconds.
+        Autognd port 1 std 2:
+          1500 microns length, 138 subsections, 180 MB.
+          Time:  0.730 seconds.
+        Autognd port 1 std 3:
+          3000 microns length, 273 subsections, 199 MB.
+          Time:  1 second.
+          Time:  4 seconds.
+        Autognd port 2 std 2:
+          1500 microns length, 358 subsections, 181 MB.
+          Time:  1 second.
+        Autognd port 2 std 3:
+          3000 microns length, 709 subsections, 202 MB.
+          Time:  5 seconds.
+      Total time per frequency:  1 minute 30 seconds.
+
+  Parameter combination: 5 of 9.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        gap = 6.0
+        ClawLength = 240.0
+        thickness = 20.0
+      Subsectioning at 0.1 GHz with Eeff of 6.45.
+      Subsectioning time:  3 seconds.
+      Circuit requires 2897 subsections and 251 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  2,747
+      Ground Plane:
+        Via:        150
+
+      Required memory by type:
+        System matrix:            64 MB
+        Elemental subsections:
+          Primary structure:      160 MB
+        Fourier transform:        21 MB
+        Waveguide mode:           4 MB
+        Adaptive band synthesis:  0 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    251 MB
+
+      Waveguide mode time:  0.066 seconds.
+      Fourier transform time:  1 second.
+      Coupling time:  1 minute 7 seconds.
+      Loss time:  0 seconds.
+      Matrix fill time:  1 minute 8 seconds.
+      Matrix solve time:  0.774 seconds.
+          Time:  3 seconds.
+        Autognd port 1 std 2:
+          1500 microns length, 138 subsections, 180 MB.
+          Time:  0.732 seconds.
+        Autognd port 1 std 3:
+          3000 microns length, 273 subsections, 199 MB.
+          Time:  1 second.
+          Time:  4 seconds.
+        Autognd port 2 std 2:
+          1500 microns length, 358 subsections, 181 MB.
+          Time:  1 second.
+        Autognd port 2 std 3:
+          3000 microns length, 709 subsections, 202 MB.
+          Time:  5 seconds.
+      Total time per frequency:  1 minute 31 seconds.
+
+  Parameter combination: 6 of 9.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        gap = 6.0
+        ClawLength = 240.0
+        thickness = 24.0
+      Subsectioning at 0.1 GHz with Eeff of 6.45.
+      Subsectioning time:  3 seconds.
+      Circuit requires 3002 subsections and 255 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  2,844
+      Ground Plane:
+        Via:        158
+
+      Required memory by type:
+        System matrix:            69 MB
+        Elemental subsections:
+          Primary structure:      160 MB
+        Fourier transform:        21 MB
+        Waveguide mode:           4 MB
+        Adaptive band synthesis:  0 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    255 MB
+
+      Waveguide mode time:  0.097 seconds.
+      Fourier transform time:  1 second.
+      Coupling time:  1 minute 10 seconds.
+      Loss time:  0 seconds.
+      Matrix fill time:  1 minute 12 seconds.
+      Matrix solve time:  0.866 seconds.
+          Time:  3 seconds.
+        Autognd port 1 std 2:
+          1500 microns length, 138 subsections, 180 MB.
+          Time:  0.716 seconds.
+        Autognd port 1 std 3:
+          3000 microns length, 273 subsections, 199 MB.
+          Time:  1 second.
+          Time:  4 seconds.
+        Autognd port 2 std 2:
+          1500 microns length, 358 subsections, 181 MB.
+          Time:  1 second.
+        Autognd port 2 std 3:
+          3000 microns length, 709 subsections, 202 MB.
+          Time:  5 seconds.
+      Total time per frequency:  1 minute 34 seconds.
+
+  Parameter combination: 7 of 9.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        gap = 6.0
+        ClawLength = 280.0
+        thickness = 16.0
+      Subsectioning at 0.1 GHz with Eeff of 6.45.
+      Subsectioning time:  3 seconds.
+      Circuit requires 2904 subsections and 251 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  2,762
+      Ground Plane:
+        Via:        142
+
+      Required memory by type:
+        System matrix:            64 MB
+        Elemental subsections:
+          Primary structure:      160 MB
+        Fourier transform:        21 MB
+        Waveguide mode:           4 MB
+        Adaptive band synthesis:  0 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    251 MB
+
+      Waveguide mode time:  0.087 seconds.
+      Fourier transform time:  1 second.
+      Coupling time:  1 minute 8 seconds.
+      Loss time:  0 seconds.
+      Matrix fill time:  1 minute 10 seconds.
+      Matrix solve time:  0.796 seconds.
+          Time:  3 seconds.
+        Autognd port 1 std 2:
+          1500 microns length, 138 subsections, 180 MB.
+          Time:  0.733 seconds.
+        Autognd port 1 std 3:
+          3000 microns length, 273 subsections, 199 MB.
+          Time:  1 second.
+          Time:  4 seconds.
+        Autognd port 2 std 2:
+          1500 microns length, 358 subsections, 181 MB.
+          Time:  1 second.
+        Autognd port 2 std 3:
+          3000 microns length, 709 subsections, 202 MB.
+          Time:  5 seconds.
+      Total time per frequency:  1 minute 32 seconds.
+
+  Parameter combination: 8 of 9.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        gap = 6.0
+        ClawLength = 280.0
+        thickness = 20.0
+      Subsectioning at 0.1 GHz with Eeff of 6.45.
+      Subsectioning time:  3 seconds.
+      Circuit requires 2959 subsections and 253 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  2,809
+      Ground Plane:
+        Via:        150
+
+      Required memory by type:
+        System matrix:            67 MB
+        Elemental subsections:
+          Primary structure:      160 MB
+        Fourier transform:        21 MB
+        Waveguide mode:           4 MB
+        Adaptive band synthesis:  0 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    253 MB
+
+      Waveguide mode time:  0.065 seconds.
+      Fourier transform time:  1 second.
+      Coupling time:  1 minute 10 seconds.
+      Loss time:  0 seconds.
+      Matrix fill time:  1 minute 12 seconds.
+      Matrix solve time:  0.839 seconds.
+          Time:  3 seconds.
+        Autognd port 1 std 2:
+          1500 microns length, 138 subsections, 180 MB.
+          Time:  0.713 seconds.
+        Autognd port 1 std 3:
+          3000 microns length, 273 subsections, 199 MB.
+          Time:  1 second.
+          Time:  4 seconds.
+        Autognd port 2 std 2:
+          1500 microns length, 358 subsections, 181 MB.
+          Time:  1 second.
+        Autognd port 2 std 3:
+          3000 microns length, 709 subsections, 202 MB.
+          Time:  5 seconds.
+      Total time per frequency:  1 minute 34 seconds.
+
+  Parameter combination: 9 of 9.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        gap = 6.0
+        ClawLength = 280.0
+        thickness = 24.0
+      Subsectioning at 0.1 GHz with Eeff of 6.45.
+      Subsectioning time:  3 seconds.
+      Circuit requires 3065 subsections and 258 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  2,907
+      Ground Plane:
+        Via:        158
+
+      Required memory by type:
+        System matrix:            72 MB
+        Elemental subsections:
+          Primary structure:      160 MB
+        Fourier transform:        21 MB
+        Waveguide mode:           4 MB
+        Adaptive band synthesis:  0 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    258 MB
+
+      Waveguide mode time:  0.065 seconds.
+      Fourier transform time:  1 second.
+      Coupling time:  1 minute 13 seconds.
+      Loss time:  0 seconds.
+      Matrix fill time:  1 minute 15 seconds.
+      Matrix solve time:  0.902 seconds.
+          Time:  3 seconds.
+        Autognd port 1 std 2:
+          1500 microns length, 138 subsections, 180 MB.
+          Time:  0.747 seconds.
+        Autognd port 1 std 3:
+          3000 microns length, 273 subsections, 199 MB.
+          Time:  1 second.
+          Time:  4 seconds.
+        Autognd port 2 std 2:
+          1500 microns length, 358 subsections, 181 MB.
+          Time:  1 second.
+        Autognd port 2 std 3:
+          3000 microns length, 709 subsections, 202 MB.
+          Time:  5 seconds.
+      Total time per frequency:  1 minute 37 seconds.
+
+    Post-Analysis:
+      Total time for 9 frequencies:  13 minutes 52 seconds.
+
+Analysis completed Fri Jul 15 11:15:43 2016.
+
+
+Run 4:  Fri Jul 15 11:30:00 2016.  calt2.2.43068.
+        Em version 16.52 (64-bit Windows) on DESKTOP-MOCDKPP remote.
+
+  Project:  C:\Users\Michael\Desktop\Sonnet Qubit Designs\Jul13GDSSonnet\ClawCapacitance.son.
+
+  Parameter combination: 1 of 6.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        gap = 6.0
+        ClawLength = 120.0
+        thickness = 28.0
+      Subsectioning at 0.1 GHz with Eeff of 6.45.
+      Subsectioning time:  3 seconds.
+      Em license feature:  emhighperformance.
+      Circuit requires 2887 subsections and 251 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  2,721
+      Ground Plane:
+        Via:        166
+
+      Required memory by type:
+        System matrix:            64 MB
+        Elemental subsections:
+          Primary structure:      161 MB
+        Fourier transform:        21 MB
+        Waveguide mode:           4 MB
+        Adaptive band synthesis:  0 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    251 MB
+
+      Matrix solver:  internal 64-bit SSE with loss.
+      Simulation mode:  remote em transfer.
+      Threads:  using 12 thread(s), 12 core(s) available.
+      Waveguide mode time:  0.076 seconds.
+      Fourier transform time:  1 second.
+      Coupling time:  1 minute 4 seconds.
+      Loss time:  0 seconds.
+      Matrix fill time:  1 minute 6 seconds.
+      Matrix solve time:  0.657 seconds.
+      De-embed autognd port 1:
+        Standard 1:  1500.0 microns, 147 subsections, about 212 MB.
+          Time:  3 seconds.
+        Autognd port 1 std 2:
+          1500 microns length, 138 subsections, 180 MB.
+          Time:  0.712 seconds.
+        Autognd port 1 std 3:
+          3000 microns length, 273 subsections, 199 MB.
+          Time:  1 second.
+      De-embed autognd port 2:
+        Standard 1:  1500.0 microns, 513 subsections, about 214 MB.
+          Time:  4 seconds.
+        Autognd port 2 std 2:
+          1500 microns length, 358 subsections, 181 MB.
+          Time:  1 second.
+        Autognd port 2 std 3:
+          3000 microns length, 709 subsections, 202 MB.
+          Time:  5 seconds.
+      Total time per frequency:  1 minute 25 seconds.
+
+  Parameter combination: 2 of 6.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        gap = 6.0
+        ClawLength = 120.0
+        thickness = 32.0
+      Subsectioning at 0.1 GHz with Eeff of 6.45.
+      Subsectioning time:  3 seconds.
+      Circuit requires 3100 subsections and 260 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  2,926
+      Ground Plane:
+        Via:        174
+
+      Required memory by type:
+        System matrix:            73 MB
+        Elemental subsections:
+          Primary structure:      161 MB
+        Fourier transform:        21 MB
+        Waveguide mode:           4 MB
+        Adaptive band synthesis:  0 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    260 MB
+
+      Waveguide mode time:  0.083 seconds.
+      Fourier transform time:  1 second.
+      Coupling time:  1 minute 8 seconds.
+      Loss time:  0 seconds.
+      Matrix fill time:  1 minute 10 seconds.
+      Matrix solve time:  0.810 seconds.
+          Time:  3 seconds.
+        Autognd port 1 std 2:
+          1500 microns length, 138 subsections, 180 MB.
+          Time:  0.721 seconds.
+        Autognd port 1 std 3:
+          3000 microns length, 273 subsections, 199 MB.
+          Time:  1 second.
+          Time:  4 seconds.
+        Autognd port 2 std 2:
+          1500 microns length, 358 subsections, 181 MB.
+          Time:  1 second.
+        Autognd port 2 std 3:
+          3000 microns length, 709 subsections, 202 MB.
+          Time:  5 seconds.
+      Total time per frequency:  1 minute 33 seconds.
+
+  Parameter combination: 3 of 6.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        gap = 6.0
+        ClawLength = 160.0
+        thickness = 28.0
+      Subsectioning at 0.1 GHz with Eeff of 6.45.
+      Subsectioning time:  3 seconds.
+      Circuit requires 2899 subsections and 251 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  2,733
+      Ground Plane:
+        Via:        166
+
+      Required memory by type:
+        System matrix:            64 MB
+        Elemental subsections:
+          Primary structure:      161 MB
+        Fourier transform:        21 MB
+        Waveguide mode:           4 MB
+        Adaptive band synthesis:  0 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    251 MB
+
+      Waveguide mode time:  0.085 seconds.
+      Fourier transform time:  1 second.
+      Coupling time:  1 minute 5 seconds.
+      Loss time:  0 seconds.
+      Matrix fill time:  1 minute 7 seconds.
+      Matrix solve time:  0.667 seconds.
+          Time:  3 seconds.
+        Autognd port 1 std 2:
+          1500 microns length, 138 subsections, 180 MB.
+          Time:  0.761 seconds.
+        Autognd port 1 std 3:
+          3000 microns length, 273 subsections, 199 MB.
+          Time:  1 second.
+          Time:  4 seconds.
+        Autognd port 2 std 2:
+          1500 microns length, 358 subsections, 181 MB.
+          Time:  1 second.
+        Autognd port 2 std 3:
+          3000 microns length, 709 subsections, 202 MB.
+          Time:  5 seconds.
+      Total time per frequency:  1 minute 29 seconds.
+
+  Parameter combination: 4 of 6.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        gap = 6.0
+        ClawLength = 160.0
+        thickness = 32.0
+      Subsectioning at 0.1 GHz with Eeff of 6.45.
+      Subsectioning time:  3 seconds.
+      Circuit requires 3116 subsections and 261 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  2,942
+      Ground Plane:
+        Via:        174
+
+      Required memory by type:
+        System matrix:            74 MB
+        Elemental subsections:
+          Primary structure:      161 MB
+        Fourier transform:        21 MB
+        Waveguide mode:           4 MB
+        Adaptive band synthesis:  0 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    261 MB
+
+      Waveguide mode time:  0.095 seconds.
+      Fourier transform time:  1 second.
+      Coupling time:  1 minute 11 seconds.
+      Loss time:  0 seconds.
+      Matrix fill time:  1 minute 13 seconds.
+      Matrix solve time:  0.825 seconds.
+          Time:  3 seconds.
+        Autognd port 1 std 2:
+          1500 microns length, 138 subsections, 180 MB.
+          Time:  0.788 seconds.
+        Autognd port 1 std 3:
+          3000 microns length, 273 subsections, 199 MB.
+          Time:  1 second.
+          Time:  4 seconds.
+        Autognd port 2 std 2:
+          1500 microns length, 358 subsections, 181 MB.
+          Time:  1 second.
+        Autognd port 2 std 3:
+          3000 microns length, 709 subsections, 202 MB.
+          Time:  5 seconds.
+      Total time per frequency:  1 minute 36 seconds.
+
+  Parameter combination: 5 of 6.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        gap = 6.0
+        ClawLength = 200.0
+        thickness = 28.0
+      Subsectioning at 0.1 GHz with Eeff of 6.45.
+      Subsectioning time:  3 seconds.
+      Circuit requires 2948 subsections and 253 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  2,782
+      Ground Plane:
+        Via:        166
+
+      Required memory by type:
+        System matrix:            66 MB
+        Elemental subsections:
+          Primary structure:      161 MB
+        Fourier transform:        21 MB
+        Waveguide mode:           4 MB
+        Adaptive band synthesis:  0 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    253 MB
+
+      Waveguide mode time:  0.072 seconds.
+      Fourier transform time:  1 second.
+      Coupling time:  1 minute 6 seconds.
+      Loss time:  0 seconds.
+      Matrix fill time:  1 minute 8 seconds.
+      Matrix solve time:  0.706 seconds.
+          Time:  3 seconds.
+        Autognd port 1 std 2:
+          1500 microns length, 138 subsections, 180 MB.
+          Time:  0.732 seconds.
+        Autognd port 1 std 3:
+          3000 microns length, 273 subsections, 199 MB.
+          Time:  1 second.
+          Time:  4 seconds.
+        Autognd port 2 std 2:
+          1500 microns length, 358 subsections, 181 MB.
+          Time:  1 second.
+        Autognd port 2 std 3:
+          3000 microns length, 709 subsections, 202 MB.
+          Time:  5 seconds.
+      Total time per frequency:  1 minute 30 seconds.
+
+  Parameter combination: 6 of 6.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        gap = 6.0
+        ClawLength = 200.0
+        thickness = 32.0
+      Subsectioning at 0.1 GHz with Eeff of 6.45.
+      Subsectioning time:  3 seconds.
+      Circuit requires 3172 subsections and 263 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  2,998
+      Ground Plane:
+        Via:        174
+
+      Required memory by type:
+        System matrix:            77 MB
+        Elemental subsections:
+          Primary structure:      160 MB
+        Fourier transform:        21 MB
+        Waveguide mode:           4 MB
+        Adaptive band synthesis:  0 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    263 MB
+
+      Waveguide mode time:  0.076 seconds.
+      Fourier transform time:  1 second.
+      Coupling time:  1 minute 12 seconds.
+      Loss time:  0 seconds.
+      Matrix fill time:  1 minute 13 seconds.
+      Matrix solve time:  0.871 seconds.
+          Time:  3 seconds.
+        Autognd port 1 std 2:
+          1500 microns length, 138 subsections, 180 MB.
+          Time:  0.719 seconds.
+        Autognd port 1 std 3:
+          3000 microns length, 273 subsections, 199 MB.
+          Time:  1 second.
+          Time:  4 seconds.
+        Autognd port 2 std 2:
+          1500 microns length, 358 subsections, 181 MB.
+          Time:  1 second.
+        Autognd port 2 std 3:
+          3000 microns length, 709 subsections, 202 MB.
+          Time:  5 seconds.
+      Total time per frequency:  1 minute 36 seconds.
+
+    Post-Analysis:
+      Total time for 6 frequencies:  9 minutes 15 seconds.
+
+Analysis completed Fri Jul 15 11:39:15 2016.

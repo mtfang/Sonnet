@@ -1,0 +1,195 @@
+Run 1:  Tue Jul 19 13:22:17 2016.  calt2.2.43068.
+        Em version 16.52 (64-bit Windows) on DESKTOP-MOCDKPP remote.
+
+  Project:  C:\Users\Michael\Desktop\Sonnet Qubit Designs\Jul19GDSSonnet\FluxBiasLargerSQUIDLoop.son.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        WallToBias = 136.7
+        WallToVIAMinus1 = 131.75
+        FluxCut = 0.0
+        FluxUnder = 0.0
+        BridgeToBias = 10.0
+      Subsectioning at 0.1 GHz with Eeff of 6.45.
+      Subsectioning time:  16 seconds.
+      De-embedding information for FluxBiasLargerSQUIDLoop_bottom box wall port(s):
+        FluxBiasLargerSQUIDLoop_bottom SOC Electric Wall: 372.5 microns length, 2298 subsections, 316 MB.
+        FluxBiasLargerSQUIDLoop_bottom SOC Magnetic Wall: 745 microns length, 2250 subsections, 320 MB.
+      De-embedding information for cci group A:
+        Main Std: X=335 microns Y=522.5 microns box size, 244 subsections, 55 MB.
+      Em license feature:  emhighperformance.
+      Circuit requires 12953 subsections and 2230 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  919
+      Level 1:
+        Staircase:  11,892
+        Via:        136
+      Ground Plane:
+        Via:        6
+
+      Required memory by type:
+        System matrix:            1,280 MB
+        Elemental subsections:
+          Primary structure:      397 MB
+          FluxBiasLarge standard: 476 MB
+          CciA standard:          2 MB
+        Fourier transform:        62 MB
+        Waveguide mode:           11 MB
+        Adaptive band synthesis:  0 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    2,230 MB
+
+      Matrix solver:  internal 64-bit SSE with loss.
+      Simulation mode:  remote em transfer.
+      Threads:  using 12 thread(s), 12 core(s) available.
+      Waveguide mode time:  0.238 seconds.
+      Fourier transform time:  17 seconds.
+      Coupling time:  13 minutes 29 seconds.
+      Loss time:  0.001 seconds.
+      Matrix fill time:  13 minutes 46 seconds.
+      Matrix solve time:  49 seconds.
+      De-embedding time for FluxBiasLargerSQUIDLoop_bottom box wall:
+        SOC Electric Wall Std: 1 minute 33 seconds.
+        SOC Magnetic Wall Std: 1 minute 36 seconds.
+        Total:                 3 minutes 9 seconds.
+      De-embedding time for cci group A:
+        Total: 8 seconds.
+      Frequency completed Tue Jul 19 13:40:40 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        0.10000000 1.000000 179.91 1.589e-5 89.914 1.589e-5 89.914 1.000000 179.93
+        !< P1 F=0.1 Eeff=(6.13066109 -2.4449e-5) Z0=(50.4195991 1.2124e-4) R=0.0 C=0.0 
+        !< P2 F=0.1 Eeff=(undefined: sl) Z0=(undefined: sl) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "sl" code.
+      Total time per frequency:  18 minutes 6 seconds.
+
+    Post-Analysis:
+      Total time for 1 frequency:  18 minutes 23 seconds.
+      Errors detected: 0    Warnings detected: 0.
+
+Analysis completed Tue Jul 19 13:40:40 2016.
+
+
+Run 2:  Tue Jul 19 13:50:45 2016.  calt2.2.43068.
+        Em version 16.52 (64-bit Windows) on DESKTOP-MOCDKPP remote.
+
+  Project:  C:\Users\Michael\Desktop\Sonnet Qubit Designs\Jul19GDSSonnet\FluxBiasLargerSQUIDLoop.son.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        WallToBias = 136.7
+        WallToVIAMinus1 = 131.75
+        FluxCut = 6.0
+        BridgeToBias = 10.0
+        FluxUnder = 0.0
+      Subsectioning at 0.1 GHz with Eeff of 6.45.
+      Subsectioning time:  16 seconds.
+      De-embedding information for FluxBiasLargerSQUIDLoop_bottom box wall port(s):
+        FluxBiasLargerSQUIDLoop_bottom SOC Electric Wall: 372.5 microns length, 2298 subsections, 316 MB.
+        FluxBiasLargerSQUIDLoop_bottom SOC Magnetic Wall: 745 microns length, 2250 subsections, 320 MB.
+      De-embedding information for cci group A:
+        Main Std: X=335 microns Y=522.5 microns box size, 244 subsections, 55 MB.
+      Em license feature:  emhighperformance.
+      Circuit requires 13050 subsections and 2249 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  919
+      Level 1:
+        Staircase:  11,989
+        Via:        136
+      Ground Plane:
+        Via:        6
+
+      Required memory by type:
+        System matrix:            1,299 MB
+        Elemental subsections:
+          Primary structure:      397 MB
+          FluxBiasLarge standard: 476 MB
+          CciA standard:          2 MB
+        Fourier transform:        62 MB
+        Waveguide mode:           11 MB
+        Adaptive band synthesis:  0 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    2,249 MB
+
+      Matrix solver:  internal 64-bit SSE with loss.
+      Simulation mode:  remote em transfer.
+      Threads:  using 12 thread(s), 12 core(s) available.
+      Waveguide mode time:  0.238 seconds.
+      Fourier transform time:  17 seconds.
+      Coupling time:  13 minutes 37 seconds.
+      Loss time:  0.001 seconds.
+      Matrix fill time:  13 minutes 55 seconds.
+      Matrix solve time:  51 seconds.
+      De-embedding time for FluxBiasLargerSQUIDLoop_bottom box wall:
+        SOC Electric Wall Std: 1 minute 34 seconds.
+        SOC Magnetic Wall Std: 1 minute 37 seconds.
+        Total:                 3 minutes 11 seconds.
+      De-embedding time for cci group A:
+        Total: 8 seconds.
+      Frequency completed Tue Jul 19 14:09:21 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        0.10000000 1.000000 179.91 1.884e-5 89.916 1.884e-5 89.916 1.000000 179.93
+        !< P1 F=0.1 Eeff=(6.13066109 -2.4449e-5) Z0=(50.4195991 1.2124e-4) R=0.0 C=0.0 
+        !< P2 F=0.1 Eeff=(undefined: sl) Z0=(undefined: sl) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "sl" code.
+      Total time per frequency:  18 minutes 19 seconds.
+
+    Post-Analysis:
+      Total time for 1 frequency:  18 minutes 36 seconds.
+      Errors detected: 0    Warnings detected: 0.
+
+Analysis completed Tue Jul 19 14:09:21 2016.
+
+
+Run 3:  Tue Jul 19 15:23:39 2016.  calt2.2.43068.
+        Em version 16.52 (64-bit Windows) on DESKTOP-MOCDKPP remote.
+
+  Project:  C:\Users\Michael\Desktop\Sonnet Qubit Designs\Jul19GDSSonnet\FluxBiasLargerSQUIDLoopMoreFluxUnder.son.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        WallToBias = 136.7
+        WallToVIAMinus1 = 131.75
+        FluxCut = 6.0
+        BridgeToBias = 10.0
+        FluxUnder = 2.0
+      Subsectioning at 0.1 GHz with Eeff of 6.45.
+      Subsectioning time:  17 seconds.
+      De-embedding information for FluxBiasLargerSQUIDLoopMoreFluxUnder_bottom box wall port(s):
+        FluxBiasLargerSQUIDLoopMoreFluxUnder_bottom SOC Electric Wall: 372.5 microns length, 2298 subsections, 316 MB.
+        FluxBiasLargerSQUIDLoopMoreFluxUnder_bottom SOC Magnetic Wall: 745 microns length, 2250 subsections, 320 MB.
+      De-embedding information for cci group A:
+        Main Std: X=335 microns Y=522.5 microns box size, 244 subsections, 55 MB.
+      Em license feature:  emhighperformance.
+      Circuit requires 13120 subsections and 2263 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  921
+      Level 1:
+        Staircase:  12,055
+        Via:        138
+      Ground Plane:
+        Via:        6
+
+      Required memory by type:
+        System matrix:            1,313 MB
+        Elemental subsections:
+          Primary structure:      397 MB
+          FluxBiasLarge standard: 476 MB
+          CciA standard:          2 MB
+        Fourier transform:        62 MB
+        Waveguide mode:           11 MB
+        Adaptive band synthesis:  0 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    2,263 MB
+
+      Matrix solver:  internal 64-bit SSE with loss.
+      Simulation mode:  remote em transfer.
+      Threads:  using 12 thread(s), 12 core(s) available.
+      Waveguide mode time:  0.238 seconds.

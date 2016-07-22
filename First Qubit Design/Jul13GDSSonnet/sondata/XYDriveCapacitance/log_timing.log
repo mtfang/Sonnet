@@ -1,0 +1,96 @@
+Run 1:  Wed Jul 13 15:49:24 2016.  calt2.2.43068.
+        Em version 16.52 (64-bit Windows) on DESKTOP-MOCDKPP remote.
+
+  Project:  C:\Users\Michael\Desktop\Sonnet Qubit Designs\Jul13GDSSonnet\XYDriveCapacitance.son.
+
+    Frequency:  0.1 GHZ
+      Subsectioning at 0.1 GHz with Eeff of 6.45.
+      Subsectioning time:  23 seconds.
+      De-embedding information for XYDriveCapacitance_left box wall port(s):
+        XYDriveCapacitance_left SOC Electric Wall: 200 microns length, 1117 subsections, 77 MB.
+        XYDriveCapacitance_left SOC Magnetic Wall: 400 microns length, 1078 subsections, 76 MB.
+      Em license feature:  emhighperformance.
+      Circuit requires 4480 subsections and 1012 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  4,456
+      Ground Plane:
+        Via:        24
+
+      Required memory by type:
+        System matrix:            153 MB
+        Elemental subsections:
+          Primary structure:      661 MB
+          XYDriveCapaci standard: 105 MB
+        Fourier transform:        85 MB
+        Waveguide mode:           8 MB
+        Adaptive band synthesis:  0 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    1,012 MB
+
+      Matrix solver:  internal 64-bit SSE with loss.
+      Simulation mode:  remote em transfer.
+      Threads:  using 12 thread(s), 12 core(s) available.
+      Waveguide mode time:  0.160 seconds.
+
+
+Run 2:  Wed Jul 13 16:04:23 2016.  calt2.2.43068.
+        Em version 16.52 (64-bit Windows) on DESKTOP-MOCDKPP remote.
+
+  Project:  C:\Users\Michael\Desktop\Sonnet Qubit Designs\Jul13GDSSonnet\XYDriveCapacitance.son.
+
+    Frequency:  0.1 GHZ
+      Subsectioning at 0.1 GHz with Eeff of 6.45.
+      Subsectioning time:  24 seconds.
+      De-embedding information for XYDriveCapacitance_left box wall port(s):
+        XYDriveCapacitance_left SOC Electric Wall: 200 microns length, 1117 subsections, 77 MB.
+        XYDriveCapacitance_left SOC Magnetic Wall: 400 microns length, 1078 subsections, 76 MB.
+      Em license feature:  emhighperformance.
+      Circuit requires 4480 subsections and 1012 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  4,456
+      Ground Plane:
+        Via:        24
+
+      Required memory by type:
+        System matrix:            153 MB
+        Elemental subsections:
+          Primary structure:      661 MB
+          XYDriveCapaci standard: 105 MB
+        Fourier transform:        85 MB
+        Waveguide mode:           8 MB
+        Adaptive band synthesis:  0 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    1,012 MB
+
+      Matrix solver:  internal 64-bit SSE with loss.
+      Simulation mode:  remote em transfer.
+      Threads:  using 12 thread(s), 12 core(s) available.
+      Waveguide mode time:  0.160 seconds.
+      Fourier transform time:  6 seconds.
+      Coupling time:  8 minutes 2 seconds.
+      Loss time:  0 seconds.
+      Matrix fill time:  8 minutes 9 seconds.
+      Matrix solve time:  2 seconds.
+      De-embed autognd port 2:
+        Standard 1:  1500.0 microns, 216 subsections, about 817 MB.
+          Time:  3 seconds.
+        Autognd port 2 std 2:
+          1500 microns length, 193 subsections, 804 MB.
+          Time:  1 second.
+        Autognd port 2 std 3:
+          3000 microns length, 382 subsections, 835 MB.
+          Time:  3 seconds.
+      De-embedding time for XYDriveCapacitance_left box wall:
+        SOC Electric Wall Std: 11 seconds.
+        SOC Magnetic Wall Std: 11 seconds.
+        Total:                 22 seconds.
+      Total time per frequency:  8 minutes 45 seconds.
+
+    Post-Analysis:
+      Total time for 1 frequency:  9 minutes 10 seconds.
+
+Analysis completed Wed Jul 13 16:13:33 2016.

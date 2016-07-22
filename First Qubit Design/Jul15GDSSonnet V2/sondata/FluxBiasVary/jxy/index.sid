@@ -1,0 +1,117 @@
+PARAMS
+fluxcut = 0.0
+fluxunder = 3.2
+fluxover = 6.2
+END PARAMS
+!>< FREQS
+!>< 1.0e8
+!>< END FREQS
+FILE current_1.sid
+PARAMS
+fluxcut = 1.0
+fluxunder = 3.2
+fluxover = 6.2
+END PARAMS
+!>< FREQS
+!>< 1.0e8
+!>< END FREQS
+FILE current_2.sid
+PARAMS
+fluxcut = 2.0
+fluxunder = 3.2
+fluxover = 6.2
+END PARAMS
+!>< FREQS
+!>< 1.0e8
+!>< END FREQS
+FILE current_3.sid
+PARAMS
+fluxcut = 3.0
+fluxunder = 3.2
+fluxover = 6.2
+END PARAMS
+!>< FREQS
+!>< 1.0e8
+!>< END FREQS
+FILE current_4.sid
+PARAMS
+fluxcut = 4.0
+fluxunder = 3.2
+fluxover = 6.2
+END PARAMS
+!>< FREQS
+!>< 1.0e8
+!>< END FREQS
+FILE current_5.sid
+PARAMS
+fluxcut = 5.0
+fluxunder = 3.2
+fluxover = 6.2
+END PARAMS
+!>< FREQS
+!>< 1.0e8
+!>< END FREQS
+FILE current_6.sid
+PARAMS
+fluxcut = 6.0
+fluxunder = 3.2
+fluxover = 6.2
+END PARAMS
+!>< FREQS
+!>< 1.0e8
+!>< END FREQS
+FILE current_7.sid
+PARAMS
+fluxcut = 7.0
+fluxunder = 3.2
+fluxover = 6.2
+END PARAMS
+!>< FREQS
+!>< 1.0e8
+!>< END FREQS
+FILE current_8.sid
+PARAMS
+fluxcut = 8.0
+fluxunder = 3.2
+fluxover = 6.2
+END PARAMS
+!>< FREQS
+!>< 1.0e8
+!>< END FREQS
+FILE current_9.sid
+PARAMS
+fluxcut = 9.0
+fluxunder = 3.2
+fluxover = 6.2
+END PARAMS
+!>< FREQS
+!>< 1.0e8
+!>< END FREQS
+FILE current_10.sid
+PARAMS
+fluxcut = 10.0
+fluxunder = 3.2
+fluxover = 6.2
+END PARAMS
+!>< FREQS
+!>< 1.0e8
+!>< END FREQS
+FILE current_11.sid
+PARAMS
+fluxcut = 11.0
+fluxunder = 3.2
+fluxover = 6.2
+END PARAMS
+!>< FREQS
+!>< 1.0e8
+!>< END FREQS
+FILE current_12.sid
+PARAMS
+fluxcut = 12.0
+fluxunder = 3.2
+fluxover = 6.2
+END PARAMS
+!>< FREQS
+!>< 1.0e8
+!>< END FREQS
+FILE current_13.sid

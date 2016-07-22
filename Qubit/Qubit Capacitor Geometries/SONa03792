@@ -1,0 +1,11 @@
+! Sonnet Data File
+! From: emclient Version : 16.52
+! From Project: Rectangle
+! Data is De-embedded 
+! Data File Written: 06/20/2016 17:09:31
+!< HDATE 6/20/2016 17:7:37
+!< MDATE 6/20/2016 17:7:37
+# GHZ Y RI R 1.0
+0.100000000000000 1.616516044e-10 3.4799614375e-5 -1.61474523e-10 -3.502999470e-5 -1.61476166e-10 -3.502999469e-5 3.6269525556e-9 7.8580016762e-4
+!< P1 F=0.1 Eeff=(6.58326579 -3.1969e-5) Z0=(92.1438926 2.16625e-4) R=1.0099922 C=0.00685404 
+!< P2 F=0.1 Eeff=(undefined: sl) Z0=(undefined: sl) R=0.0 C=0.0 

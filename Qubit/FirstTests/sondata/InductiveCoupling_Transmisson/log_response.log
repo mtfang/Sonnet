@@ -1,0 +1,70 @@
+Run 1:  Fri Jul 08 12:44:30 2016.  calt2.2.43068.
+        Em version 16.52 (64-bit Windows) on DESKTOP-MOCDKPP remote.
+
+  Project:  C:\Users\Michael\Documents\Github\Sonnet\Qubit\FirstTests\InductiveCoupling_Transmisson.son.
+
+    Frequency:  1 GHZ
+      Frequency completed Fri Jul 08 12:44:34 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        1.00000000 2.731e-4 91.041 1.000000 -3.081 1.000000 -3.081 2.731e-4 82.850
+        !< P1 F=1.0 Eeff=(6.45000303 -2.9751e-5) Z0=(49.613926 1.14421e-4) R=0.1693221 C=0.00433511 
+        !< P2 F=1.0 Eeff=(6.45000303 -2.9751e-5) Z0=(49.613926 1.14421e-4) R=0.1693221 C=0.00433511 
+
+    Frequency:  20 GHZ
+      Frequency completed Fri Jul 08 12:44:37 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        20.0000000 0.007710 62.617 0.999968 -61.56 0.999968 -61.56 0.007708 -5.722
+        !< P1 F=20.0 Eeff=(6.44700122 -2.972e-5) Z0=(49.5943512 1.14468e-4) R=0.00846409 C=0.00433466 
+        !< P2 F=20.0 Eeff=(6.44700122 -2.972e-5) Z0=(49.5943512 1.14468e-4) R=0.00846409 C=0.00433466 
+
+    Frequency:  17.4 GHZ
+      Frequency completed Fri Jul 08 12:44:41 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        17.4000000 0.005232 58.941 0.999984 -53.48 0.999984 -53.48 0.005230 14.134
+        !< P1 F=17.4 Eeff=(6.44773224 -2.9725e-5) Z0=(49.5992069 1.14454e-4) R=0.00972982 C=0.00433477 
+        !< P2 F=17.4 Eeff=(6.44773224 -2.9725e-5) Z0=(49.5992069 1.14454e-4) R=0.00972982 C=0.00433477 
+
+    Frequency:  13.3 GHZ
+      Frequency completed Fri Jul 08 12:44:45 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        13.3000000 0.003932 -1.382 0.999991 -40.64 0.999991 -40.64 0.003934 100.12
+        !< P1 F=13.3 Eeff=(6.44867903 -2.9732e-5) Z0=(49.6054096 1.14433e-4) R=0.01274218 C=0.00433491 
+        !< P2 F=13.3 Eeff=(6.44867903 -2.9732e-5) Z0=(49.6054096 1.14433e-4) R=0.01274218 C=0.00433491 
+
+    Frequency:  11.8 GHZ
+      Frequency completed Fri Jul 08 12:44:49 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        11.8000000 0.076220 -43.28 0.997066 -31.83 0.997066 -31.83 0.076221 159.66
+        !< P1 F=11.8 Eeff=(6.44896234 -2.9737e-5) Z0=(49.6072472 1.14429e-4) R=0.01435171 C=0.00433495 
+        !< P2 F=11.8 Eeff=(6.44896234 -2.9737e-5) Z0=(49.6072472 1.14429e-4) R=0.01435171 C=0.00433495 
+
+    Frequency:  11.7 GHZ
+      Frequency completed Fri Jul 08 12:44:53 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        11.7000000 0.598924 93.389 0.799101 -72.68 0.799101 -72.68 0.598908 -59.08
+        !< P1 F=11.7 Eeff=(6.44898003 -2.9737e-5) Z0=(49.6073616 1.14433e-4) R=0.01447419 C=0.00433496 
+        !< P2 F=11.7 Eeff=(6.44898003 -2.9737e-5) Z0=(49.6073616 1.14433e-4) R=0.01447419 C=0.00433496 
+
+    Frequency:  2.25 GHZ
+      Frequency completed Fri Jul 08 12:44:57 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        2.25000000 6.236e-4 92.341 1.000000 -6.932 1.000000 -6.932 6.235e-4 73.845
+        !< P1 F=2.25 Eeff=(6.44997245 -2.9749e-5) Z0=(49.6137313 1.1442e-4) R=0.07526376 C=0.00433511 
+        !< P2 F=2.25 Eeff=(6.44997245 -2.9749e-5) Z0=(49.6137313 1.1442e-4) R=0.07526376 C=0.00433511 
+
+    Frequency:  11.7094339438654 GHZ
+      Frequency completed Fri Jul 08 12:45:05 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        11.7094339 0.996195 40.474 0.003926 -22.29 0.003926 -22.29 0.996170 -112.4
+        !< P1 F=11.7094339 Eeff=(6.44897837 -2.9738e-5) Z0=(49.6073509 1.14428e-4) R=0.01446488 C=0.00433496 
+        !< P2 F=11.7094339 Eeff=(6.44897837 -2.9738e-5) Z0=(49.6073509 1.14428e-4) R=0.01446488 C=0.00433496 
+
+Analysis completed Fri Jul 08 12:45:07 2016.

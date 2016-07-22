@@ -1,0 +1,266 @@
+Run 1:  Fri Jul 15 13:54:34 2016.  calt2.2.43068.
+        Em version 16.52 (64-bit Windows) on DESKTOP-MOCDKPP remote.
+
+  Project:  C:\Users\Michael\Desktop\Sonnet Qubit Designs\Jul15GDSSonnet\ReadoutResonator.son.
+
+    Frequency:  2 GHZ
+      Subsectioning at 10 GHz with Eeff of 6.45.
+      Subsectioning time:  14 seconds.
+      De-embedding information for ReadoutResonator_left box wall port(s):
+        ReadoutResonator_left SOC Electric Wall: 596 microns length, 1164 subsections, 62 MB.
+        ReadoutResonator_left SOC Magnetic Wall: 1192 microns length, 1125 subsections, 61 MB.
+      De-embedding information for ReadoutResonator_right box wall port(s):
+        ReadoutResonator_right SOC Electric Wall: 596 microns length, 1164 subsections, 62 MB.
+        ReadoutResonator_right SOC Magnetic Wall: 1192 microns length, 1125 subsections, 61 MB.
+NOTICE: Fri Jul 15 13:54:54 2016 Could not get a license, queuing for 'emhighperformance'
+NOTICE: Fri Jul 15 13:55:54 2016 Got license 'emhighperformance', starting processing.
+      Em license feature:  emhighperformance.
+      Circuit requires 13204 subsections (2543023 CM Cells) and 1590 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  12,661
+        Diagonal:   283
+        Conformal:  260
+
+      Required memory by type:
+        System matrix:            1,330 MB
+        Elemental subsections:
+          Primary structure:      78 MB
+          ReadoutResona standard: 82 MB
+          ReadoutResona standard: 82 MB
+        Fourier transform:        11 MB
+        Waveguide mode:           4 MB
+        Adaptive band synthesis:  2 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    1,590 MB
+
+      Matrix solver:  internal 64-bit SSE with loss.
+      Simulation mode:  remote em transfer.
+      Threads:  using 12 thread(s), 12 core(s) available.
+      Waveguide mode time:  0.065 seconds.
+
+
+Run 2:  Fri Jul 15 14:42:52 2016.  calt2.2.43068.
+        Em version 16.52 (64-bit Windows) on DESKTOP-MOCDKPP remote.
+
+  Project:  C:\Users\Michael\Desktop\Sonnet Qubit Designs\Jul15GDSSonnet\ReadoutResonator.son.
+
+    Frequency:  2 GHZ
+      Subsectioning at 10 GHz with Eeff of 6.45.
+      Subsectioning time:  14 seconds.
+      De-embedding information for ReadoutResonator_left box wall port(s):
+        ReadoutResonator_left SOC Electric Wall: 596 microns length, 1164 subsections, 62 MB.
+        ReadoutResonator_left SOC Magnetic Wall: 1192 microns length, 1125 subsections, 61 MB.
+      De-embedding information for ReadoutResonator_right box wall port(s):
+        ReadoutResonator_right SOC Electric Wall: 596 microns length, 1164 subsections, 62 MB.
+        ReadoutResonator_right SOC Magnetic Wall: 1192 microns length, 1125 subsections, 61 MB.
+NOTICE: Fri Jul 15 14:43:12 2016 Could not get a license, queuing for 'emhighperformance'
+NOTICE: Fri Jul 15 14:45:42 2016 Got license 'emhighperformance', starting processing.
+      Em license feature:  emhighperformance.
+      Circuit requires 13204 subsections (2543023 CM Cells) and 1590 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  12,661
+        Diagonal:   283
+        Conformal:  260
+
+      Required memory by type:
+        System matrix:            1,330 MB
+        Elemental subsections:
+          Primary structure:      78 MB
+          ReadoutResona standard: 82 MB
+          ReadoutResona standard: 82 MB
+        Fourier transform:        11 MB
+        Waveguide mode:           4 MB
+        Adaptive band synthesis:  2 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    1,590 MB
+
+      Matrix solver:  internal 64-bit SSE with loss.
+      Simulation mode:  remote em transfer.
+      Threads:  using 12 thread(s), 12 core(s) available.
+      Waveguide mode time:  0.065 seconds.
+      Fourier transform time:  12 seconds.
+      Coupling time:  5 minutes 11 seconds.
+      Loss time:  0 seconds.
+      Matrix fill time:  5 minutes 24 seconds.
+      Matrix solve time:  52 seconds.
+      De-embedding time for ReadoutResonator_left box wall:
+        SOC Electric Wall Std: 7 seconds.
+        SOC Magnetic Wall Std: 7 seconds.
+        Total:                 14 seconds.
+      Frequency completed Fri Jul 15 14:52:15 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        2.00000000 0.024738 75.999 0.999694 -8.430 0.999694 -8.430 0.024738 87.142
+        !< P1 F=2.0 Eeff=(6.45030203 -2.9751e-5) Z0=(51.800553 1.19464e-4) R=0.12152576 C=0.00301999 
+        !< P2 F=2.0 Eeff=(6.45030203 -2.9751e-5) Z0=(51.800553 1.19464e-4) R=0.12152576 C=0.00301999 
+      Total time per frequency:  9 minutes 8 seconds.
+
+
+Run 3:  Fri Jul 15 15:20:42 2016.  calt2.2.43068.
+        Em version 16.52 (64-bit Windows) on DESKTOP-MOCDKPP remote.
+
+  Project:  C:\Users\Michael\Desktop\Sonnet Qubit Designs\Jul15GDSSonnet\ReadoutResonator.son.
+
+    Frequency:  2 GHZ
+      Subsectioning at 10 GHz with Eeff of 6.45.
+      Subsectioning time:  15 seconds.
+      De-embedding information for ReadoutResonator_left box wall port(s):
+        ReadoutResonator_left SOC Electric Wall: 596 microns length, 1164 subsections, 62 MB.
+        ReadoutResonator_left SOC Magnetic Wall: 1192 microns length, 1125 subsections, 61 MB.
+      De-embedding information for ReadoutResonator_right box wall port(s):
+        ReadoutResonator_right SOC Electric Wall: 596 microns length, 1164 subsections, 62 MB.
+        ReadoutResonator_right SOC Magnetic Wall: 1192 microns length, 1125 subsections, 61 MB.
+NOTICE: Fri Jul 15 15:21:02 2016 Could not get a license, queuing for 'emhighperformance'
+NOTICE: Fri Jul 15 15:23:32 2016 Got license 'emhighperformance', starting processing.
+      Em license feature:  emhighperformance.
+      Circuit requires 13204 subsections (2543023 CM Cells) and 1590 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  12,661
+        Diagonal:   283
+        Conformal:  260
+
+      Required memory by type:
+        System matrix:            1,330 MB
+        Elemental subsections:
+          Primary structure:      78 MB
+          ReadoutResona standard: 82 MB
+          ReadoutResona standard: 82 MB
+        Fourier transform:        11 MB
+        Waveguide mode:           4 MB
+        Adaptive band synthesis:  2 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    1,590 MB
+
+      Matrix solver:  internal 64-bit SSE with loss.
+      Simulation mode:  remote em transfer.
+      Threads:  using 12 thread(s), 12 core(s) available.
+      Waveguide mode time:  0.075 seconds.
+      Fourier transform time:  12 seconds.
+      Coupling time:  5 minutes 14 seconds.
+      Loss time:  0 seconds.
+      Matrix fill time:  5 minutes 27 seconds.
+      Matrix solve time:  52 seconds.
+      De-embedding time for ReadoutResonator_left box wall:
+        SOC Electric Wall Std: 7 seconds.
+        SOC Magnetic Wall Std: 7 seconds.
+        Total:                 15 seconds.
+      Frequency completed Fri Jul 15 15:30:08 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        2.00000000 0.024738 75.999 0.999694 -8.430 0.999694 -8.430 0.024738 87.142
+        !< P1 F=2.0 Eeff=(6.45030203 -2.9751e-5) Z0=(51.800553 1.19464e-4) R=0.12152576 C=0.00301999 
+        !< P2 F=2.0 Eeff=(6.45030203 -2.9751e-5) Z0=(51.800553 1.19464e-4) R=0.12152576 C=0.00301999 
+      Total time per frequency:  9 minutes 11 seconds.
+
+    Frequency:  10 GHZ
+      Frequency completed Fri Jul 15 15:36:43 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        10.0000000 0.029334 55.245 0.999567 -36.71 0.999567 -36.71 0.029335 51.335
+        !< P1 F=10.0 Eeff=(6.44950225 -2.9743e-5) Z0=(51.7960265 1.19474e-4) R=0.02430541 C=0.00301982 
+        !< P2 F=10.0 Eeff=(6.44950225 -2.9743e-5) Z0=(51.7960265 1.19474e-4) R=0.02430541 C=0.00301982 
+      Total time per frequency:  6 minutes 34 seconds.
+      ABS: Energy conservation for port 1 at 9.275 GHz.
+      ABS: Time = 0.150 seconds.
+
+    Frequency:  9.275 GHZ
+      Frequency completed Fri Jul 15 15:43:18 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        9.27500000 0.019573 148.34 0.999806 -32.15 0.999806 -32.15 0.019573 -32.64
+        !< P1 F=9.275 Eeff=(6.44961836 -2.9744e-5) Z0=(51.7966888 1.19472e-4) R=0.02620833 C=0.00301984 
+        !< P2 F=9.275 Eeff=(6.44961836 -2.9744e-5) Z0=(51.7966888 1.19472e-4) R=0.02620833 C=0.00301984 
+      Total time per frequency:  6 minutes 35 seconds.
+      ABS: Energy conservation for port 1 at 6.275 GHz.
+      ABS: Time = 0.164 seconds.
+
+    Frequency:  6.275 GHZ
+      Frequency completed Fri Jul 15 15:49:54 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        6.27500000 0.121768 41.268 0.992557 -29.06 0.992557 -29.06 0.121769 80.607
+        !< P1 F=6.275 Eeff=(6.45000634 -2.9748e-5) Z0=(51.7988897 1.19467e-4) R=0.03873258 C=0.00301993 
+        !< P2 F=6.275 Eeff=(6.45000634 -2.9748e-5) Z0=(51.7988897 1.19467e-4) R=0.03873258 C=0.00301993 
+      Total time per frequency:  6 minutes 36 seconds.
+      ABS: Energy conservation for port 1 at 7 GHz.
+      ABS: Time = 0.190 seconds.
+
+    Frequency:  7 GHZ
+      Frequency completed Fri Jul 15 15:56:28 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        7.00000000 0.198449 30.609 0.980107 -36.09 0.980107 -36.09 0.198451 77.200
+        !< P1 F=7.0 Eeff=(6.44992627 -2.9747e-5) Z0=(51.7984369 1.19468e-4) R=0.03472245 C=0.00301991 
+        !< P2 F=7.0 Eeff=(6.44992627 -2.9747e-5) Z0=(51.7984369 1.19468e-4) R=0.03472245 C=0.00301991 
+      Total time per frequency:  6 minutes 34 seconds.
+      ABS: Energy conservation for port 1 at 7.825 GHz.
+      ABS: Time = 0.226 seconds.
+
+    Frequency:  7.825 GHZ
+      Frequency completed Fri Jul 15 16:03:01 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        7.82500000 0.960684 -72.91 0.277108 46.279 0.277108 46.279 0.960692 -14.47
+        !< P1 F=7.825 Eeff=(6.44982451 -2.9746e-5) Z0=(51.7978605 1.1947e-4) R=0.0310614 C=0.00301989 
+        !< P2 F=7.825 Eeff=(6.44982451 -2.9746e-5) Z0=(51.7978605 1.1947e-4) R=0.0310614 C=0.00301989 
+      Total time per frequency:  6 minutes 33 seconds.
+      ABS: Q-factor. Diff = 0 (12658.9 Tol) for port 1 at -1e-009 GHz.
+      ABS: SNR = 49.1191 dB (40 dB Goal) for S2_2 at 3.25 GHz.
+      ABS: Time = 0.267 seconds.
+
+      ABS: Detected 2 resonance(s) on iteration 1:
+        Resonance 1:  FreqMin = 6.025  FreqCenter = 6.125  FreqMax = 6.2 GHz
+        Resonance 2:  FreqMin = 6.575  FreqCenter = 7.8  FreqMax = 9.025 GHz
+
+      ABS: Detected 2 resonance(s) on iteration 2:
+        Resonance 1:  FreqMin = 6.039381270903  FreqCenter = 6.1189799331103  FreqMax = 6.18570234113713 GHz
+        Resonance 2:  FreqMin = 6.575  FreqCenter = 7.79590301003357  FreqMax = 9.02090301003347 GHz
+
+      ABS: Detected 2 resonance(s) on iteration 3:
+        Resonance 1:  FreqMin = 6.025  FreqCenter = 6.11892099018964  FreqMax = 6.2 GHz
+        Resonance 2:  FreqMin = 6.575  FreqCenter = 7.79801166793139  FreqMax = 9.025 GHz
+
+      ABS: Detected 2 resonance(s) on iteration 4:
+        Resonance 1:  FreqMin = 6.03858202848859  FreqCenter = 6.11893354713524  FreqMax = 6.18613977438008 GHz
+        Resonance 2:  FreqMin = 6.575  FreqCenter = 7.79743453824733  FreqMax = 9.025 GHz
+
+    Frequency:  6.11893354713524 GHZ
+      Frequency completed Fri Jul 15 16:09:40 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        6.11893355 0.112255 44.813 0.993666 -27.82 0.993666 -27.82 0.112276 79.547
+        !< P1 F=6.11893355 Eeff=(6.45002246 -2.9748e-5) Z0=(51.7989807 1.19467e-4) R=0.03972383 C=0.00301993 
+        !< P2 F=6.11893355 Eeff=(6.45002246 -2.9748e-5) Z0=(51.7989807 1.19467e-4) R=0.03972383 C=0.00301993 
+      Total time per frequency:  6 minutes 39 seconds.
+
+    Frequency:  7.79743453824733 GHZ
+      Frequency completed Fri Jul 15 16:16:15 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        7.79743454 0.998263 -59.69 0.056227 59.121 0.056227 59.121 0.998270 -1.768
+        !< P1 F=7.79743454 Eeff=(6.4498281 -2.9746e-5) Z0=(51.7978808 1.19469e-4) R=0.03117245 C=0.00301989 
+        !< P2 F=7.79743454 Eeff=(6.4498281 -2.9746e-5) Z0=(51.7978808 1.19469e-4) R=0.03117245 C=0.00301989 
+      Total time per frequency:  6 minutes 35 seconds.
+      ABS: Q-factor. Diff = 0 (12659.5 Tol) for port 1 at -1e-009 GHz.
+      ABS: SNR = 47.754 dB (40 dB Goal) for S1_1 at 6.11433 GHz.
+      ABS: Time = 1 second.
+
+      ABS: Detected 2 resonance(s) on iteration 5:
+        Resonance 1:  FreqMin = 6.04345374313919  FreqCenter = 6.11433217450806  FreqMax = 6.17462558449964 GHz
+        Resonance 2:  FreqMin = 6.575  FreqCenter = 7.79723613882408  FreqMax = 9.025 GHz
+
+      ABS: Detected 2 resonance(s) on iteration 6:
+        Resonance 1:  FreqMin = 6.05  FreqCenter = 6.11430805278752  FreqMax = 6.175 GHz
+        Resonance 2:  FreqMin = 6.575  FreqCenter = 7.79743453824733  FreqMax = 9.025 GHz
+
+    Post-Analysis:
+      Total time for 8 frequencies:  55 minutes 37 seconds.
+      Errors detected: 0    Warnings detected: 0.
+
+Analysis completed Fri Jul 15 16:16:19 2016.

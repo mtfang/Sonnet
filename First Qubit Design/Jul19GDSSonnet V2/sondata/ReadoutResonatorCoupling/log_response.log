@@ -1,0 +1,24 @@
+Run 1:  Tue Jul 19 15:08:05 2016.  calt2.2.43068.
+        Em version 16.52 (64-bit Windows) on DESKTOP-MOCDKPP remote.
+
+  Project:  C:\Users\Michael\Desktop\Sonnet Qubit Designs\Jul19GDSSonnet\ReadoutResonatorCoupling.son.
+
+  Parameter combination: 1 of 3.
+
+    Frequency:  6 GHZ
+      Independent parameter values:
+        couplingLength = 200.0
+      Frequency completed Tue Jul 19 15:15:21 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        6.00000000 0.104914 44.461 0.994480 -27.13 0.994480 -27.13 0.104915 81.289
+        !< P1 F=6.0 Eeff=(6.45003446 -2.9748e-5) Z0=(51.7990484 1.19467e-4) R=0.04050852 C=0.00301993 
+        !< P2 F=6.0 Eeff=(6.45003446 -2.9748e-5) Z0=(51.7990484 1.19467e-4) R=0.04050852 C=0.00301993 
+
+    Frequency:  9 GHZ
+      Frequency completed Tue Jul 19 15:22:11 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        9.00000000 0.051223 -168.3 0.998683 -28.99 0.998683 -28.99 0.051223 -69.70
+        !< P1 F=9.0 Eeff=(6.44966014 -2.9744e-5) Z0=(51.7969267 1.19472e-4) R=0.02700477 C=0.00301985 
+        !< P2 F=9.0 Eeff=(6.44966014 -2.9744e-5) Z0=(51.7969267 1.19472e-4) R=0.02700477 C=0.00301985 

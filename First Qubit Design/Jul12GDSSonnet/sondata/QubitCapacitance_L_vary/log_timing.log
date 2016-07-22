@@ -1,0 +1,396 @@
+Run 1:  Wed Jul 13 12:23:46 2016.  calt2.2.43068.
+        Em version 16.52 (64-bit Windows) on DESKTOP-MOCDKPP remote.
+
+  Project:  C:\Users\Michael\Desktop\Jul12GDSSonnet\QubitCapacitance_L_vary.son.
+
+  Parameter combination: 1 of 5.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        qubitLength = 400.0
+      Subsectioning at 0.1 GHz with Eeff of 6.45.
+      Subsectioning time:  10 seconds.
+      De-embedding information for QubitCapacitance_L_vary_left box wall port(s):
+        QubitCapacitance_L_vary_left SOC Electric Wall: 100 microns length, 179 subsections, 8 MB.
+        QubitCapacitance_L_vary_left SOC Magnetic Wall: 200 microns length, 170 subsections, 8 MB.
+      De-embedding information for QubitCapacitance_L_vary_right box wall port(s):
+        QubitCapacitance_L_vary_right SOC Electric Wall: 100 microns length, 179 subsections, 8 MB.
+        QubitCapacitance_L_vary_right SOC Magnetic Wall: 200 microns length, 170 subsections, 8 MB.
+      Em license feature:  emhighperformance.
+      Circuit requires 4801 subsections and 493 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  4,789
+      Ground Plane:
+        Via:        12
+
+      Required memory by type:
+        System matrix:            176 MB
+        Elemental subsections:
+          Primary structure:      271 MB
+          QubitCapacita standard: 0 MB
+          QubitCapacita standard: 0 MB
+        Fourier transform:        38 MB
+        Waveguide mode:           5 MB
+        Adaptive band synthesis:  0 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    493 MB
+
+      Matrix solver:  internal 64-bit SSE with loss.
+      Simulation mode:  remote em transfer.
+      Threads:  using 12 thread(s), 12 core(s) available.
+      Waveguide mode time:  0.120 seconds.
+      Fourier transform time:  3 seconds.
+      Coupling time:  4 minutes 3 seconds.
+      Loss time:  0 seconds.
+      Matrix fill time:  4 minutes 7 seconds.
+      Matrix solve time:  2 seconds.
+      De-embed autognd port 2:
+        Standard 1:  1500.0 microns, 109 subsections, about 298 MB.
+          Time:  1 second.
+        Autognd port 2 std 2:
+          1500 microns length, 98 subsections, 286 MB.
+          Time:  0.430 seconds.
+        Autognd port 2 std 3:
+          3000 microns length, 193 subsections, 295 MB.
+          Time:  0.880 seconds.
+      De-embedding time for QubitCapacitance_L_vary_left box wall:
+        SOC Electric Wall Std: 0.190 seconds.
+        SOC Magnetic Wall Std: 0.170 seconds.
+        Total:                 0.360 seconds.
+      Total time per frequency:  4 minutes 13 seconds.
+
+  Parameter combination: 2 of 5.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        qubitLength = 425.0
+      Subsectioning at 0.1 GHz with Eeff of 6.45.
+      Subsectioning time:  10 seconds.
+      De-embedding information for QubitCapacitance_L_vary_left box wall port(s):
+        QubitCapacitance_L_vary_left SOC Electric Wall: 100 microns length, 179 subsections, 8 MB.
+        QubitCapacitance_L_vary_left SOC Magnetic Wall: 200 microns length, 170 subsections, 8 MB.
+      De-embedding information for QubitCapacitance_L_vary_right box wall port(s):
+        QubitCapacitance_L_vary_right SOC Electric Wall: 100 microns length, 179 subsections, 8 MB.
+        QubitCapacitance_L_vary_right SOC Magnetic Wall: 200 microns length, 170 subsections, 8 MB.
+      Circuit requires 4798 subsections and 492 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  4,786
+      Ground Plane:
+        Via:        12
+
+      Required memory by type:
+        System matrix:            176 MB
+        Elemental subsections:
+          Primary structure:      271 MB
+          QubitCapacita standard: 0 MB
+          QubitCapacita standard: 0 MB
+        Fourier transform:        38 MB
+        Waveguide mode:           5 MB
+        Adaptive band synthesis:  0 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    492 MB
+
+      Waveguide mode time:  0.120 seconds.
+      Fourier transform time:  2 seconds.
+      Coupling time:  4 minutes 1 second.
+      Loss time:  0 seconds.
+      Matrix fill time:  4 minutes 4 seconds.
+      Matrix solve time:  2 seconds.
+          Time:  1 second.
+        Autognd port 2 std 2:
+          1500 microns length, 98 subsections, 286 MB.
+          Time:  0.410 seconds.
+        Autognd port 2 std 3:
+          3000 microns length, 193 subsections, 295 MB.
+          Time:  0.860 seconds.
+      De-embedding time for QubitCapacitance_L_vary_left box wall:
+        SOC Electric Wall Std: 0.180 seconds.
+        SOC Magnetic Wall Std: 0.190 seconds.
+        Total:                 0.370 seconds.
+      Total time per frequency:  4 minutes 21 seconds.
+
+  Parameter combination: 3 of 5.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        qubitLength = 450.0
+      Subsectioning at 0.1 GHz with Eeff of 6.45.
+      Subsectioning time:  10 seconds.
+      De-embedding information for QubitCapacitance_L_vary_left box wall port(s):
+        QubitCapacitance_L_vary_left SOC Electric Wall: 100 microns length, 179 subsections, 8 MB.
+        QubitCapacitance_L_vary_left SOC Magnetic Wall: 200 microns length, 170 subsections, 8 MB.
+      De-embedding information for QubitCapacitance_L_vary_right box wall port(s):
+        QubitCapacitance_L_vary_right SOC Electric Wall: 100 microns length, 179 subsections, 8 MB.
+        QubitCapacitance_L_vary_right SOC Magnetic Wall: 200 microns length, 170 subsections, 8 MB.
+      Circuit requires 4798 subsections and 492 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  4,786
+      Ground Plane:
+        Via:        12
+
+      Required memory by type:
+        System matrix:            176 MB
+        Elemental subsections:
+          Primary structure:      271 MB
+          QubitCapacita standard: 0 MB
+          QubitCapacita standard: 0 MB
+        Fourier transform:        38 MB
+        Waveguide mode:           5 MB
+        Adaptive band synthesis:  0 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    492 MB
+
+      Waveguide mode time:  0.110 seconds.
+      Fourier transform time:  2 seconds.
+      Coupling time:  3 minutes 57 seconds.
+      Loss time:  0 seconds.
+      Matrix fill time:  4 minutes 1 second.
+      Matrix solve time:  2 seconds.
+          Time:  1 second.
+        Autognd port 2 std 2:
+          1500 microns length, 98 subsections, 286 MB.
+          Time:  0.430 seconds.
+        Autognd port 2 std 3:
+          3000 microns length, 193 subsections, 295 MB.
+          Time:  0.870 seconds.
+      De-embedding time for QubitCapacitance_L_vary_left box wall:
+        SOC Electric Wall Std: 0.190 seconds.
+        SOC Magnetic Wall Std: 0.180 seconds.
+        Total:                 0.370 seconds.
+      Total time per frequency:  4 minutes 17 seconds.
+
+  Parameter combination: 4 of 5.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        qubitLength = 475.0
+      Subsectioning at 0.1 GHz with Eeff of 6.45.
+      Subsectioning time:  10 seconds.
+      De-embedding information for QubitCapacitance_L_vary_left box wall port(s):
+        QubitCapacitance_L_vary_left SOC Electric Wall: 100 microns length, 179 subsections, 8 MB.
+        QubitCapacitance_L_vary_left SOC Magnetic Wall: 200 microns length, 170 subsections, 8 MB.
+      De-embedding information for QubitCapacitance_L_vary_right box wall port(s):
+        QubitCapacitance_L_vary_right SOC Electric Wall: 100 microns length, 179 subsections, 8 MB.
+        QubitCapacitance_L_vary_right SOC Magnetic Wall: 200 microns length, 170 subsections, 8 MB.
+      Circuit requires 4832 subsections and 495 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  4,820
+      Ground Plane:
+        Via:        12
+
+      Required memory by type:
+        System matrix:            178 MB
+        Elemental subsections:
+          Primary structure:      271 MB
+          QubitCapacita standard: 0 MB
+          QubitCapacita standard: 0 MB
+        Fourier transform:        38 MB
+        Waveguide mode:           5 MB
+        Adaptive band synthesis:  0 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    495 MB
+
+      Waveguide mode time:  0.120 seconds.
+      Fourier transform time:  2 seconds.
+      Coupling time:  3 minutes 58 seconds.
+      Loss time:  0 seconds.
+      Matrix fill time:  4 minutes 1 second.
+      Matrix solve time:  2 seconds.
+          Time:  1 second.
+        Autognd port 2 std 2:
+          1500 microns length, 98 subsections, 286 MB.
+          Time:  0.440 seconds.
+        Autognd port 2 std 3:
+          3000 microns length, 193 subsections, 295 MB.
+          Time:  0.880 seconds.
+      De-embedding time for QubitCapacitance_L_vary_left box wall:
+        SOC Electric Wall Std: 0.220 seconds.
+        SOC Magnetic Wall Std: 0.180 seconds.
+        Total:                 0.400 seconds.
+      Total time per frequency:  4 minutes 17 seconds.
+
+  Parameter combination: 5 of 5.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        qubitLength = 500.0
+      Subsectioning at 0.1 GHz with Eeff of 6.45.
+      Subsectioning time:  9 seconds.
+      De-embedding information for QubitCapacitance_L_vary_left box wall port(s):
+        QubitCapacitance_L_vary_left SOC Electric Wall: 100 microns length, 179 subsections, 8 MB.
+        QubitCapacitance_L_vary_left SOC Magnetic Wall: 200 microns length, 170 subsections, 8 MB.
+      De-embedding information for QubitCapacitance_L_vary_right box wall port(s):
+        QubitCapacitance_L_vary_right SOC Electric Wall: 100 microns length, 179 subsections, 8 MB.
+        QubitCapacitance_L_vary_right SOC Magnetic Wall: 200 microns length, 170 subsections, 8 MB.
+      Circuit requires 4792 subsections and 492 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  4,780
+      Ground Plane:
+        Via:        12
+
+      Required memory by type:
+        System matrix:            175 MB
+        Elemental subsections:
+          Primary structure:      271 MB
+          QubitCapacita standard: 0 MB
+          QubitCapacita standard: 0 MB
+        Fourier transform:        38 MB
+        Waveguide mode:           5 MB
+        Adaptive band synthesis:  0 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    492 MB
+
+      Waveguide mode time:  0.100 seconds.
+      Fourier transform time:  2 seconds.
+      Coupling time:  3 minutes 56 seconds.
+      Loss time:  0 seconds.
+      Matrix fill time:  3 minutes 59 seconds.
+      Matrix solve time:  2 seconds.
+          Time:  1 second.
+        Autognd port 2 std 2:
+          1500 microns length, 98 subsections, 286 MB.
+          Time:  0.420 seconds.
+        Autognd port 2 std 3:
+          3000 microns length, 193 subsections, 295 MB.
+          Time:  0.850 seconds.
+      De-embedding time for QubitCapacitance_L_vary_left box wall:
+        SOC Electric Wall Std: 0.200 seconds.
+        SOC Magnetic Wall Std: 0.170 seconds.
+        Total:                 0.370 seconds.
+      Total time per frequency:  4 minutes 16 seconds.
+
+    Post-Analysis:
+      Total time for 5 frequencies:  21 minutes 36 seconds.
+
+Analysis completed Wed Jul 13 12:45:22 2016.
+
+
+Run 2:  Wed Jul 13 12:50:19 2016.  calt2.2.43068.
+        Em version 16.52 (64-bit Windows) on DESKTOP-MOCDKPP remote.
+
+  Project:  C:\Users\Michael\Desktop\Jul12GDSSonnet\QubitCapacitance_L_vary.son.
+
+  Parameter combination: 1 of 2.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        qubitLength = 525.0
+      Subsectioning at 0.1 GHz with Eeff of 6.45.
+      Subsectioning time:  10 seconds.
+      De-embedding information for QubitCapacitance_L_vary_left box wall port(s):
+        QubitCapacitance_L_vary_left SOC Electric Wall: 100 microns length, 179 subsections, 8 MB.
+        QubitCapacitance_L_vary_left SOC Magnetic Wall: 200 microns length, 170 subsections, 8 MB.
+      De-embedding information for QubitCapacitance_L_vary_right box wall port(s):
+        QubitCapacitance_L_vary_right SOC Electric Wall: 100 microns length, 179 subsections, 8 MB.
+        QubitCapacitance_L_vary_right SOC Magnetic Wall: 200 microns length, 170 subsections, 8 MB.
+      Em license feature:  emhighperformance.
+      Circuit requires 4805 subsections and 493 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  4,793
+      Ground Plane:
+        Via:        12
+
+      Required memory by type:
+        System matrix:            176 MB
+        Elemental subsections:
+          Primary structure:      271 MB
+          QubitCapacita standard: 0 MB
+          QubitCapacita standard: 0 MB
+        Fourier transform:        38 MB
+        Waveguide mode:           5 MB
+        Adaptive band synthesis:  0 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    493 MB
+
+      Matrix solver:  internal 64-bit SSE with loss.
+      Simulation mode:  remote em transfer.
+      Threads:  using 12 thread(s), 12 core(s) available.
+      Waveguide mode time:  0.130 seconds.
+      Fourier transform time:  2 seconds.
+      Coupling time:  4 minutes.
+      Loss time:  0 seconds.
+      Matrix fill time:  4 minutes 3 seconds.
+      Matrix solve time:  2 seconds.
+      De-embed autognd port 2:
+        Standard 1:  1500.0 microns, 109 subsections, about 298 MB.
+          Time:  1 second.
+        Autognd port 2 std 2:
+          1500 microns length, 98 subsections, 286 MB.
+          Time:  0.420 seconds.
+        Autognd port 2 std 3:
+          3000 microns length, 193 subsections, 295 MB.
+          Time:  0.900 seconds.
+      De-embedding time for QubitCapacitance_L_vary_left box wall:
+        SOC Electric Wall Std: 0.210 seconds.
+        SOC Magnetic Wall Std: 0.180 seconds.
+        Total:                 0.390 seconds.
+      Total time per frequency:  4 minutes 9 seconds.
+
+  Parameter combination: 2 of 2.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        qubitLength = 550.0
+      Subsectioning at 0.1 GHz with Eeff of 6.45.
+      Subsectioning time:  9 seconds.
+      De-embedding information for QubitCapacitance_L_vary_left box wall port(s):
+        QubitCapacitance_L_vary_left SOC Electric Wall: 100 microns length, 179 subsections, 8 MB.
+        QubitCapacitance_L_vary_left SOC Magnetic Wall: 200 microns length, 170 subsections, 8 MB.
+      De-embedding information for QubitCapacitance_L_vary_right box wall port(s):
+        QubitCapacitance_L_vary_right SOC Electric Wall: 100 microns length, 179 subsections, 8 MB.
+        QubitCapacitance_L_vary_right SOC Magnetic Wall: 200 microns length, 170 subsections, 8 MB.
+      Circuit requires 4805 subsections and 493 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  4,793
+      Ground Plane:
+        Via:        12
+
+      Required memory by type:
+        System matrix:            176 MB
+        Elemental subsections:
+          Primary structure:      271 MB
+          QubitCapacita standard: 0 MB
+          QubitCapacita standard: 0 MB
+        Fourier transform:        38 MB
+        Waveguide mode:           5 MB
+        Adaptive band synthesis:  0 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    493 MB
+
+      Waveguide mode time:  0.130 seconds.
+      Fourier transform time:  2 seconds.
+      Coupling time:  4 minutes.
+      Loss time:  0 seconds.
+      Matrix fill time:  4 minutes 3 seconds.
+      Matrix solve time:  2 seconds.
+          Time:  1 second.
+        Autognd port 2 std 2:
+          1500 microns length, 98 subsections, 286 MB.
+          Time:  0.430 seconds.
+        Autognd port 2 std 3:
+          3000 microns length, 193 subsections, 295 MB.
+          Time:  0.840 seconds.
+      De-embedding time for QubitCapacitance_L_vary_left box wall:
+        SOC Electric Wall Std: 0.190 seconds.
+        SOC Magnetic Wall Std: 0.180 seconds.
+        Total:                 0.370 seconds.
+      Total time per frequency:  4 minutes 19 seconds.
+
+    Post-Analysis:
+      Total time for 2 frequencies:  8 minutes 39 seconds.
+
+Analysis completed Wed Jul 13 12:58:58 2016.

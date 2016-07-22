@@ -1,0 +1,184 @@
+Run 1:  Thu Apr 14 13:12:58 2016.  calt2.2.43068.
+        Em version 16.52 (64-bit Windows) on DESKTOP-MOCDKPP remote.
+
+  Project:  C:\Users\Michael\Documents\Github\Sonnet\Qubit\FirstTests\TransmonXmonFluxV2.son.
+
+  Parameter combination: 1 of 25.
+
+    Frequency:  0.05 GHZ
+      Independent parameter values:
+        rightNotch = 10.0
+        leftNotch = 10.0
+
+  Parameter combination: 2 of 25.
+
+    Frequency:  0.05 GHZ
+      Independent parameter values:
+        rightNotch = 10.0
+        leftNotch = 15.0
+
+  Parameter combination: 3 of 25.
+
+    Frequency:  0.05 GHZ
+      Independent parameter values:
+        rightNotch = 10.0
+        leftNotch = 20.0
+
+  Parameter combination: 4 of 25.
+
+    Frequency:  0.05 GHZ
+      Independent parameter values:
+        rightNotch = 10.0
+        leftNotch = 25.0
+
+  Parameter combination: 5 of 25.
+
+    Frequency:  0.05 GHZ
+      Independent parameter values:
+        rightNotch = 10.0
+        leftNotch = 30.0
+
+  Parameter combination: 6 of 25.
+
+    Frequency:  0.05 GHZ
+      Independent parameter values:
+        rightNotch = 15.0
+        leftNotch = 10.0
+
+  Parameter combination: 7 of 25.
+
+    Frequency:  0.05 GHZ
+      Independent parameter values:
+        rightNotch = 15.0
+        leftNotch = 15.0
+
+  Parameter combination: 8 of 25.
+
+    Frequency:  0.05 GHZ
+      Independent parameter values:
+        rightNotch = 15.0
+        leftNotch = 20.0
+
+  Parameter combination: 9 of 25.
+
+    Frequency:  0.05 GHZ
+      Independent parameter values:
+        rightNotch = 15.0
+        leftNotch = 25.0
+
+  Parameter combination: 10 of 25.
+
+    Frequency:  0.05 GHZ
+      Independent parameter values:
+        rightNotch = 15.0
+        leftNotch = 30.0
+
+  Parameter combination: 11 of 25.
+
+    Frequency:  0.05 GHZ
+      Independent parameter values:
+        rightNotch = 20.0
+        leftNotch = 10.0
+
+  Parameter combination: 12 of 25.
+
+    Frequency:  0.05 GHZ
+      Independent parameter values:
+        rightNotch = 20.0
+        leftNotch = 15.0
+
+  Parameter combination: 13 of 25.
+
+    Frequency:  0.05 GHZ
+      Independent parameter values:
+        rightNotch = 20.0
+        leftNotch = 20.0
+
+  Parameter combination: 14 of 25.
+
+    Frequency:  0.05 GHZ
+      Independent parameter values:
+        rightNotch = 20.0
+        leftNotch = 25.0
+
+  Parameter combination: 15 of 25.
+
+    Frequency:  0.05 GHZ
+      Independent parameter values:
+        rightNotch = 20.0
+        leftNotch = 30.0
+
+  Parameter combination: 16 of 25.
+
+    Frequency:  0.05 GHZ
+      Independent parameter values:
+        rightNotch = 25.0
+        leftNotch = 10.0
+
+  Parameter combination: 17 of 25.
+
+    Frequency:  0.05 GHZ
+      Independent parameter values:
+        rightNotch = 25.0
+        leftNotch = 15.0
+
+  Parameter combination: 18 of 25.
+
+    Frequency:  0.05 GHZ
+      Independent parameter values:
+        rightNotch = 25.0
+        leftNotch = 20.0
+
+  Parameter combination: 19 of 25.
+
+    Frequency:  0.05 GHZ
+      Independent parameter values:
+        rightNotch = 25.0
+        leftNotch = 25.0
+
+  Parameter combination: 20 of 25.
+
+    Frequency:  0.05 GHZ
+      Independent parameter values:
+        rightNotch = 25.0
+        leftNotch = 30.0
+
+  Parameter combination: 21 of 25.
+
+    Frequency:  0.05 GHZ
+      Independent parameter values:
+        rightNotch = 30.0
+        leftNotch = 10.0
+
+  Parameter combination: 22 of 25.
+
+    Frequency:  0.05 GHZ
+      Independent parameter values:
+        rightNotch = 30.0
+        leftNotch = 15.0
+
+  Parameter combination: 23 of 25.
+
+    Frequency:  0.05 GHZ
+      Independent parameter values:
+        rightNotch = 30.0
+        leftNotch = 20.0
+
+  Parameter combination: 24 of 25.
+
+    Frequency:  0.05 GHZ
+      Independent parameter values:
+        rightNotch = 30.0
+        leftNotch = 25.0
+
+  Parameter combination: 25 of 25.
+
+    Frequency:  0.05 GHZ
+      Independent parameter values:
+        rightNotch = 30.0
+        leftNotch = 30.0
+
+    Post-Analysis:
+      Errors detected: 0    Warnings detected: 0.
+
+Analysis completed Thu Apr 14 14:27:07 2016.

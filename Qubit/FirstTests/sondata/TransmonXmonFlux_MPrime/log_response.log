@@ -1,0 +1,251 @@
+Run 1:  Wed Apr 13 19:11:48 2016.  calt2.2.43068.
+        Em version 16.52 (64-bit Windows) on DESKTOP-MOCDKPP remote.
+
+  Project:  C:\Users\Michael\Documents\Github\Sonnet\Qubit\FirstTests\TransmonXmonFlux_MPrime.son.
+
+  Parameter combination: 1 of 5.
+
+    Frequency:  0.05 GHZ
+      Independent parameter values:
+        leftNotch = 22.0
+      Frequency completed Wed Apr 13 19:12:28 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        0.05000000 1.000000 179.96 7.567e-6 -90.09 7.567e-6 -90.09 1.000000 179.86
+        !< P1 F=0.05 Eeff=(undefined: sl) Z0=(undefined: sl) R=0.0 C=0.0 
+        !< P2 F=0.05 Eeff=(undefined: sl) Z0=(undefined: sl) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "sl" code.
+
+    Frequency:  10 GHZ
+      Frequency completed Wed Apr 13 19:13:00 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        10.0000000 0.999999 172.91 0.001512 -107.6 0.001512 -107.6 0.999999 151.96
+        !< P1 F=10.0 Eeff=(6.44983594 -2.9748e-5) Z0=(49.8431576 1.14952e-4) R=0.0 C=0.0 
+        !< P2 F=10.0 Eeff=(undefined: mv) Z0=(undefined: mv) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "mv" code.
+
+    Frequency:  9.75 GHZ
+      Frequency completed Wed Apr 13 19:13:34 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        9.75000000 0.999999 173.09 0.001474 -107.1 0.001474 -107.1 0.999999 152.67
+        !< P1 F=9.75 Eeff=(6.44984778 -2.9748e-5) Z0=(49.843211 1.14952e-4) R=0.0 C=0.0 
+        !< P2 F=9.75 Eeff=(undefined: mv) Z0=(undefined: mv) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "mv" code.
+
+    Frequency:  3.45 GHZ
+      Frequency completed Wed Apr 13 19:14:06 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        3.45000000 1.000000 177.56 5.177e-4 -96.04 5.177e-4 -96.04 1.000000 170.37
+        !< P1 F=3.45 Eeff=(6.45004695 -2.975e-5) Z0=(49.8441097 1.14948e-4) R=0.0 C=0.0 
+        !< P2 F=3.45 Eeff=(undefined: mv) Z0=(undefined: mv) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "mv" code.
+
+    Frequency:  6.15 GHZ
+      Frequency completed Wed Apr 13 19:14:39 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        6.15000000 1.000000 175.64 9.249e-4 -100.8 9.249e-4 -100.8 1.000000 162.81
+        !< P1 F=6.15 Eeff=(6.44998993 -2.9749e-5) Z0=(49.8438494 1.14951e-4) R=0.0 C=0.0 
+        !< P2 F=6.15 Eeff=(undefined: mv) Z0=(undefined: mv) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "mv" code.
+
+  Parameter combination: 2 of 5.
+
+    Frequency:  0.05 GHZ
+      Independent parameter values:
+        leftNotch = 24.0
+      Frequency completed Wed Apr 13 19:15:21 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        0.05000000 1.000000 179.96 7.870e-6 -90.09 7.870e-6 -90.09 1.000000 179.86
+        !< P1 F=0.05 Eeff=(undefined: sl) Z0=(undefined: sl) R=0.0 C=0.0 
+        !< P2 F=0.05 Eeff=(undefined: sl) Z0=(undefined: sl) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "sl" code.
+
+    Frequency:  10 GHZ
+      Frequency completed Wed Apr 13 19:15:53 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        10.0000000 0.999999 172.87 0.001574 -107.6 0.001574 -107.6 0.999999 152.02
+        !< P1 F=10.0 Eeff=(6.44983594 -2.9748e-5) Z0=(49.8431576 1.14952e-4) R=0.0 C=0.0 
+        !< P2 F=10.0 Eeff=(undefined: mv) Z0=(undefined: mv) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "mv" code.
+
+    Frequency:  7.4 GHZ
+      Frequency completed Wed Apr 13 19:16:26 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        7.40000000 0.999999 174.73 0.001160 -103.0 0.001160 -103.0 0.999999 159.34
+        !< P1 F=7.4 Eeff=(6.44994891 -2.9749e-5) Z0=(49.8436647 1.14952e-4) R=0.0 C=0.0 
+        !< P2 F=7.4 Eeff=(undefined: mv) Z0=(undefined: mv) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "mv" code.
+
+    Frequency:  2.9 GHZ
+      Frequency completed Wed Apr 13 19:16:58 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        2.90000000 1.000000 177.93 4.528e-4 -95.07 4.528e-4 -95.07 1.000000 171.92
+        !< P1 F=2.9 Eeff=(6.45005558 -2.975e-5) Z0=(49.8441484 1.14947e-4) R=0.0 C=0.0 
+        !< P2 F=2.9 Eeff=(undefined: mv) Z0=(undefined: mv) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "mv" code.
+
+    Frequency:  5.1 GHZ
+      Frequency completed Wed Apr 13 19:17:31 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        5.10000000 1.000000 176.37 7.976e-4 -98.93 7.976e-4 -98.93 1.000000 165.78
+        !< P1 F=5.1 Eeff=(6.45001789 -2.975e-5) Z0=(49.8439758 1.1495e-4) R=0.0 C=0.0 
+        !< P2 F=5.1 Eeff=(undefined: mv) Z0=(undefined: mv) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "mv" code.
+
+  Parameter combination: 3 of 5.
+
+    Frequency:  0.05 GHZ
+      Independent parameter values:
+        leftNotch = 26.0
+      Frequency completed Wed Apr 13 19:18:14 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        0.05000000 1.000000 179.96 8.157e-6 -90.09 8.157e-6 -90.09 1.000000 179.86
+        !< P1 F=0.05 Eeff=(undefined: sl) Z0=(undefined: sl) R=0.0 C=0.0 
+        !< P2 F=0.05 Eeff=(undefined: sl) Z0=(undefined: sl) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "sl" code.
+
+    Frequency:  10 GHZ
+      Frequency completed Wed Apr 13 19:18:46 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        10.0000000 0.999999 172.84 0.001632 -107.5 0.001632 -107.5 0.999999 152.07
+        !< P1 F=10.0 Eeff=(6.44983594 -2.9748e-5) Z0=(49.8431576 1.14952e-4) R=0.0 C=0.0 
+        !< P2 F=10.0 Eeff=(undefined: mv) Z0=(undefined: mv) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "mv" code.
+
+    Frequency:  4.8 GHZ
+      Frequency completed Wed Apr 13 19:19:19 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        4.80000000 1.000000 176.56 7.782e-4 -98.40 7.782e-4 -98.40 1.000000 166.65
+        !< P1 F=4.8 Eeff=(6.45002421 -2.975e-5) Z0=(49.8440047 1.1495e-4) R=0.0 C=0.0 
+        !< P2 F=4.8 Eeff=(undefined: mv) Z0=(undefined: mv) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "mv" code.
+
+    Frequency:  2.4 GHZ
+      Frequency completed Wed Apr 13 19:19:53 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        2.40000000 1.000000 178.28 3.885e-4 -94.19 3.885e-4 -94.19 1.000000 173.33
+        !< P1 F=2.4 Eeff=(6.45004065 -2.975e-5) Z0=(49.8440947 1.14953e-4) R=0.0 C=0.0 
+        !< P2 F=2.4 Eeff=(undefined: mv) Z0=(undefined: mv) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "mv" code.
+
+    Frequency:  8.25 GHZ
+      Frequency completed Wed Apr 13 19:20:26 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        8.25000000 0.999999 174.09 0.001343 -104.5 0.001343 -104.5 0.999999 157.00
+        !< P1 F=8.25 Eeff=(6.44991593 -2.9749e-5) Z0=(49.8435167 1.14953e-4) R=0.0 C=0.0 
+        !< P2 F=8.25 Eeff=(undefined: mv) Z0=(undefined: mv) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "mv" code.
+
+  Parameter combination: 4 of 5.
+
+    Frequency:  0.05 GHZ
+      Independent parameter values:
+        leftNotch = 28.0
+      Frequency completed Wed Apr 13 19:21:10 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        0.05000000 1.000000 179.96 8.469e-6 -90.09 8.469e-6 -90.09 1.000000 179.86
+        !< P1 F=0.05 Eeff=(undefined: sl) Z0=(undefined: sl) R=0.0 C=0.0 
+        !< P2 F=0.05 Eeff=(undefined: sl) Z0=(undefined: sl) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "sl" code.
+
+    Frequency:  10 GHZ
+      Frequency completed Wed Apr 13 19:21:42 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        10.0000000 0.999999 172.81 0.001695 -107.5 0.001695 -107.5 0.999999 152.09
+        !< P1 F=10.0 Eeff=(6.44983594 -2.9748e-5) Z0=(49.8431576 1.14952e-4) R=0.0 C=0.0 
+        !< P2 F=10.0 Eeff=(undefined: mv) Z0=(undefined: mv) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "mv" code.
+
+    Frequency:  4.8 GHZ
+      Frequency completed Wed Apr 13 19:22:15 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        4.80000000 1.000000 176.55 8.083e-4 -98.40 8.083e-4 -98.40 1.000000 166.66
+        !< P1 F=4.8 Eeff=(6.45002421 -2.975e-5) Z0=(49.8440047 1.1495e-4) R=0.0 C=0.0 
+        !< P2 F=4.8 Eeff=(undefined: mv) Z0=(undefined: mv) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "mv" code.
+
+    Frequency:  2.4 GHZ
+      Frequency completed Wed Apr 13 19:22:48 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        2.40000000 1.000000 178.27 4.035e-4 -94.20 4.035e-4 -94.20 1.000000 173.33
+        !< P1 F=2.4 Eeff=(6.45004065 -2.975e-5) Z0=(49.8440947 1.14953e-4) R=0.0 C=0.0 
+        !< P2 F=2.4 Eeff=(undefined: mv) Z0=(undefined: mv) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "mv" code.
+
+    Frequency:  8.25 GHZ
+      Frequency completed Wed Apr 13 19:23:21 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        8.25000000 0.999999 174.07 0.001395 -104.5 0.001395 -104.5 0.999999 157.01
+        !< P1 F=8.25 Eeff=(6.44991593 -2.9749e-5) Z0=(49.8435167 1.14953e-4) R=0.0 C=0.0 
+        !< P2 F=8.25 Eeff=(undefined: mv) Z0=(undefined: mv) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "mv" code.
+
+  Parameter combination: 5 of 5.
+
+    Frequency:  0.05 GHZ
+      Independent parameter values:
+        leftNotch = 30.0
+      Frequency completed Wed Apr 13 19:24:04 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        0.05000000 1.000000 179.96 8.802e-6 -90.09 8.802e-6 -90.09 1.000000 179.86
+        !< P1 F=0.05 Eeff=(undefined: sl) Z0=(undefined: sl) R=0.0 C=0.0 
+        !< P2 F=0.05 Eeff=(undefined: sl) Z0=(undefined: sl) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "sl" code.
+
+    Frequency:  10 GHZ
+      Frequency completed Wed Apr 13 19:24:37 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        10.0000000 0.999998 172.78 0.001763 -107.6 0.001763 -107.6 0.999998 152.10
+        !< P1 F=10.0 Eeff=(6.44983594 -2.9748e-5) Z0=(49.8431576 1.14952e-4) R=0.0 C=0.0 
+        !< P2 F=10.0 Eeff=(undefined: mv) Z0=(undefined: mv) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "mv" code.
+
+    Frequency:  4.8 GHZ
+      Frequency completed Wed Apr 13 19:25:10 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        4.80000000 1.000000 176.53 8.404e-4 -98.40 8.404e-4 -98.40 1.000000 166.66
+        !< P1 F=4.8 Eeff=(6.45002421 -2.975e-5) Z0=(49.8440047 1.1495e-4) R=0.0 C=0.0 
+        !< P2 F=4.8 Eeff=(undefined: mv) Z0=(undefined: mv) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "mv" code.
+
+    Frequency:  2.4 GHZ
+      Frequency completed Wed Apr 13 19:25:43 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        2.40000000 1.000000 178.27 4.195e-4 -94.20 4.195e-4 -94.20 1.000000 173.34
+        !< P1 F=2.4 Eeff=(6.45004065 -2.975e-5) Z0=(49.8440947 1.14953e-4) R=0.0 C=0.0 
+        !< P2 F=2.4 Eeff=(undefined: mv) Z0=(undefined: mv) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "mv" code.
+
+    Frequency:  8.25 GHZ
+      Frequency completed Wed Apr 13 19:26:18 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        8.25000000 0.999999 174.04 0.001450 -104.5 0.001450 -104.5 0.999999 157.02
+        !< P1 F=8.25 Eeff=(6.44991593 -2.9749e-5) Z0=(49.8435167 1.14953e-4) R=0.0 C=0.0 
+        !< P2 F=8.25 Eeff=(undefined: mv) Z0=(undefined: mv) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "mv" code.
+
+Analysis completed Wed Apr 13 19:26:19 2016.

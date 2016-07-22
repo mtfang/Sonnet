@@ -1,0 +1,2635 @@
+Run 1:  Thu Apr 14 13:12:58 2016.  calt2.2.43068.
+        Em version 16.52 (64-bit Windows) on DESKTOP-MOCDKPP remote.
+
+  Project:  C:\Users\Michael\Documents\Github\Sonnet\Qubit\FirstTests\TransmonXmonFluxV2.son.
+
+  Parameter combination: 1 of 25.
+
+    Frequency:  0.05 GHZ
+      Independent parameter values:
+        rightNotch = 10.0
+        leftNotch = 10.0
+      Subsectioning at 10 GHz with Eeff of 6.45.
+      Subsectioning time:  7 seconds.
+      De-embedding information for TransmonXmonFluxV2_bottom box wall port(s):
+        TransmonXmonFluxV2_bottom SOC Electric Wall: 300 microns length, 978 subsections, 34 MB.
+        TransmonXmonFluxV2_bottom SOC Magnetic Wall: 600 microns length, 945 subsections, 34 MB.
+      De-embedding information for cci group A:
+        Main Std: X=600 microns Y=420 microns box size, 29 subsections, 8 MB.
+      Em license feature:  emhighperformance.
+      Circuit requires 4745 subsections and 257 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  147
+      Level 1:
+        Staircase:  4,566
+        Via:        32
+
+      Required memory by type:
+        System matrix:            172 MB
+        Elemental subsections:
+          Primary structure:      33 MB
+          TransmonXmonF standard: 40 MB
+          CciA standard:          0 MB
+        Fourier transform:        6 MB
+        Waveguide mode:           3 MB
+        Adaptive band synthesis:  3 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    257 MB
+
+      Matrix solver:  internal 64-bit SSE with loss.
+      Simulation mode:  remote em transfer.
+      Threads:  using 12 thread(s), 12 core(s) available.
+      Waveguide mode time:  0.068 seconds.
+      Fourier transform time:  0.851 seconds.
+      Coupling time:  20 seconds.
+      Loss time:  0 seconds.
+      Matrix fill time:  21 seconds.
+      Matrix solve time:  4 seconds.
+      De-embedding time for TransmonXmonFluxV2_bottom box wall:
+        SOC Electric Wall Std: 3 seconds.
+        SOC Magnetic Wall Std: 3 seconds.
+        Total:                 6 seconds.
+      De-embedding time for cci group A:
+        Total: 0.613 seconds.
+      Frequency completed Thu Apr 14 13:13:40 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        0.05000000 1.000000 179.96 2.343e-5 89.964 2.343e-5 89.964 1.000000 179.96
+        !< P1 F=0.05 Eeff=(undefined: sl) Z0=(undefined: sl) R=0.0 C=0.0 
+        !< P2 F=0.05 Eeff=(undefined: sl) Z0=(undefined: sl) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "sl" code.
+      Total time per frequency:  34 seconds.
+
+    Frequency:  10 GHZ
+      Frequency completed Thu Apr 14 13:14:12 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        10.0000000 0.999989 172.96 0.004725 82.689 0.004725 82.689 0.999989 172.42
+        !< P1 F=10.0 Eeff=(6.44983594 -2.9748e-5) Z0=(49.8431576 1.14952e-4) R=0.0 C=0.0 
+        !< P2 F=10.0 Eeff=(undefined: mv) Z0=(undefined: mv) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "mv" code.
+      ABS: SNR = 31.995 dB (120 dB Goal) for S2_2 at 9.25 GHz.
+      ABS: Time = 0.291 seconds.
+
+    Frequency:  9.25 GHZ
+      Frequency completed Thu Apr 14 13:14:45 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        9.25000000 0.999990 173.48 0.004366 83.240 0.004366 83.240 0.999990 173.00
+        !< P1 F=9.25 Eeff=(6.44987169 -2.9748e-5) Z0=(49.8433184 1.14953e-4) R=0.0 C=0.0 
+        !< P2 F=9.25 Eeff=(undefined: mv) Z0=(undefined: mv) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "mv" code.
+      ABS: SNR = 87.1526 dB (120 dB Goal) for S1_1 at 3.25 GHz.
+      ABS: Time = 0.627 seconds.
+
+    Frequency:  3.25 GHZ
+      Frequency completed Thu Apr 14 13:15:18 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        3.25000000 0.999999 177.71 0.001526 87.630 0.001526 87.630 0.999999 177.55
+        !< P1 F=3.25 Eeff=(6.45004813 -2.9752e-5) Z0=(49.8441163 1.14952e-4) R=0.0 C=0.0 
+        !< P2 F=3.25 Eeff=(undefined: mv) Z0=(undefined: mv) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "mv" code.
+      ABS: SNR = 110.807 dB (120 dB Goal) for S2_2 at 6.1 GHz.
+      ABS: Time = 0.651 seconds.
+
+    Frequency:  6.1 GHZ
+      Frequency completed Thu Apr 14 13:15:51 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        6.10000000 0.999996 175.70 0.002870 85.548 0.002870 85.548 0.999996 175.39
+        !< P1 F=6.1 Eeff=(6.44999083 -2.975e-5) Z0=(49.8438539 1.1495e-4) R=0.0 C=0.0 
+        !< P2 F=6.1 Eeff=(undefined: mv) Z0=(undefined: mv) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "mv" code.
+      ABS: SNR = 144.347 dB (120 dB Goal) for S2_2 at 0.95 GHz.
+      ABS: Time = 0.726 seconds.
+
+  Parameter combination: 2 of 25.
+
+    Frequency:  0.05 GHZ
+      Independent parameter values:
+        rightNotch = 10.0
+        leftNotch = 15.0
+      Subsectioning at 10 GHz with Eeff of 6.45.
+      Subsectioning time:  7 seconds.
+      De-embedding information for TransmonXmonFluxV2_bottom box wall port(s):
+        TransmonXmonFluxV2_bottom SOC Electric Wall: 300 microns length, 978 subsections, 37 MB.
+        TransmonXmonFluxV2_bottom SOC Magnetic Wall: 600 microns length, 945 subsections, 37 MB.
+      De-embedding information for cci group A:
+        Main Std: X=600 microns Y=420 microns box size, 29 subsections, 11 MB.
+      Circuit requires 4726 subsections and 256 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  147
+      Level 1:
+        Staircase:  4,547
+        Via:        32
+
+      Required memory by type:
+        System matrix:            170 MB
+        Elemental subsections:
+          Primary structure:      33 MB
+          TransmonXmonF standard: 40 MB
+          CciA standard:          0 MB
+        Fourier transform:        6 MB
+        Waveguide mode:           3 MB
+        Adaptive band synthesis:  3 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    256 MB
+
+      Waveguide mode time:  0.070 seconds.
+      Fourier transform time:  0.832 seconds.
+      Coupling time:  19 seconds.
+      Loss time:  0 seconds.
+      Matrix fill time:  20 seconds.
+      Matrix solve time:  4 seconds.
+      De-embedding time for TransmonXmonFluxV2_bottom box wall:
+        SOC Electric Wall Std: 3 seconds.
+        SOC Magnetic Wall Std: 3 seconds.
+        Total:                 6 seconds.
+      De-embedding time for cci group A:
+        Total: 0.600 seconds.
+      Frequency completed Thu Apr 14 13:16:33 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        0.05000000 1.000000 179.96 2.929e-5 89.963 2.929e-5 89.963 1.000000 179.96
+        !< P1 F=0.05 Eeff=(undefined: sl) Z0=(undefined: sl) R=0.0 C=0.0 
+        !< P2 F=0.05 Eeff=(undefined: sl) Z0=(undefined: sl) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "sl" code.
+      Total time per frequency:  41 seconds.
+
+    Frequency:  10 GHZ
+      Frequency completed Thu Apr 14 13:17:05 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        10.0000000 0.999983 172.63 0.005904 82.518 0.005904 82.518 0.999983 172.40
+        !< P1 F=10.0 Eeff=(6.44983594 -2.9748e-5) Z0=(49.8431576 1.14952e-4) R=0.0 C=0.0 
+        !< P2 F=10.0 Eeff=(undefined: mv) Z0=(undefined: mv) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "mv" code.
+      ABS: SNR = 32.0759 dB (120 dB Goal) for S2_2 at 9.25 GHz.
+      ABS: Time = 0.298 seconds.
+
+    Frequency:  9.25 GHZ
+      Frequency completed Thu Apr 14 13:17:38 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        9.25000000 0.999985 173.19 0.005456 83.082 0.005456 83.082 0.999985 172.98
+        !< P1 F=9.25 Eeff=(6.44987169 -2.9748e-5) Z0=(49.8433184 1.14953e-4) R=0.0 C=0.0 
+        !< P2 F=9.25 Eeff=(undefined: mv) Z0=(undefined: mv) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "mv" code.
+      ABS: SNR = 85.2211 dB (120 dB Goal) for S1_1 at 3.25 GHz.
+      ABS: Time = 0.620 seconds.
+
+    Frequency:  3.25 GHZ
+      Frequency completed Thu Apr 14 13:18:11 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        3.25000000 0.999998 177.61 0.001908 87.574 0.001908 87.574 0.999998 177.54
+        !< P1 F=3.25 Eeff=(6.45004813 -2.9752e-5) Z0=(49.8441163 1.14952e-4) R=0.0 C=0.0 
+        !< P2 F=3.25 Eeff=(undefined: mv) Z0=(undefined: mv) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "mv" code.
+      ABS: SNR = 112.691 dB (120 dB Goal) for S2_2 at 6.2 GHz.
+      ABS: Time = 0.642 seconds.
+
+    Frequency:  6.2 GHZ
+      Frequency completed Thu Apr 14 13:18:44 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        6.20000000 0.999993 175.43 0.003646 85.369 0.003646 85.369 0.999993 175.31
+        !< P1 F=6.2 Eeff=(6.44998973 -2.975e-5) Z0=(49.8438478 1.14951e-4) R=0.0 C=0.0 
+        !< P2 F=6.2 Eeff=(undefined: mv) Z0=(undefined: mv) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "mv" code.
+      ABS: SNR = 144.703 dB (120 dB Goal) for S2_2 at 0.85 GHz.
+      ABS: Time = 0.758 seconds.
+
+  Parameter combination: 3 of 25.
+
+    Frequency:  0.05 GHZ
+      Independent parameter values:
+        rightNotch = 10.0
+        leftNotch = 20.0
+      Subsectioning at 10 GHz with Eeff of 6.45.
+      Subsectioning time:  7 seconds.
+      De-embedding information for TransmonXmonFluxV2_bottom box wall port(s):
+        TransmonXmonFluxV2_bottom SOC Electric Wall: 300 microns length, 978 subsections, 37 MB.
+        TransmonXmonFluxV2_bottom SOC Magnetic Wall: 600 microns length, 945 subsections, 37 MB.
+      De-embedding information for cci group A:
+        Main Std: X=600 microns Y=420 microns box size, 29 subsections, 11 MB.
+      Circuit requires 4672 subsections and 252 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  147
+      Level 1:
+        Staircase:  4,493
+        Via:        32
+
+      Required memory by type:
+        System matrix:            167 MB
+        Elemental subsections:
+          Primary structure:      33 MB
+          TransmonXmonF standard: 40 MB
+          CciA standard:          0 MB
+        Fourier transform:        6 MB
+        Waveguide mode:           3 MB
+        Adaptive band synthesis:  3 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    252 MB
+
+      Waveguide mode time:  0.067 seconds.
+      Fourier transform time:  0.844 seconds.
+      Coupling time:  19 seconds.
+      Loss time:  0 seconds.
+      Matrix fill time:  20 seconds.
+      Matrix solve time:  4 seconds.
+      De-embedding time for TransmonXmonFluxV2_bottom box wall:
+        SOC Electric Wall Std: 3 seconds.
+        SOC Magnetic Wall Std: 3 seconds.
+        Total:                 6 seconds.
+      De-embedding time for cci group A:
+        Total: 0.618 seconds.
+      Frequency completed Thu Apr 14 13:19:26 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        0.05000000 1.000000 179.96 3.293e-5 89.962 3.293e-5 89.962 1.000000 179.96
+        !< P1 F=0.05 Eeff=(undefined: sl) Z0=(undefined: sl) R=0.0 C=0.0 
+        !< P2 F=0.05 Eeff=(undefined: sl) Z0=(undefined: sl) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "sl" code.
+      Total time per frequency:  41 seconds.
+
+    Frequency:  10 GHZ
+      Frequency completed Thu Apr 14 13:19:58 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        10.0000000 0.999978 172.31 0.006638 82.344 0.006638 82.344 0.999978 172.37
+        !< P1 F=10.0 Eeff=(6.44983594 -2.9748e-5) Z0=(49.8431576 1.14952e-4) R=0.0 C=0.0 
+        !< P2 F=10.0 Eeff=(undefined: mv) Z0=(undefined: mv) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "mv" code.
+      ABS: SNR = 32.0319 dB (120 dB Goal) for S2_2 at 9.25 GHz.
+      ABS: Time = 0.355 seconds.
+
+    Frequency:  9.25 GHZ
+      Frequency completed Thu Apr 14 13:20:30 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        9.25000000 0.999981 172.89 0.006135 82.921 0.006135 82.921 0.999981 172.95
+        !< P1 F=9.25 Eeff=(6.44987169 -2.9748e-5) Z0=(49.8433184 1.14953e-4) R=0.0 C=0.0 
+        !< P2 F=9.25 Eeff=(undefined: mv) Z0=(undefined: mv) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "mv" code.
+      ABS: SNR = 76.5276 dB (120 dB Goal) for S2_2 at 7.9 GHz.
+      ABS: Time = 0.730 seconds.
+
+    Frequency:  7.9 GHZ
+      Frequency completed Thu Apr 14 13:21:03 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        7.90000000 0.999986 173.93 0.005232 83.958 0.005232 83.958 0.999986 173.99
+        !< P1 F=7.9 Eeff=(6.44992991 -2.9749e-5) Z0=(49.8435795 1.14952e-4) R=0.0 C=0.0 
+        !< P2 F=7.9 Eeff=(undefined: mv) Z0=(undefined: mv) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "mv" code.
+      ABS: SNR = 100.063 dB (120 dB Goal) for S2_2 at 2.45 GHz.
+      ABS: Time = 0.765 seconds.
+
+    Frequency:  2.45 GHZ
+      Frequency completed Thu Apr 14 13:21:36 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        2.45000000 0.999999 178.12 0.001617 88.129 0.001617 88.129 0.999999 178.14
+        !< P1 F=2.45 Eeff=(6.45004653 -2.975e-5) Z0=(49.8441171 1.14946e-4) R=0.0 C=0.0 
+        !< P2 F=2.45 Eeff=(undefined: mv) Z0=(undefined: mv) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "mv" code.
+      ABS: SNR = 135.238 dB (120 dB Goal) for S2_2 at 0.95 GHz.
+      ABS: Time = 0.798 seconds.
+
+  Parameter combination: 4 of 25.
+
+    Frequency:  0.05 GHZ
+      Independent parameter values:
+        rightNotch = 10.0
+        leftNotch = 25.0
+      Subsectioning at 10 GHz with Eeff of 6.45.
+      Subsectioning time:  7 seconds.
+      De-embedding information for TransmonXmonFluxV2_bottom box wall port(s):
+        TransmonXmonFluxV2_bottom SOC Electric Wall: 300 microns length, 978 subsections, 37 MB.
+        TransmonXmonFluxV2_bottom SOC Magnetic Wall: 600 microns length, 945 subsections, 37 MB.
+      De-embedding information for cci group A:
+        Main Std: X=600 microns Y=420 microns box size, 29 subsections, 11 MB.
+      Circuit requires 4639 subsections and 249 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  147
+      Level 1:
+        Staircase:  4,460
+        Via:        32
+
+      Required memory by type:
+        System matrix:            164 MB
+        Elemental subsections:
+          Primary structure:      33 MB
+          TransmonXmonF standard: 40 MB
+          CciA standard:          0 MB
+        Fourier transform:        6 MB
+        Waveguide mode:           3 MB
+        Adaptive band synthesis:  3 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    249 MB
+
+      Waveguide mode time:  0.068 seconds.
+      Fourier transform time:  0.845 seconds.
+      Coupling time:  19 seconds.
+      Loss time:  0 seconds.
+      Matrix fill time:  20 seconds.
+      Matrix solve time:  4 seconds.
+      De-embedding time for TransmonXmonFluxV2_bottom box wall:
+        SOC Electric Wall Std: 3 seconds.
+        SOC Magnetic Wall Std: 3 seconds.
+        Total:                 6 seconds.
+      De-embedding time for cci group A:
+        Total: 0.590 seconds.
+      Frequency completed Thu Apr 14 13:22:19 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        0.05000000 1.000000 179.96 3.361e-5 89.962 3.361e-5 89.962 1.000000 179.96
+        !< P1 F=0.05 Eeff=(undefined: sl) Z0=(undefined: sl) R=0.0 C=0.0 
+        !< P2 F=0.05 Eeff=(undefined: sl) Z0=(undefined: sl) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "sl" code.
+      Total time per frequency:  42 seconds.
+
+    Frequency:  10 GHZ
+      Frequency completed Thu Apr 14 13:22:51 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        10.0000000 0.999977 172.19 0.006774 82.270 0.006774 82.270 0.999977 172.36
+        !< P1 F=10.0 Eeff=(6.44983594 -2.9748e-5) Z0=(49.8431576 1.14952e-4) R=0.0 C=0.0 
+        !< P2 F=10.0 Eeff=(undefined: mv) Z0=(undefined: mv) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "mv" code.
+      ABS: SNR = 31.5934 dB (120 dB Goal) for S2_2 at 9.2 GHz.
+      ABS: Time = 0.227 seconds.
+
+    Frequency:  9.2 GHZ
+      Frequency completed Thu Apr 14 13:23:23 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        9.20000000 0.999981 172.81 0.006226 82.892 0.006226 82.892 0.999981 172.97
+        !< P1 F=9.2 Eeff=(6.44987445 -2.9748e-5) Z0=(49.8433305 1.14953e-4) R=0.0 C=0.0 
+        !< P2 F=9.2 Eeff=(undefined: mv) Z0=(undefined: mv) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "mv" code.
+      ABS: SNR = 75.9454 dB (120 dB Goal) for S2_2 at 9.6 GHz.
+      ABS: Time = 0.524 seconds.
+
+    Frequency:  9.6 GHZ
+      Frequency completed Thu Apr 14 13:23:56 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        9.60000000 0.999979 172.50 0.006499 82.581 0.006499 82.581 0.999979 172.66
+        !< P1 F=9.6 Eeff=(6.44985585 -2.9748e-5) Z0=(49.8432468 1.14952e-4) R=0.0 C=0.0 
+        !< P2 F=9.6 Eeff=(undefined: mv) Z0=(undefined: mv) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "mv" code.
+      ABS: SNR = 97.2961 dB (120 dB Goal) for S2_2 at 2.7 GHz.
+      ABS: Time = 0.508 seconds.
+
+    Frequency:  2.7 GHZ
+      Frequency completed Thu Apr 14 13:24:28 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        2.70000000 0.999998 177.89 0.001819 87.918 0.001819 87.918 0.999998 177.95
+        !< P1 F=2.7 Eeff=(6.45005043 -2.9749e-5) Z0=(49.8441302 1.14951e-4) R=0.0 C=0.0 
+        !< P2 F=2.7 Eeff=(undefined: mv) Z0=(undefined: mv) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "mv" code.
+      ABS: SNR = 136.067 dB (120 dB Goal) for S2_2 at 1 GHz.
+      ABS: Time = 0.682 seconds.
+
+  Parameter combination: 5 of 25.
+
+    Frequency:  0.05 GHZ
+      Independent parameter values:
+        rightNotch = 10.0
+        leftNotch = 30.0
+      Subsectioning at 10 GHz with Eeff of 6.45.
+      Subsectioning time:  7 seconds.
+      De-embedding information for TransmonXmonFluxV2_bottom box wall port(s):
+        TransmonXmonFluxV2_bottom SOC Electric Wall: 300 microns length, 978 subsections, 37 MB.
+        TransmonXmonFluxV2_bottom SOC Magnetic Wall: 600 microns length, 945 subsections, 36 MB.
+      De-embedding information for cci group A:
+        Main Std: X=600 microns Y=420 microns box size, 29 subsections, 11 MB.
+      Circuit requires 4684 subsections and 253 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  147
+      Level 1:
+        Staircase:  4,505
+        Via:        32
+
+      Required memory by type:
+        System matrix:            167 MB
+        Elemental subsections:
+          Primary structure:      33 MB
+          TransmonXmonF standard: 40 MB
+          CciA standard:          0 MB
+        Fourier transform:        6 MB
+        Waveguide mode:           3 MB
+        Adaptive band synthesis:  3 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    253 MB
+
+      Waveguide mode time:  0.068 seconds.
+      Fourier transform time:  0.848 seconds.
+      Coupling time:  19 seconds.
+      Loss time:  0 seconds.
+      Matrix fill time:  20 seconds.
+      Matrix solve time:  4 seconds.
+      De-embedding time for TransmonXmonFluxV2_bottom box wall:
+        SOC Electric Wall Std: 3 seconds.
+        SOC Magnetic Wall Std: 3 seconds.
+        Total:                 6 seconds.
+      De-embedding time for cci group A:
+        Total: 0.600 seconds.
+      Frequency completed Thu Apr 14 13:25:10 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        0.05000000 1.000000 179.96 3.361e-5 89.962 3.361e-5 89.962 1.000000 179.96
+        !< P1 F=0.05 Eeff=(undefined: sl) Z0=(undefined: sl) R=0.0 C=0.0 
+        !< P2 F=0.05 Eeff=(undefined: sl) Z0=(undefined: sl) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "sl" code.
+      Total time per frequency:  41 seconds.
+
+    Frequency:  10 GHZ
+      Frequency completed Thu Apr 14 13:25:42 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        10.0000000 0.999977 172.19 0.006773 82.270 0.006773 82.270 0.999977 172.36
+        !< P1 F=10.0 Eeff=(6.44983594 -2.9748e-5) Z0=(49.8431576 1.14952e-4) R=0.0 C=0.0 
+        !< P2 F=10.0 Eeff=(undefined: mv) Z0=(undefined: mv) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "mv" code.
+      ABS: SNR = 31.5931 dB (120 dB Goal) for S2_2 at 9.2 GHz.
+      ABS: Time = 0.267 seconds.
+
+    Frequency:  9.2 GHZ
+      Frequency completed Thu Apr 14 13:26:15 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        9.20000000 0.999981 172.81 0.006225 82.892 0.006225 82.892 0.999981 172.97
+        !< P1 F=9.2 Eeff=(6.44987445 -2.9748e-5) Z0=(49.8433305 1.14953e-4) R=0.0 C=0.0 
+        !< P2 F=9.2 Eeff=(undefined: mv) Z0=(undefined: mv) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "mv" code.
+      ABS: SNR = 75.945 dB (120 dB Goal) for S2_2 at 9.6 GHz.
+      ABS: Time = 0.522 seconds.
+
+    Frequency:  9.6 GHZ
+      Frequency completed Thu Apr 14 13:26:47 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        9.60000000 0.999979 172.50 0.006499 82.581 0.006499 82.581 0.999979 172.66
+        !< P1 F=9.6 Eeff=(6.44985585 -2.9748e-5) Z0=(49.8432468 1.14952e-4) R=0.0 C=0.0 
+        !< P2 F=9.6 Eeff=(undefined: mv) Z0=(undefined: mv) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "mv" code.
+      ABS: SNR = 97.2964 dB (120 dB Goal) for S2_2 at 2.7 GHz.
+      ABS: Time = 0.551 seconds.
+
+    Frequency:  2.7 GHZ
+      Frequency completed Thu Apr 14 13:27:20 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        2.70000000 0.999998 177.89 0.001819 87.918 0.001819 87.918 0.999998 177.95
+        !< P1 F=2.7 Eeff=(6.45005043 -2.9749e-5) Z0=(49.8441302 1.14951e-4) R=0.0 C=0.0 
+        !< P2 F=2.7 Eeff=(undefined: mv) Z0=(undefined: mv) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "mv" code.
+      ABS: SNR = 136.071 dB (120 dB Goal) for S2_2 at 1 GHz.
+      ABS: Time = 0.715 seconds.
+
+  Parameter combination: 6 of 25.
+
+    Frequency:  0.05 GHZ
+      Independent parameter values:
+        rightNotch = 15.0
+        leftNotch = 10.0
+      Subsectioning at 10 GHz with Eeff of 6.45.
+      Subsectioning time:  7 seconds.
+      De-embedding information for TransmonXmonFluxV2_bottom box wall port(s):
+        TransmonXmonFluxV2_bottom SOC Electric Wall: 300 microns length, 978 subsections, 37 MB.
+        TransmonXmonFluxV2_bottom SOC Magnetic Wall: 600 microns length, 945 subsections, 36 MB.
+      De-embedding information for cci group A:
+        Main Std: X=600 microns Y=420 microns box size, 29 subsections, 11 MB.
+      Circuit requires 4749 subsections and 258 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  147
+      Level 1:
+        Staircase:  4,570
+        Via:        32
+
+      Required memory by type:
+        System matrix:            172 MB
+        Elemental subsections:
+          Primary structure:      33 MB
+          TransmonXmonF standard: 40 MB
+          CciA standard:          0 MB
+        Fourier transform:        6 MB
+        Waveguide mode:           3 MB
+        Adaptive band synthesis:  3 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    258 MB
+
+      Waveguide mode time:  0.067 seconds.
+      Fourier transform time:  0.826 seconds.
+      Coupling time:  19 seconds.
+      Loss time:  0 seconds.
+      Matrix fill time:  20 seconds.
+      Matrix solve time:  4 seconds.
+      De-embedding time for TransmonXmonFluxV2_bottom box wall:
+        SOC Electric Wall Std: 3 seconds.
+        SOC Magnetic Wall Std: 3 seconds.
+        Total:                 6 seconds.
+      De-embedding time for cci group A:
+        Total: 0.610 seconds.
+      Frequency completed Thu Apr 14 13:28:02 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        0.05000000 1.000000 179.96 2.398e-5 89.964 2.398e-5 89.964 1.000000 179.96
+        !< P1 F=0.05 Eeff=(undefined: sl) Z0=(undefined: sl) R=0.0 C=0.0 
+        !< P2 F=0.05 Eeff=(undefined: sl) Z0=(undefined: sl) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "sl" code.
+      Total time per frequency:  41 seconds.
+
+    Frequency:  10 GHZ
+      Frequency completed Thu Apr 14 13:28:35 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        10.0000000 0.999988 172.92 0.004837 82.669 0.004837 82.669 0.999988 172.42
+        !< P1 F=10.0 Eeff=(6.44983594 -2.9748e-5) Z0=(49.8431576 1.14952e-4) R=0.0 C=0.0 
+        !< P2 F=10.0 Eeff=(undefined: mv) Z0=(undefined: mv) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "mv" code.
+      ABS: SNR = 32.0993 dB (120 dB Goal) for S2_2 at 9.2 GHz.
+      ABS: Time = 0.321 seconds.
+
+    Frequency:  9.2 GHZ
+      Frequency completed Thu Apr 14 13:29:08 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        9.20000000 0.999990 173.49 0.004445 83.259 0.004445 83.259 0.999990 173.03
+        !< P1 F=9.2 Eeff=(6.44987445 -2.9748e-5) Z0=(49.8433305 1.14953e-4) R=0.0 C=0.0 
+        !< P2 F=9.2 Eeff=(undefined: mv) Z0=(undefined: mv) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "mv" code.
+      ABS: SNR = 87.2386 dB (120 dB Goal) for S1_1 at 3.25 GHz.
+      ABS: Time = 0.637 seconds.
+
+    Frequency:  3.25 GHZ
+      Frequency completed Thu Apr 14 13:29:42 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        3.25000000 0.999999 177.70 0.001562 87.623 0.001562 87.623 0.999999 177.55
+        !< P1 F=3.25 Eeff=(6.45004813 -2.9752e-5) Z0=(49.8441163 1.14952e-4) R=0.0 C=0.0 
+        !< P2 F=3.25 Eeff=(undefined: mv) Z0=(undefined: mv) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "mv" code.
+      ABS: SNR = 112.074 dB (120 dB Goal) for S2_2 at 6.2 GHz.
+      ABS: Time = 0.594 seconds.
+
+    Frequency:  6.2 GHZ
+      Frequency completed Thu Apr 14 13:30:16 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        6.20000000 0.999996 175.61 0.002986 85.463 0.002986 85.463 0.999996 175.31
+        !< P1 F=6.2 Eeff=(6.44998973 -2.975e-5) Z0=(49.8438478 1.14951e-4) R=0.0 C=0.0 
+        !< P2 F=6.2 Eeff=(undefined: mv) Z0=(undefined: mv) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "mv" code.
+      ABS: SNR = 147.404 dB (120 dB Goal) for S2_2 at 1.1 GHz.
+      ABS: Time = 0.754 seconds.
+
+  Parameter combination: 7 of 25.
+
+    Frequency:  0.05 GHZ
+      Independent parameter values:
+        rightNotch = 15.0
+        leftNotch = 15.0
+      Subsectioning at 10 GHz with Eeff of 6.45.
+      Subsectioning time:  7 seconds.
+      De-embedding information for TransmonXmonFluxV2_bottom box wall port(s):
+        TransmonXmonFluxV2_bottom SOC Electric Wall: 300 microns length, 978 subsections, 37 MB.
+        TransmonXmonFluxV2_bottom SOC Magnetic Wall: 600 microns length, 945 subsections, 37 MB.
+      De-embedding information for cci group A:
+        Main Std: X=600 microns Y=420 microns box size, 29 subsections, 11 MB.
+      Circuit requires 4733 subsections and 256 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  147
+      Level 1:
+        Staircase:  4,554
+        Via:        32
+
+      Required memory by type:
+        System matrix:            171 MB
+        Elemental subsections:
+          Primary structure:      33 MB
+          TransmonXmonF standard: 40 MB
+          CciA standard:          0 MB
+        Fourier transform:        6 MB
+        Waveguide mode:           3 MB
+        Adaptive band synthesis:  3 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    256 MB
+
+      Waveguide mode time:  0.076 seconds.
+      Fourier transform time:  0.856 seconds.
+      Coupling time:  20 seconds.
+      Loss time:  0 seconds.
+      Matrix fill time:  21 seconds.
+      Matrix solve time:  4 seconds.
+      De-embedding time for TransmonXmonFluxV2_bottom box wall:
+        SOC Electric Wall Std: 3 seconds.
+        SOC Magnetic Wall Std: 3 seconds.
+        Total:                 6 seconds.
+      De-embedding time for cci group A:
+        Total: 0.606 seconds.
+      Frequency completed Thu Apr 14 13:30:59 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        0.05000000 1.000000 179.96 2.994e-5 89.963 2.994e-5 89.963 1.000000 179.96
+        !< P1 F=0.05 Eeff=(undefined: sl) Z0=(undefined: sl) R=0.0 C=0.0 
+        !< P2 F=0.05 Eeff=(undefined: sl) Z0=(undefined: sl) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "sl" code.
+      Total time per frequency:  43 seconds.
+
+    Frequency:  10 GHZ
+      Frequency completed Thu Apr 14 13:31:32 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        10.0000000 0.999982 172.59 0.006037 82.496 0.006037 82.496 0.999982 172.40
+        !< P1 F=10.0 Eeff=(6.44983594 -2.9748e-5) Z0=(49.8431576 1.14952e-4) R=0.0 C=0.0 
+        !< P2 F=10.0 Eeff=(undefined: mv) Z0=(undefined: mv) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "mv" code.
+      ABS: SNR = 32.1795 dB (120 dB Goal) for S2_2 at 9.2 GHz.
+      ABS: Time = 0.252 seconds.
+
+    Frequency:  9.2 GHZ
+      Frequency completed Thu Apr 14 13:32:05 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        9.20000000 0.999985 173.19 0.005548 83.099 0.005548 83.099 0.999985 173.01
+        !< P1 F=9.2 Eeff=(6.44987445 -2.9748e-5) Z0=(49.8433305 1.14953e-4) R=0.0 C=0.0 
+        !< P2 F=9.2 Eeff=(undefined: mv) Z0=(undefined: mv) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "mv" code.
+      ABS: SNR = 85.3003 dB (120 dB Goal) for S1_1 at 3.25 GHz.
+      ABS: Time = 0.658 seconds.
+
+    Frequency:  3.25 GHZ
+      Frequency completed Thu Apr 14 13:32:39 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        3.25000000 0.999998 177.59 0.001950 87.567 0.001950 87.567 0.999998 177.54
+        !< P1 F=3.25 Eeff=(6.45004813 -2.9752e-5) Z0=(49.8441163 1.14952e-4) R=0.0 C=0.0 
+        !< P2 F=3.25 Eeff=(undefined: mv) Z0=(undefined: mv) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "mv" code.
+      ABS: SNR = 113.94 dB (120 dB Goal) for S2_2 at 6.15 GHz.
+      ABS: Time = 0.717 seconds.
+
+    Frequency:  6.15 GHZ
+      Frequency completed Thu Apr 14 13:33:12 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        6.15000000 0.999993 175.45 0.003697 85.393 0.003697 85.393 0.999993 175.34
+        !< P1 F=6.15 Eeff=(6.44998993 -2.9749e-5) Z0=(49.8438494 1.14951e-4) R=0.0 C=0.0 
+        !< P2 F=6.15 Eeff=(undefined: mv) Z0=(undefined: mv) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "mv" code.
+      ABS: SNR = 147.781 dB (120 dB Goal) for S2_2 at 0.8 GHz.
+      ABS: Time = 0.714 seconds.
+
+  Parameter combination: 8 of 25.
+
+    Frequency:  0.05 GHZ
+      Independent parameter values:
+        rightNotch = 15.0
+        leftNotch = 20.0
+      Subsectioning at 10 GHz with Eeff of 6.45.
+      Subsectioning time:  7 seconds.
+      De-embedding information for TransmonXmonFluxV2_bottom box wall port(s):
+        TransmonXmonFluxV2_bottom SOC Electric Wall: 300 microns length, 978 subsections, 37 MB.
+        TransmonXmonFluxV2_bottom SOC Magnetic Wall: 600 microns length, 945 subsections, 37 MB.
+      De-embedding information for cci group A:
+        Main Std: X=600 microns Y=420 microns box size, 29 subsections, 11 MB.
+      Circuit requires 4676 subsections and 253 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  147
+      Level 1:
+        Staircase:  4,497
+        Via:        32
+
+      Required memory by type:
+        System matrix:            167 MB
+        Elemental subsections:
+          Primary structure:      33 MB
+          TransmonXmonF standard: 40 MB
+          CciA standard:          0 MB
+        Fourier transform:        6 MB
+        Waveguide mode:           3 MB
+        Adaptive band synthesis:  4 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    253 MB
+
+      Waveguide mode time:  0.067 seconds.
+      Fourier transform time:  0.844 seconds.
+      Coupling time:  20 seconds.
+      Loss time:  0 seconds.
+      Matrix fill time:  21 seconds.
+      Matrix solve time:  4 seconds.
+      De-embedding time for TransmonXmonFluxV2_bottom box wall:
+        SOC Electric Wall Std: 3 seconds.
+        SOC Magnetic Wall Std: 3 seconds.
+        Total:                 6 seconds.
+      De-embedding time for cci group A:
+        Total: 0.582 seconds.
+      Frequency completed Thu Apr 14 13:33:55 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        0.05000000 1.000000 179.96 3.386e-5 89.962 3.386e-5 89.962 1.000000 179.96
+        !< P1 F=0.05 Eeff=(undefined: sl) Z0=(undefined: sl) R=0.0 C=0.0 
+        !< P2 F=0.05 Eeff=(undefined: sl) Z0=(undefined: sl) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "sl" code.
+      Total time per frequency:  43 seconds.
+
+    Frequency:  10 GHZ
+      Frequency completed Thu Apr 14 13:34:28 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        10.0000000 0.999977 172.27 0.006828 82.319 0.006828 82.319 0.999977 172.37
+        !< P1 F=10.0 Eeff=(6.44983594 -2.9748e-5) Z0=(49.8431576 1.14952e-4) R=0.0 C=0.0 
+        !< P2 F=10.0 Eeff=(undefined: mv) Z0=(undefined: mv) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "mv" code.
+      ABS: SNR = 32.1643 dB (120 dB Goal) for S2_2 at 9.2 GHz.
+      ABS: Time = 0.393 seconds.
+
+    Frequency:  9.2 GHZ
+      Frequency completed Thu Apr 14 13:35:01 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        9.20000000 0.999980 172.89 0.006275 82.937 0.006275 82.937 0.999980 172.98
+        !< P1 F=9.2 Eeff=(6.44987445 -2.9748e-5) Z0=(49.8433305 1.14953e-4) R=0.0 C=0.0 
+        !< P2 F=9.2 Eeff=(undefined: mv) Z0=(undefined: mv) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "mv" code.
+      ABS: SNR = 83.5104 dB (120 dB Goal) for S1_1 at 3.25 GHz.
+      ABS: Time = 0.779 seconds.
+
+    Frequency:  3.25 GHZ
+      Frequency completed Thu Apr 14 13:35:34 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        3.25000000 0.999998 177.49 0.002206 87.510 0.002206 87.510 0.999998 177.53
+        !< P1 F=3.25 Eeff=(6.45004813 -2.9752e-5) Z0=(49.8441163 1.14952e-4) R=0.0 C=0.0 
+        !< P2 F=3.25 Eeff=(undefined: mv) Z0=(undefined: mv) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "mv" code.
+      ABS: SNR = 115.007 dB (120 dB Goal) for S2_2 at 6.1 GHz.
+      ABS: Time = 0.767 seconds.
+
+    Frequency:  6.1 GHZ
+      Frequency completed Thu Apr 14 13:36:08 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        6.10000000 0.999991 175.29 0.004148 85.323 0.004148 85.323 0.999991 175.36
+        !< P1 F=6.1 Eeff=(6.44999083 -2.975e-5) Z0=(49.8438539 1.1495e-4) R=0.0 C=0.0 
+        !< P2 F=6.1 Eeff=(undefined: mv) Z0=(undefined: mv) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "mv" code.
+      ABS: SNR = 152.278 dB (120 dB Goal) for S2_2 at 0.75 GHz.
+      ABS: Time = 0.765 seconds.
+
+  Parameter combination: 9 of 25.
+
+    Frequency:  0.05 GHZ
+      Independent parameter values:
+        rightNotch = 15.0
+        leftNotch = 25.0
+      Subsectioning at 10 GHz with Eeff of 6.45.
+      Subsectioning time:  7 seconds.
+      De-embedding information for TransmonXmonFluxV2_bottom box wall port(s):
+        TransmonXmonFluxV2_bottom SOC Electric Wall: 300 microns length, 978 subsections, 38 MB.
+        TransmonXmonFluxV2_bottom SOC Magnetic Wall: 600 microns length, 945 subsections, 37 MB.
+      De-embedding information for cci group A:
+        Main Std: X=600 microns Y=420 microns box size, 29 subsections, 12 MB.
+      Circuit requires 4643 subsections and 250 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  147
+      Level 1:
+        Staircase:  4,464
+        Via:        32
+
+      Required memory by type:
+        System matrix:            164 MB
+        Elemental subsections:
+          Primary structure:      33 MB
+          TransmonXmonF standard: 40 MB
+          CciA standard:          0 MB
+        Fourier transform:        6 MB
+        Waveguide mode:           3 MB
+        Adaptive band synthesis:  3 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    250 MB
+
+      Waveguide mode time:  0.068 seconds.
+      Fourier transform time:  0.836 seconds.
+      Coupling time:  19 seconds.
+      Loss time:  0 seconds.
+      Matrix fill time:  20 seconds.
+      Matrix solve time:  4 seconds.
+      De-embedding time for TransmonXmonFluxV2_bottom box wall:
+        SOC Electric Wall Std: 3 seconds.
+        SOC Magnetic Wall Std: 3 seconds.
+        Total:                 6 seconds.
+      De-embedding time for cci group A:
+        Total: 0.611 seconds.
+      Frequency completed Thu Apr 14 13:36:50 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        0.05000000 1.000000 179.96 3.468e-5 89.962 3.468e-5 89.962 1.000000 179.96
+        !< P1 F=0.05 Eeff=(undefined: sl) Z0=(undefined: sl) R=0.0 C=0.0 
+        !< P2 F=0.05 Eeff=(undefined: sl) Z0=(undefined: sl) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "sl" code.
+      Total time per frequency:  42 seconds.
+
+    Frequency:  10 GHZ
+      Frequency completed Thu Apr 14 13:37:22 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        10.0000000 0.999976 172.14 0.006993 82.245 0.006993 82.245 0.999976 172.35
+        !< P1 F=10.0 Eeff=(6.44983594 -2.9748e-5) Z0=(49.8431576 1.14952e-4) R=0.0 C=0.0 
+        !< P2 F=10.0 Eeff=(undefined: mv) Z0=(undefined: mv) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "mv" code.
+      ABS: SNR = 31.6893 dB (120 dB Goal) for S2_2 at 9.2 GHz.
+      ABS: Time = 0.253 seconds.
+
+    Frequency:  9.2 GHZ
+      Frequency completed Thu Apr 14 13:37:54 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        9.20000000 0.999979 172.77 0.006427 82.868 0.006427 82.868 0.999979 172.97
+        !< P1 F=9.2 Eeff=(6.44987445 -2.9748e-5) Z0=(49.8433305 1.14953e-4) R=0.0 C=0.0 
+        !< P2 F=9.2 Eeff=(undefined: mv) Z0=(undefined: mv) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "mv" code.
+      ABS: SNR = 83.3317 dB (120 dB Goal) for S1_1 at 3.25 GHz.
+      ABS: Time = 0.625 seconds.
+
+    Frequency:  3.25 GHZ
+      Frequency completed Thu Apr 14 13:38:27 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        3.25000000 0.999997 177.45 0.002260 87.486 0.002260 87.486 0.999997 177.52
+        !< P1 F=3.25 Eeff=(6.45004813 -2.9752e-5) Z0=(49.8441163 1.14952e-4) R=0.0 C=0.0 
+        !< P2 F=3.25 Eeff=(undefined: mv) Z0=(undefined: mv) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "mv" code.
+      ABS: SNR = 114.828 dB (120 dB Goal) for S2_2 at 5.95 GHz.
+      ABS: Time = 0.665 seconds.
+
+    Frequency:  5.95 GHZ
+      Frequency completed Thu Apr 14 13:39:00 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        5.95000000 0.999991 175.32 0.004144 85.394 0.004144 85.394 0.999991 175.46
+        !< P1 F=5.95 Eeff=(6.44999682 -2.9749e-5) Z0=(49.8438799 1.14952e-4) R=0.0 C=0.0 
+        !< P2 F=5.95 Eeff=(undefined: mv) Z0=(undefined: mv) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "mv" code.
+      ABS: SNR = 150.464 dB (120 dB Goal) for S2_2 at 1.3 GHz.
+      ABS: Time = 0.743 seconds.
+
+  Parameter combination: 10 of 25.
+
+    Frequency:  0.05 GHZ
+      Independent parameter values:
+        rightNotch = 15.0
+        leftNotch = 30.0
+      Subsectioning at 10 GHz with Eeff of 6.45.
+      Subsectioning time:  7 seconds.
+      De-embedding information for TransmonXmonFluxV2_bottom box wall port(s):
+        TransmonXmonFluxV2_bottom SOC Electric Wall: 300 microns length, 978 subsections, 37 MB.
+        TransmonXmonFluxV2_bottom SOC Magnetic Wall: 600 microns length, 945 subsections, 37 MB.
+      De-embedding information for cci group A:
+        Main Std: X=600 microns Y=420 microns box size, 29 subsections, 11 MB.
+      Circuit requires 4688 subsections and 253 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  147
+      Level 1:
+        Staircase:  4,509
+        Via:        32
+
+      Required memory by type:
+        System matrix:            168 MB
+        Elemental subsections:
+          Primary structure:      33 MB
+          TransmonXmonF standard: 40 MB
+          CciA standard:          0 MB
+        Fourier transform:        6 MB
+        Waveguide mode:           3 MB
+        Adaptive band synthesis:  3 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    253 MB
+
+      Waveguide mode time:  0.069 seconds.
+      Fourier transform time:  0.826 seconds.
+      Coupling time:  19 seconds.
+      Loss time:  0 seconds.
+      Matrix fill time:  20 seconds.
+      Matrix solve time:  4 seconds.
+      De-embedding time for TransmonXmonFluxV2_bottom box wall:
+        SOC Electric Wall Std: 3 seconds.
+        SOC Magnetic Wall Std: 3 seconds.
+        Total:                 6 seconds.
+      De-embedding time for cci group A:
+        Total: 0.591 seconds.
+      Frequency completed Thu Apr 14 13:39:42 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        0.05000000 1.000000 179.96 3.468e-5 89.962 3.468e-5 89.962 1.000000 179.96
+        !< P1 F=0.05 Eeff=(undefined: sl) Z0=(undefined: sl) R=0.0 C=0.0 
+        !< P2 F=0.05 Eeff=(undefined: sl) Z0=(undefined: sl) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "sl" code.
+      Total time per frequency:  42 seconds.
+
+    Frequency:  10 GHZ
+      Frequency completed Thu Apr 14 13:40:15 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        10.0000000 0.999976 172.14 0.006992 82.245 0.006992 82.245 0.999976 172.35
+        !< P1 F=10.0 Eeff=(6.44983594 -2.9748e-5) Z0=(49.8431576 1.14952e-4) R=0.0 C=0.0 
+        !< P2 F=10.0 Eeff=(undefined: mv) Z0=(undefined: mv) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "mv" code.
+      ABS: SNR = 31.689 dB (120 dB Goal) for S2_2 at 9.2 GHz.
+      ABS: Time = 0.290 seconds.
+
+    Frequency:  9.2 GHZ
+      Frequency completed Thu Apr 14 13:40:48 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        9.20000000 0.999979 172.77 0.006426 82.868 0.006426 82.868 0.999979 172.97
+        !< P1 F=9.2 Eeff=(6.44987445 -2.9748e-5) Z0=(49.8433305 1.14953e-4) R=0.0 C=0.0 
+        !< P2 F=9.2 Eeff=(undefined: mv) Z0=(undefined: mv) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "mv" code.
+      ABS: SNR = 83.3919 dB (120 dB Goal) for S1_1 at 3.25 GHz.
+      ABS: Time = 0.573 seconds.
+
+    Frequency:  3.25 GHZ
+      Frequency completed Thu Apr 14 13:41:21 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        3.25000000 0.999997 177.45 0.002260 87.486 0.002260 87.486 0.999997 177.52
+        !< P1 F=3.25 Eeff=(6.45004813 -2.9752e-5) Z0=(49.8441163 1.14952e-4) R=0.0 C=0.0 
+        !< P2 F=3.25 Eeff=(undefined: mv) Z0=(undefined: mv) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "mv" code.
+      ABS: SNR = 114.598 dB (120 dB Goal) for S2_2 at 6 GHz.
+      ABS: Time = 0.714 seconds.
+
+    Frequency:  6 GHZ
+      Frequency completed Thu Apr 14 13:41:54 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        6.00000000 0.999991 175.29 0.004178 85.355 0.004178 85.355 0.999991 175.42
+        !< P1 F=6.0 Eeff=(6.44999445 -2.9749e-5) Z0=(49.8438698 1.14949e-4) R=0.0 C=0.0 
+        !< P2 F=6.0 Eeff=(undefined: mv) Z0=(undefined: mv) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "mv" code.
+      ABS: SNR = 151.365 dB (120 dB Goal) for S2_2 at 0.8 GHz.
+      ABS: Time = 0.725 seconds.
+
+  Parameter combination: 11 of 25.
+
+    Frequency:  0.05 GHZ
+      Independent parameter values:
+        rightNotch = 20.0
+        leftNotch = 10.0
+      Subsectioning at 10 GHz with Eeff of 6.45.
+      Subsectioning time:  7 seconds.
+      De-embedding information for TransmonXmonFluxV2_bottom box wall port(s):
+        TransmonXmonFluxV2_bottom SOC Electric Wall: 300 microns length, 978 subsections, 37 MB.
+        TransmonXmonFluxV2_bottom SOC Magnetic Wall: 600 microns length, 945 subsections, 37 MB.
+      De-embedding information for cci group A:
+        Main Std: X=600 microns Y=420 microns box size, 29 subsections, 11 MB.
+      Circuit requires 4730 subsections and 256 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  147
+      Level 1:
+        Staircase:  4,551
+        Via:        32
+
+      Required memory by type:
+        System matrix:            171 MB
+        Elemental subsections:
+          Primary structure:      33 MB
+          TransmonXmonF standard: 40 MB
+          CciA standard:          0 MB
+        Fourier transform:        6 MB
+        Waveguide mode:           3 MB
+        Adaptive band synthesis:  3 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    256 MB
+
+      Waveguide mode time:  0.068 seconds.
+      Fourier transform time:  0.848 seconds.
+      Coupling time:  20 seconds.
+      Loss time:  0 seconds.
+      Matrix fill time:  20 seconds.
+      Matrix solve time:  4 seconds.
+      De-embedding time for TransmonXmonFluxV2_bottom box wall:
+        SOC Electric Wall Std: 3 seconds.
+        SOC Magnetic Wall Std: 3 seconds.
+        Total:                 6 seconds.
+      De-embedding time for cci group A:
+        Total: 0.646 seconds.
+      Frequency completed Thu Apr 14 13:42:37 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        0.05000000 1.000000 179.96 2.252e-5 89.964 2.252e-5 89.964 1.000000 179.96
+        !< P1 F=0.05 Eeff=(undefined: sl) Z0=(undefined: sl) R=0.0 C=0.0 
+        !< P2 F=0.05 Eeff=(undefined: sl) Z0=(undefined: sl) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "sl" code.
+      Total time per frequency:  43 seconds.
+
+    Frequency:  10 GHZ
+      Frequency completed Thu Apr 14 13:43:09 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        10.0000000 0.999990 172.89 0.004548 82.649 0.004548 82.649 0.999990 172.40
+        !< P1 F=10.0 Eeff=(6.44983594 -2.9748e-5) Z0=(49.8431576 1.14952e-4) R=0.0 C=0.0 
+        !< P2 F=10.0 Eeff=(undefined: mv) Z0=(undefined: mv) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "mv" code.
+      ABS: SNR = 32.1173 dB (120 dB Goal) for S2_2 at 9.2 GHz.
+      ABS: Time = 0.265 seconds.
+
+    Frequency:  9.2 GHZ
+      Frequency completed Thu Apr 14 13:43:42 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        9.20000000 0.999991 173.46 0.004179 83.240 0.004179 83.240 0.999991 173.02
+        !< P1 F=9.2 Eeff=(6.44987445 -2.9748e-5) Z0=(49.8433305 1.14953e-4) R=0.0 C=0.0 
+        !< P2 F=9.2 Eeff=(undefined: mv) Z0=(undefined: mv) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "mv" code.
+      ABS: SNR = 87.2403 dB (120 dB Goal) for S1_1 at 3.25 GHz.
+      ABS: Time = 0.680 seconds.
+
+    Frequency:  3.25 GHZ
+      Frequency completed Thu Apr 14 13:44:16 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        3.25000000 0.999999 177.69 0.001467 87.617 0.001467 87.617 0.999999 177.54
+        !< P1 F=3.25 Eeff=(6.45004813 -2.9752e-5) Z0=(49.8441163 1.14952e-4) R=0.0 C=0.0 
+        !< P2 F=3.25 Eeff=(undefined: mv) Z0=(undefined: mv) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "mv" code.
+      ABS: SNR = 112.376 dB (120 dB Goal) for S2_2 at 6.2 GHz.
+      ABS: Time = 0.568 seconds.
+
+    Frequency:  6.2 GHZ
+      Frequency completed Thu Apr 14 13:44:49 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        6.20000000 0.999996 175.59 0.002805 85.450 0.002805 85.450 0.999996 175.31
+        !< P1 F=6.2 Eeff=(6.44998973 -2.975e-5) Z0=(49.8438478 1.14951e-4) R=0.0 C=0.0 
+        !< P2 F=6.2 Eeff=(undefined: mv) Z0=(undefined: mv) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "mv" code.
+      ABS: SNR = 145.731 dB (120 dB Goal) for S2_2 at 0.85 GHz.
+      ABS: Time = 0.695 seconds.
+
+  Parameter combination: 12 of 25.
+
+    Frequency:  0.05 GHZ
+      Independent parameter values:
+        rightNotch = 20.0
+        leftNotch = 15.0
+      Subsectioning at 10 GHz with Eeff of 6.45.
+      Subsectioning time:  7 seconds.
+      De-embedding information for TransmonXmonFluxV2_bottom box wall port(s):
+        TransmonXmonFluxV2_bottom SOC Electric Wall: 300 microns length, 978 subsections, 37 MB.
+        TransmonXmonFluxV2_bottom SOC Magnetic Wall: 600 microns length, 945 subsections, 37 MB.
+      De-embedding information for cci group A:
+        Main Std: X=600 microns Y=420 microns box size, 29 subsections, 11 MB.
+      Circuit requires 4711 subsections and 255 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  147
+      Level 1:
+        Staircase:  4,532
+        Via:        32
+
+      Required memory by type:
+        System matrix:            169 MB
+        Elemental subsections:
+          Primary structure:      33 MB
+          TransmonXmonF standard: 40 MB
+          CciA standard:          0 MB
+        Fourier transform:        6 MB
+        Waveguide mode:           3 MB
+        Adaptive band synthesis:  3 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    255 MB
+
+      Waveguide mode time:  0.068 seconds.
+      Fourier transform time:  0.847 seconds.
+      Coupling time:  20 seconds.
+      Loss time:  0 seconds.
+      Matrix fill time:  21 seconds.
+      Matrix solve time:  4 seconds.
+      De-embedding time for TransmonXmonFluxV2_bottom box wall:
+        SOC Electric Wall Std: 3 seconds.
+        SOC Magnetic Wall Std: 3 seconds.
+        Total:                 6 seconds.
+      De-embedding time for cci group A:
+        Total: 0.586 seconds.
+      Frequency completed Thu Apr 14 13:45:32 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        0.05000000 1.000000 179.96 2.842e-5 89.963 2.842e-5 89.963 1.000000 179.96
+        !< P1 F=0.05 Eeff=(undefined: sl) Z0=(undefined: sl) R=0.0 C=0.0 
+        !< P2 F=0.05 Eeff=(undefined: sl) Z0=(undefined: sl) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "sl" code.
+      Total time per frequency:  43 seconds.
+
+    Frequency:  10 GHZ
+      Frequency completed Thu Apr 14 13:46:05 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        10.0000000 0.999984 172.56 0.005737 82.474 0.005737 82.474 0.999984 172.38
+        !< P1 F=10.0 Eeff=(6.44983594 -2.9748e-5) Z0=(49.8431576 1.14952e-4) R=0.0 C=0.0 
+        !< P2 F=10.0 Eeff=(undefined: mv) Z0=(undefined: mv) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "mv" code.
+      ABS: SNR = 32.1985 dB (120 dB Goal) for S2_2 at 9.2 GHz.
+      ABS: Time = 0.302 seconds.
+
+    Frequency:  9.2 GHZ
+      Frequency completed Thu Apr 14 13:46:38 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        9.20000000 0.999986 173.16 0.005271 83.079 0.005271 83.079 0.999986 173.00
+        !< P1 F=9.2 Eeff=(6.44987445 -2.9748e-5) Z0=(49.8433305 1.14953e-4) R=0.0 C=0.0 
+        !< P2 F=9.2 Eeff=(undefined: mv) Z0=(undefined: mv) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "mv" code.
+      ABS: SNR = 85.2983 dB (120 dB Goal) for S1_1 at 3.25 GHz.
+      ABS: Time = 0.569 seconds.
+
+    Frequency:  3.25 GHZ
+      Frequency completed Thu Apr 14 13:47:10 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        3.25000000 0.999998 177.58 0.001852 87.560 0.001852 87.560 0.999998 177.54
+        !< P1 F=3.25 Eeff=(6.45004813 -2.9752e-5) Z0=(49.8441163 1.14952e-4) R=0.0 C=0.0 
+        !< P2 F=3.25 Eeff=(undefined: mv) Z0=(undefined: mv) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "mv" code.
+      ABS: SNR = 114.716 dB (120 dB Goal) for S2_2 at 6.15 GHz.
+      ABS: Time = 0.570 seconds.
+
+    Frequency:  6.15 GHZ
+      Frequency completed Thu Apr 14 13:47:44 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        6.15000000 0.999994 175.43 0.003511 85.379 0.003511 85.379 0.999994 175.33
+        !< P1 F=6.15 Eeff=(6.44998993 -2.9749e-5) Z0=(49.8438494 1.14951e-4) R=0.0 C=0.0 
+        !< P2 F=6.15 Eeff=(undefined: mv) Z0=(undefined: mv) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "mv" code.
+      ABS: SNR = 67.9359 dB (50 dB Goal) for S1_2 at 0.3 GHz.
+      ABS: Time = 0.619 seconds.
+
+  Parameter combination: 13 of 25.
+
+    Frequency:  0.05 GHZ
+      Independent parameter values:
+        rightNotch = 20.0
+        leftNotch = 20.0
+      Subsectioning at 10 GHz with Eeff of 6.45.
+      Subsectioning time:  6 seconds.
+      De-embedding information for TransmonXmonFluxV2_bottom box wall port(s):
+        TransmonXmonFluxV2_bottom SOC Electric Wall: 300 microns length, 978 subsections, 37 MB.
+        TransmonXmonFluxV2_bottom SOC Magnetic Wall: 600 microns length, 945 subsections, 37 MB.
+      De-embedding information for cci group A:
+        Main Std: X=600 microns Y=420 microns box size, 29 subsections, 11 MB.
+      Circuit requires 4654 subsections and 250 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  147
+      Level 1:
+        Staircase:  4,475
+        Via:        32
+
+      Required memory by type:
+        System matrix:            165 MB
+        Elemental subsections:
+          Primary structure:      33 MB
+          TransmonXmonF standard: 40 MB
+          CciA standard:          0 MB
+        Fourier transform:        6 MB
+        Waveguide mode:           3 MB
+        Adaptive band synthesis:  2 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    250 MB
+
+      Waveguide mode time:  0.079 seconds.
+      Fourier transform time:  0.862 seconds.
+      Coupling time:  19 seconds.
+      Loss time:  0 seconds.
+      Matrix fill time:  20 seconds.
+      Matrix solve time:  4 seconds.
+      De-embedding time for TransmonXmonFluxV2_bottom box wall:
+        SOC Electric Wall Std: 3 seconds.
+        SOC Magnetic Wall Std: 3 seconds.
+        Total:                 6 seconds.
+      De-embedding time for cci group A:
+        Total: 0.600 seconds.
+      Frequency completed Thu Apr 14 13:48:25 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        0.05000000 1.000000 179.96 3.247e-5 89.962 3.247e-5 89.962 1.000000 179.96
+        !< P1 F=0.05 Eeff=(undefined: sl) Z0=(undefined: sl) R=0.0 C=0.0 
+        !< P2 F=0.05 Eeff=(undefined: sl) Z0=(undefined: sl) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "sl" code.
+      Total time per frequency:  41 seconds.
+
+    Frequency:  10 GHZ
+      Frequency completed Thu Apr 14 13:48:57 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        10.0000000 0.999979 172.24 0.006553 82.296 0.006553 82.296 0.999979 172.36
+        !< P1 F=10.0 Eeff=(6.44983594 -2.9748e-5) Z0=(49.8431576 1.14952e-4) R=0.0 C=0.0 
+        !< P2 F=10.0 Eeff=(undefined: mv) Z0=(undefined: mv) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "mv" code.
+      ABS: SNR = 31.6794 dB (120 dB Goal) for S2_2 at 9.1 GHz.
+      ABS: Time = 0.291 seconds.
+
+    Frequency:  9.1 GHZ
+      Frequency completed Thu Apr 14 13:49:30 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        9.10000000 0.999982 172.93 0.005956 82.993 0.005956 82.993 0.999982 173.05
+        !< P1 F=9.1 Eeff=(6.44987924 -2.9748e-5) Z0=(49.8433519 1.14952e-4) R=0.0 C=0.0 
+        !< P2 F=9.1 Eeff=(undefined: mv) Z0=(undefined: mv) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "mv" code.
+      ABS: SNR = 41.8214 dB (120 dB Goal) for S1_1 at 9.55 GHz.
+      ABS: Time = 0.416 seconds.
+
+    Frequency:  9.55 GHZ
+      Frequency completed Thu Apr 14 13:50:03 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        9.55000000 0.999980 172.59 0.006254 82.645 0.006254 82.645 0.999980 172.70
+        !< P1 F=9.55 Eeff=(6.44985748 -2.9748e-5) Z0=(49.8432546 1.14952e-4) R=0.0 C=0.0 
+        !< P2 F=9.55 Eeff=(undefined: mv) Z0=(undefined: mv) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "mv" code.
+      ABS: SNR = 100.365 dB (120 dB Goal) for S2_2 at 3.3 GHz.
+      ABS: Time = 0.457 seconds.
+
+    Frequency:  3.3 GHZ
+      Frequency completed Thu Apr 14 13:50:36 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        3.30000000 0.999998 177.44 0.002149 87.464 0.002149 87.464 0.999998 177.49
+        !< P1 F=3.3 Eeff=(6.45004905 -2.975e-5) Z0=(49.8441194 1.14952e-4) R=0.0 C=0.0 
+        !< P2 F=3.3 Eeff=(undefined: mv) Z0=(undefined: mv) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "mv" code.
+      ABS: SNR = 137.481 dB (120 dB Goal) for S2_2 at 1.35 GHz.
+      ABS: Time = 0.452 seconds.
+
+  Parameter combination: 14 of 25.
+
+    Frequency:  0.05 GHZ
+      Independent parameter values:
+        rightNotch = 20.0
+        leftNotch = 25.0
+      Subsectioning at 10 GHz with Eeff of 6.45.
+      Subsectioning time:  6 seconds.
+      De-embedding information for TransmonXmonFluxV2_bottom box wall port(s):
+        TransmonXmonFluxV2_bottom SOC Electric Wall: 300 microns length, 978 subsections, 36 MB.
+        TransmonXmonFluxV2_bottom SOC Magnetic Wall: 600 microns length, 945 subsections, 36 MB.
+      De-embedding information for cci group A:
+        Main Std: X=600 microns Y=420 microns box size, 29 subsections, 10 MB.
+      Circuit requires 4621 subsections and 248 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  147
+      Level 1:
+        Staircase:  4,442
+        Via:        32
+
+      Required memory by type:
+        System matrix:            163 MB
+        Elemental subsections:
+          Primary structure:      33 MB
+          TransmonXmonF standard: 40 MB
+          CciA standard:          0 MB
+        Fourier transform:        6 MB
+        Waveguide mode:           3 MB
+        Adaptive band synthesis:  2 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    248 MB
+
+      Waveguide mode time:  0.098 seconds.
+      Fourier transform time:  0.851 seconds.
+      Coupling time:  19 seconds.
+      Loss time:  0 seconds.
+      Matrix fill time:  20 seconds.
+      Matrix solve time:  4 seconds.
+      De-embedding time for TransmonXmonFluxV2_bottom box wall:
+        SOC Electric Wall Std: 3 seconds.
+        SOC Magnetic Wall Std: 3 seconds.
+        Total:                 6 seconds.
+      De-embedding time for cci group A:
+        Total: 0.586 seconds.
+      Frequency completed Thu Apr 14 13:51:17 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        0.05000000 1.000000 179.96 3.339e-5 89.962 3.339e-5 89.962 1.000000 179.96
+        !< P1 F=0.05 Eeff=(undefined: sl) Z0=(undefined: sl) R=0.0 C=0.0 
+        !< P2 F=0.05 Eeff=(undefined: sl) Z0=(undefined: sl) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "sl" code.
+      Total time per frequency:  41 seconds.
+
+    Frequency:  10 GHZ
+      Frequency completed Thu Apr 14 13:51:49 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        10.0000000 0.999977 172.11 0.006736 82.222 0.006736 82.222 0.999977 172.34
+        !< P1 F=10.0 Eeff=(6.44983594 -2.9748e-5) Z0=(49.8431576 1.14952e-4) R=0.0 C=0.0 
+        !< P2 F=10.0 Eeff=(undefined: mv) Z0=(undefined: mv) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "mv" code.
+      ABS: SNR = 31.6904 dB (120 dB Goal) for S2_2 at 9.1 GHz.
+      ABS: Time = 0.298 seconds.
+
+    Frequency:  9.1 GHZ
+      Frequency completed Thu Apr 14 13:52:22 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        9.10000000 0.999981 172.82 0.006122 82.925 0.006122 82.925 0.999981 173.03
+        !< P1 F=9.1 Eeff=(6.44987924 -2.9748e-5) Z0=(49.8433519 1.14952e-4) R=0.0 C=0.0 
+        !< P2 F=9.1 Eeff=(undefined: mv) Z0=(undefined: mv) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "mv" code.
+      ABS: SNR = 41.2299 dB (120 dB Goal) for S1_1 at 9.55 GHz.
+      ABS: Time = 0.418 seconds.
+
+    Frequency:  9.55 GHZ
+      Frequency completed Thu Apr 14 13:52:54 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        9.55000000 0.999979 172.46 0.006429 82.574 0.006429 82.574 0.999979 172.69
+        !< P1 F=9.55 Eeff=(6.44985748 -2.9748e-5) Z0=(49.8432546 1.14952e-4) R=0.0 C=0.0 
+        !< P2 F=9.55 Eeff=(undefined: mv) Z0=(undefined: mv) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "mv" code.
+      ABS: SNR = 100.289 dB (120 dB Goal) for S2_2 at 3.3 GHz.
+      ABS: Time = 0.480 seconds.
+
+    Frequency:  3.3 GHZ
+      Frequency completed Thu Apr 14 13:53:27 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        3.30000000 0.999998 177.39 0.002209 87.439 0.002209 87.439 0.999998 177.48
+        !< P1 F=3.3 Eeff=(6.45004905 -2.975e-5) Z0=(49.8441194 1.14952e-4) R=0.0 C=0.0 
+        !< P2 F=3.3 Eeff=(undefined: mv) Z0=(undefined: mv) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "mv" code.
+      ABS: SNR = 137.518 dB (120 dB Goal) for S2_2 at 1.35 GHz.
+      ABS: Time = 0.535 seconds.
+
+  Parameter combination: 15 of 25.
+
+    Frequency:  0.05 GHZ
+      Independent parameter values:
+        rightNotch = 20.0
+        leftNotch = 30.0
+      Subsectioning at 10 GHz with Eeff of 6.45.
+      Subsectioning time:  7 seconds.
+      De-embedding information for TransmonXmonFluxV2_bottom box wall port(s):
+        TransmonXmonFluxV2_bottom SOC Electric Wall: 300 microns length, 978 subsections, 36 MB.
+        TransmonXmonFluxV2_bottom SOC Magnetic Wall: 600 microns length, 945 subsections, 36 MB.
+      De-embedding information for cci group A:
+        Main Std: X=600 microns Y=420 microns box size, 29 subsections, 10 MB.
+      Circuit requires 4666 subsections and 251 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  147
+      Level 1:
+        Staircase:  4,487
+        Via:        32
+
+      Required memory by type:
+        System matrix:            166 MB
+        Elemental subsections:
+          Primary structure:      33 MB
+          TransmonXmonF standard: 40 MB
+          CciA standard:          0 MB
+        Fourier transform:        6 MB
+        Waveguide mode:           3 MB
+        Adaptive band synthesis:  2 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    251 MB
+
+      Waveguide mode time:  0.078 seconds.
+      Fourier transform time:  0.852 seconds.
+      Coupling time:  20 seconds.
+      Loss time:  0 seconds.
+      Matrix fill time:  21 seconds.
+      Matrix solve time:  4 seconds.
+      De-embedding time for TransmonXmonFluxV2_bottom box wall:
+        SOC Electric Wall Std: 3 seconds.
+        SOC Magnetic Wall Std: 3 seconds.
+        Total:                 6 seconds.
+      De-embedding time for cci group A:
+        Total: 0.595 seconds.
+      Frequency completed Thu Apr 14 13:54:09 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        0.05000000 1.000000 179.96 3.338e-5 89.962 3.338e-5 89.962 1.000000 179.96
+        !< P1 F=0.05 Eeff=(undefined: sl) Z0=(undefined: sl) R=0.0 C=0.0 
+        !< P2 F=0.05 Eeff=(undefined: sl) Z0=(undefined: sl) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "sl" code.
+      Total time per frequency:  42 seconds.
+
+    Frequency:  10 GHZ
+      Frequency completed Thu Apr 14 13:54:41 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        10.0000000 0.999977 172.11 0.006736 82.222 0.006736 82.222 0.999977 172.34
+        !< P1 F=10.0 Eeff=(6.44983594 -2.9748e-5) Z0=(49.8431576 1.14952e-4) R=0.0 C=0.0 
+        !< P2 F=10.0 Eeff=(undefined: mv) Z0=(undefined: mv) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "mv" code.
+      ABS: SNR = 31.6904 dB (120 dB Goal) for S2_2 at 9.1 GHz.
+      ABS: Time = 0.254 seconds.
+
+    Frequency:  9.1 GHZ
+      Frequency completed Thu Apr 14 13:55:14 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        9.10000000 0.999981 172.82 0.006122 82.925 0.006122 82.925 0.999981 173.03
+        !< P1 F=9.1 Eeff=(6.44987924 -2.9748e-5) Z0=(49.8433519 1.14952e-4) R=0.0 C=0.0 
+        !< P2 F=9.1 Eeff=(undefined: mv) Z0=(undefined: mv) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "mv" code.
+      ABS: SNR = 41.2314 dB (120 dB Goal) for S1_1 at 9.55 GHz.
+      ABS: Time = 0.433 seconds.
+
+    Frequency:  9.55 GHZ
+      Frequency completed Thu Apr 14 13:55:47 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        9.55000000 0.999979 172.46 0.006429 82.574 0.006429 82.574 0.999979 172.69
+        !< P1 F=9.55 Eeff=(6.44985748 -2.9748e-5) Z0=(49.8432546 1.14952e-4) R=0.0 C=0.0 
+        !< P2 F=9.55 Eeff=(undefined: mv) Z0=(undefined: mv) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "mv" code.
+      ABS: SNR = 100.29 dB (120 dB Goal) for S2_2 at 3.3 GHz.
+      ABS: Time = 0.406 seconds.
+
+    Frequency:  3.3 GHZ
+      Frequency completed Thu Apr 14 13:56:20 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        3.30000000 0.999998 177.39 0.002209 87.439 0.002209 87.439 0.999998 177.48
+        !< P1 F=3.3 Eeff=(6.45004905 -2.975e-5) Z0=(49.8441194 1.14952e-4) R=0.0 C=0.0 
+        !< P2 F=3.3 Eeff=(undefined: mv) Z0=(undefined: mv) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "mv" code.
+      ABS: SNR = 137.507 dB (120 dB Goal) for S2_2 at 1.35 GHz.
+      ABS: Time = 0.448 seconds.
+
+  Parameter combination: 16 of 25.
+
+    Frequency:  0.05 GHZ
+      Independent parameter values:
+        rightNotch = 25.0
+        leftNotch = 10.0
+      Subsectioning at 10 GHz with Eeff of 6.45.
+      Subsectioning time:  7 seconds.
+      De-embedding information for TransmonXmonFluxV2_bottom box wall port(s):
+        TransmonXmonFluxV2_bottom SOC Electric Wall: 300 microns length, 978 subsections, 36 MB.
+        TransmonXmonFluxV2_bottom SOC Magnetic Wall: 600 microns length, 945 subsections, 36 MB.
+      De-embedding information for cci group A:
+        Main Std: X=600 microns Y=420 microns box size, 29 subsections, 10 MB.
+      Circuit requires 4753 subsections and 257 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  147
+      Level 1:
+        Staircase:  4,574
+        Via:        32
+
+      Required memory by type:
+        System matrix:            172 MB
+        Elemental subsections:
+          Primary structure:      33 MB
+          TransmonXmonF standard: 40 MB
+          CciA standard:          0 MB
+        Fourier transform:        6 MB
+        Waveguide mode:           3 MB
+        Adaptive band synthesis:  3 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    257 MB
+
+      Waveguide mode time:  0.079 seconds.
+      Fourier transform time:  0.859 seconds.
+      Coupling time:  20 seconds.
+      Loss time:  0 seconds.
+      Matrix fill time:  21 seconds.
+      Matrix solve time:  4 seconds.
+      De-embedding time for TransmonXmonFluxV2_bottom box wall:
+        SOC Electric Wall Std: 3 seconds.
+        SOC Magnetic Wall Std: 3 seconds.
+        Total:                 6 seconds.
+      De-embedding time for cci group A:
+        Total: 0.607 seconds.
+      Frequency completed Thu Apr 14 13:57:03 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        0.05000000 1.000000 179.96 2.009e-5 89.964 2.009e-5 89.964 1.000000 179.96
+        !< P1 F=0.05 Eeff=(undefined: sl) Z0=(undefined: sl) R=0.0 C=0.0 
+        !< P2 F=0.05 Eeff=(undefined: sl) Z0=(undefined: sl) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "sl" code.
+      Total time per frequency:  43 seconds.
+
+    Frequency:  10 GHZ
+      Frequency completed Thu Apr 14 13:57:36 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        10.0000000 0.999992 172.87 0.004062 82.620 0.004062 82.620 0.999992 172.37
+        !< P1 F=10.0 Eeff=(6.44983594 -2.9748e-5) Z0=(49.8431576 1.14952e-4) R=0.0 C=0.0 
+        !< P2 F=10.0 Eeff=(undefined: mv) Z0=(undefined: mv) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "mv" code.
+      ABS: SNR = 31.4944 dB (120 dB Goal) for S2_2 at 9.2 GHz.
+      ABS: Time = 0.255 seconds.
+
+    Frequency:  9.2 GHZ
+      Frequency completed Thu Apr 14 13:58:09 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        9.20000000 0.999993 173.44 0.003732 83.213 0.003732 83.213 0.999993 172.98
+        !< P1 F=9.2 Eeff=(6.44987445 -2.9748e-5) Z0=(49.8433305 1.14953e-4) R=0.0 C=0.0 
+        !< P2 F=9.2 Eeff=(undefined: mv) Z0=(undefined: mv) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "mv" code.
+      ABS: SNR = 87.6952 dB (120 dB Goal) for S1_1 at 3.25 GHz.
+      ABS: Time = 0.555 seconds.
+
+    Frequency:  3.25 GHZ
+      Frequency completed Thu Apr 14 13:58:43 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        3.25000000 0.999999 177.68 0.001309 87.607 0.001309 87.607 0.999999 177.53
+        !< P1 F=3.25 Eeff=(6.45004813 -2.9752e-5) Z0=(49.8441163 1.14952e-4) R=0.0 C=0.0 
+        !< P2 F=3.25 Eeff=(undefined: mv) Z0=(undefined: mv) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "mv" code.
+      ABS: SNR = 104.915 dB (120 dB Goal) for S2_2 at 6.1 GHz.
+      ABS: Time = 0.516 seconds.
+
+    Frequency:  6.1 GHZ
+      Frequency completed Thu Apr 14 13:59:17 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        6.10000000 0.999997 175.65 0.002463 85.506 0.002463 85.506 0.999997 175.36
+        !< P1 F=6.1 Eeff=(6.44999083 -2.975e-5) Z0=(49.8438539 1.1495e-4) R=0.0 C=0.0 
+        !< P2 F=6.1 Eeff=(undefined: mv) Z0=(undefined: mv) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "mv" code.
+      ABS: SNR = 77.8852 dB (50 dB Goal) for S1_2 at 0.3 GHz.
+      ABS: Time = 0.548 seconds.
+
+  Parameter combination: 17 of 25.
+
+    Frequency:  0.05 GHZ
+      Independent parameter values:
+        rightNotch = 25.0
+        leftNotch = 15.0
+      Subsectioning at 10 GHz with Eeff of 6.45.
+      Subsectioning time:  7 seconds.
+      De-embedding information for TransmonXmonFluxV2_bottom box wall port(s):
+        TransmonXmonFluxV2_bottom SOC Electric Wall: 300 microns length, 978 subsections, 37 MB.
+        TransmonXmonFluxV2_bottom SOC Magnetic Wall: 600 microns length, 945 subsections, 36 MB.
+      De-embedding information for cci group A:
+        Main Std: X=600 microns Y=420 microns box size, 29 subsections, 11 MB.
+      Circuit requires 4734 subsections and 256 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  147
+      Level 1:
+        Staircase:  4,555
+        Via:        32
+
+      Required memory by type:
+        System matrix:            171 MB
+        Elemental subsections:
+          Primary structure:      33 MB
+          TransmonXmonF standard: 40 MB
+          CciA standard:          0 MB
+        Fourier transform:        6 MB
+        Waveguide mode:           3 MB
+        Adaptive band synthesis:  3 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    256 MB
+
+      Waveguide mode time:  0.078 seconds.
+      Fourier transform time:  0.828 seconds.
+      Coupling time:  20 seconds.
+      Loss time:  0 seconds.
+      Matrix fill time:  21 seconds.
+      Matrix solve time:  4 seconds.
+      De-embedding time for TransmonXmonFluxV2_bottom box wall:
+        SOC Electric Wall Std: 3 seconds.
+        SOC Magnetic Wall Std: 3 seconds.
+        Total:                 6 seconds.
+      De-embedding time for cci group A:
+        Total: 0.569 seconds.
+      Frequency completed Thu Apr 14 13:59:59 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        0.05000000 1.000000 179.96 2.582e-5 89.963 2.582e-5 89.963 1.000000 179.96
+        !< P1 F=0.05 Eeff=(undefined: sl) Z0=(undefined: sl) R=0.0 C=0.0 
+        !< P2 F=0.05 Eeff=(undefined: sl) Z0=(undefined: sl) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "sl" code.
+      Total time per frequency:  42 seconds.
+
+    Frequency:  10 GHZ
+      Frequency completed Thu Apr 14 14:00:32 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        10.0000000 0.999986 172.54 0.005216 82.443 0.005216 82.443 0.999986 172.35
+        !< P1 F=10.0 Eeff=(6.44983594 -2.9748e-5) Z0=(49.8431576 1.14952e-4) R=0.0 C=0.0 
+        !< P2 F=10.0 Eeff=(undefined: mv) Z0=(undefined: mv) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "mv" code.
+      ABS: SNR = 32.1339 dB (120 dB Goal) for S2_2 at 9.2 GHz.
+      ABS: Time = 0.283 seconds.
+
+    Frequency:  9.2 GHZ
+      Frequency completed Thu Apr 14 14:01:05 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        9.20000000 0.999989 173.14 0.004792 83.051 0.004792 83.051 0.999989 172.97
+        !< P1 F=9.2 Eeff=(6.44987445 -2.9748e-5) Z0=(49.8433305 1.14953e-4) R=0.0 C=0.0 
+        !< P2 F=9.2 Eeff=(undefined: mv) Z0=(undefined: mv) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "mv" code.
+      ABS: SNR = 85.2948 dB (120 dB Goal) for S1_1 at 3.25 GHz.
+      ABS: Time = 0.560 seconds.
+
+    Frequency:  3.25 GHZ
+      Frequency completed Thu Apr 14 14:01:39 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        3.25000000 0.999999 177.57 0.001682 87.550 0.001682 87.550 0.999999 177.52
+        !< P1 F=3.25 Eeff=(6.45004813 -2.9752e-5) Z0=(49.8441163 1.14952e-4) R=0.0 C=0.0 
+        !< P2 F=3.25 Eeff=(undefined: mv) Z0=(undefined: mv) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "mv" code.
+      ABS: SNR = 114.7 dB (120 dB Goal) for S2_2 at 6.1 GHz.
+      ABS: Time = 0.634 seconds.
+
+    Frequency:  6.1 GHZ
+      Frequency completed Thu Apr 14 14:02:12 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        6.10000000 0.999995 175.45 0.003164 85.398 0.003164 85.398 0.999995 175.35
+        !< P1 F=6.1 Eeff=(6.44999083 -2.975e-5) Z0=(49.8438539 1.1495e-4) R=0.0 C=0.0 
+        !< P2 F=6.1 Eeff=(undefined: mv) Z0=(undefined: mv) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "mv" code.
+      ABS: SNR = 67.0592 dB (50 dB Goal) for S1_2 at 0.3 GHz.
+      ABS: Time = 0.685 seconds.
+
+  Parameter combination: 18 of 25.
+
+    Frequency:  0.05 GHZ
+      Independent parameter values:
+        rightNotch = 25.0
+        leftNotch = 20.0
+      Subsectioning at 10 GHz with Eeff of 6.45.
+      Subsectioning time:  6 seconds.
+      De-embedding information for TransmonXmonFluxV2_bottom box wall port(s):
+        TransmonXmonFluxV2_bottom SOC Electric Wall: 300 microns length, 978 subsections, 37 MB.
+        TransmonXmonFluxV2_bottom SOC Magnetic Wall: 600 microns length, 945 subsections, 37 MB.
+      De-embedding information for cci group A:
+        Main Std: X=600 microns Y=420 microns box size, 29 subsections, 11 MB.
+      Circuit requires 4677 subsections and 252 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  147
+      Level 1:
+        Staircase:  4,498
+        Via:        32
+
+      Required memory by type:
+        System matrix:            167 MB
+        Elemental subsections:
+          Primary structure:      33 MB
+          TransmonXmonF standard: 40 MB
+          CciA standard:          0 MB
+        Fourier transform:        6 MB
+        Waveguide mode:           3 MB
+        Adaptive band synthesis:  2 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    252 MB
+
+      Waveguide mode time:  0.101 seconds.
+      Fourier transform time:  0.844 seconds.
+      Coupling time:  19 seconds.
+      Loss time:  0 seconds.
+      Matrix fill time:  20 seconds.
+      Matrix solve time:  4 seconds.
+      De-embedding time for TransmonXmonFluxV2_bottom box wall:
+        SOC Electric Wall Std: 3 seconds.
+        SOC Magnetic Wall Std: 3 seconds.
+        Total:                 6 seconds.
+      De-embedding time for cci group A:
+        Total: 0.561 seconds.
+      Frequency completed Thu Apr 14 14:02:54 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        0.05000000 1.000000 179.96 2.986e-5 89.962 2.986e-5 89.962 1.000000 179.96
+        !< P1 F=0.05 Eeff=(undefined: sl) Z0=(undefined: sl) R=0.0 C=0.0 
+        !< P2 F=0.05 Eeff=(undefined: sl) Z0=(undefined: sl) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "sl" code.
+      Total time per frequency:  42 seconds.
+
+    Frequency:  10 GHZ
+      Frequency completed Thu Apr 14 14:03:27 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        10.0000000 0.999982 172.21 0.006031 82.266 0.006031 82.266 0.999982 172.32
+        !< P1 F=10.0 Eeff=(6.44983594 -2.9748e-5) Z0=(49.8431576 1.14952e-4) R=0.0 C=0.0 
+        !< P2 F=10.0 Eeff=(undefined: mv) Z0=(undefined: mv) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "mv" code.
+      ABS: SNR = 31.7002 dB (120 dB Goal) for S2_2 at 9.1 GHz.
+      ABS: Time = 0.308 seconds.
+
+    Frequency:  9.1 GHZ
+      Frequency completed Thu Apr 14 14:04:00 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        9.10000000 0.999985 172.91 0.005480 82.966 0.005480 82.966 0.999985 173.02
+        !< P1 F=9.1 Eeff=(6.44987924 -2.9748e-5) Z0=(49.8433519 1.14952e-4) R=0.0 C=0.0 
+        !< P2 F=9.1 Eeff=(undefined: mv) Z0=(undefined: mv) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "mv" code.
+      ABS: SNR = 42.4129 dB (120 dB Goal) for S1_1 at 9.55 GHz.
+      ABS: Time = 0.437 seconds.
+
+    Frequency:  9.55 GHZ
+      Frequency completed Thu Apr 14 14:04:33 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        9.55000000 0.999983 172.56 0.005755 82.616 0.005755 82.616 0.999983 172.67
+        !< P1 F=9.55 Eeff=(6.44985748 -2.9748e-5) Z0=(49.8432546 1.14952e-4) R=0.0 C=0.0 
+        !< P2 F=9.55 Eeff=(undefined: mv) Z0=(undefined: mv) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "mv" code.
+      ABS: SNR = 100.332 dB (120 dB Goal) for S2_2 at 3.25 GHz.
+      ABS: Time = 0.468 seconds.
+
+    Frequency:  3.25 GHZ
+      Frequency completed Thu Apr 14 14:05:06 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        3.25000000 0.999998 177.47 0.001946 87.492 0.001946 87.492 0.999998 177.52
+        !< P1 F=3.25 Eeff=(6.45004813 -2.9752e-5) Z0=(49.8441163 1.14952e-4) R=0.0 C=0.0 
+        !< P2 F=3.25 Eeff=(undefined: mv) Z0=(undefined: mv) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "mv" code.
+      ABS: SNR = 124.667 dB (120 dB Goal) for S2_2 at 1.35 GHz.
+      ABS: Time = 0.452 seconds.
+
+  Parameter combination: 19 of 25.
+
+    Frequency:  0.05 GHZ
+      Independent parameter values:
+        rightNotch = 25.0
+        leftNotch = 25.0
+      Subsectioning at 10 GHz with Eeff of 6.45.
+      Subsectioning time:  6 seconds.
+      De-embedding information for TransmonXmonFluxV2_bottom box wall port(s):
+        TransmonXmonFluxV2_bottom SOC Electric Wall: 300 microns length, 978 subsections, 36 MB.
+        TransmonXmonFluxV2_bottom SOC Magnetic Wall: 600 microns length, 945 subsections, 36 MB.
+      De-embedding information for cci group A:
+        Main Std: X=600 microns Y=420 microns box size, 29 subsections, 10 MB.
+      Circuit requires 4644 subsections and 249 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  147
+      Level 1:
+        Staircase:  4,465
+        Via:        32
+
+      Required memory by type:
+        System matrix:            165 MB
+        Elemental subsections:
+          Primary structure:      33 MB
+          TransmonXmonF standard: 40 MB
+          CciA standard:          0 MB
+        Fourier transform:        6 MB
+        Waveguide mode:           3 MB
+        Adaptive band synthesis:  2 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    249 MB
+
+      Waveguide mode time:  0.077 seconds.
+      Fourier transform time:  0.844 seconds.
+      Coupling time:  19 seconds.
+      Loss time:  0 seconds.
+      Matrix fill time:  20 seconds.
+      Matrix solve time:  4 seconds.
+      De-embedding time for TransmonXmonFluxV2_bottom box wall:
+        SOC Electric Wall Std: 3 seconds.
+        SOC Magnetic Wall Std: 3 seconds.
+        Total:                 6 seconds.
+      De-embedding time for cci group A:
+        Total: 0.608 seconds.
+      Frequency completed Thu Apr 14 14:05:47 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        0.05000000 1.000000 179.96 3.081e-5 89.961 3.081e-5 89.961 1.000000 179.96
+        !< P1 F=0.05 Eeff=(undefined: sl) Z0=(undefined: sl) R=0.0 C=0.0 
+        !< P2 F=0.05 Eeff=(undefined: sl) Z0=(undefined: sl) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "sl" code.
+      Total time per frequency:  41 seconds.
+
+    Frequency:  10 GHZ
+      Frequency completed Thu Apr 14 14:06:19 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        10.0000000 0.999981 172.08 0.006222 82.192 0.006222 82.192 0.999981 172.31
+        !< P1 F=10.0 Eeff=(6.44983594 -2.9748e-5) Z0=(49.8431576 1.14952e-4) R=0.0 C=0.0 
+        !< P2 F=10.0 Eeff=(undefined: mv) Z0=(undefined: mv) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "mv" code.
+      ABS: SNR = 31.713 dB (120 dB Goal) for S2_2 at 9.05 GHz.
+      ABS: Time = 0.280 seconds.
+
+    Frequency:  9.05 GHZ
+      Frequency completed Thu Apr 14 14:06:52 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        9.05000000 0.999984 172.83 0.005623 82.937 0.005623 82.937 0.999984 173.05
+        !< P1 F=9.05 Eeff=(6.44988114 -2.9748e-5) Z0=(49.8433606 1.14953e-4) R=0.0 C=0.0 
+        !< P2 F=9.05 Eeff=(undefined: mv) Z0=(undefined: mv) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "mv" code.
+      ABS: SNR = 39.4761 dB (120 dB Goal) for S1_1 at 9.55 GHz.
+      ABS: Time = 0.442 seconds.
+
+    Frequency:  9.55 GHZ
+      Frequency completed Thu Apr 14 14:07:25 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        9.55000000 0.999982 172.43 0.005938 82.545 0.005938 82.545 0.999982 172.66
+        !< P1 F=9.55 Eeff=(6.44985748 -2.9748e-5) Z0=(49.8432546 1.14952e-4) R=0.0 C=0.0 
+        !< P2 F=9.55 Eeff=(undefined: mv) Z0=(undefined: mv) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "mv" code.
+      ABS: SNR = 100.275 dB (120 dB Goal) for S2_2 at 3.25 GHz.
+      ABS: Time = 0.447 seconds.
+
+    Frequency:  3.25 GHZ
+      Frequency completed Thu Apr 14 14:07:57 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        3.25000000 0.999998 177.42 0.002008 87.468 0.002008 87.468 0.999998 177.51
+        !< P1 F=3.25 Eeff=(6.45004813 -2.9752e-5) Z0=(49.8441163 1.14952e-4) R=0.0 C=0.0 
+        !< P2 F=3.25 Eeff=(undefined: mv) Z0=(undefined: mv) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "mv" code.
+      ABS: SNR = 124.427 dB (120 dB Goal) for S2_2 at 1.35 GHz.
+      ABS: Time = 0.530 seconds.
+
+  Parameter combination: 20 of 25.
+
+    Frequency:  0.05 GHZ
+      Independent parameter values:
+        rightNotch = 25.0
+        leftNotch = 30.0
+      Subsectioning at 10 GHz with Eeff of 6.45.
+      Subsectioning time:  7 seconds.
+      De-embedding information for TransmonXmonFluxV2_bottom box wall port(s):
+        TransmonXmonFluxV2_bottom SOC Electric Wall: 300 microns length, 978 subsections, 36 MB.
+        TransmonXmonFluxV2_bottom SOC Magnetic Wall: 600 microns length, 945 subsections, 36 MB.
+      De-embedding information for cci group A:
+        Main Std: X=600 microns Y=420 microns box size, 29 subsections, 10 MB.
+      Circuit requires 4689 subsections and 253 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  147
+      Level 1:
+        Staircase:  4,510
+        Via:        32
+
+      Required memory by type:
+        System matrix:            168 MB
+        Elemental subsections:
+          Primary structure:      33 MB
+          TransmonXmonF standard: 40 MB
+          CciA standard:          0 MB
+        Fourier transform:        6 MB
+        Waveguide mode:           3 MB
+        Adaptive band synthesis:  2 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    253 MB
+
+      Waveguide mode time:  0.072 seconds.
+      Fourier transform time:  0.835 seconds.
+      Coupling time:  20 seconds.
+      Loss time:  0 seconds.
+      Matrix fill time:  21 seconds.
+      Matrix solve time:  4 seconds.
+      De-embedding time for TransmonXmonFluxV2_bottom box wall:
+        SOC Electric Wall Std: 3 seconds.
+        SOC Magnetic Wall Std: 3 seconds.
+        Total:                 6 seconds.
+      De-embedding time for cci group A:
+        Total: 0.596 seconds.
+      Frequency completed Thu Apr 14 14:08:39 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        0.05000000 1.000000 179.96 3.080e-5 89.961 3.080e-5 89.961 1.000000 179.96
+        !< P1 F=0.05 Eeff=(undefined: sl) Z0=(undefined: sl) R=0.0 C=0.0 
+        !< P2 F=0.05 Eeff=(undefined: sl) Z0=(undefined: sl) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "sl" code.
+      Total time per frequency:  42 seconds.
+
+    Frequency:  10 GHZ
+      Frequency completed Thu Apr 14 14:09:12 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        10.0000000 0.999981 172.08 0.006221 82.192 0.006221 82.192 0.999981 172.31
+        !< P1 F=10.0 Eeff=(6.44983594 -2.9748e-5) Z0=(49.8431576 1.14952e-4) R=0.0 C=0.0 
+        !< P2 F=10.0 Eeff=(undefined: mv) Z0=(undefined: mv) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "mv" code.
+      ABS: SNR = 31.713 dB (120 dB Goal) for S2_2 at 9.05 GHz.
+      ABS: Time = 0.276 seconds.
+
+    Frequency:  9.05 GHZ
+      Frequency completed Thu Apr 14 14:09:45 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        9.05000000 0.999984 172.83 0.005622 82.937 0.005622 82.937 0.999984 173.05
+        !< P1 F=9.05 Eeff=(6.44988114 -2.9748e-5) Z0=(49.8433606 1.14953e-4) R=0.0 C=0.0 
+        !< P2 F=9.05 Eeff=(undefined: mv) Z0=(undefined: mv) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "mv" code.
+      ABS: SNR = 39.4778 dB (120 dB Goal) for S1_1 at 9.55 GHz.
+      ABS: Time = 0.414 seconds.
+
+    Frequency:  9.55 GHZ
+      Frequency completed Thu Apr 14 14:10:18 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        9.55000000 0.999982 172.43 0.005937 82.545 0.005937 82.545 0.999982 172.66
+        !< P1 F=9.55 Eeff=(6.44985748 -2.9748e-5) Z0=(49.8432546 1.14952e-4) R=0.0 C=0.0 
+        !< P2 F=9.55 Eeff=(undefined: mv) Z0=(undefined: mv) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "mv" code.
+      ABS: SNR = 100.276 dB (120 dB Goal) for S2_2 at 3.25 GHz.
+      ABS: Time = 0.504 seconds.
+
+    Frequency:  3.25 GHZ
+      Frequency completed Thu Apr 14 14:10:51 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        3.25000000 0.999998 177.42 0.002008 87.468 0.002008 87.468 0.999998 177.51
+        !< P1 F=3.25 Eeff=(6.45004813 -2.9752e-5) Z0=(49.8441163 1.14952e-4) R=0.0 C=0.0 
+        !< P2 F=3.25 Eeff=(undefined: mv) Z0=(undefined: mv) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "mv" code.
+      ABS: SNR = 138.571 dB (120 dB Goal) for S2_2 at 1.35 GHz.
+      ABS: Time = 0.521 seconds.
+
+  Parameter combination: 21 of 25.
+
+    Frequency:  0.05 GHZ
+      Independent parameter values:
+        rightNotch = 30.0
+        leftNotch = 10.0
+      Subsectioning at 10 GHz with Eeff of 6.45.
+      Subsectioning time:  7 seconds.
+      De-embedding information for TransmonXmonFluxV2_bottom box wall port(s):
+        TransmonXmonFluxV2_bottom SOC Electric Wall: 300 microns length, 978 subsections, 36 MB.
+        TransmonXmonFluxV2_bottom SOC Magnetic Wall: 600 microns length, 945 subsections, 36 MB.
+      De-embedding information for cci group A:
+        Main Std: X=600 microns Y=420 microns box size, 29 subsections, 10 MB.
+      Circuit requires 4758 subsections and 258 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  147
+      Level 1:
+        Staircase:  4,579
+        Via:        32
+
+      Required memory by type:
+        System matrix:            173 MB
+        Elemental subsections:
+          Primary structure:      33 MB
+          TransmonXmonF standard: 40 MB
+          CciA standard:          0 MB
+        Fourier transform:        6 MB
+        Waveguide mode:           3 MB
+        Adaptive band synthesis:  3 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    258 MB
+
+      Waveguide mode time:  0.067 seconds.
+      Fourier transform time:  0.832 seconds.
+      Coupling time:  20 seconds.
+      Loss time:  0.001 seconds.
+      Matrix fill time:  21 seconds.
+      Matrix solve time:  4 seconds.
+      De-embedding time for TransmonXmonFluxV2_bottom box wall:
+        SOC Electric Wall Std: 3 seconds.
+        SOC Magnetic Wall Std: 3 seconds.
+        Total:                 6 seconds.
+      De-embedding time for cci group A:
+        Total: 0.590 seconds.
+      Frequency completed Thu Apr 14 14:11:34 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        0.05000000 1.000000 179.96 1.805e-5 89.964 1.805e-5 89.964 1.000000 179.96
+        !< P1 F=0.05 Eeff=(undefined: sl) Z0=(undefined: sl) R=0.0 C=0.0 
+        !< P2 F=0.05 Eeff=(undefined: sl) Z0=(undefined: sl) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "sl" code.
+      Total time per frequency:  43 seconds.
+
+    Frequency:  10 GHZ
+      Frequency completed Thu Apr 14 14:12:07 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        10.0000000 0.999993 172.86 0.003652 82.595 0.003652 82.595 0.999993 172.33
+        !< P1 F=10.0 Eeff=(6.44983594 -2.9748e-5) Z0=(49.8431576 1.14952e-4) R=0.0 C=0.0 
+        !< P2 F=10.0 Eeff=(undefined: mv) Z0=(undefined: mv) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "mv" code.
+      ABS: SNR = 31.4465 dB (120 dB Goal) for S2_2 at 9.2 GHz.
+      ABS: Time = 0.251 seconds.
+
+    Frequency:  9.2 GHZ
+      Frequency completed Thu Apr 14 14:12:41 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        9.20000000 0.999994 173.43 0.003355 83.190 0.003355 83.190 0.999994 172.95
+        !< P1 F=9.2 Eeff=(6.44987445 -2.9748e-5) Z0=(49.8433305 1.14953e-4) R=0.0 C=0.0 
+        !< P2 F=9.2 Eeff=(undefined: mv) Z0=(undefined: mv) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "mv" code.
+      ABS: SNR = 87.7069 dB (120 dB Goal) for S1_1 at 3.25 GHz.
+      ABS: Time = 0.453 seconds.
+
+    Frequency:  3.25 GHZ
+      Frequency completed Thu Apr 14 14:13:14 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        3.25000000 0.999999 177.68 0.001176 87.599 0.001176 87.599 0.999999 177.52
+        !< P1 F=3.25 Eeff=(6.45004813 -2.9752e-5) Z0=(49.8441163 1.14952e-4) R=0.0 C=0.0 
+        !< P2 F=3.25 Eeff=(undefined: mv) Z0=(undefined: mv) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "mv" code.
+      ABS: SNR = 104.823 dB (120 dB Goal) for S2_2 at 6.1 GHz.
+      ABS: Time = 0.591 seconds.
+
+    Frequency:  6.1 GHZ
+      Frequency completed Thu Apr 14 14:13:48 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        6.10000000 0.999998 175.64 0.002213 85.490 0.002213 85.490 0.999998 175.34
+        !< P1 F=6.1 Eeff=(6.44999083 -2.975e-5) Z0=(49.8438539 1.1495e-4) R=0.0 C=0.0 
+        !< P2 F=6.1 Eeff=(undefined: mv) Z0=(undefined: mv) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "mv" code.
+      ABS: SNR = 77.1355 dB (50 dB Goal) for S1_2 at 0.3 GHz.
+      ABS: Time = 0.548 seconds.
+
+  Parameter combination: 22 of 25.
+
+    Frequency:  0.05 GHZ
+      Independent parameter values:
+        rightNotch = 30.0
+        leftNotch = 15.0
+      Subsectioning at 10 GHz with Eeff of 6.45.
+      Subsectioning time:  7 seconds.
+      De-embedding information for TransmonXmonFluxV2_bottom box wall port(s):
+        TransmonXmonFluxV2_bottom SOC Electric Wall: 300 microns length, 978 subsections, 37 MB.
+        TransmonXmonFluxV2_bottom SOC Magnetic Wall: 600 microns length, 945 subsections, 36 MB.
+      De-embedding information for cci group A:
+        Main Std: X=600 microns Y=420 microns box size, 29 subsections, 11 MB.
+      Circuit requires 4739 subsections and 256 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  147
+      Level 1:
+        Staircase:  4,560
+        Via:        32
+
+      Required memory by type:
+        System matrix:            171 MB
+        Elemental subsections:
+          Primary structure:      33 MB
+          TransmonXmonF standard: 40 MB
+          CciA standard:          0 MB
+        Fourier transform:        6 MB
+        Waveguide mode:           3 MB
+        Adaptive band synthesis:  3 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    256 MB
+
+      Waveguide mode time:  0.078 seconds.
+      Fourier transform time:  0.828 seconds.
+      Coupling time:  20 seconds.
+      Loss time:  0 seconds.
+      Matrix fill time:  21 seconds.
+      Matrix solve time:  4 seconds.
+      De-embedding time for TransmonXmonFluxV2_bottom box wall:
+        SOC Electric Wall Std: 3 seconds.
+        SOC Magnetic Wall Std: 3 seconds.
+        Total:                 6 seconds.
+      De-embedding time for cci group A:
+        Total: 0.588 seconds.
+      Frequency completed Thu Apr 14 14:14:30 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        0.05000000 1.000000 179.96 2.358e-5 89.963 2.358e-5 89.963 1.000000 179.96
+        !< P1 F=0.05 Eeff=(undefined: sl) Z0=(undefined: sl) R=0.0 C=0.0 
+        !< P2 F=0.05 Eeff=(undefined: sl) Z0=(undefined: sl) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "sl" code.
+      Total time per frequency:  42 seconds.
+
+    Frequency:  10 GHZ
+      Frequency completed Thu Apr 14 14:15:04 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        10.0000000 0.999989 172.52 0.004769 82.417 0.004769 82.417 0.999989 172.31
+        !< P1 F=10.0 Eeff=(6.44983594 -2.9748e-5) Z0=(49.8431576 1.14952e-4) R=0.0 C=0.0 
+        !< P2 F=10.0 Eeff=(undefined: mv) Z0=(undefined: mv) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "mv" code.
+      ABS: SNR = 31.4607 dB (120 dB Goal) for S2_2 at 9.2 GHz.
+      ABS: Time = 0.224 seconds.
+
+    Frequency:  9.2 GHZ
+      Frequency completed Thu Apr 14 14:15:37 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        9.20000000 0.999990 173.12 0.004381 83.026 0.004381 83.026 0.999990 172.94
+        !< P1 F=9.2 Eeff=(6.44987445 -2.9748e-5) Z0=(49.8433305 1.14953e-4) R=0.0 C=0.0 
+        !< P2 F=9.2 Eeff=(undefined: mv) Z0=(undefined: mv) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "mv" code.
+      ABS: SNR = 85.8799 dB (120 dB Goal) for S1_1 at 3.25 GHz.
+      ABS: Time = 0.474 seconds.
+
+    Frequency:  3.25 GHZ
+      Frequency completed Thu Apr 14 14:16:11 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        3.25000000 0.999999 177.57 0.001537 87.541 0.001537 87.541 0.999999 177.51
+        !< P1 F=3.25 Eeff=(6.45004813 -2.9752e-5) Z0=(49.8441163 1.14952e-4) R=0.0 C=0.0 
+        !< P2 F=3.25 Eeff=(undefined: mv) Z0=(undefined: mv) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "mv" code.
+      ABS: SNR = 105.071 dB (120 dB Goal) for S2_2 at 6.15 GHz.
+      ABS: Time = 0.573 seconds.
+
+    Frequency:  6.15 GHZ
+      Frequency completed Thu Apr 14 14:16:44 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        6.15000000 0.999996 175.40 0.002916 85.344 0.002916 85.344 0.999996 175.29
+        !< P1 F=6.15 Eeff=(6.44998993 -2.9749e-5) Z0=(49.8438494 1.14951e-4) R=0.0 C=0.0 
+        !< P2 F=6.15 Eeff=(undefined: mv) Z0=(undefined: mv) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "mv" code.
+      ABS: SNR = 75.1913 dB (50 dB Goal) for S1_2 at 0.3 GHz.
+      ABS: Time = 0.633 seconds.
+
+  Parameter combination: 23 of 25.
+
+    Frequency:  0.05 GHZ
+      Independent parameter values:
+        rightNotch = 30.0
+        leftNotch = 20.0
+      Subsectioning at 10 GHz with Eeff of 6.45.
+      Subsectioning time:  6 seconds.
+      De-embedding information for TransmonXmonFluxV2_bottom box wall port(s):
+        TransmonXmonFluxV2_bottom SOC Electric Wall: 300 microns length, 978 subsections, 37 MB.
+        TransmonXmonFluxV2_bottom SOC Magnetic Wall: 600 microns length, 945 subsections, 36 MB.
+      De-embedding information for cci group A:
+        Main Std: X=600 microns Y=420 microns box size, 29 subsections, 11 MB.
+      Circuit requires 4682 subsections and 253 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  147
+      Level 1:
+        Staircase:  4,503
+        Via:        32
+
+      Required memory by type:
+        System matrix:            167 MB
+        Elemental subsections:
+          Primary structure:      33 MB
+          TransmonXmonF standard: 40 MB
+          CciA standard:          0 MB
+        Fourier transform:        6 MB
+        Waveguide mode:           3 MB
+        Adaptive band synthesis:  4 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    253 MB
+
+      Waveguide mode time:  0.078 seconds.
+      Fourier transform time:  0.839 seconds.
+      Coupling time:  20 seconds.
+      Loss time:  0 seconds.
+      Matrix fill time:  20 seconds.
+      Matrix solve time:  4 seconds.
+      De-embedding time for TransmonXmonFluxV2_bottom box wall:
+        SOC Electric Wall Std: 3 seconds.
+        SOC Magnetic Wall Std: 3 seconds.
+        Total:                 6 seconds.
+      De-embedding time for cci group A:
+        Total: 0.586 seconds.
+      Frequency completed Thu Apr 14 14:17:26 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        0.05000000 1.000000 179.96 2.758e-5 89.962 2.758e-5 89.962 1.000000 179.96
+        !< P1 F=0.05 Eeff=(undefined: sl) Z0=(undefined: sl) R=0.0 C=0.0 
+        !< P2 F=0.05 Eeff=(undefined: sl) Z0=(undefined: sl) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "sl" code.
+      Total time per frequency:  41 seconds.
+
+    Frequency:  10 GHZ
+      Frequency completed Thu Apr 14 14:17:58 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        10.0000000 0.999984 172.19 0.005576 82.240 0.005576 82.240 0.999984 172.29
+        !< P1 F=10.0 Eeff=(6.44983594 -2.9748e-5) Z0=(49.8431576 1.14952e-4) R=0.0 C=0.0 
+        !< P2 F=10.0 Eeff=(undefined: mv) Z0=(undefined: mv) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "mv" code.
+      ABS: SNR = 31.7172 dB (120 dB Goal) for S2_2 at 9.05 GHz.
+      ABS: Time = 0.446 seconds.
+
+    Frequency:  9.05 GHZ
+      Frequency completed Thu Apr 14 14:18:31 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        9.05000000 0.999987 172.93 0.005038 82.980 0.005038 82.980 0.999987 173.03
+        !< P1 F=9.05 Eeff=(6.44988114 -2.9748e-5) Z0=(49.8433606 1.14953e-4) R=0.0 C=0.0 
+        !< P2 F=9.05 Eeff=(undefined: mv) Z0=(undefined: mv) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "mv" code.
+      ABS: SNR = 40.5728 dB (120 dB Goal) for S1_1 at 9.55 GHz.
+      ABS: Time = 0.703 seconds.
+
+    Frequency:  9.55 GHZ
+      Frequency completed Thu Apr 14 14:19:05 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        9.55000000 0.999986 172.54 0.005321 82.591 0.005321 82.591 0.999986 172.64
+        !< P1 F=9.55 Eeff=(6.44985748 -2.9748e-5) Z0=(49.8432546 1.14952e-4) R=0.0 C=0.0 
+        !< P2 F=9.55 Eeff=(undefined: mv) Z0=(undefined: mv) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "mv" code.
+      ABS: SNR = 98.3344 dB (120 dB Goal) for S2_2 at 3.3 GHz.
+      ABS: Time = 0.750 seconds.
+
+    Frequency:  3.3 GHZ
+      Frequency completed Thu Apr 14 14:19:38 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        3.30000000 0.999998 177.42 0.001826 87.445 0.001826 87.445 0.999998 177.47
+        !< P1 F=3.3 Eeff=(6.45004905 -2.975e-5) Z0=(49.8441194 1.14952e-4) R=0.0 C=0.0 
+        !< P2 F=3.3 Eeff=(undefined: mv) Z0=(undefined: mv) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "mv" code.
+      ABS: SNR = 112.198 dB (120 dB Goal) for S2_2 at 1.25 GHz.
+      ABS: Time = 0.878 seconds.
+
+    Frequency:  1.25 GHZ
+      Frequency completed Thu Apr 14 14:20:12 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        1.25000000 1.000000 179.02 6.909e-4 89.032 6.909e-4 89.032 1.000000 179.04
+        !< P1 F=1.25 Eeff=(6.44999834 -2.9744e-5) Z0=(49.8439377 1.1496e-4) R=0.0 C=0.0 
+        !< P2 F=1.25 Eeff=(undefined: mv) Z0=(undefined: mv) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "mv" code.
+      ABS: SNR = 135.535 dB (120 dB Goal) for S2_2 at 5.75 GHz.
+      ABS: Time = 0.896 seconds.
+
+  Parameter combination: 24 of 25.
+
+    Frequency:  0.05 GHZ
+      Independent parameter values:
+        rightNotch = 30.0
+        leftNotch = 25.0
+      Subsectioning at 10 GHz with Eeff of 6.45.
+      Subsectioning time:  6 seconds.
+      De-embedding information for TransmonXmonFluxV2_bottom box wall port(s):
+        TransmonXmonFluxV2_bottom SOC Electric Wall: 300 microns length, 978 subsections, 38 MB.
+        TransmonXmonFluxV2_bottom SOC Magnetic Wall: 600 microns length, 945 subsections, 37 MB.
+      De-embedding information for cci group A:
+        Main Std: X=600 microns Y=420 microns box size, 29 subsections, 12 MB.
+      Circuit requires 4649 subsections and 251 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  147
+      Level 1:
+        Staircase:  4,470
+        Via:        32
+
+      Required memory by type:
+        System matrix:            165 MB
+        Elemental subsections:
+          Primary structure:      33 MB
+          TransmonXmonF standard: 40 MB
+          CciA standard:          0 MB
+        Fourier transform:        6 MB
+        Waveguide mode:           3 MB
+        Adaptive band synthesis:  4 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    251 MB
+
+      Waveguide mode time:  0.088 seconds.
+      Fourier transform time:  0.836 seconds.
+      Coupling time:  19 seconds.
+      Loss time:  0.001 seconds.
+      Matrix fill time:  20 seconds.
+      Matrix solve time:  4 seconds.
+      De-embedding time for TransmonXmonFluxV2_bottom box wall:
+        SOC Electric Wall Std: 3 seconds.
+        SOC Magnetic Wall Std: 3 seconds.
+        Total:                 6 seconds.
+      De-embedding time for cci group A:
+        Total: 0.571 seconds.
+      Frequency completed Thu Apr 14 14:20:53 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        0.05000000 1.000000 179.96 2.855e-5 89.961 2.855e-5 89.961 1.000000 179.96
+        !< P1 F=0.05 Eeff=(undefined: sl) Z0=(undefined: sl) R=0.0 C=0.0 
+        !< P2 F=0.05 Eeff=(undefined: sl) Z0=(undefined: sl) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "sl" code.
+      Total time per frequency:  41 seconds.
+
+    Frequency:  10 GHZ
+      Frequency completed Thu Apr 14 14:21:26 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        10.0000000 0.999983 172.05 0.005770 82.166 0.005770 82.166 0.999983 172.28
+        !< P1 F=10.0 Eeff=(6.44983594 -2.9748e-5) Z0=(49.8431576 1.14952e-4) R=0.0 C=0.0 
+        !< P2 F=10.0 Eeff=(undefined: mv) Z0=(undefined: mv) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "mv" code.
+      ABS: SNR = 31.732 dB (120 dB Goal) for S2_2 at 9.05 GHz.
+      ABS: Time = 0.477 seconds.
+
+    Frequency:  9.05 GHZ
+      Frequency completed Thu Apr 14 14:21:59 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        9.05000000 0.999986 172.81 0.005213 82.914 0.005213 82.914 0.999986 173.02
+        !< P1 F=9.05 Eeff=(6.44988114 -2.9748e-5) Z0=(49.8433606 1.14953e-4) R=0.0 C=0.0 
+        !< P2 F=9.05 Eeff=(undefined: mv) Z0=(undefined: mv) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "mv" code.
+      ABS: SNR = 39.9576 dB (120 dB Goal) for S1_1 at 9.55 GHz.
+      ABS: Time = 0.687 seconds.
+
+    Frequency:  9.55 GHZ
+      Frequency completed Thu Apr 14 14:22:32 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        9.55000000 0.999985 172.41 0.005506 82.520 0.005506 82.520 0.999985 172.63
+        !< P1 F=9.55 Eeff=(6.44985748 -2.9748e-5) Z0=(49.8432546 1.14952e-4) R=0.0 C=0.0 
+        !< P2 F=9.55 Eeff=(undefined: mv) Z0=(undefined: mv) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "mv" code.
+      ABS: SNR = 98.1838 dB (120 dB Goal) for S2_2 at 3.3 GHz.
+      ABS: Time = 0.768 seconds.
+
+    Frequency:  3.3 GHZ
+      Frequency completed Thu Apr 14 14:23:04 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        3.30000000 0.999998 177.38 0.001889 87.421 0.001889 87.421 0.999998 177.46
+        !< P1 F=3.3 Eeff=(6.45004905 -2.975e-5) Z0=(49.8441194 1.14952e-4) R=0.0 C=0.0 
+        !< P2 F=3.3 Eeff=(undefined: mv) Z0=(undefined: mv) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "mv" code.
+      ABS: SNR = 112.089 dB (120 dB Goal) for S2_2 at 1.3 GHz.
+      ABS: Time = 0.880 seconds.
+
+    Frequency:  1.3 GHZ
+      Frequency completed Thu Apr 14 14:23:38 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        1.30000000 1.000000 178.97 7.437e-4 88.984 7.437e-4 88.984 1.000000 179.00
+        !< P1 F=1.3 Eeff=(6.44999236 -2.9757e-5) Z0=(49.8439144 1.1494e-4) R=0.0 C=0.0 
+        !< P2 F=1.3 Eeff=(undefined: mv) Z0=(undefined: mv) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "mv" code.
+      ABS: SNR = 137.767 dB (120 dB Goal) for S2_2 at 5.9 GHz.
+      ABS: Time = 0.962 seconds.
+
+  Parameter combination: 25 of 25.
+
+    Frequency:  0.05 GHZ
+      Independent parameter values:
+        rightNotch = 30.0
+        leftNotch = 30.0
+      Subsectioning at 10 GHz with Eeff of 6.45.
+      Subsectioning time:  6 seconds.
+      De-embedding information for TransmonXmonFluxV2_bottom box wall port(s):
+        TransmonXmonFluxV2_bottom SOC Electric Wall: 300 microns length, 978 subsections, 38 MB.
+        TransmonXmonFluxV2_bottom SOC Magnetic Wall: 600 microns length, 945 subsections, 37 MB.
+      De-embedding information for cci group A:
+        Main Std: X=600 microns Y=420 microns box size, 29 subsections, 12 MB.
+      Circuit requires 4694 subsections and 254 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  147
+      Level 1:
+        Staircase:  4,515
+        Via:        32
+
+      Required memory by type:
+        System matrix:            168 MB
+        Elemental subsections:
+          Primary structure:      33 MB
+          TransmonXmonF standard: 40 MB
+          CciA standard:          0 MB
+        Fourier transform:        6 MB
+        Waveguide mode:           3 MB
+        Adaptive band synthesis:  4 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    254 MB
+
+      Waveguide mode time:  0.067 seconds.
+      Fourier transform time:  0.840 seconds.
+      Coupling time:  20 seconds.
+      Loss time:  0 seconds.
+      Matrix fill time:  21 seconds.
+      Matrix solve time:  4 seconds.
+      De-embedding time for TransmonXmonFluxV2_bottom box wall:
+        SOC Electric Wall Std: 3 seconds.
+        SOC Magnetic Wall Std: 3 seconds.
+        Total:                 6 seconds.
+      De-embedding time for cci group A:
+        Total: 0.547 seconds.
+      Frequency completed Thu Apr 14 14:24:20 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        0.05000000 1.000000 179.96 2.855e-5 89.961 2.855e-5 89.961 1.000000 179.96
+        !< P1 F=0.05 Eeff=(undefined: sl) Z0=(undefined: sl) R=0.0 C=0.0 
+        !< P2 F=0.05 Eeff=(undefined: sl) Z0=(undefined: sl) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "sl" code.
+      Total time per frequency:  42 seconds.
+
+    Frequency:  10 GHZ
+      Frequency completed Thu Apr 14 14:24:53 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        10.0000000 0.999983 172.05 0.005769 82.166 0.005769 82.166 0.999983 172.28
+        !< P1 F=10.0 Eeff=(6.44983594 -2.9748e-5) Z0=(49.8431576 1.14952e-4) R=0.0 C=0.0 
+        !< P2 F=10.0 Eeff=(undefined: mv) Z0=(undefined: mv) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "mv" code.
+      ABS: SNR = 31.7319 dB (120 dB Goal) for S2_2 at 9.05 GHz.
+      ABS: Time = 0.493 seconds.
+
+    Frequency:  9.05 GHZ
+      Frequency completed Thu Apr 14 14:25:26 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        9.05000000 0.999986 172.81 0.005213 82.914 0.005213 82.914 0.999986 173.02
+        !< P1 F=9.05 Eeff=(6.44988114 -2.9748e-5) Z0=(49.8433606 1.14953e-4) R=0.0 C=0.0 
+        !< P2 F=9.05 Eeff=(undefined: mv) Z0=(undefined: mv) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "mv" code.
+      ABS: SNR = 39.9596 dB (120 dB Goal) for S1_1 at 9.55 GHz.
+      ABS: Time = 0.772 seconds.
+
+    Frequency:  9.55 GHZ
+      Frequency completed Thu Apr 14 14:25:59 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        9.55000000 0.999985 172.41 0.005505 82.520 0.005505 82.520 0.999985 172.63
+        !< P1 F=9.55 Eeff=(6.44985748 -2.9748e-5) Z0=(49.8432546 1.14952e-4) R=0.0 C=0.0 
+        !< P2 F=9.55 Eeff=(undefined: mv) Z0=(undefined: mv) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "mv" code.
+      ABS: SNR = 98.1859 dB (120 dB Goal) for S2_2 at 3.3 GHz.
+      ABS: Time = 0.775 seconds.
+
+    Frequency:  3.3 GHZ
+      Frequency completed Thu Apr 14 14:26:33 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        3.30000000 0.999998 177.38 0.001889 87.421 0.001889 87.421 0.999998 177.46
+        !< P1 F=3.3 Eeff=(6.45004905 -2.975e-5) Z0=(49.8441194 1.14952e-4) R=0.0 C=0.0 
+        !< P2 F=3.3 Eeff=(undefined: mv) Z0=(undefined: mv) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "mv" code.
+      ABS: SNR = 111.982 dB (120 dB Goal) for S2_2 at 1.25 GHz.
+      ABS: Time = 0.911 seconds.
+
+    Frequency:  1.25 GHZ
+      Frequency completed Thu Apr 14 14:27:06 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        1.25000000 1.000000 179.01 7.150e-4 89.023 7.150e-4 89.023 1.000000 179.04
+        !< P1 F=1.25 Eeff=(6.44999834 -2.9744e-5) Z0=(49.8439377 1.1496e-4) R=0.0 C=0.0 
+        !< P2 F=1.25 Eeff=(undefined: mv) Z0=(undefined: mv) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "mv" code.
+      ABS: SNR = 135.563 dB (120 dB Goal) for S2_2 at 5.85 GHz.
+      ABS: Time = 0.968 seconds.
+
+    Post-Analysis:
+      Total time for 128 frequencies:  1 hour 14 minutes.
+      Errors detected: 0    Warnings detected: 0.
+
+Analysis completed Thu Apr 14 14:27:07 2016.
+
+
+Run 2:  Thu Apr 14 19:21:15 2016.  calt2.2.43068.
+        Em version 16.52 (64-bit Windows) on DESKTOP-MOCDKPP remote.
+
+  Project:  C:\Users\Michael\Documents\Github\Sonnet\Qubit\FirstTests\TransmonXmonFluxV2_SetParam.son.
+
+    Frequency:  0.05 GHZ
+      Independent parameter values:
+        rightNotch = 10.0
+        leftNotch = 22.0
+      Subsectioning at 10 GHz with Eeff of 6.45.
+      Subsectioning time:  7 seconds.
+      De-embedding information for TransmonXmonFluxV2_SetParam_bottom box wall port(s):
+        TransmonXmonFluxV2_SetParam_bottom SOC Electric Wall: 300 microns length, 978 subsections, 34 MB.
+        TransmonXmonFluxV2_SetParam_bottom SOC Magnetic Wall: 600 microns length, 945 subsections, 34 MB.
+      De-embedding information for cci group A:
+        Main Std: X=600 microns Y=420 microns box size, 29 subsections, 8 MB.
+      Em license feature:  emhighperformance.
+      Circuit requires 4633 subsections and 249 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  147
+      Level 1:
+        Staircase:  4,454
+        Via:        32
+
+      Required memory by type:
+        System matrix:            164 MB
+        Elemental subsections:
+          Primary structure:      33 MB
+          TransmonXmonF standard: 40 MB
+          CciA standard:          0 MB
+        Fourier transform:        6 MB
+        Waveguide mode:           3 MB
+        Adaptive band synthesis:  3 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    249 MB
+
+      Matrix solver:  internal 64-bit SSE with loss.
+      Simulation mode:  remote em transfer.
+      Threads:  using 12 thread(s), 12 core(s) available.
+      Waveguide mode time:  0.068 seconds.
+      Fourier transform time:  0.850 seconds.
+      Coupling time:  20 seconds.
+      Loss time:  0 seconds.
+      Matrix fill time:  21 seconds.
+      Matrix solve time:  4 seconds.
+      De-embedding time for TransmonXmonFluxV2_SetParam_bottom box wall:
+        SOC Electric Wall Std: 3 seconds.
+        SOC Magnetic Wall Std: 3 seconds.
+        Total:                 7 seconds.
+      De-embedding time for cci group A:
+        Total: 0.541 seconds.
+      Frequency completed Thu Apr 14 19:21:57 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        0.05000000 1.000000 179.96 3.362e-5 89.962 3.362e-5 89.962 1.000000 179.96
+        !< P1 F=0.05 Eeff=(undefined: sl) Z0=(undefined: sl) R=0.0 C=0.0 
+        !< P2 F=0.05 Eeff=(undefined: sl) Z0=(undefined: sl) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "sl" code.
+      Total time per frequency:  35 seconds.
+
+    Frequency:  10 GHZ
+      Frequency completed Thu Apr 14 19:22:31 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        10.0000000 0.999977 172.18 0.006776 82.270 0.006776 82.270 0.999977 172.36
+        !< P1 F=10.0 Eeff=(6.44983594 -2.9748e-5) Z0=(49.8431576 1.14952e-4) R=0.0 C=0.0 
+        !< P2 F=10.0 Eeff=(undefined: mv) Z0=(undefined: mv) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "mv" code.
+      ABS: SNR = 31.9983 dB (120 dB Goal) for S2_2 at 9.25 GHz.
+      ABS: Time = 0.299 seconds.
+
+    Frequency:  9.25 GHZ
+      Frequency completed Thu Apr 14 19:23:05 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        9.25000000 0.999980 172.77 0.006262 82.853 0.006262 82.853 0.999980 172.93
+        !< P1 F=9.25 Eeff=(6.44987169 -2.9748e-5) Z0=(49.8433184 1.14953e-4) R=0.0 C=0.0 
+        !< P2 F=9.25 Eeff=(undefined: mv) Z0=(undefined: mv) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "mv" code.
+      ABS: SNR = 76.4484 dB (120 dB Goal) for S2_2 at 7.9 GHz.
+      ABS: Time = 0.617 seconds.
+
+    Frequency:  7.9 GHZ
+      Frequency completed Thu Apr 14 19:23:40 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        7.90000000 0.999986 173.83 0.005341 83.900 0.005341 83.900 0.999986 173.97
+        !< P1 F=7.9 Eeff=(6.44992991 -2.9749e-5) Z0=(49.8435795 1.14952e-4) R=0.0 C=0.0 
+        !< P2 F=7.9 Eeff=(undefined: mv) Z0=(undefined: mv) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "mv" code.
+      ABS: SNR = 100.015 dB (120 dB Goal) for S2_2 at 2.45 GHz.
+      ABS: Time = 0.638 seconds.
+
+    Frequency:  2.45 GHZ
+      Frequency completed Thu Apr 14 19:24:15 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        2.45000000 0.999999 178.09 0.001651 88.111 0.001651 88.111 0.999999 178.14
+        !< P1 F=2.45 Eeff=(6.45004653 -2.975e-5) Z0=(49.8441171 1.14946e-4) R=0.0 C=0.0 
+        !< P2 F=2.45 Eeff=(undefined: mv) Z0=(undefined: mv) R=0.0 C=0.0 
+        !< See "De-embedding Codes" in Help for more details on the "mv" code.
+      ABS: SNR = 129.985 dB (120 dB Goal) for S2_2 at 4.5 GHz.
+      ABS: Time = 0.750 seconds.
+
+    Post-Analysis:
+      Total time for 5 frequencies:  3 minutes.
+      Errors detected: 0    Warnings detected: 0.
+
+Analysis completed Thu Apr 14 19:24:16 2016.

@@ -1,0 +1,28 @@
+Run 1:  Tue Jul 19 15:41:46 2016.  calt2.2.43068.
+        Em version 16.52 (64-bit Windows) on DESKTOP-MOCDKPP remote.
+
+  Project:  C:\Users\Michael\Desktop\Sonnet Qubit Designs\Jul19GDSSonnet V2\FluxBias.son.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        viaDist = 50.0
+
+    Post-Analysis:
+      Errors detected: 0    Warnings detected: 0.
+
+Analysis completed Tue Jul 19 15:43:16 2016.
+
+
+Run 2:  Tue Jul 19 15:46:44 2016.  calt2.2.43068.
+        Em version 16.52 (64-bit Windows) on DESKTOP-MOCDKPP remote.
+
+  Project:  C:\Users\Michael\Desktop\Sonnet Qubit Designs\Jul19GDSSonnet V2\FluxBias.son.
+
+    Frequency:  0.1 GHZ
+      Independent parameter values:
+        viaDist = 60.0
+
+    Post-Analysis:
+      Errors detected: 0    Warnings detected: 0.
+
+Analysis completed Tue Jul 19 15:48:12 2016.

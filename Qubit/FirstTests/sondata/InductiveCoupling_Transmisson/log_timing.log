@@ -1,0 +1,100 @@
+Run 1:  Fri Jul 08 12:44:30 2016.  calt2.2.43068.
+        Em version 16.52 (64-bit Windows) on DESKTOP-MOCDKPP remote.
+
+  Project:  C:\Users\Michael\Documents\Github\Sonnet\Qubit\FirstTests\InductiveCoupling_Transmisson.son.
+
+    Frequency:  1 GHZ
+      Subsectioning at 20 GHz with Eeff of 6.45.
+      Subsectioning time:  0.160 seconds.
+      De-embedding information for InductiveCoupling_Transmisson_left box wall port(s):
+        InductiveCoupling_Transmisson_left SOC Electric Wall: 500 microns length, 363 subsections, 5 MB.
+        InductiveCoupling_Transmisson_left SOC Magnetic Wall: 1000 microns length, 348 subsections, 5 MB.
+      De-embedding information for InductiveCoupling_Transmisson_right box wall port(s):
+        InductiveCoupling_Transmisson_right SOC Electric Wall: 500 microns length, 363 subsections, 5 MB.
+        InductiveCoupling_Transmisson_right SOC Magnetic Wall: 1000 microns length, 348 subsections, 5 MB.
+      Em license feature:  emhighperformance.
+      Circuit requires 3219 subsections and 95 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  3,219
+
+      Required memory by type:
+        System matrix:            79 MB
+        Elemental subsections:
+          Primary structure:      3 MB
+          InductiveCoup standard: 3 MB
+          InductiveCoup standard: 3 MB
+        Fourier transform:        1 MB
+        Waveguide mode:           1 MB
+        Adaptive band synthesis:  3 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    95 MB
+
+      Matrix solver:  internal 64-bit SSE with loss.
+      Simulation mode:  remote em transfer.
+      Threads:  using 12 thread(s), 12 core(s) available.
+      Waveguide mode time:  0.020 seconds.
+      Fourier transform time:  0.030 seconds.
+      Coupling time:  2 seconds.
+      Loss time:  0 seconds.
+      Matrix fill time:  2 seconds.
+      Matrix solve time:  1 second.
+      De-embedding time for InductiveCoupling_Transmisson_left box wall:
+        SOC Electric Wall Std: 0.140 seconds.
+        SOC Magnetic Wall Std: 0.150 seconds.
+        Total:                 0.290 seconds.
+      Total time per frequency:  4 seconds.
+
+    Frequency:  20 GHZ
+      ABS: Energy conservation for port 2 at 17.4 GHz.
+      ABS: Time = 0.240 seconds.
+
+    Frequency:  17.4 GHZ
+      ABS: Energy conservation for port 2 at 13.3 GHz.
+      ABS: Time = 0.220 seconds.
+
+    Frequency:  13.3 GHZ
+      ABS: SNR = 4.50459 dB (120 dB Goal) for S1_2 at 11.8 GHz.
+      ABS: Time = 0.260 seconds.
+
+    Frequency:  11.8 GHZ
+      ABS: SNR = 29.0038 dB (105.912 dB Goal) for S1_2 at 11.7 GHz.
+      ABS: Time = 0.340 seconds.
+
+    Frequency:  11.7 GHZ
+      ABS: SNR = 33.5299 dB (40 dB Goal) for S2_2 at 2.25 GHz.
+      ABS: Time = 0.380 seconds.
+
+    Frequency:  2.25 GHZ
+      ABS: Q-factor. Diff = 0 (223302 Tol) for port 1 at -1e-009 GHz.
+      ABS: SNR = 65.6544 dB (40 dB Goal) for S1_1 at 4.3 GHz.
+      ABS: Time = 0.441 seconds.
+
+      ABS: Detected 1 resonance(s) on iteration 1:
+        Resonance 1:  FreqMin = 10.9  FreqCenter = 11.7  FreqMax = 12.5 GHz
+
+      ABS: Detected 1 resonance(s) on iteration 2:
+        Resonance 1:  FreqMin = 10.91872909699  FreqCenter = 11.7107023411371  FreqMax = 12.5 GHz
+
+      ABS: Detected 1 resonance(s) on iteration 3:
+        Resonance 1:  FreqMin = 10.9206226515001  FreqCenter = 11.7093114876013  FreqMax = 12.5 GHz
+
+      ABS: Detected 1 resonance(s) on iteration 4:
+        Resonance 1:  FreqMin = 10.9125340459275  FreqCenter = 11.7094339438654  FreqMax = 12.5 GHz
+
+    Frequency:  11.7094339438654 GHZ
+      ABS: Q-factor. Diff = 0 (223303 Tol) for port 1 at -1e-009 GHz.
+      ABS: SNR = 61.2389 dB (40 dB Goal) for S1_2 at 11.7093 GHz.
+      ABS: Time = 1 second.
+
+      ABS: Detected 1 resonance(s) on iteration 5:
+        Resonance 1:  FreqMin = 10.9125340459275  FreqCenter = 11.7094339438654  FreqMax = 12.5 GHz
+
+      ABS: Detected 1 resonance(s) on iteration 6:
+        Resonance 1:  FreqMin = 10.9185653357981  FreqCenter = 11.7094339438654  FreqMax = 12.5 GHz
+
+    Post-Analysis:
+      Total time for 8 frequencies:  37 seconds.
+
+Analysis completed Fri Jul 08 12:45:07 2016.

@@ -1,0 +1,107 @@
+Run 1:  Fri Jul 15 16:45:32 2016.  calt2.2.43068.
+        Em version 16.52 (64-bit Windows) on DESKTOP-MOCDKPP remote.
+
+  Project:  C:\Users\Michael\Desktop\Sonnet Qubit Designs\Jul15GDSSonnet\ReadoutResonatorSlotlineTest.son.
+
+    Frequency:  6 GHZ
+      Subsectioning at 9 GHz with Eeff of 6.45.
+      Subsectioning time:  17 seconds.
+      De-embedding information for ReadoutResonatorSlotlineTest_left box wall port(s):
+        ReadoutResonatorSlotlineTest_left SOC Electric Wall: 596 microns length, 1164 subsections, 63 MB.
+        ReadoutResonatorSlotlineTest_left SOC Magnetic Wall: 1192 microns length, 1125 subsections, 62 MB.
+      De-embedding information for ReadoutResonatorSlotlineTest_right box wall port(s):
+        ReadoutResonatorSlotlineTest_right SOC Electric Wall: 596 microns length, 1164 subsections, 63 MB.
+        ReadoutResonatorSlotlineTest_right SOC Magnetic Wall: 1192 microns length, 1125 subsections, 62 MB.
+      Em license feature:  emhighperformance.
+      Circuit requires 15260 subsections (2533611 CM Cells) and 2036 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  447
+      Level 1:
+        Staircase:  14,169
+        Diagonal:   283
+        Conformal:  264
+        Via:        97
+
+      Required memory by type:
+        System matrix:            1,777 MB
+        Elemental subsections:
+          Primary structure:      77 MB
+          ReadoutResona standard: 82 MB
+          ReadoutResona standard: 82 MB
+        Fourier transform:        11 MB
+        Waveguide mode:           5 MB
+        Adaptive band synthesis:  2 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    2,036 MB
+
+      Matrix solver:  internal 64-bit SSE with loss.
+      Simulation mode:  remote em transfer.
+      Threads:  using 12 thread(s), 12 core(s) available.
+      Waveguide mode time:  0.096 seconds.
+      Fourier transform time:  20 seconds.
+      Coupling time:  5 minutes 38 seconds.
+      Loss time:  0 seconds.
+      Matrix fill time:  5 minutes 59 seconds.
+      Matrix solve time:  1 minute 20 seconds.
+      De-embedding time for ReadoutResonatorSlotlineTest_left box wall:
+        SOC Electric Wall Std: 7 seconds.
+        SOC Magnetic Wall Std: 7 seconds.
+        Total:                 14 seconds.
+      Total time per frequency:  7 minutes 41 seconds.
+
+    Frequency:  9 GHZ
+      Total time per frequency:  7 minutes 33 seconds.
+      ABS: Energy conservation for port 1 at 8.01 GHz.
+      ABS: Time = 0.141 seconds.
+
+    Frequency:  8.01 GHZ
+      Total time per frequency:  7 minutes 31 seconds.
+      ABS: Energy conservation for port 2 at 6.14 GHz.
+      ABS: Time = 0.156 seconds.
+
+    Frequency:  6.14 GHZ
+      Total time per frequency:  7 minutes 35 seconds.
+      ABS: Energy conservation for port 1 at 7.3 GHz.
+      ABS: Time = 0.160 seconds.
+
+    Frequency:  7.3 GHZ
+      Total time per frequency:  7 minutes 32 seconds.
+      ABS: SNR = 55.2902 dB (66.5424 dB Goal) for S1_2 at 8.76 GHz.
+      ABS: Time = 0.189 seconds.
+
+    Frequency:  8.76 GHZ
+      Total time per frequency:  7 minutes 38 seconds.
+      ABS: Q-factor. Diff = 0 (589.29 Tol) for port 1 at -1e-009 GHz.
+      ABS: SNR = 93.2428 dB (66.5424 dB Goal) for S1_2 at 8.44 GHz.
+      ABS: Time = 0.230 seconds.
+
+      ABS: Detected 1 resonance(s) on iteration 1:
+        Resonance 1:  FreqMin = 6.02  FreqCenter = 6.13  FreqMax = 6.23 GHz
+
+      ABS: Detected 1 resonance(s) on iteration 2:
+        Resonance 1:  FreqMin = 6.02809364548494  FreqCenter = 6.12558528428083  FreqMax = 6.22130434782602 GHz
+
+      ABS: Detected 1 resonance(s) on iteration 3:
+        Resonance 1:  FreqMin = 6.03  FreqCenter = 6.1255036072543  FreqMax = 6.22 GHz
+
+      ABS: Detected 1 resonance(s) on iteration 4:
+        Resonance 1:  FreqMin = 6.03  FreqCenter = 6.12553310504378  FreqMax = 6.22 GHz
+
+    Frequency:  6.12553310504378 GHZ
+      Total time per frequency:  7 minutes 36 seconds.
+      ABS: Q-factor. Diff = 0 (606.323 Tol) for port 1 at -1e-009 GHz.
+      ABS: SNR = 66.9529 dB (40 dB Goal) for S1_2 at 6.1255 GHz.
+      ABS: Time = 0.781 seconds.
+
+      ABS: Detected 1 resonance(s) on iteration 5:
+        Resonance 1:  FreqMin = 6.03  FreqCenter = 6.12551824218961  FreqMax = 6.22 GHz
+
+      ABS: Detected 1 resonance(s) on iteration 6:
+        Resonance 1:  FreqMin = 6.03  FreqCenter = 6.12552040924175  FreqMax = 6.22 GHz
+
+    Post-Analysis:
+      Total time for 7 frequencies:  53 minutes 25 seconds.
+
+Analysis completed Fri Jul 15 17:38:57 2016.

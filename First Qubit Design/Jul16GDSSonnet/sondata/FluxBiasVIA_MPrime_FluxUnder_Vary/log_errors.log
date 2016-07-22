@@ -1,0 +1,33 @@
+Run 1:  Tue Jul 19 10:22:47 2016.  calt2.2.43068.
+        Em version 16.52 (64-bit Windows) on DESKTOP-MOCDKPP remote.
+
+  Project:  C:\Users\Michael\Desktop\Sonnet Qubit Designs\Jul16GDSSonnet\FluxBiasVIA_MPrime_FluxUnder_Vary.son.
+
+  Parameter combination: 1 of 3.
+
+    Frequency:  6 GHZ
+      Independent parameter values:
+        pos = 15.0
+        fluxCut = 2.0
+        fluxUnder = 3.2
+
+  Parameter combination: 2 of 3.
+
+    Frequency:  6 GHZ
+      Independent parameter values:
+        pos = 15.0
+        fluxCut = 2.0
+        fluxUnder = 4.7
+
+  Parameter combination: 3 of 3.
+
+    Frequency:  6 GHZ
+      Independent parameter values:
+        pos = 15.0
+        fluxCut = 2.0
+        fluxUnder = 6.2
+
+    Post-Analysis:
+      Errors detected: 0    Warnings detected: 0.
+
+Analysis completed Tue Jul 19 10:35:38 2016.
