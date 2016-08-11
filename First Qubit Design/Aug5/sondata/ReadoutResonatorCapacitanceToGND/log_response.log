@@ -1,0 +1,15 @@
+Run 1:  Fri Aug 05 16:08:32 2016.  calt2.2.43068.
+        Em version 16.52 (64-bit Windows) on DESKTOP-MOCDKPP remote.
+
+  Project:  C:\Users\Michael\Documents\Github\Sonnet\First Qubit Design\Aug5\ReadoutResonatorCapacitanceToGND.son.
+
+    Frequency:  0.1 GHZ
+      Frequency completed Fri Aug 05 16:15:21 2016.
+      De-embedded S-Parameters. 50.0 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. (S11 S21 S12 S22).
+        0.10000000 0.998904 -9.339 0.046800 83.964 0.046800 83.964 0.998904 -2.732
+        !< P1 F=0.1 Eeff=(undefined: mv) Z0=(undefined: mv) R=0.0 C=0.0 
+        !< P2 F=0.1 Eeff=(6.64951178 -3.1174e-5) Z0=(75.8991022 1.77073e-4) R=0.69374532 C=0.01057257 
+        !< See "De-embedding Codes" in Help for more details on the "mv" code.
+
+Analysis completed Fri Aug 05 16:15:21 2016.

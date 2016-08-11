@@ -1,0 +1,69 @@
+Run 1:  Fri Aug 05 16:08:32 2016.  calt2.2.43068.
+        Em version 16.52 (64-bit Windows) on DESKTOP-MOCDKPP remote.
+
+  Project:  C:\Users\Michael\Documents\Github\Sonnet\First Qubit Design\Aug5\ReadoutResonatorCapacitanceToGND.son.
+
+    Frequency:  0.1 GHZ
+      Subsectioning at 0.1 GHz with Eeff of 6.45.
+      Subsectioning time:  11 seconds.
+      De-embedding information for ReadoutResonatorCapacitanceToGND_left box wall port(s):
+        ReadoutResonatorCapacitanceToGND_left SOC Electric Wall: 596 microns length, 202 subsections, 11 MB.
+        ReadoutResonatorCapacitanceToGND_left SOC Magnetic Wall: 1192 microns length, 195 subsections, 11 MB.
+      De-embedding information for ReadoutResonatorCapacitanceToGND_right box wall port(s):
+        ReadoutResonatorCapacitanceToGND_right SOC Electric Wall: 596 microns length, 202 subsections, 11 MB.
+        ReadoutResonatorCapacitanceToGND_right SOC Magnetic Wall: 1192 microns length, 195 subsections, 11 MB.
+      Em license feature:  emhighperformance.
+      Circuit requires 13927 subsections (2400327 CM Cells) and 1571 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  13,386
+        Diagonal:   283
+        Conformal:  208
+      Ground Plane:
+        Via:        50
+
+      Required memory by type:
+        System matrix:            1,480 MB
+        Elemental subsections:
+          Primary structure:      73 MB
+          ReadoutResona standard: 1 MB
+          ReadoutResona standard: 1 MB
+        Fourier transform:        11 MB
+        Waveguide mode:           4 MB
+        Adaptive band synthesis:  0 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    1,571 MB
+
+      Matrix solver:  internal 64-bit SSE with loss.
+      Simulation mode:  remote em transfer.
+      Threads:  using 12 thread(s), 12 core(s) available.
+      Waveguide mode time:  0.075 seconds.
+      Fourier transform time:  15 seconds.
+      Coupling time:  5 minutes 16 seconds.
+      Loss time:  0 seconds.
+      Matrix fill time:  5 minutes 31 seconds.
+      Matrix solve time:  1 minute 1 second.
+      De-embed autognd port 2:
+        Standard 1:  1500.0 microns, 225 subsections, about 86 MB.
+          Time:  0.714 seconds.
+        Autognd port 2 std 2:
+          1500 microns length, 176 subsections, 83 MB.
+          Time:  0.290 seconds.
+        Autognd port 2 std 3:
+          3000 microns length, 347 subsections, 90 MB.
+          Time:  0.800 seconds.
+      De-embedding time for ReadoutResonatorCapacitanceToGND_left box wall:
+        SOC Electric Wall Std: 0.333 seconds.
+        SOC Magnetic Wall Std: 0.330 seconds.
+        Total:                 0.663 seconds.
+      De-embedding time for ReadoutResonatorCapacitanceToGND_right box wall:
+        SOC Electric Wall Std: 0.329 seconds.
+        SOC Magnetic Wall Std: 0.322 seconds.
+        Total:                 0.651 seconds.
+      Total time per frequency:  6 minutes 38 seconds.
+
+    Post-Analysis:
+      Total time for 1 frequency:  6 minutes 49 seconds.
+
+Analysis completed Fri Aug 05 16:15:21 2016.
